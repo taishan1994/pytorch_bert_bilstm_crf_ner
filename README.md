@@ -1,0 +1,2 @@
+# pytorch_bert_bilstm_crf_ner
+基于pytorch的bert_bilstm_crf中文命名实体识别
