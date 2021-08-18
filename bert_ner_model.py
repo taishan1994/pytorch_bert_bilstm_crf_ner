@@ -81,9 +81,9 @@ class BertNerModel(BaseModel):
 
         if self.args.use_crf == 'True':
             logits = self.crf.decode(seq_out, mask=attention_masks)
-            loss = -self.crf(seq_out, labels, mask=attention_masks, reduction='mean')
             if labels is None:
                 return logits
+            loss = -self.crf(seq_out, labels, mask=attention_masks, reduction='mean')
             outputs = (loss, ) + (logits,)
             return outputs
         else:
