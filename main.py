@@ -146,14 +146,14 @@ class BertForNer:
                                     return_attention_mask=True)
             # tokens = ['[CLS]'] + tokens + ['[SEP]']
             token_ids = torch.from_numpy(np.array(encode_dict['input_ids'])).unsqueeze(0)
-            attention_masks = torch.from_numpy(np.array(encode_dict['attention_mask'])).unsqueeze(0)
+            attention_masks = torch.from_numpy(np.array(encode_dict['attention_mask'], dtype=np.uint8)).unsqueeze(0)
             token_type_ids = torch.from_numpy(np.array(encode_dict['token_type_ids'])).unsqueeze(0)
             logits = model(token_ids.to(device), attention_masks.to(device), token_type_ids.to(device), None)
             if args.use_crf:
                 output = logits
             else:
                 output = logits.detach().cpu().numpy()
-            output = np.argmax(output, axis=2)
+                output = np.argmax(output, axis=2)
             pred_entities = decodeUtils.bioes_decode(output[0][1:1 + len(tokens)], "".join(tokens), self.idx2tag)
             logger.info(pred_entities)
 
