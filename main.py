@@ -35,7 +35,7 @@ class BertForNer:
         self.model.zero_grad()
         eval_steps = 90 #每多少个step打印损失及进行验证
         best_f1 = 0.0
-        for epoch in range(args.train_epochs):
+        for epoch in range(self.args.train_epochs):
             for step, batch_data in enumerate(self.train_loader):
                 self.model.train()
                 for key in batch_data.keys():
@@ -43,7 +43,7 @@ class BertForNer:
                         batch_data[key] = batch_data[key].to(self.device)
                 loss, logits = self.model(batch_data['token_ids'], batch_data['attention_masks'], batch_data['token_type_ids'], batch_data['labels'])
 
-                torch.nn.utils.clip_grad_norm_(self.model.parameters(), args.max_grad_norm)
+                torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.args.max_grad_norm)
                 # loss.backward(loss.clone().detach())
                 loss.backward()
                 self.optimizer.step()
@@ -55,7 +55,7 @@ class BertForNer:
                     dev_loss, precision, recall, f1_score = self.dev()
                     logger.info('[eval] loss:{:.4f} precision={:.4f} recall={:.4f} f1_score={:.4f}'.format(dev_loss, precision, recall, f1_score))
                     if f1_score > best_f1:
-                        trainUtils.save_model(args, self.model, model_name, global_step)
+                        trainUtils.save_model(self.args, self.model, model_name, global_step)
                         best_f1 = f1_score
     def dev(self):
         self.model.eval()
@@ -135,10 +135,10 @@ class BertForNer:
         model.eval()
         with torch.no_grad():
             tokenizer = BertTokenizer(
-                os.path.join(args.bert_dir, 'vocab.txt'))
+                os.path.join(self.args.bert_dir, 'vocab.txt'))
             tokens = commonUtils.fine_grade_tokenize(raw_text, tokenizer)
             encode_dict = tokenizer.encode_plus(text=tokens,
-                                    max_length=args.max_seq_len,
+                                    max_length=self.args.max_seq_len,
                                     padding='max_length',
                                     truncation='longest_first',
                                     is_pretokenized=True,
@@ -149,7 +149,7 @@ class BertForNer:
             attention_masks = torch.from_numpy(np.array(encode_dict['attention_mask'], dtype=np.uint8)).unsqueeze(0)
             token_type_ids = torch.from_numpy(np.array(encode_dict['token_type_ids'])).unsqueeze(0)
             logits = model(token_ids.to(device), attention_masks.to(device), token_type_ids.to(device), None)
-            if args.use_crf:
+            if self.args.use_crf:
                 output = logits
             else:
                 output = logits.detach().cpu().numpy()
