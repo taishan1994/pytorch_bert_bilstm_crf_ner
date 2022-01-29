@@ -149,7 +149,7 @@ class BertForNer:
             attention_masks = torch.from_numpy(np.array(encode_dict['attention_mask'], dtype=np.uint8)).unsqueeze(0)
             token_type_ids = torch.from_numpy(np.array(encode_dict['token_type_ids'])).unsqueeze(0)
             logits = model(token_ids.to(device), attention_masks.to(device), token_type_ids.to(device), None)
-            if self.args.use_crf:
+            if self.args.use_crf == 'True':
                 output = logits
             else:
                 output = logits.detach().cpu().numpy()
