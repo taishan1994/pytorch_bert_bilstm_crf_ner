@@ -31,7 +31,7 @@ model_hub/bert-base-chinese/<br>
 ```python
 python==3.6
 pytorch==1.6.0
-pytorch-crf
+pytorch-crf==0.7.2
 ```
 
 # 运行命令
