@@ -43,9 +43,9 @@ class BertForNer:
                         batch_data[key] = batch_data[key].to(self.device)
                 loss, logits = self.model(batch_data['token_ids'], batch_data['attention_masks'], batch_data['token_type_ids'], batch_data['labels'])
 
-                torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.args.max_grad_norm)
                 # loss.backward(loss.clone().detach())
                 loss.backward()
+                torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.args.max_grad_norm)
                 self.optimizer.step()
                 self.scheduler.step()
                 self.model.zero_grad()
