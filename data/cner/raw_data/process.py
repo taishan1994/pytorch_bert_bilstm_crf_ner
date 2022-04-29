@@ -83,12 +83,12 @@ def preprocess(input_path, save_path, mode):
         tmp['labels'] = []
         i += 1
 
-    with open(data_path,'w') as fp:
+    with open(data_path,'w', encoding='utf-8') as fp:
         fp.write(json.dumps(result, ensure_ascii=False))
 
     if mode == "train":
         label_path = os.path.join(save_path, "labels.json")
-        with open(label_path, 'w') as fp:
+        with open(label_path, 'w', encoding='utf-8') as fp:
             fp.write(json.dumps(list(labels), ensure_ascii=False))
 
 preprocess("train.char.bmes", '../mid_data', "train")
