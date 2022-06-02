@@ -100,6 +100,7 @@ micro-f1       0.95      0.88      0.91      1601
 以上训练的都是3个epoch。
 
 # 补充
+[中文命名实体识别最新进展](https://github.com/taishan1994/awesome-chinese-ner)
 [信息抽取三剑客：实体抽取、关系抽取、事件抽取](https://github.com/taishan1994/chinese_information_extraction) <br>
 [基于机器阅读理解的命名实体识别](https://github.com/taishan1994/BERT_MRC_NER_chinese)<br>
 [W2NER：命名实体识别最新sota](https://github.com/taishan1994/W2NER_predict)<br>
