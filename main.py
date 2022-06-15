@@ -159,7 +159,7 @@ class BertForNer:
 
 
 if __name__ == '__main__':
-    data_name = 'c'
+    data_name = 'clue'
     args.train_epochs = 3
     args.train_batch_size = 32
     args.max_seq_len = 150
@@ -219,3 +219,101 @@ if __name__ == '__main__':
         raw_text = "虞兔良先生：1963年12月出生，汉族，中国国籍，无境外永久居留权，浙江绍兴人，中共党员，MBA，经济师。"
         logger.info(raw_text)
         bertForNer.predict(raw_text, model_path)
+
+    if data_name == "chip":
+        args.data_dir = './data/CHIP2020'
+        data_path = os.path.join(args.data_dir, 'final_data')
+        other_path = os.path.join(args.data_dir, 'mid_data')
+        ent2id_dict = commonUtils.read_json(other_path, 'nor_ent2id')
+        label_list = commonUtils.read_json(other_path, 'labels')
+        label2id = {}
+        id2label = {}
+        for k,v in enumerate(label_list):
+            label2id[v] = k
+            id2label[k] = v
+        query2id = {}
+        id2query = {}
+        for k, v in ent2id_dict.items():
+            query2id[k] = v
+            id2query[v] = k
+        logger.info(id2query)
+        args.num_tags = len(ent2id_dict)
+        logger.info(args)
+
+        train_features, train_callback_info = commonUtils.read_pkl(data_path, 'train')
+        train_dataset = dataset.NerDataset(train_features)
+        train_sampler = RandomSampler(train_dataset)
+        train_loader = DataLoader(dataset=train_dataset,
+                                  batch_size=args.train_batch_size,
+                                  sampler=train_sampler,
+                                  num_workers=2)
+        dev_features, dev_callback_info = commonUtils.read_pkl(data_path, 'dev')
+        dev_dataset = dataset.NerDataset(dev_features)
+        dev_loader = DataLoader(dataset=dev_dataset,
+                                batch_size=args.eval_batch_size,
+                                num_workers=2)
+        # test_features, test_callback_info = commonUtils.read_pkl(data_path, 'test')
+        # test_dataset = dataset.NerDataset(test_features)
+        # test_loader = DataLoader(dataset=test_dataset,
+        #                         batch_size=args.eval_batch_size,
+        #                         num_workers=2)
+
+        bertForNer = BertForNer(args, train_loader, dev_loader, dev_loader, id2query)
+        bertForNer.train()
+
+        model_path = './checkpoints/{}/model.pt'.format(model_name)
+        bertForNer.test(model_path)
+        
+        raw_text = "大动脉转换手术要求左心室流出道大小及肺动脉瓣的功能正常，但动力性左心室流出道梗阻并非大动脉转换术的禁忌证。"
+        logger.info(raw_text)
+        bertForNer.predict(raw_text, model_path)
+
+    if data_name == "clue":
+        args.data_dir = './data/CLUE'
+        data_path = os.path.join(args.data_dir, 'final_data')
+        other_path = os.path.join(args.data_dir, 'mid_data')
+        ent2id_dict = commonUtils.read_json(other_path, 'nor_ent2id')
+        label_list = commonUtils.read_json(other_path, 'labels')
+        label2id = {}
+        id2label = {}
+        for k,v in enumerate(label_list):
+            label2id[v] = k
+            id2label[k] = v
+        query2id = {}
+        id2query = {}
+        for k, v in ent2id_dict.items():
+            query2id[k] = v
+            id2query[v] = k
+        logger.info(id2query)
+        args.num_tags = len(ent2id_dict)
+        logger.info(args)
+
+        train_features, train_callback_info = commonUtils.read_pkl(data_path, 'train')
+        train_dataset = dataset.NerDataset(train_features)
+        train_sampler = RandomSampler(train_dataset)
+        train_loader = DataLoader(dataset=train_dataset,
+                                  batch_size=args.train_batch_size,
+                                  sampler=train_sampler,
+                                  num_workers=2)
+        dev_features, dev_callback_info = commonUtils.read_pkl(data_path, 'dev')
+        dev_dataset = dataset.NerDataset(dev_features)
+        dev_loader = DataLoader(dataset=dev_dataset,
+                                batch_size=args.eval_batch_size,
+                                num_workers=2)
+        # test_features, test_callback_info = commonUtils.read_pkl(data_path, 'test')
+        # test_dataset = dataset.NerDataset(test_features)
+        # test_loader = DataLoader(dataset=test_dataset,
+        #                         batch_size=args.eval_batch_size,
+        #                         num_workers=2)
+
+        bertForNer = BertForNer(args, train_loader, dev_loader, dev_loader, id2query)
+        bertForNer.train()
+
+        model_path = './checkpoints/{}_clue/model.pt'.format(model_name)
+        bertForNer.test(model_path)
+        
+        raw_text = "彭小军认为，国内银行现在走的是台湾的发卡模式，先通过跑马圈地再在圈的地里面选择客户，"
+        logger.info(raw_text)
+        bertForNer.predict(raw_text, model_path)
+
+
