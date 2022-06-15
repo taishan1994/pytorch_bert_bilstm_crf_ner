@@ -1,5 +1,6 @@
 # pytorch_bert_bilstm_crf_ner
 
+****
 基于pytorch的bert_bilstm_crf中文命名实体识别<br>
 要预先下载好预训练的bert模型，放在和该项目同级下的model_hub文件夹下，即：<br>
 model_hub/bert-base-chinese/<br>
