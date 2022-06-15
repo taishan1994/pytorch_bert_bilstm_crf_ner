@@ -1,5 +1,56 @@
 # pytorch_bert_bilstm_crf_ner
+# 补充CLUE实例
+具体流程和医疗的类似，原始数据可以从这里下载：https://github.com/GuocaiL/nlp_corpus/tree/main/open_ner_data/cluener_public
+```
+!python main.py \
+--bert_dir="../model_hub/chinese-bert-wwm-ext/" \
+--data_dir="./data/CLUE/" \
+--log_dir="./logs/" \
+--output_dir="./checkpoints/" \
+--num_tags=41 \
+--seed=123 \
+--gpu_ids="0" \
+--max_seq_len=150 \
+--lr=3e-5 \
+--crf_lr=3e-2 \
+--other_lr=3e-4 \
+--train_batch_size=32 \
+--train_epochs=3 \
+--eval_batch_size=32 \
+--max_grad_norm=1 \
+--warmup_proportion=0.1 \
+--adam_epsilon=1e-8 \
+--weight_decay=0.01 \
+--lstm_hidden=128 \
+--num_layers=1 \
+--use_lstm='False' \
+--use_crf='True' \
+--dropout_prob=0.3 \
+--dropout=0.3 \
 
+precision:0.7802 recall:0.8176 micro_f1:0.7984
+              precision    recall  f1-score   support
+
+    position       0.77      0.82      0.80       425
+       movie       0.88      0.77      0.82       150
+        name       0.84      0.90      0.87       451
+        book       0.86      0.81      0.83       152
+     address       0.65      0.68      0.66       364
+organization       0.81      0.81      0.81       344
+       scene       0.73      0.76      0.74       199
+  government       0.77      0.87      0.82       244
+        game       0.76      0.90      0.82       287
+     company       0.80      0.81      0.81       366
+
+    micro-f1       0.78      0.82      0.80      2982
+
+彭小军认为，国内银行现在走的是台湾的发卡模式，先通过跑马圈地再在圈的地里面选择客户，
+Load ckpt from ./checkpoints/bert_crf/model.pt
+Use single gpu in: ['0']
+{'name': [('彭小军', 0)], 'address': [('台湾', 15)]}
+```
+
+****
 # 补充医疗实例
 1、在data/CHIP2020/raw_data下是原始数据，使用process.py处理raw_data以获取mid_data下的数据。原始数据可以去这里下载：https://github.com/zhangzhiyi0108/CHIP2020_Entity<br>
 2、修改preprocess.py里面为自己定义的数据集，并指定数据地址及最大长度，稍后的自定义参数需要保持和这里的一致。<br>
