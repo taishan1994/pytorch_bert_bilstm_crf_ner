@@ -1,6 +1,61 @@
 # pytorch_bert_bilstm_crf_ner
 
+# 补充医疗实例
+1、在data/CHIP2020/raw_data下是原始数据，使用process.py处理raw_data以获取mid_data下的数据。<br>
+2、修改preprocess.py里面为自己定义的数据集，并指定数据地址及最大长度，稍后的自定义参数需要保持和这里的一致。<br>
+3、修改main.py里面为自己定义的数据集及相关参数。<br>
+4、修改main.sh里面运行指令的相关参数，最后运行即可。<br>
+```python
+!python main.py \
+--bert_dir="../model_hub/chinese-bert-wwm-ext/" \
+--data_dir="./data/CHIP2020/" \
+--log_dir="./logs/" \
+--output_dir="./checkpoints/" \
+--num_tags=37 \
+--seed=123 \
+--gpu_ids="0" \
+--max_seq_len=150 \
+--lr=3e-5 \
+--crf_lr=3e-2 \
+--other_lr=3e-4 \
+--train_batch_size=32 \
+--train_epochs=3 \
+--eval_batch_size=32 \
+--max_grad_norm=1 \
+--warmup_proportion=0.1 \
+--adam_epsilon=1e-8 \
+--weight_decay=0.01 \
+--lstm_hidden=128 \
+--num_layers=1 \
+--use_lstm='False' \
+--use_crf='True' \
+--dropout_prob=0.3 \
+--dropout=0.3 \
+
+Load ckpt from ./checkpoints/bert_crf/model.pt
+Use single gpu in: ['0']
+precision:0.6477 recall:0.6530 micro_f1:0.6503
+          precision    recall  f1-score   support
+
+     equ       0.57      0.57      0.57       238
+     sym       0.59      0.45      0.51      4130
+     pro       0.60      0.68      0.64      2057
+     bod       0.63      0.66      0.64      5883
+     dis       0.71      0.78      0.74      4935
+     dru       0.77      0.86      0.81      1440
+     mic       0.73      0.82      0.77       584
+     dep       0.59      0.53      0.56       110
+     ite       0.47      0.40      0.43       923
+
+micro-f1       0.65      0.65      0.65     20300
+
+大动脉转换手术要求左心室流出道大小及肺动脉瓣的功能正常，但动力性左心室流出道梗阻并非大动脉转换术的禁忌证。
+Load ckpt from ./checkpoints/bert_crf/model.pt
+Use single gpu in: ['0']
+{'pro': [('大动脉转换手术', 0), ('大动脉转换术', 42)], 'bod': [('左心室流出道', 9), ('肺动脉瓣', 18)], 'dis': [('动力性左心室流出道梗阻', 29)]}
+```
 ****
+# 最初说明
 基于pytorch的bert_bilstm_crf中文命名实体识别<br>
 要预先下载好预训练的bert模型，放在和该项目同级下的model_hub文件夹下，即：<br>
 model_hub/bert-base-chinese/<br>
