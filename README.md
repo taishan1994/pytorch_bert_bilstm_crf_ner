@@ -1,10 +1,11 @@
 # pytorch_bert_bilstm_crf_ner
 
 # 补充医疗实例
-1、在data/CHIP2020/raw_data下是原始数据，使用process.py处理raw_data以获取mid_data下的数据。<br>
+1、在data/CHIP2020/raw_data下是原始数据，使用process.py处理raw_data以获取mid_data下的数据。原始数据可以去这里下载：https://github.com/zhangzhiyi0108/CHIP2020_Entity<br>
 2、修改preprocess.py里面为自己定义的数据集，并指定数据地址及最大长度，稍后的自定义参数需要保持和这里的一致。<br>
 3、修改main.py里面为自己定义的数据集及相关参数。<br>
 4、修改main.sh里面运行指令的相关参数，最后运行即可。<br>
+5、基于bert_crf训练好的模型可以去这里下载：
 ```python
 !python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
