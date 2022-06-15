@@ -1,7 +1,7 @@
 # pytorch_bert_bilstm_crf_ner
 # 补充CLUE实例
 具体流程和医疗的类似，原始数据可以从这里下载：https://github.com/GuocaiL/nlp_corpus/tree/main/open_ner_data/cluener_public
-```
+```python
 !python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/CLUE/" \
