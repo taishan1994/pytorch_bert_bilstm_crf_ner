@@ -1,7 +1,11 @@
 # pytorch_bert_bilstm_crf_ner
 延申：
 - 一种级联Bert用于命名实体识别，解决标签过多问题：https://github.com/taishan1994/pytorch_Cascade_Bert_Ner
-- 一种多头选择bert用于命名实体识别：https://github.com/taishan1994/pytorch_Multi_Head_Selection_Ner
+- 一种多头选择Bert用于命名实体识别：https://github.com/taishan1994/pytorch_Multi_Head_Selection_Ner
+- 中文命名实体识别最新进展：https://github.com/taishan1994/awesome-chinese-ner
+- 信息抽取三剑客：实体抽取、关系抽取、事件抽取：https://github.com/taishan1994/chinese_information_extraction
+- 一种基于机器阅读理解的命名实体识别：https://github.com/taishan1994/BERT_MRC_NER_chinese
+- W2NER：命名实体识别最新sota：https://github.com/taishan1994/W2NER_predict
 # 补充CLUE实例
 
 具体流程和医疗的类似，原始数据可以从这里下载：https://github.com/GuocaiL/nlp_corpus/tree/main/open_ner_data/cluener_public
@@ -212,8 +216,3 @@ micro-f1       0.95      0.88      0.91      1601
 
 以上训练的都是3个epoch。
 
-# 补充
-[中文命名实体识别最新进展](https://github.com/taishan1994/awesome-chinese-ner)<br>
-[信息抽取三剑客：实体抽取、关系抽取、事件抽取](https://github.com/taishan1994/chinese_information_extraction) <br>
-[基于机器阅读理解的命名实体识别](https://github.com/taishan1994/BERT_MRC_NER_chinese)<br>
-[W2NER：命名实体识别最新sota](https://github.com/taishan1994/W2NER_predict)<br>
