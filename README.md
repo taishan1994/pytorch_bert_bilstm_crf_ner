@@ -1,5 +1,6 @@
 # pytorch_bert_bilstm_crf_ner
 延申：
+- 一种one vs rest方法进行命名实体识别：https://github.com/taishan1994/pytorch_OneVersusRest_Ner
 - 一种级联Bert用于命名实体识别，解决标签过多问题：https://github.com/taishan1994/pytorch_Cascade_Bert_Ner
 - 一种多头选择Bert用于命名实体识别：https://github.com/taishan1994/pytorch_Multi_Head_Selection_Ner
 - 中文命名实体识别最新进展：https://github.com/taishan1994/awesome-chinese-ner
