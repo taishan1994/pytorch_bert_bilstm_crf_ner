@@ -151,6 +151,7 @@ model_hub/bert-base-chinese/<br>
 python==3.6
 pytorch==1.6.0
 pytorch-crf==0.7.2
+transformers==4.5.0
 ```
 
 # 运行命令
