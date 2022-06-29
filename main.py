@@ -160,9 +160,9 @@ class BertForNer:
 
 if __name__ == '__main__':
     data_name = 'clue'
-    args.train_epochs = 3
-    args.train_batch_size = 32
-    args.max_seq_len = 150
+    #args.train_epochs = 3
+    #args.train_batch_size = 32
+    #args.max_seq_len = 150
     model_name = ''
     if args.use_lstm == 'True' and args.use_crf == 'False':
         model_name = 'bert_bilstm'
