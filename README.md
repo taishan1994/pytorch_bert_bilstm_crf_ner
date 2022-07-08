@@ -16,6 +16,7 @@
 !python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/CLUE/" \
+--data_name='clue' \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=41 \
@@ -73,6 +74,7 @@ Use single gpu in: ['0']
 !python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/CHIP2020/" \
+--data_name='chip' \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=37 \
@@ -160,6 +162,7 @@ transformers==4.5.0
 python main.py \
 --bert_dir="../model_hub/bert-base-chinese/" \
 --data_dir="./data/cner/" \
+--data_name='c' \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=33 \
