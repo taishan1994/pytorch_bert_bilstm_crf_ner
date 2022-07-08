@@ -71,6 +71,8 @@ class Args:
                             help='lstm中dropout的设置')
         parser.add_argument('--use_crf', type=str, default='True',
                             help='是否使用Crf')
+        parser.add_argument('--data_name', type=str, default='c',
+                            help='数据集名字')
 
         return parser
 
