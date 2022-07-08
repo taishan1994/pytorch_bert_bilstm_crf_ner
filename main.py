@@ -55,7 +55,7 @@ class BertForNer:
                     dev_loss, precision, recall, f1_score = self.dev()
                     logger.info('[eval] loss:{:.4f} precision={:.4f} recall={:.4f} f1_score={:.4f}'.format(dev_loss, precision, recall, f1_score))
                     if f1_score > best_f1:
-                        trainUtils.save_model(self.args, self.model, model_name, global_step)
+                        trainUtils.save_model(self.args, self.model, model_name + '_' + args.data_name, global_step)
                         best_f1 = f1_score
     def dev(self):
         self.model.eval()
@@ -159,7 +159,7 @@ class BertForNer:
 
 
 if __name__ == '__main__':
-    data_name = 'clue'
+    data_name = 'c'
     #args.train_epochs = 3
     #args.train_batch_size = 32
     #args.max_seq_len = 150
@@ -172,7 +172,9 @@ if __name__ == '__main__':
         model_name = 'bert_crf'
     if args.use_lstm == 'False' and args.use_crf == 'False':
         model_name = 'bert'
-    commonUtils.set_logger(os.path.join(args.log_dir, '{}.log'.format(model_name)))
+
+    commonUtils.set_logger(os.path.join(args.log_dir, '{}_{}.log'.format(model_name, args.data_name)))
+    
     if data_name == "c":
         args.data_dir = './data/cner'
         data_path = os.path.join(args.data_dir, 'final_data')
@@ -211,9 +213,9 @@ if __name__ == '__main__':
                                 batch_size=args.eval_batch_size,
                                 num_workers=2)
         bertForNer = BertForNer(args, train_loader, dev_loader, test_loader, id2query)
-        # bertForNer.train()
+        bertForNer.train()
 
-        model_path = './checkpoints/{}/model.pt'.format(model_name)
+        model_path = './checkpoints/{}_{}/model.pt'.format(model_name, args.data_name)
         bertForNer.test(model_path)
         #
         raw_text = "虞兔良先生：1963年12月出生，汉族，中国国籍，无境外永久居留权，浙江绍兴人，中共党员，MBA，经济师。"
@@ -261,7 +263,7 @@ if __name__ == '__main__':
         bertForNer = BertForNer(args, train_loader, dev_loader, dev_loader, id2query)
         bertForNer.train()
 
-        model_path = './checkpoints/{}/model.pt'.format(model_name)
+        model_path = './checkpoints/{}_{}/model.pt'.format(model_name, args.data_name)
         bertForNer.test(model_path)
         
         raw_text = "大动脉转换手术要求左心室流出道大小及肺动脉瓣的功能正常，但动力性左心室流出道梗阻并非大动脉转换术的禁忌证。"
@@ -309,7 +311,7 @@ if __name__ == '__main__':
         bertForNer = BertForNer(args, train_loader, dev_loader, dev_loader, id2query)
         bertForNer.train()
 
-        model_path = './checkpoints/{}_clue/model.pt'.format(model_name)
+        model_path = './checkpoints/{}_{}/model.pt'.format(model_name, args.data_name)
         bertForNer.test(model_path)
         
         raw_text = "彭小军认为，国内银行现在走的是台湾的发卡模式，先通过跑马圈地再在圈的地里面选择客户，"
