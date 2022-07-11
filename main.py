@@ -212,12 +212,15 @@ if __name__ == '__main__':
         test_loader = DataLoader(dataset=test_dataset,
                                 batch_size=args.eval_batch_size,
                                 num_workers=2)
+        
+        # 将配置参数都保存下来
+        commonUtils.save_json('./checkpoints/{}_{}/'.format(model_name, args.data_name), vars(args), 'args')
         bertForNer = BertForNer(args, train_loader, dev_loader, test_loader, id2query)
         bertForNer.train()
 
         model_path = './checkpoints/{}_{}/model.pt'.format(model_name, args.data_name)
         bertForNer.test(model_path)
-        #
+        
         raw_text = "虞兔良先生：1963年12月出生，汉族，中国国籍，无境外永久居留权，浙江绍兴人，中共党员，MBA，经济师。"
         logger.info(raw_text)
         bertForNer.predict(raw_text, model_path)
@@ -259,7 +262,9 @@ if __name__ == '__main__':
         # test_loader = DataLoader(dataset=test_dataset,
         #                         batch_size=args.eval_batch_size,
         #                         num_workers=2)
-
+        
+        # 将配置参数都保存下来
+        commonUtils.save_json('./checkpoints/{}_{}/'.format(model_name, args.data_name), vars(args), 'args')
         bertForNer = BertForNer(args, train_loader, dev_loader, dev_loader, id2query)
         bertForNer.train()
 
@@ -307,7 +312,9 @@ if __name__ == '__main__':
         # test_loader = DataLoader(dataset=test_dataset,
         #                         batch_size=args.eval_batch_size,
         #                         num_workers=2)
-
+        
+        # 将配置参数都保存下来
+        commonUtils.save_json('./checkpoints/{}_{}/'.format(model_name, args.data_name), vars(args), 'args')
         bertForNer = BertForNer(args, train_loader, dev_loader, dev_loader, id2query)
         bertForNer.train()
 
