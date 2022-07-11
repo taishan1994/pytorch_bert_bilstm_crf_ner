@@ -1,3 +1,4 @@
+from torch import Tensor
 import numpy as np
 from collections import defaultdict
 
@@ -98,13 +99,14 @@ def start_of_chunk(prev_tag, tag, prev_type, type_):
 
 def bioes_decode(decode_tokens, raw_text, id2ent):
     predict_entities = {}
-
+    if isinstance(decode_tokens, Tensor):
+        decode_tokens = decode_tokens.numpy().tolist()
     index_ = 0
 
     while index_ < len(decode_tokens):
         if decode_tokens[index_] == 0:
             token_label = id2ent[1].split('-')
-        else:
+        else: 
             token_label = id2ent[decode_tokens[index_]].split('-')
         if token_label[0].startswith('S'):
             token_type = token_label[1]
