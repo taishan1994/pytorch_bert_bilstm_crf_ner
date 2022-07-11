@@ -13,7 +13,7 @@
 ### 温馨提示
 
 - 由于后面重构了些代码，如果使用已经训练好的模型，将模型放置在checkpoints时可能需要修改里面文件夹的名称。
-- 新增了转换为onnx并进行推理，具体内容在convert_onnx下，```python convert_onnx.py```，只支持对单条数据的推理。在CPU下，原本推理时间：0.714256477355957s，转换后推理时间：0.4593505859375s。需要安装onnxruntime和onnx库。原本的pytorch-crf不能转换为onnx，这里使用了[here](https://github.com/facebookresearch/pytext/blob/master/pytext/models/crf.py)。
+- 新增了转换为onnx并进行推理，具体内容在convert_onnx下，```python convert_onnx.py```，只支持对单条数据的推理。在CPU下，原本推理时间：0.714256477355957s，转换后推理时间：0.4593505859375s。需要安装onnxruntime和onnx库。原本的pytorch-crf不能转换为onnx，这里使用了[here](https://github.com/facebookresearch/pytext/blob/master/pytext/models/crf.py)。目前只测试了bert_crf模型，其余的可根据需要自行调整。
 ****
 # 补充CLUE实例
 
