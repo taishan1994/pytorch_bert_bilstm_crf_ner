@@ -9,6 +9,12 @@
 - 信息抽取三剑客：实体抽取、关系抽取、事件抽取：https://github.com/taishan1994/chinese_information_extraction
 - 一种基于机器阅读理解的命名实体识别：https://github.com/taishan1994/BERT_MRC_NER_chinese
 - W2NER：命名实体识别最新sota：https://github.com/taishan1994/W2NER_predict
+****
+### 温馨提示
+
+- 由于后面重构了些代码，如果使用已经训练好的模型，将模型放置在checkpoints时可能需要修改里面文件夹的名称。
+- 新增了转换为onnx并进行推理，具体内容在convert_onnx下，```python convert_onnx.py```，只支持对单条数据的推理。在CPU下，原本推理时间：0.714256477355957s，转换后推理时间：0.4593505859375s。需要安装onnxruntime和onnx库。原本的pytorch-crf不能转换为onnx，这里使用了[here](https://github.com/facebookresearch/pytext/blob/master/pytext/models/crf.py)。
+****
 # 补充CLUE实例
 
 具体流程和医疗的类似，原始数据可以从这里下载：https://github.com/GuocaiL/nlp_corpus/tree/main/open_ner_data/cluener_public
