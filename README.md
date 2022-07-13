@@ -1,5 +1,6 @@
 # pytorch_bert_bilstm_crf_ner
 延申：
+- 百度UIE通用信息抽取：https://github.com/taishan1994/pytorch_uie_ner
 - 一种基于globalpointer的命名实体识别：https://github.com/taishan1994/pytorch_GlobalPointer_Ner
 - 一种基于TPLinker_plus的命名实体识别：https://github.com/taishan1994/pytorch_TPLinker_Plus_Ner
 - 一种one vs rest方法进行命名实体识别：https://github.com/taishan1994/pytorch_OneVersusRest_Ner
