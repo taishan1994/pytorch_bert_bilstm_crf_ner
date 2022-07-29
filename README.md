@@ -19,7 +19,7 @@
 由于bert的tokenizer会移除掉空格、换行、制表等字符，因此在utils/common_utils.py里面有一个fine_grade_tokenize函数，该函数是将这些字符用[BLANK]标识，不在vocab.txt的用[INV]标识，因此要先将vocab.txt里面的[unused1]替换为[BLANK], [unused2]替换为[INV]。其实，如果不替换程序也是可以跑的。
 ****
 # 补充地址要素抽取实例
-数据集来源是：![CCKS2021中文NLP地址要素解析](https://tianchi.aliyun.com/competition/entrance/531900/information)，报名后可下载数据，这里不提供。具体实验过程参考其它数据集说明。
+数据集来源是：[CCKS2021中文NLP地址要素解析](https://tianchi.aliyun.com/competition/entrance/531900/information)，报名后可下载数据，这里不提供。具体实验过程参考其它数据集说明。
 ```python
 !python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
