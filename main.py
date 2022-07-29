@@ -159,7 +159,8 @@ class BertForNer:
 
 
 if __name__ == '__main__':
-    data_name = 'c'
+    data_name = args.data_name
+    #data_name = 'attr'
     #args.train_epochs = 3
     #args.train_batch_size = 32
     #args.max_seq_len = 150
@@ -324,9 +325,58 @@ if __name__ == '__main__':
         raw_text = "彭小军认为，国内银行现在走的是台湾的发卡模式，先通过跑马圈地再在圈的地里面选择客户，"
         logger.info(raw_text)
         bertForNer.predict(raw_text, model_path)
-        
     if data_name == "addr":
         args.data_dir = './data/addr'
+        data_path = os.path.join(args.data_dir, 'final_data')
+        other_path = os.path.join(args.data_dir, 'mid_data')
+        ent2id_dict = commonUtils.read_json(other_path, 'nor_ent2id')
+        label_list = commonUtils.read_json(other_path, 'labels')
+        label2id = {}
+        id2label = {}
+        for k,v in enumerate(label_list):
+            label2id[v] = k
+            id2label[k] = v
+        query2id = {}
+        id2query = {}
+        for k, v in ent2id_dict.items():
+            query2id[k] = v
+            id2query[v] = k
+        logger.info(id2query)
+        args.num_tags = len(ent2id_dict)
+        logger.info(args)
+
+        train_features, train_callback_info = commonUtils.read_pkl(data_path, 'train')
+        train_dataset = dataset.NerDataset(train_features)
+        train_sampler = RandomSampler(train_dataset)
+        train_loader = DataLoader(dataset=train_dataset,
+                                  batch_size=args.train_batch_size,
+                                  sampler=train_sampler,
+                                  num_workers=2)
+        dev_features, dev_callback_info = commonUtils.read_pkl(data_path, 'dev')
+        dev_dataset = dataset.NerDataset(dev_features)
+        dev_loader = DataLoader(dataset=dev_dataset,
+                                batch_size=args.eval_batch_size,
+                                num_workers=2)
+        # test_features, test_callback_info = commonUtils.read_pkl(data_path, 'test')
+        # test_dataset = dataset.NerDataset(test_features)
+        # test_loader = DataLoader(dataset=test_dataset,
+        #                         batch_size=args.eval_batch_size,
+        #                         num_workers=2)
+        
+        # 将配置参数都保存下来
+        commonUtils.save_json('./checkpoints/{}_{}/'.format(model_name, args.data_name), vars(args), 'args')
+        bertForNer = BertForNer(args, train_loader, dev_loader, dev_loader, id2query)
+        # bertForNer.train()
+
+        model_path = './checkpoints/{}_{}/model.pt'.format(model_name, args.data_name)
+        # bertForNer.test(model_path)
+        
+        raw_text = "浙江省嘉兴市平湖市钟埭街道新兴六路法帝亚洁具厂区内万杰洁具"
+        logger.info(raw_text)
+        bertForNer.predict(raw_text, model_path)
+
+    if data_name == "attr":
+        args.data_dir = './data/attr'
         data_path = os.path.join(args.data_dir, 'final_data')
         other_path = os.path.join(args.data_dir, 'mid_data')
         ent2id_dict = commonUtils.read_json(other_path, 'nor_ent2id')
@@ -371,8 +421,7 @@ if __name__ == '__main__':
         model_path = './checkpoints/{}_{}/model.pt'.format(model_name, args.data_name)
         bertForNer.test(model_path)
         
-        raw_text = "浙江省嘉兴市平湖市浙江省嘉兴市平湖市钟埭街道新兴六路法帝亚洁具厂区内万杰洁具"
+        raw_text = "荣耀V9Play支架手机壳honorv9paly手机套新品情女款硅胶防摔壳"
         logger.info(raw_text)
         bertForNer.predict(raw_text, model_path)
-
-
+    
