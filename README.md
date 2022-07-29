@@ -18,6 +18,61 @@
 ****
 由于bert的tokenizer会移除掉空格、换行、制表等字符，因此在utils/common_utils.py里面有一个fine_grade_tokenize函数，该函数是将这些字符用[BLANK]标识，不在vocab.txt的用[INV]标识，因此要先将vocab.txt里面的[unused1]替换为[BLANK], [unused2]替换为[INV]。其实，如果不替换程序也是可以跑的。
 ****
+# 补充地址要素抽取实例
+数据集来源是：![CCKS2021中文NLP地址要素解析](https://tianchi.aliyun.com/competition/entrance/531900/information)，报名后可下载数据，这里不提供。具体实验过程参考其它数据集说明。
+```python
+!python main.py \
+--bert_dir="../model_hub/chinese-bert-wwm-ext/" \
+--data_dir="./data/addr/" \
+--data_name='addr' \
+--log_dir="./logs/" \
+--output_dir="./checkpoints/" \
+--num_tags=69 \
+--seed=123 \
+--gpu_ids="0" \
+--max_seq_len=64 \
+--lr=3e-5 \
+--crf_lr=3e-2 \
+--other_lr=3e-4 \
+--train_batch_size=64 \
+--train_epochs=3 \
+--eval_batch_size=64 \
+--lstm_hidden=128 \
+--num_layers=1 \
+--use_lstm='False' \
+--use_crf='True' \
+--dropout_prob=0.1 \
+--dropout=0.1 \
+
+precision:0.9233 recall:0.9021 micro_f1:0.9125
+               precision    recall  f1-score   support
+
+     district       0.96      0.93      0.94      1444
+village_group       0.91      0.87      0.89        47
+       roadno       0.98      0.98      0.98       815
+          poi       0.77      0.85      0.81      1279
+       subpoi       0.82      0.65      0.73       459
+    community       0.81      0.70      0.75       373
+     distance       1.00      1.00      1.00         6
+         city       0.99      0.94      0.96      1244
+         road       0.94      0.95      0.95      1244
+         prov       0.99      0.97      0.98       994
+      floorno       0.97      0.94      0.95       211
+       assist       0.82      0.88      0.85        64
+       cellno       0.99      0.98      0.98       123
+         town       0.95      0.87      0.91       924
+      devzone       0.82      0.82      0.82       222
+      houseno       0.97      0.96      0.97       496
+ intersection       0.93      0.65      0.76        20
+
+     micro-f1       0.92      0.90      0.91      9965
+    
+浙江省嘉兴市平湖市钟埭街道新兴六路法帝亚洁具厂区内万杰洁具
+Load ckpt from ./checkpoints/bert_crf_addr/model.pt
+Use single gpu in: ['0']
+{'prov': [('浙江省', 0)], 'city': [('嘉兴市', 3)], 'district': [('平湖市', 6)], 'town': [('钟埭街道', 9)], 'road': [('新兴六路', 13)], 'poi': [('法帝亚洁具厂区', 17), ('万杰洁具', 25)]}
+```
+
 # 补充CLUE实例
 
 具体流程和医疗的类似，原始数据可以从这里下载：https://github.com/GuocaiL/nlp_corpus/tree/main/open_ner_data/cluener_public
