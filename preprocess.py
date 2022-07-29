@@ -129,8 +129,7 @@ def convert_bert_example(ex_idx, example: InputExample, tokenizer: BertTokenizer
     # ========================
     encode_dict = tokenizer.encode_plus(text=tokens,
                                         max_length=max_seq_len,
-                                        padding="max_length",
-                                        is_pretokenized=True,
+                                        truncation='longest_first',
                                         return_token_type_ids=True,
                                         return_attention_mask=True)
     tokens = ['[CLS]'] + tokens + ['[SEP]']
