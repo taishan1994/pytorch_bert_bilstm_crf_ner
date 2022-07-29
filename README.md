@@ -21,7 +21,7 @@
 # 补充地址要素抽取实例
 数据集来源是：[CCKS2021中文NLP地址要素解析](https://tianchi.aliyun.com/competition/entrance/531900/information)，报名后可下载数据，这里不提供。具体实验过程参考其它数据集说明。
 ```python
-!python main.py \
+python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/addr/" \
 --data_name='addr' \
@@ -77,7 +77,7 @@ Use single gpu in: ['0']
 
 具体流程和医疗的类似，原始数据可以从这里下载：https://github.com/GuocaiL/nlp_corpus/tree/main/open_ner_data/cluener_public
 ```python
-!python main.py \
+python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/CLUE/" \
 --data_name='clue' \
@@ -135,7 +135,7 @@ Use single gpu in: ['0']
 5、基于bert_crf训练好的模型可以去这里下载：链接：https://pan.baidu.com/s/1if6G00ERfXSWfe_h23hgDg?pwd=2s3e 
 提取码：2s3e
 ```python
-!python main.py \
+python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/CHIP2020/" \
 --data_name='chip' \
