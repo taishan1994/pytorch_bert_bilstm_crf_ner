@@ -72,8 +72,9 @@ def refactor_labels(sent, labels, start_index):
     for _label in labels:
         if start_index <= _label[2] <= _label[3] <= end_index:
             new_offset = _label[2] - start_index
-
-            assert sent[new_offset: new_offset + len(_label[-1])] == _label[-1]
+            if sent[new_offset: new_offset + len(_label[-1])] != _label[-1]:
+                continue
+            # assert sent[new_offset: new_offset + len(_label[-1])] == _label[-1]
 
             new_labels.append((_label[1], _label[-1], new_offset))
         # label 被截断的情况
