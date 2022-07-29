@@ -65,6 +65,8 @@ def set_logger(log_path):
 
 def save_json(data_dir, data, desc):
     """保存数据为json"""
+    if not os.path.exists(data_dir):
+        os.makedirs(data_dir)
     with open(os.path.join(data_dir, '{}.json'.format(desc)), 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -77,6 +79,8 @@ def read_json(data_dir, desc):
 
 
 def save_pkl(data_dir, data, desc):
+    if not os.path.exists(data_dir):
+        os.makedirs(data_dir)
     """保存.pkl文件"""
     with open(os.path.join(data_dir, '{}.pkl'.format(desc)), 'wb') as f:
         pickle.dump(data, f)
