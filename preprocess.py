@@ -217,12 +217,14 @@ def save_file(filename, data ,id2ent):
 
 if __name__ == '__main__':
 
-    dataset = "attr"
+    dataset = "cner"
     args = config.Args().get_parser()
     args.bert_dir = '../model_hub/chinese-bert-wwm-ext/'
     commonUtils.set_logger(os.path.join(args.log_dir, 'preprocess.log'))
 
-    if dataset == "c":
+    use_aug = False
+
+    if dataset == "cner":
         args.data_dir = './data/cner'
         args.max_seq_len = 150
 
@@ -238,7 +240,10 @@ if __name__ == '__main__':
         mid_data_path = os.path.join(args.data_dir, 'mid_data')
         processor = NerProcessor(cut_sent=True, cut_sent_len=args.max_seq_len)
 
-        train_data = get_data(processor, mid_data_path, "train.json", "train", ent2id, labels, args)
+        if use_aug:
+            train_data = get_data(processor, mid_data_path, "train_aug.json", "train", ent2id, labels, args)
+        else:
+            train_data = get_data(processor, mid_data_path, "train.json", "train", ent2id, labels, args)
         save_file(os.path.join(mid_data_path,"cner_{}_cut.txt".format(args.max_seq_len)), train_data, id2ent)
         dev_data = get_data(processor, mid_data_path, "dev.json", "dev", ent2id, labels, args)
         test_data = get_data(processor, mid_data_path, "test.json", "test", ent2id, labels, args)
@@ -259,7 +264,10 @@ if __name__ == '__main__':
         mid_data_path = os.path.join(args.data_dir, 'mid_data')
         processor = NerProcessor(cut_sent=True, cut_sent_len=args.max_seq_len)
 
-        train_data = get_data(processor, mid_data_path, "train.json", "train", ent2id, labels, args)
+        if use_aug:
+            train_data = get_data(processor, mid_data_path, "train_aug.json", "train", ent2id, labels, args)
+        else:
+            train_data = get_data(processor, mid_data_path, "train.json", "train", ent2id, labels, args)
         save_file(os.path.join(mid_data_path,"chip_{}_cut.txt".format(args.max_seq_len)), train_data, id2ent)
         dev_data = get_data(processor, mid_data_path, "dev.json", "dev", ent2id, labels, args)
         # test_data = get_data(processor, mid_data_path, "test.json", "test", ent2id, labels, args)
@@ -280,7 +288,10 @@ if __name__ == '__main__':
         mid_data_path = os.path.join(args.data_dir, 'mid_data')
         processor = NerProcessor(cut_sent=True, cut_sent_len=args.max_seq_len)
 
-        train_data = get_data(processor, mid_data_path, "train.json", "train", ent2id, labels, args)
+        if use_aug:
+            train_data = get_data(processor, mid_data_path, "train_aug.json", "train", ent2id, labels, args)
+        else:
+            train_data = get_data(processor, mid_data_path, "train.json", "train", ent2id, labels, args)
         save_file(os.path.join(mid_data_path,"clue_{}_cut.txt".format(args.max_seq_len)), train_data, id2ent)
         dev_data = get_data(processor, mid_data_path, "dev.json", "dev", ent2id, labels, args)
         # test_data = get_data(processor, mid_data_path, "test.json", "test", ent2id, labels, args)
@@ -300,7 +311,10 @@ if __name__ == '__main__':
         mid_data_path = os.path.join(args.data_dir, 'mid_data')
         processor = NerProcessor(cut_sent=True, cut_sent_len=args.max_seq_len)
 
-        train_data = get_data(processor, mid_data_path, "train.json", "train", ent2id, labels, args)
+        if use_aug:
+            train_data = get_data(processor, mid_data_path, "train_aug.json", "train", ent2id, labels, args)
+        else:
+            train_data = get_data(processor, mid_data_path, "train.json", "train", ent2id, labels, args)
         save_file(os.path.join(mid_data_path,"clue_{}_cut.txt".format(args.max_seq_len)), train_data, id2ent)
         dev_data = get_data(processor, mid_data_path, "dev.json", "dev", ent2id, labels, args)
         # test_data = get_data(processor, mid_data_path, "test.json", "test", ent2id, labels, args)
@@ -320,7 +334,10 @@ if __name__ == '__main__':
         mid_data_path = os.path.join(args.data_dir, 'mid_data')
         processor = NerProcessor(cut_sent=True, cut_sent_len=args.max_seq_len)
 
-        train_data = get_data(processor, mid_data_path, "train.json", "train", ent2id, labels, args)
+        if use_aug:
+            train_data = get_data(processor, mid_data_path, "train_aug.json", "train", ent2id, labels, args)
+        else:
+            train_data = get_data(processor, mid_data_path, "train.json", "train", ent2id, labels, args)
         save_file(os.path.join(mid_data_path,"clue_{}_cut.txt".format(args.max_seq_len)), train_data, id2ent)
         dev_data = get_data(processor, mid_data_path, "dev.json", "dev", ent2id, labels, args)
         # test_data = get_data(processor, mid_data_path, "test.json", "test", ent2id, labels, args)

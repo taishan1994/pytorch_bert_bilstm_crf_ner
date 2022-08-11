@@ -18,7 +18,63 @@
 ****
 由于bert的tokenizer会移除掉空格、换行、制表等字符，因此在utils/common_utils.py里面有一个fine_grade_tokenize函数，该函数是将这些字符用[BLANK]标识，不在vocab.txt的用[INV]标识，因此要先将vocab.txt里面的[unused1]替换为[BLANK], [unused2]替换为[INV]。其实，如果不替换程序也是可以跑的。
 ****
+# 补充数据增强实例
+
+在data_augment下的aug.py用于对中文命名实体识别进行数据增强，运行指令：以cner数据集为例
+
+```python
+python aug.py --data_name "cner" --text_repeat 2
+```
+
+data_name是数据集的名字，text_repeat是每条文本生成文本的数量。在data下需存在data_name的文件夹，先要参考其它数据集生成mid_data下的文件。增强思路：
+
+- 1、先将所有的不同类型的实体都提取出来并存储在/data/cner/aug_data/下。
+- 2、将mid_data/train.json中的每一条文本中的实体用**#;#类型#;#**替代，并生成texts.txt在aug_data下。
+- 3、遍历texts.txt每一条文本，然后不放回随机从实体库中选择实体替代里面的类型，在和原来train.json里面的数据结合，最终存储在mid_data下的train_aug.json中。
+- 4、在preprocess.py里面指定数据集名称，并将use_aug设置为True。接下来的操作与各数据集的运行训练、验证、测试、预测相同。
+
+## 结果
+
+训练、验证、测试和预测运行指令：
+
+```python
+!python main.py \
+--bert_dir="../model_hub/chinese-bert-wwm-ext/" \
+--data_dir="./data/cner/" \
+--data_name='cner' \
+--log_dir="./logs/" \
+--output_dir="./checkpoints/" \
+--num_tags=33 \
+--seed=123 \
+--gpu_ids="0" \
+--max_seq_len=150 \
+--lr=3e-5 \
+--crf_lr=3e-2 \
+--other_lr=3e-4 \
+--train_batch_size=32 \
+--train_epochs=3 \
+--eval_batch_size=32 \
+--max_grad_norm=1 \
+--warmup_proportion=0.1 \
+--adam_epsilon=1e-8 \
+--weight_decay=0.01 \
+--lstm_hidden=128 \
+--num_layers=1 \
+--use_lstm='False' \
+--use_crf='True' \
+--dropout_prob=0.3 \
+--dropout=0.3 \
+```
+
+| 评价指标：F1      | PRO  | ORG  | CONT | RACE | NAME | EDU  | LOC  | TITLE | F1     |
+| ----------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----- | ------ |
+| baseline          | 0.90 | 0.92 | 1.00 | 0.93 | 0.99 | 0.96 | 1.00 | 0.91  | 0.9244 |
+| baseline+数据增强 | 0.92 | 0.93 | 1.00 | 0.97 | 1.00 | 0.97 | 1.00 | 0.91  | 0.9293 |
+
+除了数据量不一样，其余的参数均设置为一致。
+
 # 补充商品标题要素抽取实例
+
 数据来源：[商品标题](https://www.heywhale.com/mw/dataset/6241349d93e61600170895e5/file)，就一个train.txt，初始格式为BIO。具体实验过程参考其它数据集说明。这里并没有运行完3个epoch，在720步手动终止了。类别数据进行了脱敏，要知道每类是什么意思，只有自己根据数据自己总结了=，=。
 ```python
 python main.py \
@@ -316,7 +372,7 @@ transformers==4.5.0
 python main.py \
 --bert_dir="../model_hub/bert-base-chinese/" \
 --data_dir="./data/cner/" \
---data_name='c' \
+--data_name='cner' \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=33 \
@@ -335,8 +391,8 @@ python main.py \
 --weight_decay=0.01 \
 --lstm_hidden=128 \
 --num_layers=1 \
---use_lstm='True' \
---use_crf='False' \
+--use_lstm='False' \
+--use_crf='True' \
 --dropout_prob=0.3 \
 --dropout=0.3 \
 ```

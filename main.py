@@ -176,7 +176,7 @@ if __name__ == '__main__':
 
     commonUtils.set_logger(os.path.join(args.log_dir, '{}_{}.log'.format(model_name, args.data_name)))
     
-    if data_name == "c":
+    if data_name == "cner":
         args.data_dir = './data/cner'
         data_path = os.path.join(args.data_dir, 'final_data')
         other_path = os.path.join(args.data_dir, 'mid_data')
