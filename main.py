@@ -424,4 +424,57 @@ if __name__ == '__main__':
         raw_text = "荣耀V9Play支架手机壳honorv9paly手机套新品情女款硅胶防摔壳"
         logger.info(raw_text)
         bertForNer.predict(raw_text, model_path)
+
+    if data_name == "sighan2005":
+        args.data_dir = './data/sighan2005'
+        data_path = os.path.join(args.data_dir, 'final_data')
+        other_path = os.path.join(args.data_dir, 'mid_data')
+        ent2id_dict = commonUtils.read_json(other_path, 'nor_ent2id')
+        label_list = commonUtils.read_json(other_path, 'labels')
+        label2id = {}
+        id2label = {}
+        for k, v in enumerate(label_list):
+            label2id[v] = k
+            id2label[k] = v
+        query2id = {}
+        id2query = {}
+        for k, v in ent2id_dict.items():
+            query2id[k] = v
+            id2query[v] = k
+        logger.info(id2query)
+        args.num_tags = len(ent2id_dict)
+        logger.info(args)
+
+        train_features, train_callback_info = commonUtils.read_pkl(data_path, 'train')
+        train_dataset = dataset.NerDataset(train_features)
+        train_sampler = RandomSampler(train_dataset)
+        train_loader = DataLoader(dataset=train_dataset,
+                                  batch_size=args.train_batch_size,
+                                  sampler=train_sampler,
+                                  num_workers=2)
+        dev_features, dev_callback_info = commonUtils.read_pkl(data_path, 'dev')
+        dev_dataset = dataset.NerDataset(dev_features)
+        dev_loader = DataLoader(dataset=dev_dataset,
+                                batch_size=args.eval_batch_size,
+                                num_workers=2)
+        # test_features, test_callback_info = commonUtils.read_pkl(data_path, 'test')
+        # test_dataset = dataset.NerDataset(test_features)
+        # test_loader = DataLoader(dataset=test_dataset,
+        #                         batch_size=args.eval_batch_size,
+        #                         num_workers=2)
+
+        # 将配置参数都保存下来
+        commonUtils.save_json('./checkpoints/{}_{}/'.format(model_name, args.data_name), vars(args), 'args')
+        bertForNer = BertForNer(args, train_loader, dev_loader, dev_loader, id2query)
+        bertForNer.train()
+
+        model_path = './checkpoints/{}_{}/model.pt'.format(model_name, args.data_name)
+        bertForNer.test(model_path)
+        """
+        {"id": 5, "text": "在１９９８年来临之际，我十分高兴地通过中央人民广播电台、中国国际广播电台和中央电视台，向全国各族人民，向香港特别行政区同胞、澳门和台湾同胞、海外侨胞，向世界各国的朋友们，致以诚挚的问候和良好的祝愿！", "labels": [["T0", "word", 0, 1, "在"], ["T1", "word", 1, 6, "１９９８年"], ["T2", "word", 6, 8, "来临"], ["T3", "word", 8, 10, "之际"], ["T4", "word", 10, 11, "，"], ["T5", "word", 11, 12, "我"], ["T6", "word", 12, 14, "十分"], ["T7", "word", 14, 16, "高兴"], ["T8", "word", 16, 17, "地"], ["T9", "word", 17, 19, "通过"], ["T10", "word", 19, 21, "中央"], ["T11", "word", 21, 23, "人民"], ["T12", "word", 23, 25, "广播"], ["T13", "word", 25, 27, "电台"], ["T14", "word", 27, 28, "、"], ["T15", "word", 28, 30, "中国"], ["T16", "word", 30, 32, "国际"], ["T17", "word", 32, 34, "广播"], ["T18", "word", 34, 36, "电台"], ["T19", "word", 36, 37, "和"], ["T20", "word", 37, 39, "中央"], ["T21", "word", 39, 42, "电视台"], ["T22", "word", 42, 43, "，"], ["T23", "word", 43, 44, "向"], ["T24", "word", 44, 46, "全国"], ["T25", "word", 46, 48, "各族"], ["T26", "word", 48, 50, "人民"], ["T27", "word", 50, 51, "，"], ["T28", "word", 51, 52, "向"], ["T29", "word", 52, 54, "香港"], ["T30", "word", 54, 56, "特别"], ["T31", "word", 56, 59, "行政区"], ["T32", "word", 59, 61, "同胞"], ["T33", "word", 61, 62, "、"], ["T34", "word", 62, 64, "澳门"], ["T35", "word", 64, 65, "和"], ["T36", "word", 65, 67, "台湾"], ["T37", "word", 67, 69, "同胞"], ["T38", "word", 69, 70, "、"], ["T39", "word", 70, 72, "海外"], ["T40", "word", 72, 74, "侨胞"], ["T41", "word", 74, 75, "，"], ["T42", "word", 75, 76, "向"], ["T43", "word", 76, 78, "世界"], ["T44", "word", 78, 80, "各国"], ["T45", "word", 80, 81, "的"], ["T46", "word", 81, 83, "朋友"], ["T47", "word", 83, 84, "们"], ["T48", "word", 84, 85, "，"], ["T49", "word", 85, 87, "致以"], ["T50", "word", 87, 89, "诚挚"], ["T51", "word", 89, 90, "的"], ["T52", "word", 90, 92, "问候"], ["T53", "word", 92, 93, "和"], ["T54", "word", 93, 95, "良好"], ["T55", "word", 95, 96, "的"], ["T56", "word", 96, 98, "祝愿"], ["T57", "word", 98, 99, "！"]]}
+        """
+
+        raw_text = "在１９９８年来临之际，我十分高兴地通过中央人民广播电台、中国国际广播电台和中央电视台，向全国各族人民，向香港特别行政区同胞、澳门和台湾同胞、海外侨胞，向世界各国的朋友们，致以诚挚的问候和良好的祝愿！"
+        logger.info(raw_text)
+        bertForNer.predict(raw_text, model_path)
     
