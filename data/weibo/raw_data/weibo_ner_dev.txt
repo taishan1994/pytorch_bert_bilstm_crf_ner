@@ -1,0 +1,286 @@
+{"text": "口腔溃疡加上这玩意～酸酸甜甜好滋味。", "entity_list": []}
+{"text": "用最大努力去做值得的事，不计结果，笑看人生。哈哈哈哈哈哈我在", "entity_list": []}
+{"text": "无论如何，不能让某个人成为你的全部，若是有天他们离开了，你将一无所有", "entity_list": []}
+{"text": "总要相信那句付出会有回报。", "entity_list": []}
+{"text": "清清淡然朴普梅缘荷忆", "entity_list": []}
+{"text": "老百姓心新乡新闻网话说这几天新乡天气还好吧偷笑", "entity_list": [{"entity_index": {"begin": 4, "end": 6}, "entity_type": "GPE", "entity": "新乡"}, {"entity_index": {"begin": 14, "end": 16}, "entity_type": "GPE", "entity": "新乡"}]}
+{"text": "太感谢你一直安慰我奇怪的黑发，不要说我鞭策你，我们一起努力和你一起真的很容易吃很多诶下星期一起羽毛球爱你爱你爱你爱你我下周就去买了那条裙子和你姐妹装啦", "entity_list": []}
+{"text": "大学同宿舍三年，以为都还算了解你。断估唔到你已经系二岁孩子的爸了。许坚你始终都系甘耐人寻味。好高兴能参加你噶婚礼。祝福你我永远噶好舍友", "entity_list": [{"entity_index": {"begin": 33, "end": 35}, "entity_type": "PER", "entity": "许坚"}]}
+{"text": "今天新入手的耳机我和我的小伙伴们都觉得好棒哟ω", "entity_list": []}
+{"text": "超超超美的乐乐一看照片又长大啦去了给姨亲一口爱你", "entity_list": [{"entity_index": {"begin": 5, "end": 7}, "entity_type": "PER", "entity": "乐乐"}]}
+{"text": "我玩微城市，获得了金币，真不赖今天我玩微城市获得了金币。大家去玩微城市吧，每天登陆都会获得奖励开始游戏", "entity_list": []}
+{"text": "创业最重要的原则先拥有一个客户再创业。点子一毛钱一打，凭一个想法打拼两年才赚到一块钱那太费劲了，我们和扎克伯格是完全不同的人。执行最重要？错唯一重要的是钱。有客户愿意付钱你的创业才不孤单，执行才会变得简单。", "entity_list": [{"entity_index": {"begin": 51, "end": 55}, "entity_type": "PER", "entity": "扎克伯格"}]}
+{"text": "码通贩场贩在理查的置顶马给哥哥", "entity_list": []}
+{"text": "上新啦这是一款天河石，它是信心的宝石。据西洋神秘传说，又绿又蓝的天河石，带有幸运，投机，化险为夷的能量，带着它，搓麻打牌很容易赢钱哦带着它，在职场中也会遇贵人哦能帮助摆脱负面能量，增进信心，达成目标亲，还在犹豫什么动起来", "entity_list": []}
+{"text": "武大妹子录的，吊炸了给我最爱的贾老板翻唱歌曲中国原创音乐基地", "entity_list": [{"entity_index": {"begin": 0, "end": 4}, "entity_type": "ORG", "entity": "武大妹子"}, {"entity_index": {"begin": 15, "end": 18}, "entity_type": "PER", "entity": "贾老板"}, {"entity_index": {"begin": 22, "end": 24}, "entity_type": "GPE", "entity": "中国"}]}
+{"text": "哈哈，把手机都没收没收新浪校园挖鼻屎挖鼻屎这个你们觉得如何？手机签到制度桂林校园挖鼻屎辣么多人有两只手机呢", "entity_list": [{"entity_index": {"begin": 11, "end": 15}, "entity_type": "ORG", "entity": "新浪校园"}, {"entity_index": {"begin": 36, "end": 38}, "entity_type": "GPE", "entity": "桂林"}]}
+{"text": "回复雯子小菇凉主要你夸我我太激动了爱你爱你爱你雯子小菇凉回复苦逼青年杨素晗骗你干吗，真心电到了，越来越有范了，以后跟领导你混了阴险", "entity_list": [{"entity_index": {"begin": 2, "end": 4}, "entity_type": "PER", "entity": "雯子"}, {"entity_index": {"begin": 23, "end": 25}, "entity_type": "PER", "entity": "雯子"}, {"entity_index": {"begin": 34, "end": 37}, "entity_type": "PER", "entity": "杨素晗"}]}
+{"text": "下雪了，回不来了哈哈哈哈嘻嘻嘻嘻", "entity_list": []}
+{"text": "对柜台熊孩子说：关注啦。。有什么情况？", "entity_list": []}
+{"text": "秦时明月官方微博卫庄大人果然是忧国思民的典范哈哈", "entity_list": []}
+{"text": "全球流行风尚八拜之交是指哪八拜这些你都知道吗？推荐关注神秘野史", "entity_list": []}
+{"text": "这年头遇到个好人是件难事。", "entity_list": []}
+{"text": "做爱花的女性，女人如花。乐于直视他人的女性，自信的女人更美。到了时候就恋爱就生子的女人，会生活的女人更幸福。做个会做饭的女人，独立的女人更可爱。做爱读书的女人，睿智的女人更魅力。做深存感恩之心又独自远行的女人，这样的女人似一缕清风。", "entity_list": []}
+{"text": "今天的小老鼠好可爱", "entity_list": []}
+{"text": "", "entity_list": []}
+{"text": "", "entity_list": []}
+{"text": "", "entity_list": []}
+{"text": "", "entity_list": []}
+{"text": "", "entity_list": []}
+{"text": "天气太冷了全部蜷在一堆雪我在", "entity_list": []}
+{"text": "我叫赵新民全球最热门视频呃，期待下一篇。。。", "entity_list": [{"entity_index": {"begin": 2, "end": 5}, "entity_type": "PER", "entity": "赵新民"}]}
+{"text": "怎么还六月飞雪了呢，宁波晚报网友播报雨和雪都横着在飘也在沧海路和百丈东路交叉口吗？二二二理斯下雪了雨和雪都横着在飘", "entity_list": [{"entity_index": {"begin": 10, "end": 14}, "entity_type": "ORG", "entity": "宁波晚报"}, {"entity_index": {"begin": 28, "end": 29}, "entity_type": "LOC", "entity": "沧"}, {"entity_index": {"begin": 32, "end": 33}, "entity_type": "LOC", "entity": "百"}]}
+{"text": "阿袁在外地学习。一天，他发现生活费已提前用完，便忙给家里拍电报求援。电报上只有四个字：弹尽粮绝。没几天，阿袁收到家里的回电：顶住。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "PER", "entity": "阿袁"}, {"entity_index": {"begin": 52, "end": 54}, "entity_type": "PER", "entity": "阿袁"}]}
+{"text": "刘心车推不动我要投诉堃说那个手柄拉下来就能推动了怎么办太丢人了", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "PER", "entity": "刘心车"}]}
+{"text": "萧萧静的明天有明天徐妍徐妍", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "PER", "entity": "萧萧静"}, {"entity_index": {"begin": 11, "end": 13}, "entity_type": "PER", "entity": "徐妍"}]}
+{"text": "匹克球星中国行我用分秒，完成了匹克球星安德鲁古德洛克的拼图游戏，申请参加月日兰德里匹克球迷见面会，夏木谢小玲好男人就是我我就是翁小贱，你们想不想与兰德里面对面？快来参加吧更有限量篮球好礼等你拿活动链接：", "entity_list": [{"entity_index": {"begin": 4, "end": 6}, "entity_type": "GPE", "entity": "中国"}, {"entity_index": {"begin": 19, "end": 26}, "entity_type": "PER", "entity": "安德鲁古德洛克"}, {"entity_index": {"begin": 38, "end": 43}, "entity_type": "PER", "entity": "兰德里匹克"}, {"entity_index": {"begin": 51, "end": 54}, "entity_type": "PER", "entity": "谢小玲"}, {"entity_index": {"begin": 73, "end": 76}, "entity_type": "PER", "entity": "兰德里"}]}
+{"text": "突然很想念那些曾经亲密无间的朋友，一幕幕，不知道是不是有那么一时间我也曾被想起。。。", "entity_list": []}
+{"text": "分享个好玩的活动给你们，都来看看吧。如果有可能，你想住进哪部电影的房子里？", "entity_list": []}
+{"text": "后半句，笑死人沧浪秋水一张帆啊白菜经典英文语录哈哈哈哈求白菜笑哈哈", "entity_list": []}
+{"text": "九月菊花傲霜雪。秋天，枫叶被染红了，金黄的稻穗带来丰收的欢乐。更令人喜悦的是，菊花在这个时节盛开，千姿百态，万紫千红。菊花以自己的绚丽色彩、绰约风姿，把春天的色调再渡展现，把新生的魅力发挥出来。爹孩儿要去从军。军旅要吃很多苦的。孩儿就是去吃苦，我要比爹你更出色。", "entity_list": []}
+{"text": "他是韩国我是歌手拿冠军的那个吗？就是我们恨之入骨的那个打人的教官吗？怒嘻嘻练习生真的不是一般人能坚持下来的。每当遇到困难的时候想想自己喜欢的是以怎样的意志力坚持下来的就会觉得自己的问题真的都是渣渣。根本不算什么。", "entity_list": [{"entity_index": {"begin": 2, "end": 5}, "entity_type": "GPE", "entity": "韩国我"}]}
+{"text": "你的良心何在，政府给你救助款都喂狗了。", "entity_list": []}
+{"text": "中秋节快乐，爸爸妈妈想你们了。哎不是唉这款不错唉", "entity_list": []}
+{"text": "不可不学的瘦脸按摩法捏按面部肉多地方：涂上按摩霜，在面颊肉最多的地方捏捺，由内往外拉伸。揉按面颊：手掌紧贴双颊，由内到外按摩，大约分钟。托下颌：双手轻托下巴，有节律地做分钟。轻托脸部：双手放于下颌，轻轻按摩并提拉。双手轻拂面部：轻轻抚摸整个面部，停留分钟", "entity_list": []}
+{"text": "赛琳曼琦张羽姑娘笑点低伦家唐唐唐唐秋云霖魏腾飞我想我是你的熊猫眼张先生", "entity_list": [{"entity_index": {"begin": 4, "end": 6}, "entity_type": "PER", "entity": "张羽"}, {"entity_index": {"begin": 16, "end": 19}, "entity_type": "PER", "entity": "唐秋云"}]}
+{"text": "", "entity_list": []}
+{"text": "", "entity_list": []}
+{"text": "", "entity_list": []}
+{"text": "", "entity_list": []}
+{"text": "", "entity_list": []}
+{"text": "", "entity_list": []}
+{"text": "", "entity_list": []}
+{"text": "", "entity_list": []}
+{"text": "", "entity_list": []}
+{"text": "", "entity_list": []}
+{"text": "", "entity_list": []}
+{"text": "新浪微博客户端全新升级信息流图片加载速度提升；发布器支持多张图片一键分享；新增、浪小花表情。观看视频，了解更多下载地址：", "entity_list": [{"entity_index": {"begin": 37, "end": 39}, "entity_type": "PER", "entity": "新增"}, {"entity_index": {"begin": 40, "end": 43}, "entity_type": "PER", "entity": "浪小花"}]}
+{"text": "让我心碎，你做的比谁都到位。", "entity_list": []}
+{"text": "我想，我想，我想，我想，我想，我想，我想，我想，我想，我想，我想", "entity_list": []}
+{"text": "必须转啊啊宇多田光之樱流泪泪泪明日香啊丽", "entity_list": [{"entity_index": {"begin": 5, "end": 9}, "entity_type": "PER", "entity": "宇多田光"}, {"entity_index": {"begin": 15, "end": 18}, "entity_type": "PER", "entity": "明日香"}]}
+{"text": "实际上，到最后我们都会在别人的上处于脱机状态。", "entity_list": []}
+{"text": "男女那回事最可怕的不是你娶了个你不爱的人，而是你发现她还是个灰常会化妆的女人。", "entity_list": []}
+{"text": "必需收藏南瓜小狐狸已成精新浪娱乐分钟看年日本动画发展史", "entity_list": [{"entity_index": {"begin": 20, "end": 22}, "entity_type": "GPE", "entity": "日本"}]}
+{"text": "来听听我唱的常回家看看真情绵绵全是爱，击败了全国的人试听地址通过唱吧录制", "entity_list": []}
+{"text": "不要解释那么多，直接扣扣我，迫不及待啦", "entity_list": []}
+{"text": "发表了一篇转载博文转载转载十类中国历代家训集锦", "entity_list": []}
+{"text": "天下无不散之筵席精彩随心好想这只是一个玩笑小月巴弓虽兔小白曼联柯柏文感谢您这年来为曼联付出的一切。您永远是我辈曼联球迷心中最伟大的教练", "entity_list": [{"entity_index": {"begin": 31, "end": 34}, "entity_type": "PER", "entity": "柯柏文"}, {"entity_index": {"begin": 41, "end": 43}, "entity_type": "ORG", "entity": "曼联"}]}
+{"text": "群星闪耀来袭＃群星闪耀来袭＃魏晨魏晨魏晨", "entity_list": [{"entity_index": {"begin": 18, "end": 20}, "entity_type": "PER", "entity": "魏晨"}]}
+{"text": "级工管班婉玲恋家的孩子春田雷州行叶雨凤连韋文珊荧瑜黄土玲小婷余陈泽伟腹黑麟俊才俊才围观围观围观", "entity_list": [{"entity_index": {"begin": 4, "end": 6}, "entity_type": "PER", "entity": "婉玲"}, {"entity_index": {"begin": 31, "end": 34}, "entity_type": "PER", "entity": "陈泽伟"}]}
+{"text": "撁沵掱芣棄俊德转发微博", "entity_list": []}
+{"text": "我不想把事情弄复杂，所以我不想提什么问题。你也不必回答。就是听，就可以了。沉默的证人", "entity_list": []}
+{"text": "哈哈，我在用浏览器玩微博，推荐", "entity_list": []}
+{"text": "我小小的世界，装不下太多，只能装下在乎我和我在乎的人。", "entity_list": []}
+{"text": "我已成为微博准会员，刚刚获得了准会员专属勋章，八种特权免费享开通会员，更多特权，等你体验", "entity_list": []}
+{"text": "我刚更新了微博客户端冬季版信息流全面支持赞；新增精彩密友功能，支持发布密友微博、查看密友圈、添加密友；优化发布器，支持显示当前帐号昵称；支持手势返回前页。下载地址：", "entity_list": []}
+{"text": "昨天我在奥林匹克公园走的脚都疼了。大哭", "entity_list": []}
+{"text": "开心一笑一小贩街边卖枣，遭城管驱赶，遂换至一偏僻小路继续摆摊。路过一老人，对小贩说枣不错，来三斤。当年我还做八路的时候，就推着这么一车枣在敌占区边卖边刺探敌情，转眼六十年过去了。小贩不解的问，大爷那时候鬼子咋没赶你呢？老人怒道卖个枣有啥赶的，鬼子再混蛋也不至于啊", "entity_list": []}
+{"text": "我是混搭女王清新的空气，令人心旷神怡心哪里好玩就冲去哪里，快关注翻着花样去旅游", "entity_list": []}
+{"text": "发表了博文心晴雨未晴二这几天梦中一些遥远的幻想是谁的记忆在海角如浮云，抹不去还是我的爱恋？你知道失恋的心情吗是那天空一角野望最适合的方向", "entity_list": []}
+{"text": "右边那俩是一个投篮一个捡板儿，可以组一个训练合", "entity_list": []}
+{"text": "昨天晚上，和老公一起去大润发，老公停好车，就拿锁把别人家的车给锁了，人家在那里苦等半个小时，怎么会有这么二的老公啊", "entity_list": []}
+{"text": "没有错屌丝讲笑话人生十鉴：大喜易失言，大怒易失礼，大惊易失态，大哀易失颜", "entity_list": []}
+{"text": "快乐要懂得分享，才能加倍的快乐。", "entity_list": []}
+{"text": "追逐繁星的孩子太腐败了，以前有觉悟不怕死可以入党，现在是又钱有权才可以入。偏离了毛爷爷的思想路线鄙视", "entity_list": [{"entity_index": {"begin": 40, "end": 43}, "entity_type": "PER", "entity": "毛爷爷"}]}
+{"text": "全球流行风尚据说开车的人都有个共性：就是认为马路上除自己以外其他车司机都是傻。。", "entity_list": []}
+{"text": "有病弄完还要慢慢清洗一把刀不就都搞定了吗？懒人反被懒人误冷笑话精选厨房神器", "entity_list": []}
+{"text": "我的童年啊暴走漫画请不要和我提童年，塌了。", "entity_list": []}
+{"text": "梦三国我在玩类网游梦三国，不用练级，超爽，推荐体验一下", "entity_list": []}
+{"text": "警方薛蛮子涉嫖娼及聚众淫乱薛必群必群必群跟贴网易新闻客户端", "entity_list": [{"entity_index": {"begin": 2, "end": 5}, "entity_type": "PER", "entity": "薛蛮子"}]}
+{"text": "久病才知道谁爱你深醉才知道你爱谁。我没有久病，也没有深醉所以我不知道谁爱我，也不知道我爱谁。我在", "entity_list": []}
+{"text": "我叫赵新民哈哈哈哈哈哈哈哈哈哈", "entity_list": [{"entity_index": {"begin": 2, "end": 5}, "entity_type": "PER", "entity": "赵新民"}]}
+{"text": "电器城新品惠不错的活动哦。地址：", "entity_list": [{"entity_index": {"begin": 0, "end": 1}, "entity_type": "LOC", "entity": "电"}]}
+{"text": "哈哈哈哈哈。我们爱讲冷笑话睡觉", "entity_list": []}
+{"text": "新版微博客户端，好听，好看，更好玩自定义个人封面；音、视频直接播放；好友圈好友消息不错过；支持屏蔽广告微博；广场音乐、电影、美食等频道升级。快试试一键听歌：下载地址：", "entity_list": []}
+{"text": "谁还没被泄过密好多女明星的艳照就被泄密过，其实没什么大不了的，但真正让女性难过的不是艳照被翻出来，而是那些人拿着艳照污言秽语去辱骂她，比如舒淇。", "entity_list": [{"entity_index": {"begin": 69, "end": 71}, "entity_type": "PER", "entity": "舒淇"}]}
+{"text": "我參加了年度藝人大賞票選之，田喜碧，誰是你心目中年度最佳藝人呢？快投下你神聖的一票參加票選有機會獲包及入場劵與偶像同歡喔新浪女人新浪台灣娛樂投票網址：", "entity_list": [{"entity_index": {"begin": 14, "end": 17}, "entity_type": "PER", "entity": "田喜碧"}, {"entity_index": {"begin": 66, "end": 68}, "entity_type": "GPE", "entity": "台灣"}]}
+{"text": "今天急需冷气思密达曾若彤", "entity_list": [{"entity_index": {"begin": 9, "end": 12}, "entity_type": "PER", "entity": "曾若彤"}]}
+{"text": "奥特曼丶滑行要过立魂淡是怎样练成的女人真正想要的是什么", "entity_list": []}
+{"text": "强势围观不错谢谢啦强烈顶起来地址：", "entity_list": []}
+{"text": "从到，从到，参加工作的五年，见证了光伏的辉煌和落寞。行业的起起伏伏又牵动了多少人的喜怒哀乐。下一页，究竟在哪里？期待将来的某一天", "entity_list": []}
+{"text": "超级棒的活动爱猪的小小蝶衣我什么也不想知道东东的绿茶十三黄子地址：", "entity_list": []}
+{"text": "刚才退宿，比那个宿管阿姨气到我吐血。她说我是我们宿舍最后一个退宿，一定要搞好卫生才能办理手续。刚才听到这句话，我就跟她吵架，我说我都没有住过宿，干嘛要我搞卫生。为了这个问题，我跟她吵了几分钟。真是气到我哭了泪我在", "entity_list": [{"entity_index": {"begin": 24, "end": 26}, "entity_type": "GPE", "entity": "宿舍"}]}
+{"text": "爱你爱你❤❤������送礼������好选择", "entity_list": []}
+{"text": "唉马靖昊说会计厚林兄弟，真的对不起李厚林：我想我要看一个月的新闻联播才可以治好此博的影响了。", "entity_list": [{"entity_index": {"begin": 1, "end": 4}, "entity_type": "PER", "entity": "马靖昊"}, {"entity_index": {"begin": 7, "end": 9}, "entity_type": "PER", "entity": "厚林"}, {"entity_index": {"begin": 17, "end": 20}, "entity_type": "PER", "entity": "李厚林"}]}
+{"text": "有学的机会却不好好学习才真真地叫拿青春喂狗", "entity_list": []}
+{"text": "青春是一枚秋千，荡呀荡，就会梦到明天开全新威驰，圆我们的青春梦想运通丰田梦的秋千转起。来店试驾即得限量围脖一件。威驰为青春代言，一定会把梦想实现", "entity_list": [{"entity_index": {"begin": 56, "end": 58}, "entity_type": "PER", "entity": "威驰"}]}
+{"text": "浑身酸疼，两腿无力，眼神呆滞，怎么了", "entity_list": []}
+{"text": "利物浦当年可以在欧冠决赛上半场3球落后的不利局面下下半场7分钟内连进3球。为什么今天意大利不能呢？巴神，下半场给力点。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "GPE", "entity": "利物浦"}, {"entity_index": {"begin": 42, "end": 45}, "entity_type": "GPE", "entity": "意大利"}, {"entity_index": {"begin": 49, "end": 51}, "entity_type": "PER", "entity": "巴神"}]}
+{"text": "我参与了@-叶子silence的投票【2012评出10大美女之最】，我投给了“刘诗诗”，你也快来表态吧！http://t.cn/SXLy39", "entity_list": [{"entity_index": {"begin": 39, "end": 42}, "entity_type": "PER", "entity": "刘诗诗"}]}
+{"text": "//@wkd爱xbx:130，好给力的优惠价呀，亲！", "entity_list": []}
+{"text": "明显少了一丝俏皮的感觉阿都没有活力了[哈哈][哈哈][挖鼻屎][挖鼻屎][鄙视][鄙视]//@妹纸要么瘦要么攻:方小雷，叫你过来打麻将你不来，有没有觉得照片木有你都不俏皮了呀@雀阿小斑", "entity_list": [{"entity_index": {"begin": 56, "end": 59}, "entity_type": "PER", "entity": "方小雷"}]}
+{"text": "有一天你将破蛹而出，成长得比人们期待的还要美丽，但这个过程会很痛，会很辛苦，有时候还会觉得灰心。面对着汹涌而来的现实觉得自己渺小无力。但这，也是生命的一部分。做好现在你能做的，然后，一切都会好的。我们都将孤独地长大，不要害怕。——寂地《踮脚张望的时光》", "entity_list": []}
+{"text": "#当吴秀波遇上新K5#有奖转发地址：http://t.cn/8kq5WRZ", "entity_list": [{"entity_index": {"begin": 2, "end": 5}, "entity_type": "PER", "entity": "吴秀波"}]}
+{"text": "新浪微博客户端版全新发布你有多久没旅行了？回味旅途点滴，一起来分享旅行中的风景、美食与自拍，完成任务还有大奖哦快开启旅行模式，带着微博去旅行飞机下载地址：", "entity_list": [{"entity_index": {"begin": 0, "end": 7}, "entity_type": "ORG", "entity": "新浪微博客户端"}, {"entity_index": {"begin": 65, "end": 67}, "entity_type": "ORG", "entity": "微博"}]}
+{"text": "勇敢不怕摔的孩纸，还有肚子里的宝宝，祝你们节日快乐。[爱你]昨天去看哥哥溜冰，宝宝在妈妈肚子里非常鸡冻，爸爸说你以后一定也是个贪玩的孩纸", "entity_list": []}
+{"text": "【4个特殊时期，健康饮食要混搭】1.生理期——能量搭配：鸡肉菠菜、奶酪胡萝卜；2.繁忙的工作期——减压搭配：牛奶香蕉、豆腐玉米；健脑搭配：深海鱼白菜；3.排毒期——节欲搭配：巧克力绿茶；战痘搭配：杏仁脱脂酸奶；4.恋爱期——荷尔蒙搭配：芝麻鹅肉红酒。", "entity_list": []}
+{"text": "能说谢谢不心心丫头哒哒夏至不再来我在", "entity_list": [{"entity_index": {"begin": 7, "end": 9}, "entity_type": "PER", "entity": "丫头"}]}
+{"text": "//@精彩电影:你中枪了么，不想被淘汰的转起！", "entity_list": []}
+{"text": "出售高仿鞋aj，nike，n仔，adi，有意者評論http://t.cn/8FgVu6x", "entity_list": []}
+{"text": "//@杨壮:想象力//@王冉:如果我们不能打败时间，我们至少可以让它破碎。//@博洛尼蔡明:很应毕加索一句话：每一次创造都是始于破坏。", "entity_list": [{"entity_index": {"begin": 3, "end": 5}, "entity_type": "PER", "entity": "杨壮"}, {"entity_index": {"begin": 12, "end": 14}, "entity_type": "PER", "entity": "王冉"}, {"entity_index": {"begin": 43, "end": 45}, "entity_type": "PER", "entity": "蔡明"}, {"entity_index": {"begin": 48, "end": 51}, "entity_type": "PER", "entity": "毕加索"}]}
+{"text": "我就是蟹子！！//@微博经典语录：你身边有几个巨蟹座？[思考]", "entity_list": []}
+{"text": "俩个富二代。。。什么时候都饿的人陈雨奇葩的世界", "entity_list": [{"entity_index": {"begin": 16, "end": 18}, "entity_type": "PER", "entity": "陈雨"}]}
+{"text": "我投给了主题酒店这个选项。", "entity_list": []}
+{"text": "“算了吧”告诉自己，凡事努力但不可执着；“不要紧”告诉自己，凡事努力了就无怨悔，我会继续支持你们！~!!地址：http://t.cn/8kNf4qV", "entity_list": []}
+{"text": "你最美好心萌萌奕伶感谢我的尼日葵心心一生推感谢你重新出发心喵因为你是心感谢你是太阳困尼尼一年前的今天感谢你的回来感谢你是心", "entity_list": [{"entity_index": {"begin": 42, "end": 44}, "entity_type": "PER", "entity": "尼尼"}]}
+{"text": "不怕神一样的对手，就怕猪一样的队友，说你是猪都侮辱了这个动物！！！！怎么就能差劲到这种程度呢！！！！", "entity_list": []}
+{"text": "十一国庆节到了，北京肯定很拥挤，哪里好玩呢？说说看", "entity_list": [{"entity_index": {"begin": 8, "end": 10}, "entity_type": "GPE", "entity": "北京"}]}
+{"text": "偶遇小沙漠，昨天世界模特比赛，没眼福了！", "entity_list": []}
+{"text": "这样真的也还挺好的，也许大家都轻松了。期望我们都能幸福吧〜[微风]", "entity_list": []}
+{"text": "#1212，不一样的淘#我刚刚在淘宝发布了实拍高端皮草外套秋冬新款2012皮草编织濑兔毛撞色拼色短款外套快来看看吧！我们超级喜欢@淘宝网http://t.cn/zjMqKBD", "entity_list": [{"entity_index": {"begin": 16, "end": 18}, "entity_type": "ORG", "entity": "淘宝"}, {"entity_index": {"begin": 65, "end": 68}, "entity_type": "ORG", "entity": "淘宝网"}]}
+{"text": "折腾一天了。。。好不容易安安静静待会了。。。。", "entity_list": []}
+{"text": "各种各样的事情，烦死了", "entity_list": []}
+{"text": "牵的那么紧？挖鼻屎挖鼻屎挖鼻屎你怎么看？", "entity_list": []}
+{"text": "亮点应该是您的嘴型[熊猫]@小清新的大蒜", "entity_list": [{"entity_index": {"begin": 14, "end": 20}, "entity_type": "PER", "entity": "小清新的大蒜"}]}
+{"text": "日本一个很牛的心理学家制作的心理测试，帮你了解自己的真面目。我是狗，猫，马，你呢？", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "GPE", "entity": "日本"}]}
+{"text": "☀☀☀☀☀☀☀☀☀☀☀����������������", "entity_list": []}
+{"text": "为什么讲笑话要配个女的。我是来看笑话的美女不是重点。'''", "entity_list": []}
+{"text": "酷酷傲娇的喵小咪支持下，帮的转发啤酒酱核桃小姐讷讷大龄非文艺女青年之邵小敏金牛寵愛摩羯我不是杨天宁难道你是", "entity_list": [{"entity_index": {"begin": 34, "end": 37}, "entity_type": "PER", "entity": "邵小敏"}, {"entity_index": {"begin": 46, "end": 49}, "entity_type": "PER", "entity": "杨天宁"}]}
+{"text": "我的朋友们你们快点老去吧，我想看看你们的孩子", "entity_list": []}
+{"text": "扔掉个坏男人应该高兴才对@alaya-D//@wallace是傻俊俊:今天被我说中要害了吧，如今的我们，很多事情都不能和父母去说，因为我们有朋友，大部分事情我们会告诉朋友，因为父母的想法只是个大方向，走什么路是我们自己走出来的，其实今天听到你说的，我蛮惊讶", "entity_list": []}
+{"text": "两天的培训会终于结束了[浮云]淡淡的压力来了唉～@AF丶L@Chicken_翼@張煒魚难得一齐同公司努力啊兄弟们下个月一定要回去开会啊倾几家伊卡璐回来[钱]要不就回罗定卖奶茶我在:http://t.cn/zHDHmHb", "entity_list": []}
+{"text": "星期四是一个逛街的好日子。据说每个星期四比斯特部分商家上新货或补货。伯明翰小胖车服发起另一轮开学前比斯特购物一日游购物时间8小时呦！16镑一人赠送VIP9折卡！购票地点：唐人街老日进行（汉丽宝旁，Bigwok对面）购票热线0759515251307917434486", "entity_list": [{"entity_index": {"begin": 20, "end": 23}, "entity_type": "ORG", "entity": "比斯特"}, {"entity_index": {"begin": 34, "end": 41}, "entity_type": "ORG", "entity": "伯明翰小胖车服"}, {"entity_index": {"begin": 49, "end": 52}, "entity_type": "ORG", "entity": "比斯特"}, {"entity_index": {"begin": 85, "end": 88}, "entity_type": "LOC", "entity": "唐人街"}, {"entity_index": {"begin": 93, "end": 96}, "entity_type": "ORG", "entity": "汉丽宝"}, {"entity_index": {"begin": 101, "end": 104}, "entity_type": "ORG", "entity": "wok"}]}
+{"text": "qah7xo楚e蟹L伍掩煽俺眯w鄂S篷古篙亩翻足阉z#我运动我美丽##女人节，我想对你说！##天天签到领集分宝##美肤宝遇见美##关注广禾堂月子餐官方微博，玩游戏@3位准妈咪好友，赢免费游台湾##春天来了淘宝女装海量新品，你最爱什么风格？#[睡觉]", "entity_list": [{"entity_index": {"begin": 94, "end": 96}, "entity_type": "GPE", "entity": "台湾"}]}
+{"text": "刚淘到个宝贝，很赞哦！分享给大家了！http://t.cn/zQmZRQJ", "entity_list": []}
+{"text": "太阳好毒。这温度高的真是叫人怎么办好。哼", "entity_list": []}
+{"text": "@望康动物医院连锁机构留置针这个培训，应用到工作中，很实用，希望大家可以把好的方式方法互相转告，这样大家就可以学到更多知识", "entity_list": [{"entity_index": {"begin": 1, "end": 7}, "entity_type": "ORG", "entity": "望康动物医院"}]}
+{"text": "刚才参加了@美团今天的抽奖－美梦成真：最新三星NexusPrime手机10台免费送。大家也去碰碰运气吧，万一中了捏？谁中谁请客哈！http://t.cn/ShiQHc", "entity_list": []}
+{"text": "离别和重逢，早不是我们难舍的话题。褥子上，繁花已开，开到茶蘼，到底来生还有我们的花季。今夜，星垂床畔，你就伴我漂过这最后一段水程，了却尘缘牵紧。", "entity_list": []}
+{"text": "发表了博文《飞翔马户外冲锋衣怎么样》-飞翔马户外儿童冲锋衣、抓绒服、冲锋裤、登山包、徒步鞋怎么样，质量好不好？不错，女儿穿上去比图片上的小模特漂亮多了。建议更换小模特图片，真的很不神气呢。我身http://t.cn/zjKM8nb", "entity_list": []}
+{"text": "我刚更新了#微博客户端冬季版#，1.信息流新增地点卡片；2.新增悄悄关注分组；3.增加发给我的定向微博分组；4.全新广场：支持综合搜索，增加应用管理；5.会员支持微博置顶哦！6.支持Android4.2系统下载地址：http://t.cn/zjJh0q9", "entity_list": [{"entity_index": {"begin": 6, "end": 11}, "entity_type": "ORG", "entity": "微博客户端"}]}
+{"text": "#美丽说福利社#试试有木有效果期待~~~~@戴戴_黛@英子-殷@5-叶小丢@美丽说活动链接>>>http://t.cn/zTKMp5A", "entity_list": [{"entity_index": {"begin": 1, "end": 7}, "entity_type": "ORG", "entity": "美丽说福利社"}, {"entity_index": {"begin": 27, "end": 29}, "entity_type": "PER", "entity": "英子"}, {"entity_index": {"begin": 34, "end": 37}, "entity_type": "PER", "entity": "叶小丢"}]}
+{"text": "今晚有什麼節目。剛剛好奇童鞋打電話我，說他自己一個人好冷清。", "entity_list": []}
+{"text": "我參加了#milkAwards2013#年度藝人大賞票選之#最吸睛封面人物#，@彭于晏，誰是你心目中年度最佳藝人呢？快投下你神聖的一票！參加票選有機會獲POTER包及MILKParty入場劵與偶像同歡喔!@新浪女人eLadies@新浪台灣娛樂投票網址：http://t.cn/zHuPjwh", "entity_list": [{"entity_index": {"begin": 40, "end": 43}, "entity_type": "PER", "entity": "彭于晏"}, {"entity_index": {"begin": 103, "end": 107}, "entity_type": "ORG", "entity": "新浪女人"}, {"entity_index": {"begin": 115, "end": 121}, "entity_type": "ORG", "entity": "新浪台灣娛樂"}]}
+{"text": "能为两位服务我很开心。虽然新娘子还没找到镜头呢。@南宁巴黎婚纱[偷笑]", "entity_list": [{"entity_index": {"begin": 25, "end": 31}, "entity_type": "PER", "entity": "南宁巴黎婚纱"}]}
+{"text": "#钟汉良1130生日快乐#快快乐乐，生日快乐.[蛋糕][蛋糕][蛋糕][蛋糕][心]详情:http://t.cn/zRXItNr", "entity_list": [{"entity_index": {"begin": 1, "end": 4}, "entity_type": "PER", "entity": "钟汉良"}]}
+{"text": "风暴战区终极封测激活码，甜橙派火热发放中，随心一转就有机会获得哦活动链接", "entity_list": []}
+{"text": "别看我小，，这事做起来一点也不比较大[ok]人逊。。", "entity_list": []}
+{"text": "简直是畜生不如。[怒]//@微相册:畜生[怒]", "entity_list": []}
+{"text": "女人最美的时候之一：拿着手机看信息不知不觉笑了的时候", "entity_list": []}
+{"text": "希望我不用过下个光棍节", "entity_list": []}
+{"text": "姐姐的二逼头箍配上我的新刘海。。。明儿做伴娘去啦我在:http://t.cn/z80iaEB", "entity_list": []}
+{"text": "世界上，真的会有那么一个人默默关注着你，疼爱着你，却永远不再靠近你。", "entity_list": []}
+{"text": "謝謝瀋陽皇朝萬鑫酒店的感動，[哈哈]昨晚喝開心了再見，啟程去北京！", "entity_list": [{"entity_index": {"begin": 2, "end": 10}, "entity_type": "ORG", "entity": "瀋陽皇朝萬鑫酒店"}, {"entity_index": {"begin": 30, "end": 32}, "entity_type": "GPE", "entity": "北京"}]}
+{"text": "@Mc小小豪你知道这事吗？？", "entity_list": []}
+{"text": "心心心泰迪正感动着，前线一嗓子吼起宋茜你是我的瞬间笑喷哈哈泰迪宋茜姐姐的声音好甜泪泪宋茜、宋茜、宋茜、宋茜、宋茜。心", "entity_list": [{"entity_index": {"begin": 3, "end": 5}, "entity_type": "PER", "entity": "泰迪"}, {"entity_index": {"begin": 17, "end": 19}, "entity_type": "PER", "entity": "宋茜"}, {"entity_index": {"begin": 31, "end": 35}, "entity_type": "PER", "entity": "宋茜姐姐"}, {"entity_index": {"begin": 42, "end": 44}, "entity_type": "PER", "entity": "宋茜"}, {"entity_index": {"begin": 45, "end": 47}, "entity_type": "PER", "entity": "宋茜"}, {"entity_index": {"begin": 48, "end": 50}, "entity_type": "PER", "entity": "宋茜"}, {"entity_index": {"begin": 51, "end": 53}, "entity_type": "PER", "entity": "宋茜"}, {"entity_index": {"begin": 54, "end": 56}, "entity_type": "PER", "entity": "宋茜"}]}
+{"text": "我在为我当初的诺言而努力。可现在的你却不在我身边。。。即使这样。我还是会努力做到我当初的诺言。为的只是完成我对你说过的所有诺言。因为我不想对你食言。", "entity_list": []}
+{"text": "一直没看字幕，盯着游戏。全程听的最多的就是fuckyou，这主持人长的很喜感，说话也很喜感。笑的胃痛了。。。", "entity_list": []}
+{"text": "和男友看电视，剧中女主角身患白血病，男主角不离不弃。我矫情地问：“我要得白血病了，你会离开我么？”男友坚决地说：“不会。”“为什么啊？”“反正活不了几天了。”[吃惊][猪头]", "entity_list": []}
+{"text": "我这家伙的答案是你。。。", "entity_list": []}
+{"text": "读过《我不要你死于一事无成》★★★★“带着信念与真爱奋斗在战火纷飞的年代。”http://t.cn/zO8Sgsj", "entity_list": []}
+{"text": "【育儿：春季水痘初发阶段的症状】出疹前可症状轻微，发热可高可低，全身不适可轻可重、食欲减退、咽疼，咳嗽等类似感冒。只需对症处理。1-2天后进入出疹期，皮疹分批出现，轻重不一。若孩子有明确的水痘患儿接触史，3周内出现上述表现，应警惕水痘可能。", "entity_list": []}
+{"text": "爱也是奇怪的，明明很介意的事，也可以原谅，爱本是一门学问，在生活里学习如何爱，是一辈子的功课，是一种修行。", "entity_list": []}
+{"text": "那么久还那么胖啊我朋友都瘦了23斤左右用了左旋肉碱http://t.cn/h18UPM服用一个星期好像有点反应，一共减了5斤，我服用完减了有10斤吧，这个减肥还买二赠一呢，满意了。美丽魔法教室礼物节食瘦身身材苗条春装女装裤衩央视浓烟大火火势风水消防车大楼黑烟扎菲", "entity_list": []}
+{"text": "让红包飞新年的钟声回荡在流光溢彩之中，我要送上一个大红包，愿你在新的一年大吉大利好运已经盯上你了，你看到了吗？在本条微博下留言的粉丝，你们都能收到新浪微博发出的大红包哦", "entity_list": []}
+{"text": "竟然想到鸳鸯火锅了。。。//@伤不起的经济学:真正的鸳鸯浴！激动了吧？~~[阴险]", "entity_list": []}
+{"text": "新浪微博客户端版全新发布你有多久没旅行了？回味旅途点滴，一起来分享旅行中的风景、美食与自拍，完成任务还有大奖哦快开启旅行模式，带着微博去旅行飞机下载地址：", "entity_list": [{"entity_index": {"begin": 0, "end": 7}, "entity_type": "ORG", "entity": "新浪微博客户端"}]}
+{"text": "人生最重要的并不是努力，而是方向。压力不是有人比你努力，而是比你牛叉几倍的人依然比你努力。即使看不到未来，即使看不到希望，也依然相信：自己错不了，自己选的人错不了，自己选的人生错不了。每天早上，叫醒你的不只是闹钟，还有梦想。", "entity_list": []}
+{"text": "啊哈，终于组合成满意的阵容啦！你在@逆转三国里面的阵容是怎么样的？", "entity_list": []}
+{"text": "荷兰的天啊，这样的天气正适合出去旅游，哈哈，去吃海鲜喽[馋嘴]", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "GPE", "entity": "荷兰"}]}
+{"text": "连续3天不间断的签到，获得切客网【拼命三郎】游票。http://t.cn/zWoAh76", "entity_list": []}
+{"text": "[福到啦]3-366点亮图标各位亲，我刚刚点亮了3366包乐乐图标，好萌好可爱啊。只要1点成长值就可_以点亮这么好看的图标，大家都_来试试看！", "entity_list": []}
+{"text": "啊啊啊啊啊！@碧落食人来@晏小花正太太萌啊！//@墨家道具组Hana花娘:啊啊啊啊！@大兔吱爱小小兔QWQ阿姨这里有糖葫芦酷爱过来窝这里QvQ！", "entity_list": [{"entity_index": {"begin": 7, "end": 12}, "entity_type": "PER", "entity": "碧落食人来"}, {"entity_index": {"begin": 13, "end": 16}, "entity_type": "PER", "entity": "晏小花"}, {"entity_index": {"begin": 25, "end": 36}, "entity_type": "PER", "entity": "墨家道具组Hana花娘"}, {"entity_index": {"begin": 43, "end": 50}, "entity_type": "PER", "entity": "大兔吱爱小小兔"}]}
+{"text": "微博桌面更新至啦推荐清爽微博阅读，精彩尽在此处尝鲜首发歌曲，分享缤纷音乐海量视频盛宴，流畅观影体验大版阅读，海量视频，快来更新你的微博桌面吧江南", "entity_list": []}
+{"text": "这个重医一天人还可以再多点，每次来产检都快把我挤成扁扁，老子以后也要让我宝宝当医生...太TM老火了❗", "entity_list": [{"entity_index": {"begin": 2, "end": 4}, "entity_type": "ORG", "entity": "重医"}]}
+{"text": "支持同同刘同，我发现我就缺少这样的精神泪泪", "entity_list": [{"entity_index": {"begin": 4, "end": 6}, "entity_type": "PER", "entity": "刘同"}]}
+{"text": "不喝白的，身不由己呀", "entity_list": []}
+{"text": "一神人的签名：我的女神很完美，她很喜欢笑，虽然有点贪睡，但是她超级爱干净，还经常夸我是个好人！这条估计很少人懂。。。我也是看了高手指点才知道的。。。原来女神经常QQ回复:\"呵呵\"，\"我要睡觉了\"，\"我去洗澡了\"，\"你人真的很好，只是我们不合适！\"", "entity_list": []}
+{"text": "开心熊大和熊二，，，，哈哈夏至不再来", "entity_list": []}
+{"text": "突然看了以前中学贴吧，看了些帖子，好怀念啊啊晚安明天睡醒的时候能回到上中学的某个早晨，走进班级发现自己喜欢的女生还在。", "entity_list": []}
+{"text": "不要让别人等你。在任何情况下都不要让别人放下手头的工作来等你。在大学中可能只是同寝室的人的几句半开玩笑的抱怨，在工作上很可能导致你的潜在合作伙伴的丢失。", "entity_list": []}
+{"text": "我刚更新了微博HD3.1.1版，全新表情表达你的喜怒哀乐，集成天气插件创造美好生活！还等什么？快来下载体验吧：http://t.cn/zWy447r", "entity_list": [{"entity_index": {"begin": 5, "end": 7}, "entity_type": "ORG", "entity": "微博"}]}
+{"text": "不知不觉看了半个多小时我承认我哭了突然想去爱了。为什么这么省？怕你娶不起我阿且行，且珍惜", "entity_list": []}
+{"text": "//@奥林巴斯公益:#奥林巴斯爱胃月#【现场小花絮】爱胃大乐园，宝贝总动员！看，活动现场的宝贝们玩得多开心，爸爸妈妈也跟着一起学了不少养护肠胃的知识呢！家有宝贝的奥粉们，不如带上你家的小宝贝来“奥林巴斯爱胃月骑行大使点亮行动”活动现场吧！", "entity_list": [{"entity_index": {"begin": 3, "end": 9}, "entity_type": "ORG", "entity": "奥林巴斯公益"}]}
+{"text": "//@大爱阿门门门:一直是我的追求。", "entity_list": [{"entity_index": {"begin": 3, "end": 9}, "entity_type": "PER", "entity": "大爱阿门门门"}]}
+{"text": "一张非常内涵的图，男用牛仔裤和女用牛仔裤，你看出区别了么？", "entity_list": []}
+{"text": "最后一次[伤心]//@梁嘉炤:这是一个不错的选择我决定明天咩书包上学//@Vitantklho-:踢完球打水战//@高手只是我虚名:求你们带多套衣服，明天打水战。", "entity_list": [{"entity_index": {"begin": 11, "end": 14}, "entity_type": "PER", "entity": "梁嘉炤"}, {"entity_index": {"begin": 58, "end": 60}, "entity_type": "PER", "entity": "高手"}]}
+{"text": "【新技能get√】记者采访路人情侣，出一些考验彼此默契的题目，问上一次接吻是什么时间，女生明显是害羞紧张了，歪着头还在想日期，男生揉揉她的头，低着头就吻了下去，然后把发懵的女友搂在怀里，对着镜头说：“刚才！”", "entity_list": []}
+{"text": "做个如水女子，静时波澜不惊，风来涟漪如折；做个静默女子，如丁香无语绽放，只给那些懂你的人；做个善良女子，心无怨恨者美丽，心存宽恕者圣洁；做个坚韧女子，你不是某人的附庸和点缀，更不是某个空间里装饰的花瓶；做个奋斗女子，走在路上的女人最迷人有追求目标的女人最动人。", "entity_list": []}
+{"text": "小丁线上文玩店开业酬宾奖品拿不停RP爆发吧~期待好运，希望你能看到我在努力转发地址：http://t.cn/8sYJ8qW", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "ORG", "entity": "小丁"}]}
+{"text": "【肉类食用不当会致癌】1、烹煮过度的肉容易致癌：在200℃～300℃的温度下，肉类食物会发生化学反应，形成芳族胺基。2、烤焦的肉也容易致癌：高温猛火烹制出的焦烤肉含有致癌物质，使经常食用的人患胰腺癌几率增加60%。3、腌制的咸肉油炸容易致癌：含有较多的亚硝基化合物。", "entity_list": []}
+{"text": "祸兮，福之所倚！心态好，一切就顺利了！——关于工资条的故事", "entity_list": []}
+{"text": "依然行走，只是与时间反了方向。Stillwalks，wasonlyandthetimecounter-direction.", "entity_list": []}
+{"text": "蓝氧靶向血液祛白还白癜风患者健康本色【转发有奖】支持你们举行好活动转走了！！~!~!地址：http://t.cn/8srtB8m", "entity_list": []}
+{"text": "我刚在阿里巴巴发布了一款新产品：放射性工作人员剂量监测笔、辐射警示标志、射线防护服你觉得怎么样？来看看吧http://sinaurl.cn/ht3ANl", "entity_list": [{"entity_index": {"begin": 3, "end": 7}, "entity_type": "ORG", "entity": "阿里巴巴"}]}
+{"text": "今天新入手的耳机我和我的小伙伴们都觉得好棒哟ω", "entity_list": []}
+{"text": "//@甜蜜情侣吧:非常值得收藏~~[给力]强烈推荐关注@学点社交礼仪", "entity_list": []}
+{"text": "站在爱情门外，我们以为爱情就是一切，可以冲破任何艰难险阻，能够让生活洒满七彩阳光。只有走进爱情，我们才知道自己错了：爱情有时弱不禁风，抵御不了微不足道的考验；也有险滩沼泽，需要小心地提防；也有阴晴圆缺，喜恕悲欢交替上演。如天空一样，爱情里时时有白云飘过，偶尔也会阴云袭来.", "entity_list": []}
+{"text": "//@峥峥妈咪_娃娃-Yuki:转发微博", "entity_list": []}
+{"text": "光大银行新浪微博小编开讲之2014年我最想知道的理财、金融常识不错的活动，支持！为自己添个希望！持续支持关注，好运降临吧！地址：http://t.cn/8Fn39IQ", "entity_list": [{"entity_index": {"begin": 4, "end": 8}, "entity_type": "ORG", "entity": "新浪微博"}]}
+{"text": "享受着我们普通人没能享受的福利，难道这样还不够吗，我们普通老白姓连维护生命的权利都要被剥夺吗。这未免也太残忍了点吧。。", "entity_list": []}
+{"text": "//@大象院长：转发微博。", "entity_list": [{"entity_index": {"begin": 3, "end": 7}, "entity_type": "PER", "entity": "大象院长"}]}
+{"text": "//@陳冠希Uncle:哈哈哈哈//@含国第一帅逼:哈哈哈哈//@前任是个神经病:哈哈哈哈哈//@酒足饭饱勾二嫂:哈哈哈//@奇葩小师妹:哈哈哈哈哈", "entity_list": [{"entity_index": {"begin": 3, "end": 6}, "entity_type": "PER", "entity": "陳冠希"}, {"entity_index": {"begin": 19, "end": 25}, "entity_type": "PER", "entity": "含国第一帅逼"}, {"entity_index": {"begin": 33, "end": 40}, "entity_type": "PER", "entity": "前任是个神经病"}, {"entity_index": {"begin": 49, "end": 56}, "entity_type": "PER", "entity": "酒足饭饱勾二嫂"}, {"entity_index": {"begin": 63, "end": 68}, "entity_type": "PER", "entity": "奇葩小师妹"}]}
+{"text": "脸部的小秘密：1、眉毛里面有痣的人聪明。2、眉毛浓的人重情，眉毛淡的人寡情。3、眼睛大的女孩爱花钱。4、睫毛长的女孩子脾气不好。5、胳膊上有鸡皮的女子，有福气。6、眼睛周围有受过伤的印子，听到的说法是这种人命太好，老天爷都嫉妒了，所以要留个印子。", "entity_list": []}
+{"text": "怀孕九周了身上没劲，领导还让我出去办那烦的棘手事，酷暑，太没人性了！我在:http://t.cn/zQnHBKD", "entity_list": []}
+{"text": "当你遇到真正爱的人时：要努力争取和他相伴一生的机会，因为当他离去时，一切都来不及了。------当你遇到可相信的朋友时：要好好和他相处下去，因为在人的一生中，可遇到知己真的不易。------当你遇到曾经爱过的人时：记得微笑向他感激，因为他是让你更懂爱的人。", "entity_list": []}
+{"text": "#高德地图让红包飞##高德地图每日发现#普天同庆东南西北闹新年http://t.cn/8FxHEBW", "entity_list": []}
+{"text": "#跨年送大礼#新的一年承载新希望，祝福朋友们和我执著于最初的梦想，满怀生命的激情，奋斗出自己的天空，去实现每一个小愿望，去铭记每一次纯真的感动。也希望亲人健康平安，新年快乐", "entity_list": []}
+{"text": "拥抱有很多：情侣间的拥抱，是幸福甜蜜的；夫妻间的拥抱，是宽容理解的；朋友间的拥抱，是贴心信任的；吵架后的拥抱，代表妥协与原谅；相逢后的拥抱，代表思念与激动；离别前的拥抱，代表不舍与期待。拥抱，是无声的语言，拥抱的时候，彼此是被需要的，被别人需要是时候，是一个人最有价值的时候。", "entity_list": []}
+{"text": "【优雅小资式生活就应该是这个样子】每天拍几张照片；看快乐的电影；在周末的清晨做白日梦；给朋友寄卡片；在水边散步；偶尔吃一顿大餐；每星期坚持做一次锻炼；一边开车，一边大声歌唱；一边喝咖啡，一边读小说；一边打电话，一边信手涂鸦；一边洗澡，一边唱歌。", "entity_list": []}
+{"text": "好耶哈哈哈哈哈哈哈哈", "entity_list": []}
+{"text": "折腾一天了。。。好不容易安安静静待会了。。。。", "entity_list": []}
+{"text": "#走进警营平安共行#没有失败只有暂时没有成功。地址：http://t.cn/8sDI0XI", "entity_list": []}
+{"text": "【iPhone5s】英雄大赛有机会赢iPhone5s及空气净化器共24个奖品活动不错，值得参与，大家一起来地址：http://t.cn/8seFR37", "entity_list": []}
+{"text": "什么时候开奖呢？好期待啊~~n地址：http://t.cn/8sodtPn", "entity_list": []}
+{"text": "#免费赢取京东卡#[bofu啃西瓜]转一转，相信会有好运被我转出来的！！！地址：http://t.cn/RvzWVg0", "entity_list": [{"entity_index": {"begin": 5, "end": 7}, "entity_type": "ORG", "entity": "京东"}]}
+{"text": "他们相亲认识。结婚后他依然玩，她也不管。有天他跟哥们去夜店泡妞，男男女女一堆，被和同事去玩的她撞见。他哥们都变了脸色，怕她发飙。谁知她只是笑嘻嘻拍拍他肩膀：长头发那妞不错，但悠着点啊，咱还准备要娃呢。说完刚要走被他一把拉住：好不容易挑你们来的地方让你撞见，你就不能吃个醋吗！", "entity_list": []}
+{"text": "有学的机会却不好好学习才真真地叫拿青春喂狗", "entity_list": []}
+{"text": "#点链接收藏暖春商城抢红米#[bofu啃西瓜]把欢笑评论到你的微博，愿你每一天都淀放笑脸。。地址：http://t.cn/8sBLhOc", "entity_list": []}
+{"text": "我刚更新了微博客户端冬季版信息流全面支持赞；新增精彩密友功能，支持发布密友微博、查看密友圈、添加密友；优化发布器，支持显示当前帐号昵称；支持手势返回前页。下载地址：", "entity_list": [{"entity_index": {"begin": 5, "end": 7}, "entity_type": "ORG", "entity": "微博"}]}
+{"text": "//@任志强:故意？//@段钢:1、毒剂是从哪里买的？以什么理由买的？2、以往的毒狗都卖到那些餐馆了？3、明显是过失杀人罪，不知为何没提？仅以过失危害公共安全论罪，漏罪未判？//@北京厨子:杀人者才蹲2年半的监狱。//@猫胖鼠胖:至少应该按过失杀人论处。//@陈士渠:个人认为量刑太轻。", "entity_list": [{"entity_index": {"begin": 3, "end": 6}, "entity_type": "PER", "entity": "任志强"}, {"entity_index": {"begin": 13, "end": 15}, "entity_type": "PER", "entity": "段钢"}, {"entity_index": {"begin": 90, "end": 94}, "entity_type": "GPE", "entity": "北京厨子"}, {"entity_index": {"begin": 130, "end": 133}, "entity_type": "PER", "entity": "陈士渠"}]}
+{"text": ":如今的你，是否还记得，在阳光下灿烂笑的的你；如今的你，是否还记得，初夏头戴栀子花的你；如今的你，是否还记得课堂上偷看小说的你；如今的你，是否还记得，那个青涩年华的美好记忆；如今的的你，是否还记得，那个曾经暗恋了你很久的他。----人生总有些记忆那么温暖！", "entity_list": []}
+{"text": "#马年邮奖周周赢#马年邮奖周周赢地址：http://t.cn/8sFjKs3", "entity_list": []}
+{"text": "我叫赵新民一日一囧可好玩了哈哈哈哈", "entity_list": [{"entity_index": {"begin": 2, "end": 5}, "entity_type": "PER", "entity": "赵新民"}]}
+{"text": "哎呀评错人了//@时光冲散记忆的脉博:小屁孩[晕]", "entity_list": [{"entity_index": {"begin": 9, "end": 18}, "entity_type": "PER", "entity": "时光冲散记忆的脉博"}]}
+{"text": "翻到昔日的统计学作业，老师改个作业这么纠结么～", "entity_list": []}
+{"text": "【女人10个致命伤】1、不懂爱自己，在意别人怎么看；2、迷信爱情，超过了活着本身；3、太怕过早衰老；4、喜欢自怜；5、论人是非传播绯闻；6、缺乏风情，吝啬幽默；7、攀比虚荣；8、过分敏感，心眼如筛；9、遇到伤害难以自拔，抗打击能力弱；10、易自责，分明在慢性自杀。请对照自查一下。", "entity_list": []}
+{"text": "据美国弗吉尼亚大学生物研究所博士最新发现，恋爱中的男人会比平时增高4.72厘米，女人则会胸围暴涨3.95寸。。。所以，恋爱吧~在这个春天里！", "entity_list": [{"entity_index": {"begin": 3, "end": 14}, "entity_type": "ORG", "entity": "弗吉尼亚大学生物研究所"}]}
+{"text": "#援助一个孩子幸福一个家庭#好口碑好服务好态度。老百姓信赖，身边最美的关怀，最美的祝福送给你们。[给力]地址：http://t.cn/8sDmWdD", "entity_list": []}
+{"text": "据说，用评论抽红包中奖概率高于点赞！我试试~", "entity_list": []}
+{"text": "【转发赢拍立得】静佳4.23周年店庆，千万豪礼等你拿！强势围观不错，谢谢啦，强烈顶起来地址：http://t.cn/8sjTEGm", "entity_list": []}
+{"text": "我想，我想，我想，我想，我想，我想，我想，我想，我想，我想，我想", "entity_list": []}
+{"text": "参与就有机会，努力就有希望，支持带给您，幸运带给我!祝小编鸿运高照，天天开心地址：http://t.cn/RvHTNdh", "entity_list": []}
+{"text": "#聚美520晒单#我这心一软，脑一热就抢上了进入囤货状态我想说，我还有2个整套一样的没用完呀@聚美优品有聚美，天天美接下来好几年都要长发飘飘并美着。哈哈", "entity_list": [{"entity_index": {"begin": 47, "end": 51}, "entity_type": "ORG", "entity": "聚美优品"}]}
+{"text": "还没玩过魔兽战争？你已经OUT了！恋爱是青春在炒作升到了5级.你们危险了!与您的好友一起战斗吧http://t.cn/zOzBkbD", "entity_list": []}
+{"text": "夏季室内隐形杀手，微博转发赢取3590元空气净化器地址：http://t.cn/RvnCLay", "entity_list": []}
+{"text": "#带着微博去阆中#魅力阆中，一定会有机会再去的！", "entity_list": []}
+{"text": "首先你得要有对象，有得生，其次是儿子，然后有干净的海滩[挖鼻屎]", "entity_list": []}
+{"text": "没有安全感的狮子：1.爱上网，喜欢隐身；2.怕黑，却习惯晚睡；3.习惯了怀疑，却总是把人往好处想；4.很念旧，喜欢简单的生活；5.经常发呆，莫名孤单；6.会突然不知所措；7.喜欢呆在角落或靠近窗户；8.喜欢听音乐、阅读；9.不爱说话或很爱说话；10.隐藏心事，常常一个人流泪。", "entity_list": []}
+{"text": "Whocanenlightenme，onhowstrongweneedtobe，todwellonthismemory?谁能告诉我，要有多坚强，才敢念念不忘。", "entity_list": []}
+{"text": "[花]有些伤痕，划在手上，愈合后就成了往事。有些伤痕，划在心上，哪怕划得很轻，也会留驻于心。有些人，近在咫尺，却是一生无缘。生命中，似乎总有一种承受不住的痛。有些遗憾，注定了要背负一辈子。生命中，总有一些精美的情感瓷器在我们身边跌碎，然而那裂痕却留在了岁暮回首时的刹那。", "entity_list": []}
+{"text": "#豪礼庆御香君旗舰店新张#御香君茶膏贺新春iPadmini2大赠送地址：http://t.cn/8kBm8O2", "entity_list": [{"entity_index": {"begin": 4, "end": 10}, "entity_type": "ORG", "entity": "御香君旗舰店"}]}
+{"text": "发表了一篇转载博文《[转载]阿明哥光影第六季：《河南云台山》》-http://t.cn/zTSkoyj", "entity_list": [{"entity_index": {"begin": 14, "end": 17}, "entity_type": "PER", "entity": "阿明哥"}, {"entity_index": {"begin": 26, "end": 29}, "entity_type": "LOC", "entity": "云台山"}]}
+{"text": "鲜花心心心解解累了吗？？", "entity_list": []}
+{"text": "发表了博文《2014全球竞争力报告:瑞士再居首位+中国升至28位》9月3日，总部位于日内瓦的世界经济论坛发布了《2014－2015年全球竞争力报告》，瑞士连续六年位居榜首，成为全球最具竞争力的国家，新http://t.cn/RhUNBxA", "entity_list": [{"entity_index": {"begin": 18, "end": 20}, "entity_type": "GPE", "entity": "瑞士"}, {"entity_index": {"begin": 25, "end": 27}, "entity_type": "GPE", "entity": "中国"}, {"entity_index": {"begin": 42, "end": 45}, "entity_type": "GPE", "entity": "日内瓦"}, {"entity_index": {"begin": 46, "end": 48}, "entity_type": "ORG", "entity": "世界"}, {"entity_index": {"begin": 75, "end": 77}, "entity_type": "GPE", "entity": "瑞士"}]}
+{"text": "赢得比赛才是最重要的，嘿嘿，肯定不会老实吧", "entity_list": []}
+{"text": "我去这是闹的哪出。。。", "entity_list": []}
+{"text": "��这个天气吃藏书羊肉的美味。赞", "entity_list": []}
+{"text": "手，放开了才明白拥有时的珍贵；泪，落下了才知道心真的会很痛；心，碎了才了解爱情带来的苦涩；爱，走了才清楚被爱抛弃的痛楚；在一段刻骨铭心的爱情中，我们曾开心过、快乐过、幻想过、幸福过。然而最终爱情还是由甜蜜变为伤疤，由亲密变为冷漠，由两个人的牵手变为无所谓的擦肩而过。", "entity_list": []}
+{"text": "讨厌一座陌生的城，转而爱上这座陌生的城，是因为城中住着某个喜欢的人。", "entity_list": []}
+{"text": "25公斤的女人已经out了！！俄罗斯美女已经瘦到了20公斤，女人伤不起啊！！「新浪上海」", "entity_list": [{"entity_index": {"begin": 15, "end": 18}, "entity_type": "GPE", "entity": "俄罗斯"}]}
+{"text": "神木游园半天结束[哈哈][哈哈]titing鈺Lost_Yellow荡失路的panda幸福的vicky_qiu。游乐园好好玩哟[亲亲]", "entity_list": []}
+{"text": "有一种等待，是会心碎的。恋人总是能够看穿谎言，假装没看出來，只是因为还爱他，还是对他存有希望和幻想；一遍又一遍跟自己说，他是爱我的，总有一天，他只属于我一个人，他再也不会对我说谎。漫长的等待，沒有归途，等到心都碎了的那天，你终于知道，你其实一直对自己说谎。", "entity_list": []}
+{"text": "牵的那么紧？挖鼻屎挖鼻屎挖鼻屎你怎么看？", "entity_list": []}
+{"text": "好困[打哈气]，木有人跟我约会[抓狂]", "entity_list": []}
+{"text": "我叫赵新民哈哈哈哈全球最热门视频转发微博", "entity_list": [{"entity_index": {"begin": 2, "end": 5}, "entity_type": "PER", "entity": "赵新民"}]}
+{"text": "haha//@何辛ESPN卫视主持人:哈哈哈哈哈！//@酒酿园子铺://@OT打工的企鹅:哈哈", "entity_list": [{"entity_index": {"begin": 9, "end": 15}, "entity_type": "ORG", "entity": "ESPN卫视"}, {"entity_index": {"begin": 28, "end": 33}, "entity_type": "ORG", "entity": "酒酿园子铺"}]}
+{"text": "你们的工作特别辛苦，谢谢你们。地址：http://t.cn/8sep2y1", "entity_list": []}
+{"text": "怕什么路途遥远。走一步有一步的风景，进一步有一步的欢喜。幸福，在路上。", "entity_list": []}
+{"text": "#520大胆表白爱赢宝马MINI#520大胆表白爱，赢宝马MINI地址：http://t.cn/RvvXJFT", "entity_list": []}
+{"text": "#微米送红包#转发给好友，宣传你们的好活动，让小编保佑我中次奖吧[给力]地址：http://t.cn/8sd28nG", "entity_list": []}
+{"text": "有什么好怕//@复古老照片:人生最怕的9件事@topfashionstyle", "entity_list": []}
+{"text": "#《大悲咒像解》#81【唵悉殿都】受持读诵妙灵文，加被护念各行人！三千世界皆示现，观音鼻根解味尘！", "entity_list": []}
+{"text": "@愉眸//@不满18周岁禁止入内:[求关注]深蓝系列，美cry了有木有！@美甲丶纹身", "entity_list": []}
+{"text": "日本生理书上的，很卡哇伊的女生生长过程。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "GPE", "entity": "日本"}]}
+{"text": "。。。实用小百科中枪了不好意思", "entity_list": []}
+{"text": "我叫赵新民我们也这样照吧啊啊啊哈哈哈哈真好玩", "entity_list": [{"entity_index": {"begin": 2, "end": 5}, "entity_type": "PER", "entity": "赵新民"}]}
+{"text": "我们三个人，注定最后失败的是我。", "entity_list": []}
+{"text": "Afriendissomeoneyoutellyourstoriesto.Abestfriendwasthepersoninallthosestories——朋友会和你一起分享故事，好朋友则是你所有故事里的主人公。", "entity_list": []}
+{"text": "自勉——人，真的要学着承担。当自己一天天的成长，我们所扮演的角色也愈来愈多。其中也难免会有些自己不擅长、不喜欢，甚至不习惯的角色，此时若是不咬紧牙关、满怀热忱的坚持下去，只想逃进自己安逸的小圈圈里，像个孩子一样无忧无虑，一不小心可是会付出许多幸福的代价。——《看得见的未必是幸福》", "entity_list": []}
+{"text": "//@美食频道:[偷笑]不管你信不信，反正我是信了！", "entity_list": []}
+{"text": "霄贤不屑与你装苦逼青年杨素晗", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "PER", "entity": "霄贤"}, {"entity_index": {"begin": 11, "end": 14}, "entity_type": "PER", "entity": "杨素晗"}]}
+{"text": "你没那么重要，我的性格不允许我这样。", "entity_list": []}
+{"text": "#汽车用品#3M汽车脚垫聚划算，限量免单等你抢，转发赢取油卡大奖！地址：http://t.cn/8smSoc6", "entity_list": []}
+{"text": "@滴哩滚圆布恩球一起去呗？！[嘻嘻][嘻嘻]让我好好爱爱你！[爱你][害羞][太阳]", "entity_list": []}
+{"text": "#让红包飞#记得当时年纪小，你爱谈天我爱笑，不知怎么睡着了，梦里花落知多少……喂！过年怎么还那么矫情呢？与其黯然神伤，不如赶快评论微博抢个红包，让你的梦想不再只是梦！@一只踢足球的袜子@读者画报@手机用户3249417094http://t.cn/8ka4t9y", "entity_list": [{"entity_index": {"begin": 93, "end": 95}, "entity_type": "ORG", "entity": "读者"}]}
+{"text": "#西山居发号中心狂欢一夏##西山居发号中心狂欢一夏#期待中奖http://t.cn/RPpW0Jz", "entity_list": [{"entity_index": {"begin": 1, "end": 8}, "entity_type": "ORG", "entity": "西山居发号中心"}, {"entity_index": {"begin": 14, "end": 21}, "entity_type": "ORG", "entity": "西山居发号中心"}]}

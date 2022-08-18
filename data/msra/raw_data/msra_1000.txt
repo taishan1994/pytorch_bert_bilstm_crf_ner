@@ -1,0 +1,1000 @@
+{"text": "当希望工程救助的百万儿童成长起来，科教兴国蔚然成风时，今天有收藏价值的书你没买，明日就叫你悔不当初！", "entity_list": []}
+{"text": "藏书本来就是所有传统收藏门类中的第一大户，只是我们结束温饱的时间太短而已。", "entity_list": []}
+{"text": "因有关日寇在京掠夺文物详情，藏界较为重视，也是我们收藏北京史料中的要件之一。", "entity_list": [{"entity_index": {"begin": 3, "end": 4}, "entity_type": "LOC", "entity": "日"}, {"entity_index": {"begin": 6, "end": 7}, "entity_type": "LOC", "entity": "京"}, {"entity_index": {"begin": 27, "end": 29}, "entity_type": "LOC", "entity": "北京"}]}
+{"text": "我们藏有一册1945年6月油印的《北京文物保存保管状态之调查报告》，调查范围涉及故宫、历博、古研所、北大清华图书馆、北图、日伪资料库等二十几家，言及文物二十万件以上，洋洋三万余言，是珍贵的北京史料。", "entity_list": [{"entity_index": {"begin": 17, "end": 19}, "entity_type": "LOC", "entity": "北京"}, {"entity_index": {"begin": 40, "end": 42}, "entity_type": "LOC", "entity": "故宫"}, {"entity_index": {"begin": 43, "end": 45}, "entity_type": "LOC", "entity": "历博"}, {"entity_index": {"begin": 46, "end": 49}, "entity_type": "ORG", "entity": "古研所"}, {"entity_index": {"begin": 50, "end": 57}, "entity_type": "LOC", "entity": "北大清华图书馆"}, {"entity_index": {"begin": 58, "end": 60}, "entity_type": "LOC", "entity": "北图"}, {"entity_index": {"begin": 61, "end": 62}, "entity_type": "LOC", "entity": "日"}, {"entity_index": {"begin": 94, "end": 96}, "entity_type": "LOC", "entity": "北京"}]}
+{"text": "以家乡的历史文献、特定历史时期书刊、某一名家或名著的多种出版物为专题，注意精品、非卖品、纪念品，集成系列，那收藏的过程就已经够您玩味无穷了。", "entity_list": []}
+{"text": "我们是受到郑振铎先生、阿英先生著作的启示，从个人条件出发，瞄准现代出版史研究的空白，重点集藏解放区、国民党毁禁出版物。", "entity_list": [{"entity_index": {"begin": 5, "end": 8}, "entity_type": "PER", "entity": "郑振铎"}, {"entity_index": {"begin": 11, "end": 13}, "entity_type": "PER", "entity": "阿英"}, {"entity_index": {"begin": 50, "end": 53}, "entity_type": "ORG", "entity": "国民党"}]}
+{"text": "靠自己的鉴赏能力，将某一专题尽可能多的书籍汇集在身旁，并得到收藏界的认可，那你就是真正意义上的藏书家了。", "entity_list": []}
+{"text": "精品、专题、系列、稀见程度才是质量的核心。", "entity_list": []}
+{"text": "藏书的数量多少不能反映收藏的质量，更不是工薪层的承受范围。", "entity_list": []}
+{"text": "书籍浩如烟海，靠个人的精力与财力不可能广而博之。", "entity_list": []}
+{"text": "保存典籍，怡情雅好，著书立说，这才是藏书家的全部。", "entity_list": []}
+{"text": "闲钱、闲地方、闲工夫固然重要，但藏书要有文化底蕴，对于书所传达出来的美感和情趣，要放到一定的专业背景下才能显现。", "entity_list": []}
+{"text": "对于靠藏品增值来致富的说法，我们不敢非议，但从没听说过哪位藏书家靠书发财了。", "entity_list": []}
+{"text": "否则，不吃不喝也得当个藏书家。", "entity_list": []}
+{"text": "许多初入此道的朋友叹惜没赶上我们开始藏书时那个三五角钱买本线装书的时代。", "entity_list": []}
+{"text": "近年来兴起的集藏热极大地带动了各类藏品的价格。", "entity_list": []}
+{"text": "去年，我们又被评为“北京市首届家庭藏书状元明星户”。", "entity_list": [{"entity_index": {"begin": 10, "end": 13}, "entity_type": "LOC", "entity": "北京市"}]}
+{"text": "藏书家、作家姜德明先生在1997年出版的书话专集《文林枝叶》中以“爱书的朋友”为题，详细介绍了我们夫妇的藏品及三口之家以书为友、好乐清贫的逸闻趣事。", "entity_list": [{"entity_index": {"begin": 6, "end": 9}, "entity_type": "PER", "entity": "姜德明"}]}
+{"text": "每当接到海外书友或归国人员汇至一册精美的食品图谱时，全家人欣喜若狂；", "entity_list": []}
+{"text": "而一册交换品离我而去，虽为复本，也大有李后主“挥泪别宫娥”之感。", "entity_list": [{"entity_index": {"begin": 19, "end": 22}, "entity_type": "PER", "entity": "李后主"}]}
+{"text": "我们变而以书会友，以书结缘，把欧美、港台流行的食品类图谱、画册、工具书汇集一堂。", "entity_list": [{"entity_index": {"begin": 16, "end": 17}, "entity_type": "LOC", "entity": "美"}, {"entity_index": {"begin": 19, "end": 20}, "entity_type": "LOC", "entity": "台"}]}
+{"text": "然而海外图书价格奇昂，非工薪层所能承受。", "entity_list": []}
+{"text": "为了跟踪国际最新食品工艺、流行趋势，大量搜集海外专业书刊资料是提高技艺的捷径。", "entity_list": []}
+{"text": "我俩都是从事食品生产营销工作的。", "entity_list": []}
+{"text": "每当夜深人静，一册册把玩那土纸毛边、久经战火的藏品时，一幕幕可歌可泣、血雨腥风的悲壮场景便历历在目，怎不催人奋进！", "entity_list": []}
+{"text": "每一次老一代革命家为我们签字题名，都一再讲述当年的革命斗争经历，叮嘱我们继续收藏，集成系列，有机会向社会展示，对青少年进行革命传统教育。", "entity_list": []}
+{"text": "老一代红军将领孙毅将军为我们收藏的二十余册（1937年—1945年）晋察冀抗日根据地出版物签名盖章并榜书“奋斗”相赠；", "entity_list": [{"entity_index": {"begin": 3, "end": 5}, "entity_type": "ORG", "entity": "红军"}, {"entity_index": {"begin": 7, "end": 9}, "entity_type": "PER", "entity": "孙毅"}, {"entity_index": {"begin": 34, "end": 42}, "entity_type": "LOC", "entity": "晋察冀抗日根据地"}]}
+{"text": "老红军王成汉上将为延安时期多种出版物签字；", "entity_list": [{"entity_index": {"begin": 3, "end": 6}, "entity_type": "PER", "entity": "王成汉"}, {"entity_index": {"begin": 9, "end": 11}, "entity_type": "LOC", "entity": "延安"}]}
+{"text": "革命先烈张太雷之女、新四军老战士张西蕾老人在我们收藏的六十多年前出版的《北洋工学院校友录》张太雷烈士条目上题写“先父大人永垂不朽”。", "entity_list": [{"entity_index": {"begin": 4, "end": 7}, "entity_type": "PER", "entity": "张太雷"}, {"entity_index": {"begin": 10, "end": 13}, "entity_type": "ORG", "entity": "新四军"}, {"entity_index": {"begin": 16, "end": 19}, "entity_type": "PER", "entity": "张西蕾"}, {"entity_index": {"begin": 36, "end": 41}, "entity_type": "ORG", "entity": "北洋工学院"}, {"entity_index": {"begin": 45, "end": 48}, "entity_type": "PER", "entity": "张太雷"}]}
+{"text": "我们的藏品中有几十册为北京图书馆等国家级藏馆所未藏。", "entity_list": [{"entity_index": {"begin": 11, "end": 16}, "entity_type": "LOC", "entity": "北京图书馆"}]}
+{"text": "由于这一时期战争频繁，条件艰苦，又遭国民党毁禁，传世量稀少，购藏不易。", "entity_list": [{"entity_index": {"begin": 18, "end": 21}, "entity_type": "ORG", "entity": "国民党"}]}
+{"text": "尤以收录周恩来总理、马骏烈士的《南开中学同学录》（1919年）、李大钊烈士遗篇孤本《中国大学学术演讲录》（1923年）、黄埔军校政治宣传教材（1927年）、恽代英烈士译著《阶级争斗》（1926年）、", "entity_list": [{"entity_index": {"begin": 4, "end": 7}, "entity_type": "PER", "entity": "周恩来"}, {"entity_index": {"begin": 10, "end": 12}, "entity_type": "PER", "entity": "马骏"}, {"entity_index": {"begin": 16, "end": 20}, "entity_type": "ORG", "entity": "南开中学"}, {"entity_index": {"begin": 32, "end": 35}, "entity_type": "PER", "entity": "李大钊"}, {"entity_index": {"begin": 42, "end": 44}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 60, "end": 64}, "entity_type": "ORG", "entity": "黄埔军校"}, {"entity_index": {"begin": 78, "end": 81}, "entity_type": "PER", "entity": "恽代英"}]}
+{"text": "党中央机关月刊《共产国际》（1930年）等为收藏界所称道。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "ORG", "entity": "党中央"}, {"entity_index": {"begin": 8, "end": 12}, "entity_type": "ORG", "entity": "共产国际"}]}
+{"text": "这两百余册革命历史文献完整地反映了从1908年到建国前马列主义在中国传播的历史。", "entity_list": [{"entity_index": {"begin": 28, "end": 29}, "entity_type": "PER", "entity": "列"}, {"entity_index": {"begin": 32, "end": 34}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "在我们的专题藏品中，有一类是建国前各解放区出版物和国统区查禁书刊及敌占区各类地下革命出版物。", "entity_list": [{"entity_index": {"begin": 25, "end": 26}, "entity_type": "ORG", "entity": "国"}]}
+{"text": "我们藏书的方法是：确立专题，人弃我取，集成系列，藏用结合。", "entity_list": []}
+{"text": "其中线装古籍逾千册；", "entity_list": []}
+{"text": "民国出版物几百种；", "entity_list": []}
+{"text": "珍本四册、稀见本四百余册，出版时间跨越三百余年。", "entity_list": []}
+{"text": "目前我们家庭藏书四千余册，加上报刊、画册可达一万册（份）。", "entity_list": []}
+{"text": "婚后“两军会合”，书是最多的“战利品”。", "entity_list": []}
+{"text": "我们均从1974年开始购藏图书。", "entity_list": []}
+{"text": "当功名、钱财、育儿、下岗，为这代人敲打着不和谐的人生节拍时，藏书、读书、爱书却成为我俩共同生活的主旋律。", "entity_list": []}
+{"text": "我们夫妇俩是“文革”中失学的一代，插队、待业、学徒、高考，谱成了我们这一代人的青春韵律。", "entity_list": []}
+{"text": "说实话，如果不让我写，我则抗议，而要自告奋勇，锐身自任；", "entity_list": []}
+{"text": "既然学长不弃，自然欣然受命。", "entity_list": []}
+{"text": "这次他的诗书画集为一册，行将付梓，嘱我为序。", "entity_list": []}
+{"text": "国正先生在我心中就是这样的一位学长。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "PER", "entity": "国正"}]}
+{"text": "得其兼者，则可敬亦复可亲可钦亦复可爱了。", "entity_list": []}
+{"text": "我想都好，但所指侧重不同，前者是指的其学其道，后者指的其品其行，前者可“敬”可“钦”，后者可“亲”可“爱”。", "entity_list": []}
+{"text": "论人美称，如“望之弥高”，“神龙见首而不见尾”，“清澈见底”，“坦荡无瑕”哪一种最好呢？", "entity_list": []}
+{"text": "还有茂林峻岭，高山流瀑，更见大匠之胸揽丘壑，意境遐思。", "entity_list": []}
+{"text": "神与古人相通，意与画家相契，此恐是“写意”之真谛所在也，岂止是骋笔泼墨，摹略大概之谓也。", "entity_list": []}
+{"text": "有的古木交柯，春机荣欣，从诗人句中得之，而入画中，观之令人心驰。", "entity_list": []}
+{"text": "有的乍暖先春，明媚之至；", "entity_list": []}
+{"text": "有的老树正旺，新篁出笋；", "entity_list": []}
+{"text": "有的乔木参天，而初绿犹新，生意嫣然……皆宋元娟秀，又蒙岭南泽润，观之令人神往。", "entity_list": [{"entity_index": {"begin": 27, "end": 29}, "entity_type": "LOC", "entity": "岭南"}]}
+{"text": "诗与书，我自知不济，兄前不敢置喙，所以每当良聚，辄以近喜丹青为遁辞，殊不知兄实真人，素不露相，这次我才得到了亲瞻。", "entity_list": []}
+{"text": "恕弟斗胆，不敢苟同，兄不过“善学”而“博”，“博”而“能精”而已矣。", "entity_list": []}
+{"text": "是以，兄以“非汉非唐”为揖让，难道意在以“生而知之”者的“大智”而自许耶？", "entity_list": []}
+{"text": "韵致惟无清代所趋，倒有少许“五四”时期宿儒的品味。", "entity_list": []}
+{"text": "不过重在晋趣，略增明人气息，妙在集古有道、不露痕迹罢了。", "entity_list": []}
+{"text": "在这里恕弟不恭之罪，敢在尊前一诤：前人论书，每曰“字字有来历，笔笔有出处”，细读公字，何尝跳出前人藩篱，自隶变而后，直至明季，兄有何新出？", "entity_list": []}
+{"text": "其实非汉非唐，又是什么与什么呢？", "entity_list": []}
+{"text": "学长每每自逊“非汉非唐”，足见所求高远。", "entity_list": []}
+{"text": "能书入法，原是诗人学者本色，不值啧啧称道。", "entity_list": []}
+{"text": "如果用“书家”的桂冠相奉，我则以为是对学长的一种不敬。", "entity_list": []}
+{"text": "每得学长来札，自然新作获读，喜出望外者却是学长法书的使转如章，翰采盈馨，字上没有时尚书家的驰骋积习，没有刻意雕琢的旧馆绳墨，读来只觉字如其文，书如其诗。", "entity_list": []}
+{"text": "本来嘛，学长先入辅仁，学弟亦先入辅仁；", "entity_list": [{"entity_index": {"begin": 8, "end": 10}, "entity_type": "ORG", "entity": "辅仁"}, {"entity_index": {"begin": 16, "end": 18}, "entity_type": "ORG", "entity": "辅仁"}]}
+{"text": "学长再入北大，学弟亦再入北大，弟从兄一步一趋，说是老同学、老学长，“良有以也”。", "entity_list": [{"entity_index": {"begin": 4, "end": 6}, "entity_type": "ORG", "entity": "北大"}, {"entity_index": {"begin": 12, "end": 14}, "entity_type": "ORG", "entity": "北大"}]}
+{"text": "把晤之后，绝无初识的感觉，即所谓早如多年故人。", "entity_list": []}
+{"text": "缓缓读来，只觉淡雅，稍经品味，乃知境幽意邃，细加咀嚼，才开始感到春风之温馨，甘雨之滋泽，时而泛来一种爱慕，时而升起一种敬仰，敬与爱交织在了一起。", "entity_list": []}
+{"text": "喜欢她没有显达者的洋洋意态，没有卫道之士的庄严神圣，没有斯文先生的迂阔酸腐，没有攀高进身的趋阿奉媚。", "entity_list": []}
+{"text": "国正学长的文章与诗词，早就读过一些，很是喜欢。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "PER", "entity": "国正"}]}
+{"text": "我与国正学长，竟就是这一种，实在是难得，难得！", "entity_list": [{"entity_index": {"begin": 2, "end": 4}, "entity_type": "PER", "entity": "国正"}]}
+{"text": "有的人朝夕相处，而形同陌路；", "entity_list": []}
+{"text": "有的人共事二三十年，一旦分手，却再也不复记忆；", "entity_list": []}
+{"text": "当然也的确有人“一见如故”；", "entity_list": []}
+{"text": "而最难得的则是“未见如故”。", "entity_list": []}
+{"text": "人与人的缘分，常常是一句话说不清楚的。", "entity_list": []}
+{"text": "慕名前来品尝玉峰茶，领略茶文化的人越来越多。", "entity_list": [{"entity_index": {"begin": 6, "end": 8}, "entity_type": "LOC", "entity": "玉峰"}]}
+{"text": "陈老师还特别提到，学校早已搬进新盖的教学大楼，那座后来荒废了的茶馆又恢复了昔日的风采，而且比原来更气派，更富有文化韵味。", "entity_list": [{"entity_index": {"begin": 0, "end": 1}, "entity_type": "PER", "entity": "陈"}]}
+{"text": "从老师的来信中得知，党的十一届三中全会后，玉峰山荒山承包，昔日的茶园又恢复起来，玉峰茶又声名远播，茶农都靠种茶致富了。", "entity_list": [{"entity_index": {"begin": 21, "end": 24}, "entity_type": "LOC", "entity": "玉峰山"}, {"entity_index": {"begin": 40, "end": 42}, "entity_type": "LOC", "entity": "玉峰"}]}
+{"text": "一年后，我初中还没毕业就参军了，从此浪迹天涯，很少有机会回故乡，但无论我走到哪里，每年清明节后，都会收到陈老师寄来的玉峰茶。", "entity_list": [{"entity_index": {"begin": 52, "end": 53}, "entity_type": "PER", "entity": "陈"}, {"entity_index": {"begin": 58, "end": 60}, "entity_type": "LOC", "entity": "玉峰"}]}
+{"text": "偏僻山乡建新校困难，茶馆又成了我们的教室。", "entity_list": []}
+{"text": "1967年，我们当教室的那座破庙在一个暴风雨的上午倾塌了。", "entity_list": []}
+{"text": "“文化大革命”中，茶馆作为“四旧”、“传播封、资、修的场所”被关闭了。", "entity_list": []}
+{"text": "抗战胜利后，教授们陆续离开了这偏僻的山乡，昔日充满文化韵味的茶馆也逐渐冷落下来。", "entity_list": []}
+{"text": "想来他的《雅舍小品》中关于茶的描写或许就是受玉峰茶的启发，才使文章那么有灵性。", "entity_list": [{"entity_index": {"begin": 22, "end": 24}, "entity_type": "LOC", "entity": "玉峰"}]}
+{"text": "据说应老友之邀，梁实秋还坐着滑竿来此品过玉峰茶。", "entity_list": [{"entity_index": {"begin": 8, "end": 11}, "entity_type": "PER", "entity": "梁实秋"}, {"entity_index": {"begin": 20, "end": 22}, "entity_type": "LOC", "entity": "玉峰"}]}
+{"text": "抗战八年中，有好几位教授在这里写出了好文章。", "entity_list": []}
+{"text": "品茗之余，还可临窗垂钓，钓来楼下深潭中的鲤鱼，交给茶馆中的师傅做成“河水煮河鱼”的美味。", "entity_list": []}
+{"text": "迎门的墙上，还有一幅笔力遒劲的条幅：“泉香好解相如渴，火候闲评坡老诗”，使这座简陋的茶馆充满了文化气氛。", "entity_list": []}
+{"text": "茶馆大门口有一副对联，上联是“采向雨前、烹宜竹里”，下联是“经翻陆羽、歌记卢仝”。", "entity_list": [{"entity_index": {"begin": 32, "end": 34}, "entity_type": "PER", "entity": "陆羽"}, {"entity_index": {"begin": 37, "end": 39}, "entity_type": "PER", "entity": "卢仝"}]}
+{"text": "再远处玉峰山上茶林片片，竹海林涛，乡野风光令人陶醉。", "entity_list": [{"entity_index": {"begin": 3, "end": 6}, "entity_type": "LOC", "entity": "玉峰山"}]}
+{"text": "河对面阡陌纵横，稻花飘香，牧笛悠悠。", "entity_list": []}
+{"text": "几株数人才能合抱的大榕树挡住了烈日，树下凉风拂面。", "entity_list": []}
+{"text": "烈日炎炎的盛夏，茶馆周围竹林森森，清新袭人。", "entity_list": []}
+{"text": "吊脚楼茶馆，坐落在栋梁河边的悬崖上。", "entity_list": [{"entity_index": {"begin": 9, "end": 12}, "entity_type": "LOC", "entity": "栋梁河"}]}
+{"text": "从那以后我才知道玉峰茶有这么大的名气，家乡的吊脚楼茶馆还和这么多名人有关系。", "entity_list": [{"entity_index": {"begin": 8, "end": 10}, "entity_type": "LOC", "entity": "玉峰"}]}
+{"text": "老教授说，不光他自己喜欢玉峰茶，还要经常给在外国的老教授寄去。", "entity_list": [{"entity_index": {"begin": 12, "end": 14}, "entity_type": "LOC", "entity": "玉峰"}]}
+{"text": "从那以后，我和妈妈经常给他送茶去。", "entity_list": []}
+{"text": "我虽然听不大懂老教授的话，但我已体会到了他对我家乡的热爱。", "entity_list": []}
+{"text": "他还记得玉峰山下的栋梁河边那座吊脚楼茶馆。", "entity_list": [{"entity_index": {"begin": 4, "end": 7}, "entity_type": "LOC", "entity": "玉峰山"}, {"entity_index": {"begin": 9, "end": 12}, "entity_type": "LOC", "entity": "栋梁河"}]}
+{"text": "当时交通困难，物资短缺，是那清香的玉峰茶，伴随着他们度过了抗战的艰难岁月。", "entity_list": [{"entity_index": {"begin": 17, "end": 19}, "entity_type": "LOC", "entity": "玉峰"}]}
+{"text": "抗战时期，为躲避日机轰炸，他所在的大学疏散到了乡下，就是出产玉峰茶的地方。", "entity_list": [{"entity_index": {"begin": 8, "end": 9}, "entity_type": "LOC", "entity": "日"}, {"entity_index": {"begin": 30, "end": 32}, "entity_type": "LOC", "entity": "玉峰"}]}
+{"text": "老师告诉我们，他是学校的教授。", "entity_list": []}
+{"text": "没等妈妈说完，老人又说：“换粮食，要得，要得！”", "entity_list": []}
+{"text": "他正准备掏钱，妈妈轻声说：“老师，这茶不卖，我们要换粮食的……”", "entity_list": []}
+{"text": "正当我们又累又饿近于绝望之际，一位戴着深度近视眼镜，头上扣着一顶小绒帽，拄着拐杖的老人来到我们的背篓前。", "entity_list": []}
+{"text": "灾荒年月，人们哪还有品茶的雅兴，更没有余粮来换茶叶。", "entity_list": []}
+{"text": "在大街小巷转了一天，却无人问津。", "entity_list": []}
+{"text": "初春的一天，我和妈妈背着精心炮制的玉峰茶，到重庆去换粮食度饥荒。", "entity_list": [{"entity_index": {"begin": 17, "end": 19}, "entity_type": "LOC", "entity": "玉峰"}, {"entity_index": {"begin": 22, "end": 24}, "entity_type": "LOC", "entity": "重庆"}]}
+{"text": "在京城畅饮故乡名茶，一缕乡愁随香气溢出，一怀往事随茶而至，细细品来，又仿佛品出了人生的酸甜苦辣……", "entity_list": [{"entity_index": {"begin": 1, "end": 3}, "entity_type": "LOC", "entity": "京城"}]}
+{"text": "啜入口中，顿觉神清气爽，拂去尘世落寞。", "entity_list": []}
+{"text": "沏茶时，一杯清水被新茶的细芽嫩叶染绿，春色满杯，清香幽远。", "entity_list": []}
+{"text": "上等的雨前茶，要在清明前的一两天内采摘，早则过嫩，不经泡，过了清明又太老，少了茶的清香。", "entity_list": []}
+{"text": "清明节前，山风吹拂，春雨滋润，茶树绽出新芽。", "entity_list": []}
+{"text": "和往年一样，清明节刚过，我的中学老师就千里迢迢寄来新采制的“雨前茶”，这是一种名叫玉峰云雾茶的绿茶，生长在重庆市郊的玉峰山麓。", "entity_list": [{"entity_index": {"begin": 41, "end": 43}, "entity_type": "LOC", "entity": "玉峰"}, {"entity_index": {"begin": 53, "end": 55}, "entity_type": "LOC", "entity": "重庆"}, {"entity_index": {"begin": 58, "end": 61}, "entity_type": "LOC", "entity": "玉峰山"}]}
+{"text": "我拿着手机，百感交集，一时竟心动无语……", "entity_list": []}
+{"text": "刚才和朋友通完话，我随手放在了车座旁，下车时忘了带走。", "entity_list": []}
+{"text": "过了一会儿，他左手握住方向盘，腾出右手从身后摸出件东西扔给我———啊，我的手机！", "entity_list": []}
+{"text": "司机嘴一撇，脸上掠过了一缕不易察觉的笑容。", "entity_list": []}
+{"text": "我拉开车门坐进驾驶室，认真地解释说，“遇见了个熟人耽搁了，真是对不起！”", "entity_list": []}
+{"text": "车窗摇下，露出那颗长着一蓬乱草似的胖头，那司机翻一翻龙虾般凸出的眼睛，望住我说：“本来，我不打算回来找你了，不过，我琢磨着你一个大老爷们儿也不会因为十块钱跟我‘吊腰子’吧？”", "entity_list": []}
+{"text": "正懊恼间，一辆面的从车流中驶出，“嘎”地一声停在了我的身旁。", "entity_list": []}
+{"text": "可是，人海茫茫，也许我们从此再无缘相见，他的心中会不会从此又种下了一颗仇恨的种子呢？", "entity_list": []}
+{"text": "那信任本是一片带雨的云，可以浇灌因冷漠而龟裂的心田；", "entity_list": []}
+{"text": "本是一首无言的歌，可以缩短因猜疑而拉长的人与人之间的距离啊！", "entity_list": []}
+{"text": "我实在不愿辜负了司机的那一片信任。", "entity_list": []}
+{"text": "院门口一位修鞋的老头儿见我出来，翻着眼白从老花镜的镜片上方瞅了我一眼，“哼”一声：“哟，您还出来啦？”", "entity_list": []}
+{"text": "等我急如星火般跑出来，哪里还有面的的影子！", "entity_list": []}
+{"text": "久别重逢，便天南地北一通儿神侃，竟把外面等候的司机忘了。", "entity_list": []}
+{"text": "我下了车，一溜小跑儿，来到朋友供职的《中国珠宝首饰》杂志社，没想到，巧遇一位外地来京组稿的熟悉编辑。", "entity_list": [{"entity_index": {"begin": 18, "end": 29}, "entity_type": "ORG", "entity": "《中国珠宝首饰》杂志社"}, {"entity_index": {"begin": 41, "end": 42}, "entity_type": "LOC", "entity": "京"}]}
+{"text": "司机向右一拨蹦灯儿，面的稳稳地停在路旁。", "entity_list": []}
+{"text": "我指指路旁的工人日报宿舍，说：“朋友，能不能在这儿停一下，我送点东西马上就出来。”", "entity_list": [{"entity_index": {"begin": 6, "end": 10}, "entity_type": "ORG", "entity": "工人日报"}]}
+{"text": "大嫂拿出十元钱递给他，他看也没看，甩出一句硬邦邦的话：“顺道儿，不要钱！”", "entity_list": []}
+{"text": "到了大嫂要去的地方，他下车拉开车门，帮着抱过孩子，拿出包袱，一转身又坐进了驾驶室。", "entity_list": []}
+{"text": "司机仍然无话，脸仍然阴着，仿佛谁欠了他二百吊钱仍然没还。", "entity_list": []}
+{"text": "大嫂说出了一个地名，正好我们路过。", "entity_list": []}
+{"text": "司机把车稳稳停在那大嫂身旁，摇下车窗，探出那颗胖头问：“上哪儿？”", "entity_list": []}
+{"text": "顺路捎活儿，他可以收双份儿的钱。", "entity_list": []}
+{"text": "司机并不看我，句式虽属商量，但语气却分明有些不容置疑。", "entity_list": []}
+{"text": "太阳已经升起老高，热气升腾，从大嫂艰难移动的步履中可以感受到她的疲惫与无助。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "太阳"}]}
+{"text": "一位农村大嫂抱着一个孩子，拎着一个包袱在车前方艰难地行走。", "entity_list": []}
+{"text": "我为了打破这难耐的沉闷，掏出手机和朋友通话……", "entity_list": []}
+{"text": "车厢里异常沉闷，司机的脸也阴着，仿佛随时都会有“暴雨”倾泻。", "entity_list": []}
+{"text": "于是，便有话无话地和他搭讪起来：“朋友，挣几张儿了？”", "entity_list": []}
+{"text": "我有些愧疚，想想也是，司机每天挣点辛苦钱也不易，如果净赶上我这种活儿，非得喝西北风不可。", "entity_list": []}
+{"text": "果然，司机听我报出到站，用眼白瞟我一眼，很不情愿地挂挡，重新上路了。", "entity_list": []}
+{"text": "离目的地正好十公里，中途我还要下车办事，又快赶上上班高峰了，如果事先说明，司机是断然不会拉的，索性“先斩后奏”。", "entity_list": []}
+{"text": "我已抢先一步拉开车门坐了进去。", "entity_list": []}
+{"text": "他大约三十出头，眼睛像龙虾一样凸出，目光冷漠而又有些疲倦。", "entity_list": []}
+{"text": "司机摇下车窗，探出一颗长着一蓬乱草似的胖头。", "entity_list": []}
+{"text": "因为黄色的面的在北京城铺天盖地，且又能钻能蹿，而开车的司机则被善于调侃的北京人称为“的哥”。", "entity_list": [{"entity_index": {"begin": 8, "end": 11}, "entity_type": "LOC", "entity": "北京城"}, {"entity_index": {"begin": 36, "end": 38}, "entity_type": "LOC", "entity": "北京"}]}
+{"text": "人们渴望的是，这阵阵清风，不是一现的昙花，而是报春的燕子！", "entity_list": []}
+{"text": "这使深为国家前途民族命运感到担心的人们看到了希望。", "entity_list": []}
+{"text": "轻车简从的多了，拒绝宴请的多了，新闻广播中，对天灾人祸的报道比较及时了，像“焦点访谈”等节目，对贪官污吏、“高衙内”等各种阴暗面的舆论监督也加强了。", "entity_list": []}
+{"text": "令人感到宽慰的是，十五大以来，尤其今年以来，我国政坛不时吹来习习清风。", "entity_list": [{"entity_index": {"begin": 9, "end": 12}, "entity_type": "ORG", "entity": "十五大"}]}
+{"text": "我相信，有同感的，绝不仅仅是我的这位朋友！", "entity_list": []}
+{"text": "一位朋友对我讲，每当他看到这种场面时，他都会感到惭愧，感到是我们的耻辱！", "entity_list": []}
+{"text": "有时两县的交界，前不着村后不着店，正好在荒郊野外，两支车队遥遥相对停在野地里。", "entity_list": []}
+{"text": "对方的县领导，要到县边境迎接。", "entity_list": []}
+{"text": "有一次，与一位相当于部级的同志下乡，嗬，前面有警车开道，后面有各级干部相随，警车上的红灯旋转，警笛长鸣，右车窗还伸出一面小红旗，示意百姓让路回避。", "entity_list": []}
+{"text": "是不是因为封建时代需要官，我们也需要官，官与官之间有共性，因而就很容易受感染呢？", "entity_list": []}
+{"text": "这些本来是与工人阶级政党格格不入水火不容的东西，却有相当一部分被我们接受过来了。", "entity_list": []}
+{"text": "我们老祖宗立下的礼，不能说全是糟粕，但完全可以说，有相当大的部分，是为强调统治者的尊严、高贵、不可侵犯，为维护封建统治服务的。", "entity_list": []}
+{"text": "但同时又讲究三宫六院七十二嫔妃，以纳妾养伎多与美相炫耀。", "entity_list": []}
+{"text": "男女之防的礼仪也严而且繁，什么男女有别授受不亲之类，举不胜举。", "entity_list": []}
+{"text": "但同时又大口吐痰，并以吐出的痰块浓且远以显示我老爷的底气足，官运至少还可以再亨通二十年为荣。", "entity_list": []}
+{"text": "除了上边说的，新官来了要接风，老官走时要饯行以外，其他如，进大门二门的进法，上台阶在东在西，登堂入室后坐的位置朝南朝北等，都有规定。", "entity_list": []}
+{"text": "仅仅迎来送往，那礼节就多得不得了。", "entity_list": []}
+{"text": "这应是任何时代都不可忽视的一条重大原则。", "entity_list": []}
+{"text": "管仲说过，“见贤不让者，不可予尊位”！", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "PER", "entity": "管仲"}]}
+{"text": "因此，把什么样的人放在高位要位上，是非常非常重要的事情。", "entity_list": []}
+{"text": "尧再有本事，如果只是普通一兵普通一民，没权没钱，穷得丁当响，不要说治三人，老婆会不会跟人家“大款”跑了，都很难说的。", "entity_list": [{"entity_index": {"begin": 0, "end": 1}, "entity_type": "PER", "entity": "尧"}]}
+{"text": "有道是：“尧为匹夫不能治三人，桀为天子可以乱天下！”", "entity_list": [{"entity_index": {"begin": 5, "end": 6}, "entity_type": "PER", "entity": "尧"}, {"entity_index": {"begin": 15, "end": 16}, "entity_type": "PER", "entity": "桀"}]}
+{"text": "但也不能否认，在一定条件下，如果一个人的思想作为，强烈地反映着时代精神，代表着人民愿望，而同时他又身居高位要位的话，那么，这个人对全局的影响，的确是重大的。", "entity_list": []}
+{"text": "把一个人的作用强调到这种程度，也许有其特殊的历史条件，特殊的关系或偏爱，难免会给人以言过其实的感觉。", "entity_list": []}
+{"text": "记得袁崇焕墓前的庙门上有句话，叫做“一人而系天下之安危”。", "entity_list": [{"entity_index": {"begin": 2, "end": 5}, "entity_type": "PER", "entity": "袁崇焕"}]}
+{"text": "我的这位老朋友讲：“这才像个共产党干部的样子嘛！”", "entity_list": [{"entity_index": {"begin": 14, "end": 17}, "entity_type": "ORG", "entity": "共产党"}]}
+{"text": "后来听说这位部长在原来那个部当部长的时候，就一直在机关食堂跟一般干部一起排队吃饭。", "entity_list": []}
+{"text": "开始还有人以为新官上任有点矫情。", "entity_list": []}
+{"text": "这位新部长说，不用了，咱们一起到食堂吃吧！", "entity_list": []}
+{"text": "听一位老朋友讲，他们部新任命的部长到任的那天，部里的老领导们，备了几桌酒席，想以此表示欢迎之意。", "entity_list": []}
+{"text": "我十分感激曾经扶我一把，和至今仍在扶我的人，我知道，要不是他们，我早就在跌跌撞撞中摔倒了。", "entity_list": []}
+{"text": "写诗，我自知功力不足，它要求实在太高，太严谨了，不管是谋篇构思，还是形象思维，无论是语言要求，还是风格特点，我觉得自己差距太大。", "entity_list": []}
+{"text": "不管它是歪，是斜，是深，是浅，总也算是跌跌撞撞走到了今天。", "entity_list": []}
+{"text": "有的虽然也收进来了，但多少还能看出一些痕迹来，像前面提及的那四句话，纯属是这类的作品，究竟要不要这四句话，我想了好久，想来想去，尽管还是不太尽如人意，但我还是把它收进来了，", "entity_list": []}
+{"text": "它毕竟是我走上文学创作道路的第一个脚印。", "entity_list": []}
+{"text": "诗和其他文学作品一样，是反映时代的心声。", "entity_list": []}
+{"text": "从这里我深深体会到，不管是写诗，还是写其他门类的文学作品，要是没有伯乐的帮助和扶持，那是很难成功的。", "entity_list": []}
+{"text": "但有一点，我的第一部长篇———《时乐传》，就是在当年诗友的帮助下写就的，这在当初纯文学极不景气的情况下，花城出版社把这个任务交给我，无疑是对我的信任和扶持。", "entity_list": [{"entity_index": {"begin": 52, "end": 57}, "entity_type": "ORG", "entity": "花城出版社"}]}
+{"text": "搞了专业，倒离诗歌远了，有了大部头的时间，反而想写长一点的东西，加上时不时有创作任务压在肩上，所以，搞专业后很少在诗歌上下功夫，这不能不说是个遗憾。", "entity_list": []}
+{"text": "随着爱好的延伸、热情的升高，加上有各路老师的扶持和帮助，便不知不觉地走上文学创作这条路。", "entity_list": []}
+{"text": "想起来，这都是得益于前面四句话的动力。", "entity_list": []}
+{"text": "这下更加来了情绪，热情劲有增无减，连棋都不想下了，连近在咫尺的公园也不想去了。", "entity_list": []}
+{"text": "后来一家国字号的歌舞团头头，叫我给他们写点歌词，我答应试一试，没想到这试出来的第一首歌词，很快化为声音，而且在中央台这个大喇叭里放出来，不久又化为铅字，又灌制成唱片。", "entity_list": [{"entity_index": {"begin": 55, "end": 58}, "entity_type": "ORG", "entity": "中央台"}]}
+{"text": "打这以后，我来了情绪，开始读了点诗，也学着写两句顺口溜。", "entity_list": []}
+{"text": "没想到这一下圆了我孩提时的那个梦。", "entity_list": []}
+{"text": "后来战地来了不少大报小报的记者，又把这四句话搬到报纸上。", "entity_list": []}
+{"text": "可是，有心计的新闻干事施盈富，却把它记在本子上，登在《战士诗选》里。", "entity_list": [{"entity_index": {"begin": 11, "end": 14}, "entity_type": "PER", "entity": "施盈富"}]}
+{"text": "喊过了也就过了，我没有把它当回事。", "entity_list": []}
+{"text": "后来，一次偶然的机会，我脱口喊出四句话，没想到这四句话却影响了我的一生。", "entity_list": []}
+{"text": "其实，这时候我连诗都没有很好读过，别说写诗在报上发表了。", "entity_list": []}
+{"text": "一天晚上，梦见自己在报上发表一首诗，那高兴劲别提了，一蹦三尺高，拿着报纸给这个看，给那个看。", "entity_list": []}
+{"text": "记得最早的一个梦，是在上小学的时候。", "entity_list": []}
+{"text": "走出大佛湾，站在香山上俯视，四周峰峦拥翠，云雾飘渺之中，似有一位古代贤人将一幅写满中华民族文化史的画卷向你徐徐展开……", "entity_list": [{"entity_index": {"begin": 2, "end": 5}, "entity_type": "LOC", "entity": "大佛湾"}, {"entity_index": {"begin": 8, "end": 10}, "entity_type": "LOC", "entity": "香山"}, {"entity_index": {"begin": 41, "end": 43}, "entity_type": "LOC", "entity": "中华"}]}
+{"text": "华裔作家韩素音女士曾三次到大足，称“大足石窟是一座未被开发的金矿”。", "entity_list": [{"entity_index": {"begin": 0, "end": 1}, "entity_type": "LOC", "entity": "华"}, {"entity_index": {"begin": 4, "end": 7}, "entity_type": "PER", "entity": "韩素音"}, {"entity_index": {"begin": 13, "end": 15}, "entity_type": "LOC", "entity": "大足"}, {"entity_index": {"begin": 18, "end": 22}, "entity_type": "LOC", "entity": "大足石窟"}]}
+{"text": "日本知名学者石川一成先生曾撰文说：面对宝顶大佛湾造像，看中华民族囊括外来文化的能力和创造能力，不禁使我目瞪口呆。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "日本"}, {"entity_index": {"begin": 6, "end": 10}, "entity_type": "PER", "entity": "石川一成"}, {"entity_index": {"begin": 19, "end": 24}, "entity_type": "LOC", "entity": "宝顶大佛湾"}, {"entity_index": {"begin": 28, "end": 30}, "entity_type": "LOC", "entity": "中华"}]}
+{"text": "有专家论证，大佛湾造像是我国石窟艺术的晚期作品，无论从思想史、美学史、宗教学、民俗学等方面看都堪称时代精神的缩影和艺术的典范。", "entity_list": [{"entity_index": {"begin": 6, "end": 9}, "entity_type": "LOC", "entity": "大佛湾"}]}
+{"text": "有学艺术的，有探历史的，有寻文化的；", "entity_list": []}
+{"text": "有国内游人，也有外国游客，就连卖旅游纪念品的小商店里也挤满了人，一本《大足石刻》彩色图本尽管价格不菲也常有人问津。", "entity_list": [{"entity_index": {"begin": 35, "end": 37}, "entity_type": "LOC", "entity": "大足"}]}
+{"text": "时近中午艳阳高照，湾内人流依然如织。", "entity_list": []}
+{"text": "也许是它丰富的底蕴让不同的游客掘取。", "entity_list": []}
+{"text": "石窟艺术确有着说不清、道不明的一种感召力。", "entity_list": []}
+{"text": "佛湾的造像既有很浓的地方特色，也不失地方情志，足见主持筹建者赵智凤是一位精通三藏、洞悉民俗的僧人。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "佛湾"}, {"entity_index": {"begin": 30, "end": 33}, "entity_type": "PER", "entity": "赵智凤"}]}
+{"text": "这些龛图的人物造像风格基本上都是以写实为主的，喜怒哀乐各具情态，看上去没有“千佛一面”的感觉。", "entity_list": []}
+{"text": "漫游佛湾还看到市俗化很浓的、反映贫民生活的场景《六道轮回图》，有融儒家思想于佛教教义的《父母恩重经变图》，还有说明宗教、哲理的《锁六耗图》等。", "entity_list": [{"entity_index": {"begin": 2, "end": 4}, "entity_type": "LOC", "entity": "佛湾"}]}
+{"text": "这种虚实结合的“笔不到意到”的表现手法，让人回味，令人遐想。", "entity_list": []}
+{"text": "湾中最大的佛是东崖正壁的《释迦涅圣迹图》这尊涅像北头南脚，面西背东右侧而卧，显露部分足有三十来米长，下半身隐于岩际，右肩陷入地表之下。", "entity_list": [{"entity_index": {"begin": 13, "end": 15}, "entity_type": "PER", "entity": "释迦"}]}
+{"text": "特别是佛台酷似木雕般平滑整齐没有一点破损。", "entity_list": []}
+{"text": "窟内造像刻工考究，衣饰精美华丽，有如绢似缎的披垂感。", "entity_list": []}
+{"text": "因窟口上方都凿有天窗，阳光斜入洞内，影影绰绰颇感神秘。", "entity_list": []}
+{"text": "跟着人流还游了几方有十多米深的洞窟，窟内都较明亮，既不用秉烛，也不用手电。", "entity_list": []}
+{"text": "细观可见匠师们是利用自然优势与佛传故事巧妙结合的艺术构想，真是惟妙惟肖，也是山湾引水工程的一项杰作。", "entity_list": []}
+{"text": "这佛湾最具传奇色彩的当属《九龙浴太子图》，它是以石灰岩为本色调雕出的九龙头，正中的巨龙头张着大嘴，汩汩泉水喷泻而出，释迦太子浴在泉下……远远望去，崖畔藤萝重绕，飞泉雾气腾腾，九龙恍如从云中飞出，", "entity_list": [{"entity_index": {"begin": 1, "end": 3}, "entity_type": "LOC", "entity": "佛湾"}, {"entity_index": {"begin": 58, "end": 60}, "entity_type": "PER", "entity": "释迦"}]}
+{"text": "气势夺人。", "entity_list": []}
+{"text": "这千手千姿无一重复，是我见到过的千手佛中最美，内蕴最丰富的一龛了。", "entity_list": []}
+{"text": "最让人驻足的是佛湾中心那龛占崖面八十多米的千手观音，辉煌夺目，似孔雀开屏般伸出一只只玉手，手心不但刻着眼，手指还捏着或乐器或兵器，或宝塔或文房四宝，其姿或屈或伸，或侧或正密密麻麻地共有一千零七只手。", "entity_list": [{"entity_index": {"begin": 7, "end": 9}, "entity_type": "LOC", "entity": "佛湾"}, {"entity_index": {"begin": 23, "end": 25}, "entity_type": "PER", "entity": "观音"}]}
+{"text": "可见牧牛图是根据宋神宗时，官拜礼部郎杨次公的“牧牛颂”而创作的。", "entity_list": [{"entity_index": {"begin": 8, "end": 11}, "entity_type": "PER", "entity": "宋神宗"}, {"entity_index": {"begin": 15, "end": 17}, "entity_type": "ORG", "entity": "礼部"}, {"entity_index": {"begin": 18, "end": 21}, "entity_type": "PER", "entity": "杨次公"}]}
+{"text": "图上首刻有两行字“朝奉郎知润州赐紫金鱼袋杨次公政道牧牛颂”。", "entity_list": [{"entity_index": {"begin": 12, "end": 15}, "entity_type": "PER", "entity": "知润州"}, {"entity_index": {"begin": 20, "end": 23}, "entity_type": "PER", "entity": "杨次公"}]}
+{"text": "有勾肩搭背互相嬉戏的牧人，有憨睡小憩的牧人，有吹笛的牧人；", "entity_list": []}
+{"text": "有在草丛中反刍的牛，有引颈喝水的牛，有发狂的牛，还有泉林，花草，蝶飞，山路……一幅充满农家田园风情的牧歌图铺展在一块三十来米长的大石面上。", "entity_list": []}
+{"text": "古代匠人中潜隐着许多真正的艺术家，他们运用浪漫自由的艺术表现手法，把一龛《牧牛道场》的十组牧牛图，雕琢得栩栩如生。", "entity_list": [{"entity_index": {"begin": 37, "end": 41}, "entity_type": "LOC", "entity": "牧牛道场"}]}
+{"text": "一阵微风拂过，这七十年响彻山谷的丁当的斧凿声似乎仍不绝于耳。", "entity_list": []}
+{"text": "他们以苍天为室，以大地为纸，精心地绘制，给后人留下了这洋洋万像。", "entity_list": []}
+{"text": "石经在山湾的浓翠处旋折着，我的心也随之起伏不平，不由得想到这八百多年前，赵智凤是靠什么样的毅力去普施法水，化缘求贤，集天下能工巧匠，惨淡经营了七十余年。", "entity_list": [{"entity_index": {"begin": 36, "end": 39}, "entity_type": "PER", "entity": "赵智凤"}]}
+{"text": "有碑记载说明，这宝顶山造像始建于南宋淳熙六年至淳佑九年间，历时七十余载，是由南宋僧人赵智凤主持营建的密宗道场。", "entity_list": [{"entity_index": {"begin": 8, "end": 11}, "entity_type": "LOC", "entity": "宝顶山"}, {"entity_index": {"begin": 42, "end": 45}, "entity_type": "PER", "entity": "赵智凤"}, {"entity_index": {"begin": 50, "end": 54}, "entity_type": "LOC", "entity": "密宗道场"}]}
+{"text": "最大的龛图竟有八十多米，最小的也有十来米，还有记载宝顶山沿革和密宗史实的七通碑刻及各种题记十七则和两座保存很好的舍利塔。", "entity_list": [{"entity_index": {"begin": 25, "end": 28}, "entity_type": "LOC", "entity": "宝顶山"}, {"entity_index": {"begin": 31, "end": 33}, "entity_type": "PER", "entity": "密宗"}]}
+{"text": "谷口向西，谷内东、南、北三面长约五百多米峭立如削的崖面上，悬满了多姿多彩的佛龛造像图。", "entity_list": []}
+{"text": "烟雾迷蒙的清早，凝神睇望，佛湾宛似青纱遮面，如梦如幻，隐含在一形似马蹄状的山谷内。", "entity_list": [{"entity_index": {"begin": 13, "end": 15}, "entity_type": "LOC", "entity": "佛湾"}]}
+{"text": "我是在书本上感受的敦煌，是在画册里目游的云冈，但当我步入四川大足的宝顶大佛湾时，面对那满湾的摩崖石刻，我仿佛走进了神界，走进了寓言，走进了宗教与美丽的焰火所融汇的一方玄妙、高洁的境地。", "entity_list": [{"entity_index": {"begin": 9, "end": 11}, "entity_type": "LOC", "entity": "敦煌"}, {"entity_index": {"begin": 20, "end": 22}, "entity_type": "LOC", "entity": "云冈"}, {"entity_index": {"begin": 30, "end": 32}, "entity_type": "LOC", "entity": "大足"}, {"entity_index": {"begin": 33, "end": 38}, "entity_type": "LOC", "entity": "宝顶大佛湾"}, {"entity_index": {"begin": 46, "end": 50}, "entity_type": "LOC", "entity": "摩崖石刻"}]}
+{"text": "它折射出华夏文明的绚丽光环，使这片古老的土地更加异彩纷呈，充满魅力。", "entity_list": [{"entity_index": {"begin": 4, "end": 6}, "entity_type": "LOC", "entity": "华夏"}]}
+{"text": "中国的石窟艺术似一颗颗凝聚民族智慧的明珠，散落在中华大地上。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 24, "end": 26}, "entity_type": "LOC", "entity": "中华"}]}
+{"text": "可以预料，这本画册将以它的精美和独一无二赢得更多的读者。", "entity_list": []}
+{"text": "此外，画册版式设计的精心、印刷的精良均与画册的整体水准及画册本身的价值相称。", "entity_list": []}
+{"text": "同时，画册前后还附加了盲文页码，既增强了“盲童画集”的特点，也构成了一种很特别的装饰效果。", "entity_list": []}
+{"text": "这样不仅真实地呈现了盲童画的原貌，也使盲童可以通过触觉欣赏他们的作品。", "entity_list": []}
+{"text": "画册除了封面采用凹凸印刷，在每一部分的首页都附有一张“剪贴”。", "entity_list": []}
+{"text": "由于盲童画在制作过程中，在很大程度上要靠触摸来确认作品完成的程度和完成的结果，因此，“可触摸性”就成为画册设计的另一个出发点。", "entity_list": []}
+{"text": "黑暗的世界顿时为这些盲童的心灵的阳光所照亮，所有的奇迹都一一出现在这阳光之下。", "entity_list": []}
+{"text": "但翻开画册，当孩子们的画呈现在人们眼前时，却又是一个色彩斑斓的世界。", "entity_list": []}
+{"text": "黑色是不幸的盲童唯一能感受到的颜色，是一个没有光明的世界。", "entity_list": []}
+{"text": "为与盲童画的特点相适应，画册在编辑和设计方面也是颇费苦心和极富创意的。", "entity_list": []}
+{"text": "在这里，我们不仅能看到他们对光明的渴望、对美好事物的向往，也能看到他们偶然流露出的怪诞念头和对灾难性的场面的幻觉，这在正常儿童的画中是很少见的。", "entity_list": []}
+{"text": "因此他们的画又是了解残疾儿童特殊心理的一面镜子。", "entity_list": []}
+{"text": "加以他们生理的缺陷给心灵带来的伤害，他们在自己的画中又较早地注入了一种对人生苦难的意识和悲剧感。", "entity_list": []}
+{"text": "故在他们的画中既保留了一般儿童的纯真天性，又避免了一般儿童模仿的痕迹。", "entity_list": []}
+{"text": "盲童则不然，他们对这个世界的感知只能靠想象和有限的触觉，通过触摸感觉形体，通过知识认识颜色。", "entity_list": []}
+{"text": "因此，他们在画中难免带上一些模仿的痕迹。", "entity_list": []}
+{"text": "一般儿童在作画之前已通过视觉认识了这个世界，也认识了“绘画”。", "entity_list": []}
+{"text": "就这些盲童的作品本身而言，也是十分富有特色的。", "entity_list": []}
+{"text": "这本画册有理由作为人类出版物中一个小小的奇迹珍藏于世界各大图书馆中。", "entity_list": []}
+{"text": "因此，它的出版，不仅是填补了一项历史的空白，也填补了一项国际的、人类的空白。", "entity_list": []}
+{"text": "古今中外的出版物中，恐难再找到第二本同类的画集。", "entity_list": [{"entity_index": {"begin": 2, "end": 3}, "entity_type": "LOC", "entity": "中"}]}
+{"text": "由此不难看出，编辑、出版这本画册的初衷，不难看出，这本画册的成功，首先在于它的“选题”的独特。", "entity_list": []}
+{"text": "这也是任何一本普通画册所无法具有的东西。", "entity_list": []}
+{"text": "因此，这本画册首先给予人的，还不在于这本画册本身，而在于这些孩子们敢于向极限挑战的精神。", "entity_list": []}
+{"text": "然而，摆在我们面前的这本画册，却以无可辩驳的事实说明：人只要有勇气向“极限”挑战，就一定能做出超越极限的事。", "entity_list": []}
+{"text": "在一般人来看，让盲人作画，就像让聋哑人作曲，是不可思议的事。", "entity_list": []}
+{"text": "很难想象，这些从未见到过光明、从未看见过颜色的孩子是如何完成这些美妙作品的。", "entity_list": []}
+{"text": "大型画册《心灵之光———盲童画集》（韩铁城编辑，内蒙古人民出版社出版）不是一本普通的画册，看过这本画册的人，恐怕无不为之心动。", "entity_list": [{"entity_index": {"begin": 18, "end": 21}, "entity_type": "PER", "entity": "韩铁城"}, {"entity_index": {"begin": 24, "end": 32}, "entity_type": "ORG", "entity": "内蒙古人民出版社"}]}
+{"text": "盲童的多彩世界———《心灵之光———盲童画集》（品书札记）", "entity_list": []}
+{"text": "中华民族的血脉中融有蚩尤的热血，他和黄帝、炎帝都是我们的祖先！", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "中华"}, {"entity_index": {"begin": 10, "end": 12}, "entity_type": "PER", "entity": "蚩尤"}, {"entity_index": {"begin": 18, "end": 20}, "entity_type": "PER", "entity": "黄帝"}, {"entity_index": {"begin": 21, "end": 23}, "entity_type": "PER", "entity": "炎帝"}]}
+{"text": "告别了蚩尤寨，我整个的人和思绪，都被传说中的蚩尤裹挟而去，飞到了五千年前鼓角争鸣的黄蚩大战的悲壮厮杀中，我感受到了一种生命的震撼，一种心灵深处的感动。", "entity_list": [{"entity_index": {"begin": 3, "end": 6}, "entity_type": "LOC", "entity": "蚩尤寨"}, {"entity_index": {"begin": 22, "end": 24}, "entity_type": "PER", "entity": "蚩尤"}, {"entity_index": {"begin": 42, "end": 43}, "entity_type": "PER", "entity": "蚩"}]}
+{"text": "我由衷地感叹，人类的生生不息使蚩尤寨苍老了，它昔日的辉煌和雄风不见了，昔日的庙宇、祭礼也荡然无存了，但埋在后人心底的供奉天长地久。", "entity_list": [{"entity_index": {"begin": 15, "end": 18}, "entity_type": "LOC", "entity": "蚩尤寨"}]}
+{"text": "我无端地将它想象为蚩尤的后人，鹰瞵鹗视着“涿鹿之野”，高亢着先祖在精神森林里留给后人的不屈与血性。", "entity_list": [{"entity_index": {"begin": 9, "end": 11}, "entity_type": "PER", "entity": "蚩尤"}, {"entity_index": {"begin": 21, "end": 23}, "entity_type": "LOC", "entity": "涿鹿"}]}
+{"text": "我想，这定是力量的凝固，精神的象征，浩气的永恒。", "entity_list": []}
+{"text": "寨顶被一撅黄土托起的古榆，树干淌着沧桑的眼泪，树冠已失去了往昔参天蔽日的恢宏，外围的虬枝由于它的古老已经干枯，倔犟地伸展到无限的空中，一动不动，但他的神态和雄姿有股令人震惧的遒劲与轩昂。", "entity_list": []}
+{"text": "裸露的地方被岁月的巨手撕扯得破碎不堪，支离嶙峋，不免让人萌生一种凄凉，一种沉重，体味生命的古老和古老生命的艰难。", "entity_list": []}
+{"text": "刀削斧砍般的寨壁，陷跌的地方杂草丛生，郁郁葱葱，时有松鼠穿行。", "entity_list": []}
+{"text": "历史学家推知，蚩尤从南方追逐炎帝到涿鹿，一边打仗，一边建寨，仓促建之，所以远不如黄帝城夯土坚硬，夯窝紧密。", "entity_list": [{"entity_index": {"begin": 7, "end": 9}, "entity_type": "PER", "entity": "蚩尤"}, {"entity_index": {"begin": 14, "end": 16}, "entity_type": "PER", "entity": "炎帝"}, {"entity_index": {"begin": 17, "end": 19}, "entity_type": "LOC", "entity": "涿鹿"}, {"entity_index": {"begin": 40, "end": 43}, "entity_type": "LOC", "entity": "黄帝城"}]}
+{"text": "躬身俯视深丈许的寨壁，夯土所筑，夯土层很厚，夯窝极稀。", "entity_list": []}
+{"text": "我禁不住猜想，黄帝与蚩尤九战而不决，厮杀中蚩尤的形象，蚩尤的性格，蚩尤叱咤风云的气势，心就愈加至诚地寻觅蚩尤寨历史的印痕。", "entity_list": [{"entity_index": {"begin": 7, "end": 9}, "entity_type": "PER", "entity": "黄帝"}, {"entity_index": {"begin": 10, "end": 12}, "entity_type": "PER", "entity": "蚩尤"}, {"entity_index": {"begin": 21, "end": 23}, "entity_type": "PER", "entity": "蚩尤"}, {"entity_index": {"begin": 27, "end": 29}, "entity_type": "PER", "entity": "蚩尤"}, {"entity_index": {"begin": 33, "end": 35}, "entity_type": "PER", "entity": "蚩尤"}, {"entity_index": {"begin": 52, "end": 55}, "entity_type": "LOC", "entity": "蚩尤寨"}]}
+{"text": "我驻足、屏息凝望，瞠目无以言说，心为之而神圣。", "entity_list": []}
+{"text": "登上蚩尤北寨，放眼南望，排列成阵的蚩尤三寨，自南而北一字排开，相距各约半里之遥，高低如浅丘，并列雄峙，隔壑相望，毗连相护；", "entity_list": [{"entity_index": {"begin": 2, "end": 6}, "entity_type": "LOC", "entity": "蚩尤北寨"}, {"entity_index": {"begin": 17, "end": 19}, "entity_type": "LOC", "entity": "蚩尤"}]}
+{"text": "寨的顶部，宽敞坦平，叠翠撒绿，果树满目，硕果累累；", "entity_list": []}
+{"text": "这就是五千年前蚩尤屯兵据守之寨？", "entity_list": [{"entity_index": {"begin": 7, "end": 9}, "entity_type": "PER", "entity": "蚩尤"}]}
+{"text": "日光，揭开了蚩尤寨神秘的面纱。", "entity_list": [{"entity_index": {"begin": 6, "end": 9}, "entity_type": "LOC", "entity": "蚩尤寨"}]}
+{"text": "我跋涉着，领悟着人类生存与发展的艰难和曲折。", "entity_list": []}
+{"text": "通向蚩尤寨的小道窄而陡，蜿蜒且不踏实，稍不留神就会被脚下的浮石、浮土滑个趔趄。", "entity_list": [{"entity_index": {"begin": 2, "end": 5}, "entity_type": "LOC", "entity": "蚩尤寨"}]}
+{"text": "车停在了蚩尤寨下的龙王塘村，我们开始徒步而行。", "entity_list": [{"entity_index": {"begin": 4, "end": 7}, "entity_type": "LOC", "entity": "蚩尤寨"}, {"entity_index": {"begin": 9, "end": 13}, "entity_type": "LOC", "entity": "龙王塘村"}]}
+{"text": "情绪为干戈不息的我国历史而困扰，心中便飘浮起一种浑浊的哀切。", "entity_list": []}
+{"text": "我不由得细细咀嚼起：“蚩尤作乱，不用帝命，于是黄帝乃征师诸侯，与蚩尤战于涿鹿之野，遂擒杀蚩尤”的简赅史料。", "entity_list": [{"entity_index": {"begin": 11, "end": 13}, "entity_type": "PER", "entity": "蚩尤"}, {"entity_index": {"begin": 23, "end": 25}, "entity_type": "PER", "entity": "黄帝"}, {"entity_index": {"begin": 32, "end": 34}, "entity_type": "PER", "entity": "蚩尤"}, {"entity_index": {"begin": 36, "end": 38}, "entity_type": "LOC", "entity": "涿鹿"}, {"entity_index": {"begin": 44, "end": 46}, "entity_type": "PER", "entity": "蚩尤"}]}
+{"text": "远远地，我望见了蚩尤寨被一层晨雾盘绕着、包裹着，更凝重了它的神秘和浩气。", "entity_list": [{"entity_index": {"begin": 8, "end": 11}, "entity_type": "LOC", "entity": "蚩尤寨"}]}
+{"text": "拜谒了涿鹿黄帝城，我再也遏制不住想去认识蚩尤寨，感悟远古的狼烟征尘，体会先祖的剽悍雄风。", "entity_list": [{"entity_index": {"begin": 5, "end": 8}, "entity_type": "LOC", "entity": "黄帝城"}, {"entity_index": {"begin": 20, "end": 23}, "entity_type": "LOC", "entity": "蚩尤寨"}]}
+{"text": "但愿这种“新孝道”仅仅是一个玩笑。", "entity_list": []}
+{"text": "请注意：两个短语都是“动宾结构”而非“偏正结构”，尽孝的不是儿女，而是父母也。", "entity_list": []}
+{"text": "所谓“孝子”，就是“孝顺儿子”；", "entity_list": []}
+{"text": "所谓“孝女”，也就是“孝顺女儿”了。", "entity_list": []}
+{"text": "有人开玩笑，说这叫“新孝道”。", "entity_list": []}
+{"text": "相沿成习，就变成了一种风气、一种潮流。", "entity_list": []}
+{"text": "为什么这位父亲要对“公子”这样尽心尽力呢？", "entity_list": []}
+{"text": "莫非不可以让这位肥头大耳的“公子”略效“犬马之劳”吗？", "entity_list": []}
+{"text": "再比如拿东西，一位父亲左手提箱子、右手拿小提琴，而他的十几岁的“公子”却两手空空“压阵”。", "entity_list": []}
+{"text": "女儿大模大样地端坐，母亲心安理得地“侍立”，似乎已成了天经地义。", "entity_list": []}
+{"text": "然而，你在公共汽车上看到的却往往“相反”。", "entity_list": []}
+{"text": "在任何一个朝代、任何一个社会，恐怕都该是母坐女站而不应是相反。", "entity_list": []}
+{"text": "比如乘公共汽车，坐四望五的一位中年妇女带着一个十六七岁、比她还高的女儿，二人只有一个座位，如何是好？", "entity_list": []}
+{"text": "那么，我们不妨找两个见怪不怪、习以为常的例子。", "entity_list": []}
+{"text": "也许这个例子太“尖端”，代表性不大，不足以服天下父母之心。", "entity_list": []}
+{"text": "“可怜天下父母心”，良有以此！", "entity_list": []}
+{"text": "如果没有平时的娇生惯养，六岁的娃娃会这样可恶可恨、敢这样无法无天吗？", "entity_list": []}
+{"text": "把儿子惯成这副模样，这位被砍的母亲有没有责任呢？", "entity_list": []}
+{"text": "六岁就敢刀砍生母，长大岂不要把父母生吞活剥？", "entity_list": []}
+{"text": "这个“血案”，可不可以作为“可怜”的注脚呢？", "entity_list": []}
+{"text": "当好心的邻居赶来救起这位遭亲子袭击而血流不止的母亲时，行凶的儿子兀自骂不绝口呢！", "entity_list": []}
+{"text": "果不其然，此儿到家就猝不及防地给了他妈一刀。", "entity_list": []}
+{"text": "想不到儿子却不干了，口口声声要“回家拿刀砍了你！”", "entity_list": []}
+{"text": "这位母亲爱心十足，涵养很深，只不过拉起儿子回家而已。", "entity_list": []}
+{"text": "———一口恶痰直向这位母亲脸上飞去。", "entity_list": []}
+{"text": "其母爱子心切，跑去拉他回家吃饭。", "entity_list": []}
+{"text": "某地一六岁小儿，乳臭未干，却染上了电子游戏机赌博瘾。", "entity_list": []}
+{"text": "“可怜”的砝码是否又加重了呢？", "entity_list": []}
+{"text": "那么，今天几成口头禅的“可怜天下父母心”又如何解读？", "entity_list": []}
+{"text": "尤其在“计划生育”成为“基本国策”之后，父母对子女的厚望自然就更为殷切了。", "entity_list": []}
+{"text": "是否仍然望子成龙、望女成凤太过心切呢？", "entity_list": []}
+{"text": "试问今天的父母心，较之封建社会何如？", "entity_list": []}
+{"text": "假如这种解释可以成立，那么，问题严重了！", "entity_list": []}
+{"text": "有一种解释：封建社会的父母们望子成龙、望女成凤太过心切，往往失望，“龙”未成而得“犬”，“凤”未成而得“鸡”，理想到现实一落千丈，父母们的一片爱心岂不遭到了嘲弄？", "entity_list": []}
+{"text": "博大、慈祥的父母之爱为什么反而要惋惜呢？", "entity_list": []}
+{"text": "人们常说父母之心博大、慈祥，只应歌颂、赞扬，何必说“可怜”呢？", "entity_list": []}
+{"text": "“可怜天下父母心”，这几乎已经成了一句口头禅，极言其父母对儿女的疼爱与关心。", "entity_list": []}
+{"text": "他们永远不会忘记“战时儿童保育院”这个温馨的家，不会忘记那些不是母亲而胜似母亲的妈妈们。", "entity_list": []}
+{"text": "然而历史又是不可埋没的，广大保育生多数尚健在，这些活动于海内外的热血赤子，虽已都不再年轻，但仍以其赤诚之心，为中华腾飞效力。", "entity_list": [{"entity_index": {"begin": 55, "end": 57}, "entity_type": "LOC", "entity": "中华"}]}
+{"text": "由于种种缘故，当年保育妈妈们的丰功伟绩一直未能得到应有的宣扬，竟至于她们中很多人已经作古。", "entity_list": []}
+{"text": "为了这一抢救事业，数以千计的年轻的女性、慈爱的母亲为之付出了艰辛的劳动，牺牲了可贵的青春岁月，有的人还付出了生命的代价，不少人甚至舍弃了爱情婚姻，一生独身，而将全部的爱奉献给了妇幼及青少年教育事业。", "entity_list": []}
+{"text": "八年抗战期间，分布在大后方的六十一所保育院，共养育了三万多孩子，要是一并算上其他慈善与进步团体收养的五万余名孤儿，一共便是八万多儿童。", "entity_list": []}
+{"text": "他们唱着保育院院歌，进入这一个个新家，结束了流浪行乞的日子，重新得到了母亲温馨胸脯的抚慰和甘甜乳汁的滋养。", "entity_list": []}
+{"text": "一批批孩子从敌人刀尖弹雨下，从战区、沦陷区，从乡村、城市，获救而转运到安全地。", "entity_list": []}
+{"text": "犹如三月的春风，吹拂多难的祖国，立即，全国凡有难民的各省市爱国进步人士纷纷起而响应，很快成立了二十三个保育分会，继而，战时儿童保育院相继在各处诞生，艰危的抢救工作开始了。", "entity_list": []}
+{"text": "她作为第二次国共合作时期妇女联合阵线的华彩乐章，被记载在中国抗日战争与现代妇女运动的史册上，更牢固地镌刻在每一个保育生的心中。", "entity_list": [{"entity_index": {"begin": 7, "end": 8}, "entity_type": "ORG", "entity": "共"}, {"entity_index": {"begin": 28, "end": 30}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 31, "end": 32}, "entity_type": "LOC", "entity": "日"}]}
+{"text": "会议虽谈不上热烈和隆重，但却是庄严而神圣的。", "entity_list": []}
+{"text": "邓颖超自然出席，宋美龄应邀到会并讲话。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "PER", "entity": "邓颖超"}, {"entity_index": {"begin": 8, "end": 11}, "entity_type": "PER", "entity": "宋美龄"}]}
+{"text": "参加者大多为女性，有当时在汉的女界领袖及其名流，各党派团体和宗教慈善组织的代表，尚有个别外国友人、各报纸与电台的新闻记者。", "entity_list": [{"entity_index": {"begin": 13, "end": 14}, "entity_type": "LOC", "entity": "汉"}]}
+{"text": "会址选在汉口界限路的圣罗以女子中学内。", "entity_list": [{"entity_index": {"begin": 6, "end": 9}, "entity_type": "LOC", "entity": "界限路"}, {"entity_index": {"begin": 10, "end": 17}, "entity_type": "ORG", "entity": "圣罗以女子中学"}]}
+{"text": "在此危急关头，中国共产党和爱国进步力量站到了时代的前列，周恩来、邓颖超展开了多方面的活动，爱国民主人士顺应历史潮流，《新华日报》最先发出“救救孩子”的呼声，浮荡的危城中正酝酿着一个坚实而果决的行动，", "entity_list": [{"entity_index": {"begin": 7, "end": 12}, "entity_type": "ORG", "entity": "中国共产党"}, {"entity_index": {"begin": 28, "end": 31}, "entity_type": "PER", "entity": "周恩来"}, {"entity_index": {"begin": 32, "end": 35}, "entity_type": "PER", "entity": "邓颖超"}, {"entity_index": {"begin": 59, "end": 63}, "entity_type": "ORG", "entity": "新华日报"}]}
+{"text": "一个以抢救苦难儿童为宗旨的进步组织———中国战时儿童保育会诞生了。", "entity_list": [{"entity_index": {"begin": 20, "end": 29}, "entity_type": "ORG", "entity": "中国战时儿童保育会"}]}
+{"text": "抢救我们的下一代已是当务之急，保住下一代就保住了民族不灭与复兴的希望。", "entity_list": []}
+{"text": "沦陷区与前方正发生着有关孩子的种种恐怖事情：日本人把中国孩子的血抽干输给他们的伤员，大批幼小的孩子正和父母一起被无辜惨杀，日本人还将无数孩子运往朝鲜、台湾及日本本土，施以奴化教育，", "entity_list": [{"entity_index": {"begin": 22, "end": 24}, "entity_type": "LOC", "entity": "日本"}, {"entity_index": {"begin": 26, "end": 28}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 61, "end": 63}, "entity_type": "LOC", "entity": "日本"}, {"entity_index": {"begin": 72, "end": 74}, "entity_type": "LOC", "entity": "朝鲜"}, {"entity_index": {"begin": 75, "end": 77}, "entity_type": "LOC", "entity": "台湾"}, {"entity_index": {"begin": 78, "end": 80}, "entity_type": "LOC", "entity": "日本"}]}
+{"text": "以训练长久统治中华民族的奴仆……此等寒心事件，不一而足。", "entity_list": [{"entity_index": {"begin": 7, "end": 9}, "entity_type": "LOC", "entity": "中华"}]}
+{"text": "流乞满街，饿殍遍地，尤其那些未成年的孩子更是景况堪忧。", "entity_list": []}
+{"text": "大量难民的涌入，饥饿与疾病的折磨，加剧了城市的生存危机。", "entity_list": []}
+{"text": "但伴随春天来临的不只是救国的怒吼和民众的觉醒，还有一系列令人忧心头疼的社会问题。", "entity_list": []}
+{"text": "那是1938年春，全民抗战的浪潮强烈地震荡着祖国的临时首都汉口。", "entity_list": [{"entity_index": {"begin": 29, "end": 31}, "entity_type": "LOC", "entity": "汉口"}]}
+{"text": "我多次参加他们的活动，渐渐地走进了那的确值得珍视的昨天———", "entity_list": []}
+{"text": "他们的聚会，多则几百、近千人，少则几十个人，甚至三五个人，也一样举行纪念活动。", "entity_list": []}
+{"text": "他们中大多数人职位不高，一生崇尚勤俭和清贫，有些人至死都还是农民，但他们克服年老体弱甚至疾患缠身等种种困难，自掏腰包，乐此不倦地赶往聚会地点。", "entity_list": []}
+{"text": "为了这难忘的相聚，他们都要付出相当的代价。", "entity_list": []}
+{"text": "十年里他们每年都要在3月10日这一天举行这样的聚会。", "entity_list": []}
+{"text": "人民大会堂的会议已经过去十年。", "entity_list": [{"entity_index": {"begin": 0, "end": 5}, "entity_type": "LOC", "entity": "人民大会堂"}]}
+{"text": "一个个激情洋溢，情真意切，内容均不离今天会议主旨———“中国战时儿童保育会五十周年纪念”，他们以各自的方式回忆和怀念着战时儿童保育院和保育妈妈们……", "entity_list": [{"entity_index": {"begin": 28, "end": 37}, "entity_type": "ORG", "entity": "中国战时儿童保育会"}]}
+{"text": "事后方知此歌名为《中国战时儿童保育院院歌》，是今天与会者最喜爱的歌。", "entity_list": [{"entity_index": {"begin": 9, "end": 18}, "entity_type": "ORG", "entity": "中国战时儿童保育院"}]}
+{"text": "六七十岁的老人们都扯开喉咙唱起了小儿调，仿佛又回到了童年时代。", "entity_list": []}
+{"text": "随后是全体鞠躬，人人成九十度屈身，恭顺有加，向保育妈妈们致礼。", "entity_list": []}
+{"text": "于是，肃立的人们马上应和，三呼有声。", "entity_list": []}
+{"text": "接着，指挥者发出指令：“向保育妈妈们问好！”", "entity_list": []}
+{"text": "然而，主持人一发话，五六百人的会场顿时鸦雀无声，方才还如海啸浪涌的大合奏，一下子便戛然而止了。", "entity_list": []}
+{"text": "看啊，满眼里都是六七十岁的老头老太，三五成群，七八个一堆，说着笑着，喊着闹着，甚至哭着唱着，视若无人，尽情尽致。", "entity_list": []}
+{"text": "立时，我的心被眼前的场景震撼了。", "entity_list": []}
+{"text": "十年前的3月10日，当金色的朝晖沐浴着庄严宏伟的人民大会堂时，我随一群人登上汉白玉台阶，迈入了这座神圣的殿堂。", "entity_list": [{"entity_index": {"begin": 24, "end": 29}, "entity_type": "LOC", "entity": "人民大会堂"}]}
+{"text": "他常常告诫外出打工的乡亲们，千万不要做他那样的蠢事了。", "entity_list": []}
+{"text": "如今，陈明亮带着一条残臂回到了村里，后悔莫及。", "entity_list": [{"entity_index": {"begin": 3, "end": 6}, "entity_type": "PER", "entity": "陈明亮"}]}
+{"text": "陈明亮又哭又闹，但仍无济于事。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "PER", "entity": "陈明亮"}]}
+{"text": "经核实后，保险公司按规定拒绝了陈明亮的索赔。", "entity_list": [{"entity_index": {"begin": 15, "end": 18}, "entity_type": "PER", "entity": "陈明亮"}]}
+{"text": "出院后，保险公司派人对他的情况和这次事故进行了调查，发现当事人与投保人身份证不符。", "entity_list": []}
+{"text": "当时他痛不欲生，但当得知保险公司会给他巨额工伤事故赔偿时，他心里又宽慰了一些。", "entity_list": []}
+{"text": "今年3月，陈明亮没想到，在工厂操作机器时不慎被齐肘截去左臂，经抢救，命总算保住了。", "entity_list": [{"entity_index": {"begin": 5, "end": 8}, "entity_type": "PER", "entity": "陈明亮"}]}
+{"text": "后来他到了广东东莞，果然凭这张借来的身份证进了一家工厂当了一名车工，厂里竟然还用那张身份证为他办理了伤残事故保险手续。", "entity_list": [{"entity_index": {"begin": 7, "end": 9}, "entity_type": "LOC", "entity": "东莞"}]}
+{"text": "开始他还忐忑不安，因为事先他只是听人说，有不少人借用他人的身份证进了厂，但自己这样做总是放心不下。", "entity_list": []}
+{"text": "去年10月，陈明亮在没有身份证的情况下，为了省几个小钱，也为了图方便，急匆匆地赶到一个亲戚家，借到一张身份证便踏上了南下的旅程。", "entity_list": [{"entity_index": {"begin": 6, "end": 9}, "entity_type": "PER", "entity": "陈明亮"}]}
+{"text": "可事过不久，他却为自己的这个小聪明开始后悔一辈子，深感这样做吃亏的是自己。", "entity_list": []}
+{"text": "江西乐安县流舍村青年陈明亮，当初为自己用他人的身份证瞒过了老板的眼进了厂，颇为得意了一阵子。", "entity_list": [{"entity_index": {"begin": 5, "end": 8}, "entity_type": "LOC", "entity": "流舍村"}, {"entity_index": {"begin": 10, "end": 13}, "entity_type": "PER", "entity": "陈明亮"}]}
+{"text": "由此可见，复婚不登记属于无效的婚姻关系，不受法律保护。", "entity_list": []}
+{"text": "因此，法院作出解除梁某与郭某的非法同居关系的判决，于法有据。", "entity_list": [{"entity_index": {"begin": 9, "end": 10}, "entity_type": "PER", "entity": "梁"}, {"entity_index": {"begin": 12, "end": 13}, "entity_type": "PER", "entity": "郭"}]}
+{"text": "郭某要求与梁某继续共同生活的主张，与法不符，法院不予支持。", "entity_list": [{"entity_index": {"begin": 0, "end": 1}, "entity_type": "PER", "entity": "郭"}, {"entity_index": {"begin": 5, "end": 6}, "entity_type": "PER", "entity": "梁"}]}
+{"text": "依据上述法律规定，梁某与郭某曾在婚姻登记机关协议离婚，后又重归于好，但因双方缺乏依法登记的意识，而未再进行复婚登记，则以夫妻名义同居生活，已构成非法同居关系，依法应予解除。", "entity_list": [{"entity_index": {"begin": 9, "end": 10}, "entity_type": "PER", "entity": "梁"}, {"entity_index": {"begin": 12, "end": 13}, "entity_type": "PER", "entity": "郭"}]}
+{"text": "最高人民法院《关于人民法院审理未办理结婚登记而以夫妻名义同居生活案件的若干意见》第四条规定：“离婚后双方未再婚，未履行结婚登记手续，又以夫妻名义同居生活，一方起诉‘离婚’的，", "entity_list": [{"entity_index": {"begin": 0, "end": 6}, "entity_type": "ORG", "entity": "最高人民法院"}]}
+{"text": "一般应解除其非法同居关系。”", "entity_list": []}
+{"text": "法院受理了此案，经审理作出裁决，解除梁某与郭某的非法同居关系。", "entity_list": [{"entity_index": {"begin": 18, "end": 19}, "entity_type": "PER", "entity": "梁"}, {"entity_index": {"begin": 21, "end": 22}, "entity_type": "PER", "entity": "郭"}]}
+{"text": "对此，郭某则辩称，婚生子尚未独立生活，为了孩子希望法律能保护其与梁某继续共同生活。", "entity_list": [{"entity_index": {"begin": 3, "end": 4}, "entity_type": "PER", "entity": "郭"}, {"entity_index": {"begin": 32, "end": 33}, "entity_type": "PER", "entity": "梁"}]}
+{"text": "在此后的同居生活中，双方又为家庭经济问题争吵不休，直至1998年3月10日，两人不堪同居，梁某遂向法院起诉“离婚”。", "entity_list": [{"entity_index": {"begin": 45, "end": 46}, "entity_type": "PER", "entity": "梁"}]}
+{"text": "但由于双方不知复婚有登记程序，而一直未履行登记手续。", "entity_list": []}
+{"text": "可事后不久，双方又不忍心让孩子的心灵受到伤害，经人调解即以夫妻名义又开始同居生活。", "entity_list": []}
+{"text": "后因夫妻性格不合而经常发生矛盾，1983年3月协议离婚。", "entity_list": []}
+{"text": "梁某与丈夫郭某于1977年7月登记结婚，1979年2月生一子。", "entity_list": [{"entity_index": {"begin": 0, "end": 1}, "entity_type": "PER", "entity": "梁"}, {"entity_index": {"begin": 5, "end": 6}, "entity_type": "PER", "entity": "郭"}]}
+{"text": "电话：（010）64014411转2908", "entity_list": []}
+{"text": "中国中医研究院针灸研究所门诊部白癜风专科主任医师刘维林", "entity_list": [{"entity_index": {"begin": 0, "end": 20}, "entity_type": "ORG", "entity": "中国中医研究院针灸研究所门诊部白癜风专科"}, {"entity_index": {"begin": 24, "end": 27}, "entity_type": "PER", "entity": "刘维林"}]}
+{"text": "同时，要提醒您的是，在治疗期间要忌食牛、羊肉，不饮酒，不吃辣，不服维生素C片，应多食黑米、黑芝麻、黑木耳等黑色食品。", "entity_list": []}
+{"text": "体疗：则是指导患者进行适当身体锻炼，提高抗病能力。", "entity_list": []}
+{"text": "外疗：是连续3个月在皮损部位涂有关的外用药物。", "entity_list": []}
+{"text": "内疗：是让患者连续3个月内服消癜丸等治疗药物。", "entity_list": []}
+{"text": "心疗：是通过心理咨询使病人保持乐观情绪。", "entity_list": []}
+{"text": "所谓“四联疗法”则是指心疗、内疗、外疗、体疗等四种方法和手段。", "entity_list": []}
+{"text": "“四联疗法”就是根据不同病因的患者，采取祛风胜湿，活血通络，益气固表等灵活辨证的施治方法，达到从免疫功能上进行双向调节，改善血液循环，促进黑色素再生，恢复皮肤功能的效果。", "entity_list": []}
+{"text": "相对而言，在治疗效果上，发病时间短、皮损面积小的要优于时间长、面积大的，儿童优于成人，面部优于手脚等末梢神经部位。", "entity_list": []}
+{"text": "刘：白癜风病易于诊断，但治愈难。", "entity_list": [{"entity_index": {"begin": 0, "end": 1}, "entity_type": "PER", "entity": "刘"}]}
+{"text": "听说您用“四联疗法”治这种病效果很好。", "entity_list": []}
+{"text": "郑：的确，患了白癜风虽然不痛不痒，但自己就是不愿见人，心理压力很重。", "entity_list": [{"entity_index": {"begin": 0, "end": 1}, "entity_type": "PER", "entity": "郑"}]}
+{"text": "患者一般无自觉症状，但有碍美观，一般心理负担较重。", "entity_list": []}
+{"text": "本病好发于面、颈、背、躯干及外生殖器，可见于各种年龄。", "entity_list": []}
+{"text": "皮损初为圆形，可单发，也可对称发生，后渐呈不规则形，边缘色重，有时中央有正常皮肤或深色斑点，称为皮岛。", "entity_list": []}
+{"text": "其临床表现为皮肤局限性色素脱失，表面平滑、无鳞屑。", "entity_list": []}
+{"text": "中医学上称这种病为“白斑病”、“白驳风”，认为是由于情志内伤，肝气郁结，以致局部气血失和，发为本病。", "entity_list": []}
+{"text": "其病因与免疫功能低下、内分泌紊乱、代谢障碍致黑色素细胞被破坏及微量元素缺乏等因素有关，只有10％—20％的人与遗传有关。", "entity_list": []}
+{"text": "刘：白癜风是一种后天性局限性皮肤色素脱失病。", "entity_list": [{"entity_index": {"begin": 0, "end": 1}, "entity_type": "PER", "entity": "刘"}]}
+{"text": "郑：我们家祖祖辈辈没人患过这种病，我怎么会这样不幸？", "entity_list": [{"entity_index": {"begin": 0, "end": 1}, "entity_type": "PER", "entity": "郑"}]}
+{"text": "前几天，他专程来京向我问诊求医。", "entity_list": [{"entity_index": {"begin": 8, "end": 9}, "entity_type": "LOC", "entity": "京"}]}
+{"text": "郑某几年前额头和双手开始出现白斑，如今已连接成片，致使半个额头白化。", "entity_list": [{"entity_index": {"begin": 0, "end": 1}, "entity_type": "PER", "entity": "郑"}]}
+{"text": "然而，有一些病症虽然不会危及人们的生命，却会给人们的仪表美造成极大的损害，白癜风便是这种病症之一。", "entity_list": []}
+{"text": "如今人们的生活水平和生活质量提高了，对美的追求也越来越强烈。", "entity_list": []}
+{"text": "白癜风的“四联疗法”（家庭医疗保健常识82）", "entity_list": []}
+{"text": "过得好，活得有滋味，并不仅指物质上的富足，摒弃物质的诱惑去选择，那么就会享受到每一份成功带来的快乐。", "entity_list": []}
+{"text": "在纷至沓来的诱惑面前，为自己找一个合适的位置，对自己，对社会都是必要的。", "entity_list": []}
+{"text": "社会为我们提供了更多发挥才智、技能的机会，选择的自由度大了，同时也易使人这山看着那山高，频繁地跳槽，改行，不断地变化自己的生存位置，弄不好有限的人生就在这不停的转换中悄然流逝。", "entity_list": []}
+{"text": "硬是去闯，就无异于南辕北辙了，于生活，于事业都有害无益。", "entity_list": []}
+{"text": "譬如经商，羡慕富商大贾，却不知生意场上的营运、谋划也是需要一番心智与才力的。", "entity_list": []}
+{"text": "虽说“三百六十行，行行出状元”，但每一行都有其奥妙与技巧，并非每个人对每一行都能胜任。", "entity_list": []}
+{"text": "只是选择前不要忘了先衡量一下自己。", "entity_list": []}
+{"text": "诚然，只要不违法乱纪，人们有权利作出任何一种选择。", "entity_list": []}
+{"text": "形形色色的诱惑，声光色味的感官享受，究竟以兴趣爱好、理想事业为重，还是以金钱、物欲为先？", "entity_list": []}
+{"text": "一个人有了更多的需要，也有了更多的满足需要的手段。", "entity_list": []}
+{"text": "现代社会生活的滚滚洪流，打破了种种传统的禁锢和束缚，为我们提供了更为丰富多彩的生活和更多的选择机会。", "entity_list": []}
+{"text": "人在生活的路上无疑会遇到很多的诱惑，事业、金钱、物欲等等，令我们沮丧的是面对这么多的诱惑只能作出唯一的选择，任何时候都不可能同时踏上两条生活道路。", "entity_list": []}
+{"text": "我这位好友的际遇除让我感叹谋生不易外，更促使我对生活的思考。", "entity_list": []}
+{"text": "但他总不甘寂寞，日前到我家中小聚，谈起他想到某个企业去谋求发展，问我是不是合适，我无言以对。", "entity_list": []}
+{"text": "幸好学校念他教学有方，不计前嫌，收留了他，继续留校任教。", "entity_list": []}
+{"text": "他不甘心，又承包了校外一家招待所，由于书生味浓，难容于世俗，半年工夫账本上赤字连连，又不得不就此打住。", "entity_list": []}
+{"text": "哪知不谙“水性”，两个月连本带利赔个精光。", "entity_list": []}
+{"text": "原想借机发一笔，从此摘掉穷帽子。", "entity_list": []}
+{"text": "两年前，他耐不住寂寞和清贫，辞去公职赶潮“下海”了，与人合伙搞运输。", "entity_list": []}
+{"text": "好友宏某原先在中学当教师，业余搞搞文学创作，虽不算富有，但活得很充实。", "entity_list": [{"entity_index": {"begin": 2, "end": 3}, "entity_type": "PER", "entity": "宏"}]}
+{"text": "他们向子弟兵赠送了两头奶牛和一台榨豆浆机，使官兵们在艰苦的训练、执勤之后能喝上新鲜的牛奶和豆浆。", "entity_list": []}
+{"text": "5月12日，北京市怀柔县民政局、畜牧局领导来到驻守在偏远山区的武警北京一总队十支队十四中队。", "entity_list": [{"entity_index": {"begin": 6, "end": 15}, "entity_type": "ORG", "entity": "北京市怀柔县民政局"}, {"entity_index": {"begin": 16, "end": 19}, "entity_type": "ORG", "entity": "畜牧局"}, {"entity_index": {"begin": 31, "end": 45}, "entity_type": "ORG", "entity": "武警北京一总队十支队十四中队"}]}
+{"text": "把患者视为上帝，这就是“攻关主任”苏伟和她的攻关小组前进的动力。", "entity_list": [{"entity_index": {"begin": 17, "end": 19}, "entity_type": "PER", "entity": "苏伟"}]}
+{"text": "在全国精神病医院首家推出的这一治疗方法，为病人营造了一个良好的康复环境。", "entity_list": [{"entity_index": {"begin": 1, "end": 8}, "entity_type": "ORG", "entity": "全国精神病医院"}]}
+{"text": "苏伟和攻关组提出了开放式、家庭式的治疗方法。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "PER", "entity": "苏伟"}]}
+{"text": "她和她的同事们都清楚只有更积极地探索和努力，才能不断找到先进有效的治疗方法。", "entity_list": []}
+{"text": "苏伟更清楚医院承诺的压力，攻关小组作为实现承诺的重要保证之一。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "PER", "entity": "苏伟"}]}
+{"text": "苏伟更是写出了《精神分裂并非痰迷心窍》等多篇论文，在国内外引起了较大反响。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "PER", "entity": "苏伟"}]}
+{"text": "经过无数昼夜对病人病情的观察，苏伟和攻关小组的同事们找到了精神病的新病因和相应的治疗方法。", "entity_list": [{"entity_index": {"begin": 15, "end": 17}, "entity_type": "PER", "entity": "苏伟"}]}
+{"text": "为了弄清病人的情况，以便对症施治，她和攻关小组的专家们，制定了和病人同吃同住的制度。", "entity_list": []}
+{"text": "“攻关主任”责任重大，苏伟知道自己肩上的担子不轻。", "entity_list": [{"entity_index": {"begin": 11, "end": 13}, "entity_type": "PER", "entity": "苏伟"}]}
+{"text": "如今，在黄骅市中医精神病专科医院，她领导着有8名正副教授和一批中年知识分子组成的攻关小组。", "entity_list": [{"entity_index": {"begin": 4, "end": 16}, "entity_type": "ORG", "entity": "黄骅市中医精神病专科医院"}]}
+{"text": "这位“攻关主任”叫苏伟，出身军人，是一位在国外科研机构工作多年后回国的中年女性专家。", "entity_list": [{"entity_index": {"begin": 9, "end": 11}, "entity_type": "PER", "entity": "苏伟"}]}
+{"text": "去年他们公开向社会承诺：治疗精神类疾病如不痊愈，退还全部药款。", "entity_list": []}
+{"text": "但在卫生部医疗改革的试点单位，河北黄骅市中医精神病专科医院如今却破了这个规矩。", "entity_list": [{"entity_index": {"begin": 2, "end": 5}, "entity_type": "ORG", "entity": "卫生部"}, {"entity_index": {"begin": 15, "end": 29}, "entity_type": "ORG", "entity": "河北黄骅市中医精神病专科医院"}]}
+{"text": "先交钱再看病，不管病治好没治好，钱总得要交，该多少是多少，这是进医院的规矩。", "entity_list": []}
+{"text": "“攻关主任”苏伟（普通人的故事）", "entity_list": [{"entity_index": {"begin": 6, "end": 8}, "entity_type": "PER", "entity": "苏伟"}]}
+{"text": "他身边的工作人员说：“梁总经常如此，有时一个馒头就是一顿午饭。”", "entity_list": [{"entity_index": {"begin": 11, "end": 12}, "entity_type": "PER", "entity": "梁"}]}
+{"text": "我访问他的那一次正是午饭时间，他正在办公室用餐，一盘素豆角、一碗米饭就是他的正餐了。", "entity_list": []}
+{"text": "他的午餐通常也只是一盘青菜一碗饭。", "entity_list": []}
+{"text": "梁连起倾注心血扶贫济困，对自己的生活却是近乎苛刻的。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "PER", "entity": "梁连起"}]}
+{"text": "每逢灾害，他的慷慨捐献更是无法统计。", "entity_list": []}
+{"text": "他每年还为河北农业大学扶助多名贫困学生。", "entity_list": [{"entity_index": {"begin": 5, "end": 11}, "entity_type": "ORG", "entity": "河北农业大学"}]}
+{"text": "关心和帮助王学强等贫困地区的孩子，只是梁连起扶贫济困的一件小事。", "entity_list": [{"entity_index": {"begin": 5, "end": 8}, "entity_type": "PER", "entity": "王学强"}, {"entity_index": {"begin": 19, "end": 22}, "entity_type": "PER", "entity": "梁连起"}]}
+{"text": "这些孩子有的在城里找到了工作，挣到了钱；", "entity_list": []}
+{"text": "有的带着技艺回到了家乡，为改变贫穷的面貌开始了新的奋斗。", "entity_list": []}
+{"text": "一批批像王学强一样来自贫困地区的孩子以优异的成绩毕业了。", "entity_list": [{"entity_index": {"begin": 4, "end": 7}, "entity_type": "PER", "entity": "王学强"}]}
+{"text": "随后，他又叮嘱学校的有关负责人，对那些来自贫困地区的孩子一一摸底，了解他们衣食上的困难，并给予适当的接济。", "entity_list": []}
+{"text": "有一次，梁连起出差回来，看到王学强的鞋子破了，得知他无钱买新的，马上给他买了双新的。", "entity_list": [{"entity_index": {"begin": 4, "end": 7}, "entity_type": "PER", "entity": "梁连起"}, {"entity_index": {"begin": 14, "end": 17}, "entity_type": "PER", "entity": "王学强"}]}
+{"text": "从这些孩子们的学习到生活，他都一一放在心上。", "entity_list": []}
+{"text": "从此，包括王学强在内的一批来自贫困山区的孩子，成了梁连起关注的重点。", "entity_list": [{"entity_index": {"begin": 5, "end": 8}, "entity_type": "PER", "entity": "王学强"}, {"entity_index": {"begin": 25, "end": 28}, "entity_type": "PER", "entity": "梁连起"}]}
+{"text": "来到顺平，他看到这里的群众还在温饱线上奋斗的情景，暗暗发誓：我一定要为他们摆脱贫困尽份力。", "entity_list": [{"entity_index": {"begin": 2, "end": 4}, "entity_type": "LOC", "entity": "顺平"}]}
+{"text": "梁连起从王学强那里了解到下叔村贫困的情况，激起了他的同情和关注，他决定到下叔村看一看。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "PER", "entity": "梁连起"}, {"entity_index": {"begin": 4, "end": 7}, "entity_type": "PER", "entity": "王学强"}, {"entity_index": {"begin": 12, "end": 15}, "entity_type": "LOC", "entity": "下叔村"}, {"entity_index": {"begin": 36, "end": 39}, "entity_type": "LOC", "entity": "下叔村"}]}
+{"text": "1997年12月的一天，来自河北贫困山区顺平县下叔村的孤儿王学强，从报纸上读到了保定玉兰香厨师技术学校招生的广告，抱着闯一闯、试一试的想法来到了保定。", "entity_list": [{"entity_index": {"begin": 14, "end": 16}, "entity_type": "LOC", "entity": "河北"}, {"entity_index": {"begin": 23, "end": 26}, "entity_type": "LOC", "entity": "下叔村"}, {"entity_index": {"begin": 29, "end": 32}, "entity_type": "PER", "entity": "王学强"}, {"entity_index": {"begin": 40, "end": 51}, "entity_type": "ORG", "entity": "保定玉兰香厨师技术学校"}, {"entity_index": {"begin": 72, "end": 74}, "entity_type": "LOC", "entity": "保定"}]}
+{"text": "为了向社会多一些奉献，梁连起决定创办玉兰香厨师技术学校，努力为社会多培养人才，多创造一些就业机会。", "entity_list": [{"entity_index": {"begin": 11, "end": 14}, "entity_type": "PER", "entity": "梁连起"}, {"entity_index": {"begin": 18, "end": 27}, "entity_type": "ORG", "entity": "玉兰香厨师技术学校"}]}
+{"text": "梁连起经过十年艰苦创业，创办了玉兰香大酒店，又创出了经营管理的牌子。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "PER", "entity": "梁连起"}, {"entity_index": {"begin": 15, "end": 21}, "entity_type": "ORG", "entity": "玉兰香大酒店"}]}
+{"text": "酒店创始人梁连起扶贫济困、挚诚爱心献社会的义举，更是在保定被传为佳话。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "ORG", "entity": "酒店"}, {"entity_index": {"begin": 5, "end": 8}, "entity_type": "PER", "entity": "梁连起"}, {"entity_index": {"begin": 27, "end": 29}, "entity_type": "LOC", "entity": "保定"}]}
+{"text": "古城保定，有一家玉兰香大酒店，以其高质量的服务、物美价廉的菜肴而享誉燕赵大地。", "entity_list": [{"entity_index": {"begin": 2, "end": 4}, "entity_type": "LOC", "entity": "保定"}, {"entity_index": {"begin": 8, "end": 14}, "entity_type": "ORG", "entity": "玉兰香大酒店"}, {"entity_index": {"begin": 35, "end": 36}, "entity_type": "LOC", "entity": "赵"}]}
+{"text": "扶贫济困的梁连起（普通人的故事）", "entity_list": [{"entity_index": {"begin": 5, "end": 8}, "entity_type": "PER", "entity": "梁连起"}]}
+{"text": "为群众办事，不是抓一件落实一件，而是崇尚形式主义，热衷于花样翻新，满足于上级肯定，醉心于领导欣赏，这样的人联系群众往往有始无终。", "entity_list": []}
+{"text": "领导干部不仅要带头联系群众，更重要的是要发动下级部门与广大干部共同参与，不能搞包揽，这样往往会束缚基层的积极性，把他们的思想变懒，素质降低。", "entity_list": []}
+{"text": "或对决定自己“选票”的下级、人大代表等搞一团和气，栽花不栽刺，甚至搞拉扯吃喝，称兄道弟。", "entity_list": [{"entity_index": {"begin": 14, "end": 16}, "entity_type": "ORG", "entity": "人大"}]}
+{"text": "走访群众喜欢搞层层陪同，人未到通知到，事未做，广播电视报刊先报道，蒜皮小事，硬要妇孺皆知树口碑。", "entity_list": []}
+{"text": "还未为群众解决实际问题，便暗示基层只要送点“砖”，便可保证引来“玉”，吃点感谢饭，得点土特产，甚至索、拿、卡、要，还没有为基层“输氧”，先要群众“出血”。", "entity_list": []}
+{"text": "不能发扬“三同”传统，既不能身入，更不能心入，不能设身处地地时时想群众之所想，急群众之所急，似乎拨点钱，就是办了实事。", "entity_list": []}
+{"text": "要他去防洪抢险，救灾安民，扶贫脱困及开展群众思想教育工作，他一句“我们出钱！”", "entity_list": []}
+{"text": "少数干部和单位，以为金钱可以代替一切。", "entity_list": []}
+{"text": "怕钻寒屋，怕交贫友，怕被矛盾缠身。", "entity_list": []}
+{"text": "热衷到经济发达地区、效益好的企业调查研究，热衷与厂长、经理、私营企业老板、富裕农户打交道，搞锦上添花，为自己脸上贴金。", "entity_list": []}
+{"text": "调查结果当然为：“形势大好。”", "entity_list": []}
+{"text": "听美的，讲好的，看富的，“春风得意马蹄疾，一夜看尽长安花”。", "entity_list": [{"entity_index": {"begin": 25, "end": 27}, "entity_type": "LOC", "entity": "长安"}]}
+{"text": "听汇报，看简报，查报表，皮球浮在井水上。", "entity_list": []}
+{"text": "下基层了解社情民意，坐在车中看市景，来来去去一阵风。", "entity_list": []}
+{"text": "扶贫帮困的举措更是详尽，“科学性，时效性，实用性”都有，但这些举措都是喊在会场里，写在报告上，就是不付诸实施。", "entity_list": []}
+{"text": "谈起联系群众的重要性时，一些领导干部旁征博引，借古喻今，一副与民心血相连、心心相印的样子。", "entity_list": []}
+{"text": "密切联系群众是我党的优良传统，但目前一些领导干部却不能把握其内涵，以致出现以下几种误区：", "entity_list": []}
+{"text": "干部联系群众的八种误区（实话实说）", "entity_list": []}
+{"text": "谨摘录国际最新行语以激励国人：中国人的智慧是全人类一流的智慧。", "entity_list": [{"entity_index": {"begin": 15, "end": 17}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "因此我想，中国人面对外国讼事时，要之又要的，还是先要拿出自信和勇气，敢于跑到冷峻的法律背后，先在文化语言上做到知己知彼。", "entity_list": [{"entity_index": {"begin": 5, "end": 7}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "当然，也有资金、责任等其他考虑。", "entity_list": []}
+{"text": "究其原因，主要来自面对国际法律事务时的自卑心，或来自没做亏心事不怕鬼叫门的傲骨，也来自讼事缠身不吉利的文化心理。", "entity_list": []}
+{"text": "然而许多中国企业面临的实际情况往往是，一遇国际官司，聪明智慧就会受到不同程度的阻塞。", "entity_list": [{"entity_index": {"begin": 4, "end": 6}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "也需要在利害比较中进行选择是否起诉、应诉、反诉；", "entity_list": []}
+{"text": "如何运用当地国的法律；", "entity_list": []}
+{"text": "如何摆脱缠诉或利用缠诉；", "entity_list": []}
+{"text": "怎样与外国律师“谈生意”，请到称职的代理人，等等。", "entity_list": []}
+{"text": "如何维护自身利益，要运用专业知识、文化智慧，甚至勇气。", "entity_list": []}
+{"text": "由于国家不同，诉讼发生地的法律制度也不同，因而应对的方法也不尽相同。", "entity_list": []}
+{"text": "但对于面临国际官司的非专业人员（包括中国的法律工作者在内），对于法律背后的文化语言的了解，却可能是一种四两拨千斤的驾驭和调度全局的能力。", "entity_list": [{"entity_index": {"begin": 18, "end": 20}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "因此在国外打官司，技巧只是一种微观方法，在分工细致的现代社会，技巧属于专业人员的专业研究范畴。", "entity_list": []}
+{"text": "法律是一种有别于情与理的特殊的语言，当事人的动与静、雄辩与沉默都会构成准证据。", "entity_list": []}
+{"text": "西方法律学把法律的语义学放在重要的研究位置，正是由于恰当的表达可以加强沟通，减少差异。", "entity_list": []}
+{"text": "官司即纠纷，纠纷即矛盾，矛盾即差异，差异的背后既有利益冲突，也有对于规则的误知，还有思维方式的碰撞。", "entity_list": []}
+{"text": "在国外打官司，不但要了解当地国的法律规定，更要了解当地国法律的原理，了解法律背后的东西。", "entity_list": []}
+{"text": "这一案例表明，中国人面临国际官司时，只要能够主动地、大度地、更有理解力地认知对方国的法律，特别是了解对方执法者的文化心理，可能会从容地避险，坦然地避嫌，沉着地从难缠的官司中脱身。", "entity_list": [{"entity_index": {"begin": 7, "end": 9}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "但同时要求被检查的另一家企业，却因为拒绝接受检查的行为本身，被列为第一嫌犯，一直被缠诉不清。", "entity_list": []}
+{"text": "后来这家企业接受律师的意见，简单出入一次法庭后完事大吉。", "entity_list": []}
+{"text": "正如一些国家法律要求当事人承担自己无罪的举证责任，而中国法律却以问心无愧的文化心理出发，被控人不承担自己无罪的举证责任。", "entity_list": [{"entity_index": {"begin": 26, "end": 28}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "以中国人的思维习惯，“检查”通常是负面行为，但以美国法官的思维方法，“检查”也是排除有罪的必要法律程序。", "entity_list": [{"entity_index": {"begin": 1, "end": 3}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 24, "end": 26}, "entity_type": "LOC", "entity": "美国"}]}
+{"text": "这家企业认为他们的原料常年出口合格，美方明知有害物质与其无关，再行检查是无事生非。", "entity_list": [{"entity_index": {"begin": 18, "end": 19}, "entity_type": "LOC", "entity": "美"}]}
+{"text": "又如一家中国企业被美国法庭要求进行该企业的产品检查，理由是发现在市场销售的一种商品中含有害物质，这家企业的产品是制造原料之一。", "entity_list": [{"entity_index": {"begin": 4, "end": 6}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 9, "end": 11}, "entity_type": "LOC", "entity": "美国"}]}
+{"text": "这一案例说明，中国和美国由于文化原因，可能对法与非法的规定不同，而一旦能够做好文化上的沟通，法律对于特定案件的适用就可能发生改变。", "entity_list": [{"entity_index": {"begin": 7, "end": 9}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 10, "end": 12}, "entity_type": "LOC", "entity": "美国"}]}
+{"text": "于是律师在异国法律对监护权的不同规定与人类共有的母爱之间找到了共同语言，终使法院改判，撤销了原剥夺监护权的判决。", "entity_list": []}
+{"text": "一番深入浅出的剖析，使美国法庭知晓了美国文化对中国医药文化的误解，理解到异国之间法律背后应具有相同的爱心。", "entity_list": [{"entity_index": {"begin": 11, "end": 13}, "entity_type": "LOC", "entity": "美国"}, {"entity_index": {"begin": 18, "end": 20}, "entity_type": "LOC", "entity": "美国"}, {"entity_index": {"begin": 23, "end": 25}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "她的律师以本案所适用的美国法律所基于的文化背景同中国文化理念下的法律之间的冲突为辩护基点，认为美国法律应如其民族多元化一样容纳多元化文化。", "entity_list": [{"entity_index": {"begin": 11, "end": 13}, "entity_type": "LOC", "entity": "美国"}, {"entity_index": {"begin": 24, "end": 26}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 47, "end": 49}, "entity_type": "LOC", "entity": "美国"}]}
+{"text": "这位母亲的罪名是：非法使用中药治病危及了病人健康。", "entity_list": [{"entity_index": {"begin": 13, "end": 14}, "entity_type": "LOC", "entity": "中"}]}
+{"text": "正当她为女儿的疾病四处奔波之时，美国法庭判决剥夺她对女儿的监护权。", "entity_list": [{"entity_index": {"begin": 16, "end": 18}, "entity_type": "LOC", "entity": "美国"}]}
+{"text": "一位移民到美国的年轻母亲，经年为女儿用中药治病不愈。", "entity_list": [{"entity_index": {"begin": 5, "end": 7}, "entity_type": "LOC", "entity": "美国"}, {"entity_index": {"begin": 19, "end": 20}, "entity_type": "LOC", "entity": "中"}]}
+{"text": "以笔者曾经历过的中国人在美国打官司的情况为例：", "entity_list": [{"entity_index": {"begin": 8, "end": 10}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 12, "end": 14}, "entity_type": "LOC", "entity": "美国"}]}
+{"text": "由此看来，中国人在外国打官司的过程，首先是一个法律文化沟通的过程。", "entity_list": [{"entity_index": {"begin": 5, "end": 7}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "由于人类生活中存在着相异的文化空间，因此不同国家法律之间的互异性也是一种客观存在，理解法律的互异性，就要理解法律背后的东西。", "entity_list": []}
+{"text": "正在被法律进行着裁决的过程，即是俗称“打官司”的诉讼过程，而这个过程一旦发生在异国人之间，就无可避免地从法律问题一直延伸到异国文化的问题。", "entity_list": []}
+{"text": "任何发展到极端的矛盾、冲突、纠纷以至战争的结论，都要依据当事国现行法律规范进行裁判。", "entity_list": []}
+{"text": "随着全球人类日益频繁的交往，异国法律与文化如何沟通的命题越来越突出。", "entity_list": []}
+{"text": "然而这种简约的划分终究是形式化的，并不能使人们真正理解异国法律的全貌。", "entity_list": []}
+{"text": "但是，法学家却可以准确地说出，世界上有四大法律体系———不同的法系使得法律从其渊源、形式、部门划分到法律的适用方法和司法审判程序等等都不尽相同。", "entity_list": []}
+{"text": "所以，大概没人能够回答，世界上究竟有多少法律？", "entity_list": []}
+{"text": "在每一条人们行走的“路”上，都需要相应的“交通规则”。", "entity_list": []}
+{"text": "国家、社会组织、经济实体、家庭及个人等诸多的相互关系，都受到相应规范的约束。", "entity_list": []}
+{"text": "地球上的50多亿人，以地域或归属关系生活在200多个国家和地区；", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "地球"}]}
+{"text": "又以不同的文化群体形成数以万计的民族；", "entity_list": []}
+{"text": "数十亿的人群在相对稳定的或绝对流动的经济生活中还组成不计其数的工作群体。", "entity_list": []}
+{"text": "1997年2月，开来律师事务所成功地组织了中国企业在美国的反诉，为国家避免了1400万美元的损失。", "entity_list": [{"entity_index": {"begin": 8, "end": 15}, "entity_type": "ORG", "entity": "开来律师事务所"}, {"entity_index": {"begin": 21, "end": 23}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 26, "end": 28}, "entity_type": "LOC", "entity": "美国"}]}
+{"text": "1995年开来作为第一个用女律师姓名命名的律师事务所创办人，成立了“北京开来律师事务所”。", "entity_list": [{"entity_index": {"begin": 5, "end": 7}, "entity_type": "PER", "entity": "开来"}, {"entity_index": {"begin": 34, "end": 43}, "entity_type": "ORG", "entity": "北京开来律师事务所"}]}
+{"text": "海外一些杂志长年开辟有开来律师信箱专栏。", "entity_list": [{"entity_index": {"begin": 11, "end": 13}, "entity_type": "PER", "entity": "开来"}]}
+{"text": "近年，她不断受国外有关机构邀请进行法律文化交流，被称为证明中国法制进步的典范律师，美国人文大学聘她为法律文化学客座教授。", "entity_list": [{"entity_index": {"begin": 29, "end": 31}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 41, "end": 47}, "entity_type": "ORG", "entity": "美国人文大学"}]}
+{"text": "1993年作为中国代表参加了东京国际法学会，其发言受到国际法学界极大关注，破例被选为大会共同主席。", "entity_list": [{"entity_index": {"begin": 7, "end": 9}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 14, "end": 21}, "entity_type": "ORG", "entity": "东京国际法学会"}]}
+{"text": "开来，1978年至1985年就读于北京大学法律系和国际政治系，自1988年做专职律师。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "PER", "entity": "开来"}, {"entity_index": {"begin": 17, "end": 24}, "entity_type": "ORG", "entity": "北京大学法律系"}, {"entity_index": {"begin": 25, "end": 30}, "entity_type": "ORG", "entity": "国际政治系"}]}
+{"text": "加强法律文化的沟通（朋友信箱）（附图片1张）", "entity_list": []}
+{"text": "如何在国外打官司，拿起法律武器来维护自身的权益，不仅是我们每一位正在境外的中国公民面临的现实问题，也应该是我们更多的中国公民所应了解的常识。", "entity_list": [{"entity_index": {"begin": 37, "end": 39}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 58, "end": 60}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "改革开放以来，我们的国际交往越来越频繁，到国外旅游、求学、定居、做生意的中国公民也越来越多。", "entity_list": [{"entity_index": {"begin": 36, "end": 38}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "这次演出将汲取美国百老汇舞台剧《音乐之声》的经验，在舞台背景及人物性格等方面有新的处理。", "entity_list": [{"entity_index": {"begin": 7, "end": 12}, "entity_type": "ORG", "entity": "美国百老汇"}]}
+{"text": "音乐剧《音乐之声》重演由成方圆、王刚联袂主演的音乐剧《音乐之声》在保利大厦重演。", "entity_list": [{"entity_index": {"begin": 12, "end": 15}, "entity_type": "PER", "entity": "成方圆"}, {"entity_index": {"begin": 16, "end": 18}, "entity_type": "PER", "entity": "王刚"}, {"entity_index": {"begin": 33, "end": 37}, "entity_type": "LOC", "entity": "保利大厦"}]}
+{"text": "这出以上海为背景的儿童戏，由欧阳逸冰编剧。", "entity_list": [{"entity_index": {"begin": 3, "end": 5}, "entity_type": "LOC", "entity": "上海"}, {"entity_index": {"begin": 14, "end": 18}, "entity_type": "PER", "entity": "欧阳逸冰"}]}
+{"text": "为儿童上演《享受艰难》今年『六一』，上海中国福利会儿童艺术剧院将上演新戏《享受艰难》。", "entity_list": [{"entity_index": {"begin": 18, "end": 31}, "entity_type": "ORG", "entity": "上海中国福利会儿童艺术剧院"}]}
+{"text": "该片揭示了体育运动除了加强科学训练，提高技术、战术水平之外，更重要的是对孩子们加强心理素质的培养和训练。", "entity_list": []}
+{"text": "影片是描写我国花样滑冰运动的儿童故事片，讲述两代人对花样滑冰运动的奉献、追求与思考。", "entity_list": []}
+{"text": "儿童影片《冰凌花》开拍由中央电视台影视部、龙江电影制片厂联合摄制的儿童电影故事片《冰凌花》日前在哈尔滨开镜。", "entity_list": [{"entity_index": {"begin": 12, "end": 20}, "entity_type": "ORG", "entity": "中央电视台影视部"}, {"entity_index": {"begin": 21, "end": 28}, "entity_type": "ORG", "entity": "龙江电影制片厂"}, {"entity_index": {"begin": 48, "end": 51}, "entity_type": "LOC", "entity": "哈尔滨"}]}
+{"text": "刚建成的山西省最大的古玩交易市场将举行开业剪彩仪式，同时还展示长度为六百六十六点六米、创造吉尼斯世界纪录的中华巨龙，并推出一百零八种地方风味小吃，令嘉宾旅客切身感受平遥古城文化的独特魅力。", "entity_list": [{"entity_index": {"begin": 4, "end": 7}, "entity_type": "LOC", "entity": "山西省"}, {"entity_index": {"begin": 45, "end": 48}, "entity_type": "ORG", "entity": "吉尼斯"}, {"entity_index": {"begin": 53, "end": 55}, "entity_type": "LOC", "entity": "中华"}, {"entity_index": {"begin": 82, "end": 84}, "entity_type": "LOC", "entity": "平遥"}]}
+{"text": "山西平遥将办古城文化国际旅游节被联合国教科文组织列入世界文化遗产名录的平遥将于六月九日至六月十五日举办世界文化遗产平遥古城文化国际旅游节。", "entity_list": [{"entity_index": {"begin": 2, "end": 4}, "entity_type": "LOC", "entity": "平遥"}, {"entity_index": {"begin": 16, "end": 24}, "entity_type": "ORG", "entity": "联合国教科文组织"}, {"entity_index": {"begin": 35, "end": 37}, "entity_type": "LOC", "entity": "平遥"}, {"entity_index": {"begin": 57, "end": 59}, "entity_type": "LOC", "entity": "平遥"}]}
+{"text": "如先生能泉下有知，一定会感到欣慰……", "entity_list": []}
+{"text": "今天的大好局面，也正是先生所期待的。", "entity_list": []}
+{"text": "先生离开我们已经五年了，先生生前拥护中国共产党、拥护改革开放。", "entity_list": [{"entity_index": {"begin": 18, "end": 23}, "entity_type": "ORG", "entity": "中国共产党"}]}
+{"text": "先生从封建皇族成员转变为新中国公民进而成为人民政权最高立法机关成员，这体现了中国共产党改造社会、团结各阶层人士的伟大气魄和宽广胸怀；", "entity_list": [{"entity_index": {"begin": 13, "end": 15}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 38, "end": 43}, "entity_type": "ORG", "entity": "中国共产党"}]}
+{"text": "同时也表现了先生追求真理，向往光明的品德。", "entity_list": []}
+{"text": "夜已深沉，万物寂静，望着与先生的合影，我久久地思索着。", "entity_list": []}
+{"text": "那天，北京的上空飘洒着洁白的雪花，空气也格外清新。", "entity_list": [{"entity_index": {"begin": 3, "end": 5}, "entity_type": "LOC", "entity": "北京"}]}
+{"text": "果然，先生在会上发表了热情洋溢的讲话后不一会儿就被身边的工作人员搀出了会厅。", "entity_list": []}
+{"text": "看到已是八十四岁的先生那疲倦的脸色，我醒悟到，先生是为了使参加大会的满族同胞们尽兴，才抱病到会的。", "entity_list": []}
+{"text": "此时一位记者走来，为先生拍照，先生和我们合影留念后仍关切地询问我的工作等情况。", "entity_list": []}
+{"text": "我想到溥杰先生是被秘书搀进会厅的，我忙请先生坐下。", "entity_list": [{"entity_index": {"begin": 3, "end": 5}, "entity_type": "PER", "entity": "溥杰"}]}
+{"text": "没想到先生见到我这晚辈时竟站起来握手并对我说：“你祖父和我有几十年的交往，按辈分我长一辈，但他的年龄比我大。”", "entity_list": []}
+{"text": "当时我和家中的几位亲戚所坐的位置就在溥杰先生旁边，于是我请姑姑带我去见溥杰先生。", "entity_list": [{"entity_index": {"begin": 18, "end": 20}, "entity_type": "PER", "entity": "溥杰"}, {"entity_index": {"begin": 35, "end": 37}, "entity_type": "PER", "entity": "溥杰"}]}
+{"text": "在1991年的满族联欢会上，我终于见到了溥杰先生。", "entity_list": [{"entity_index": {"begin": 20, "end": 22}, "entity_type": "PER", "entity": "溥杰"}]}
+{"text": "“矢当珍此桑榆景，尽我余龄觅寸阴”，这句诗是先生在晚年认真履行人民代表职责，关心民族地区的发展和进步，为做好民族工作贡献力量的真实写照。", "entity_list": []}
+{"text": "同事对我讲：“敲门进院见到先生一说，先生马上就写了，一点架子也没有，并且不要钱。”", "entity_list": []}
+{"text": "但没几天，同事便求到了溥杰先生的字。", "entity_list": [{"entity_index": {"begin": 11, "end": 13}, "entity_type": "PER", "entity": "溥杰"}]}
+{"text": "一次，我的一位同事托我引见他去见溥杰先生，目的是为单位的客户求一幅字。", "entity_list": [{"entity_index": {"begin": 16, "end": 18}, "entity_type": "PER", "entity": "溥杰"}]}
+{"text": "由于先生的书法造诣名扬海内外，许多书法爱好者及机关单位都渴望得到先生的墨宝。", "entity_list": []}
+{"text": "通过这件事，使我在崇敬溥杰先生的同时，渴望着有机会一瞻先生的风采。", "entity_list": [{"entity_index": {"begin": 11, "end": 13}, "entity_type": "PER", "entity": "溥杰"}]}
+{"text": "他说：“在日本，溥杰先生有着很高的声望，来中国前人们告诉他，到北京，溥杰先生会帮助你的。”", "entity_list": [{"entity_index": {"begin": 5, "end": 7}, "entity_type": "LOC", "entity": "日本"}, {"entity_index": {"begin": 8, "end": 10}, "entity_type": "PER", "entity": "溥杰"}, {"entity_index": {"begin": 21, "end": 23}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 31, "end": 33}, "entity_type": "LOC", "entity": "北京"}, {"entity_index": {"begin": 34, "end": 36}, "entity_type": "PER", "entity": "溥杰"}]}
+{"text": "我的祖父很清楚这件事，告诉了他当时的许多真实情况，帮他与在北京及东北的弟弟们取得了联系，使他和家人得以团圆。", "entity_list": [{"entity_index": {"begin": 29, "end": 31}, "entity_type": "LOC", "entity": "北京"}, {"entity_index": {"begin": 32, "end": 34}, "entity_type": "LOC", "entity": "东北"}]}
+{"text": "原来，这个日本人的父亲是我祖父的兄长，自幼被一个日本人收养，收养他的人在去世前，将他的身世告诉了他，于是他来到北京，找到溥杰先生请求帮助，溥杰先生热情地接待了他，并告诉他我祖父的地址。", "entity_list": [{"entity_index": {"begin": 5, "end": 7}, "entity_type": "LOC", "entity": "日本"}, {"entity_index": {"begin": 24, "end": 26}, "entity_type": "LOC", "entity": "日本"}, {"entity_index": {"begin": 55, "end": 57}, "entity_type": "LOC", "entity": "北京"}, {"entity_index": {"begin": 60, "end": 62}, "entity_type": "PER", "entity": "溥杰"}, {"entity_index": {"begin": 69, "end": 71}, "entity_type": "PER", "entity": "溥杰"}]}
+{"text": "有一天，一位日本人突然找到我家，说是溥杰先生介绍来的。", "entity_list": [{"entity_index": {"begin": 6, "end": 8}, "entity_type": "LOC", "entity": "日本"}, {"entity_index": {"begin": 18, "end": 20}, "entity_type": "PER", "entity": "溥杰"}]}
+{"text": "粉碎“四人帮”后，我家中的长辈们开始和溥杰先生恢复了联系。", "entity_list": [{"entity_index": {"begin": 3, "end": 6}, "entity_type": "ORG", "entity": "四人帮"}, {"entity_index": {"begin": 19, "end": 21}, "entity_type": "PER", "entity": "溥杰"}]}
+{"text": "一声断喝，竟使天不怕地不怕的红卫兵对其刮目相看，居然收兵了。", "entity_list": []}
+{"text": "养蜂人用蜂蜜涂抹日子，让所有的日子都流淌着蜂蜜的甘甜和芬芳。", "entity_list": []}
+{"text": "沐浴和暖，畅饮温情，拥抱那破土而出的万紫千红！", "entity_list": []}
+{"text": "凋零、荒芜和封冻，都已是昨日的噩梦，他虔诚地洗去疼痛和创伤。", "entity_list": []}
+{"text": "踏尽冰冷的霜露，碾碎刺骨的风寒，穿过冰雪弥漫的禁锢，来到三月芬芳的大门。", "entity_list": []}
+{"text": "养蜂人驱着他的蜂箱，追赶鲜花盛开的日子，在缤纷繁华的季节，酿造香甜和希望。", "entity_list": []}
+{"text": "后来，我听老人的亲属们说，老红军在弥留之际，亲人问他还有什么话要说，他那不能合拢的嘴唇轻轻翕动，发出断断续续的音节：“起来……起来……”", "entity_list": []}
+{"text": "一天，地方报纸的左下角登出一篇讣告：老红军章宏志因病医治无效，不幸逝世，享年八十六岁。", "entity_list": [{"entity_index": {"begin": 21, "end": 24}, "entity_type": "PER", "entity": "章宏志"}]}
+{"text": "自从那次告别老红军后，有好长一段时间，我没有再见到老人，心中便有一种不祥的预感。", "entity_list": []}
+{"text": "老人目视前方，脸颊的伤疤闪着红光。", "entity_list": []}
+{"text": "这熟悉的旋律，我自己唱过，也听别人唱过，但听一位真正的义勇军战士唱自己的进行曲，这还是第一次。", "entity_list": []}
+{"text": "说着，老人缓缓站起身来，那不能合拢的下巴轻轻翕动，一曲熟悉的旋律在小屋里响起来：", "entity_list": []}
+{"text": "知道有支义勇军进行曲，并被作为国歌，那是建国以后的事喽。", "entity_list": []}
+{"text": "我又问老人：“您是义勇军战士，一定知道义勇军进行曲吧？”", "entity_list": []}
+{"text": "我问老人身上有多少伤疤，老人摇摇头，他的老伴在一旁补充道：“九次负伤，十四块伤疤，现在身上还有没取出来的弹片。”", "entity_list": []}
+{"text": "昏迷了一天一夜后，一场冷雨浇醒了他，他挣扎着爬出了尸体堆，摸到了老乡家中，在老乡家养好了伤，又返回部队，继续战斗。", "entity_list": []}
+{"text": "战友们在打扫战场时看见他那张血肉模糊的脸，以为连长已经牺牲，就迅速撤出了阵地。", "entity_list": []}
+{"text": "在1940年深秋的一次狙击战，当时已是连长的他，率部狙击敌人，掩护部队转移，战斗打得十分惨烈，尸体成堆，血流成渠，他们打退了敌人的七次进攻，完成了任务，就在他准备撤退时，一颗子弹击中了他的下巴，", "entity_list": []}
+{"text": "从右腮部穿出，他就什么也不知道了。", "entity_list": []}
+{"text": "原来他在回家的路上跑进林中，参加了东北抗日义勇军。", "entity_list": [{"entity_index": {"begin": 17, "end": 24}, "entity_type": "ORG", "entity": "东北抗日义勇军"}]}
+{"text": "这年初春的一天，他在随父亲赶集的途中，突然失踪，父母以为他让“黑瞎子”给拖去了，在家里给他立了牌位，母亲为他哭瞎了双眼。", "entity_list": []}
+{"text": "民族仇恨的种子深深埋在他的心田，他暗中参加了秘密组织———反日会。", "entity_list": [{"entity_index": {"begin": 29, "end": 32}, "entity_type": "ORG", "entity": "反日会"}]}
+{"text": "“九一八”事变那年的春天，日本鬼子就占领了长白山，乡亲们从此生活在水深火热之中，他的爷爷就惨死在日本鬼子的刺刀之下。", "entity_list": [{"entity_index": {"begin": 13, "end": 15}, "entity_type": "LOC", "entity": "日本"}, {"entity_index": {"begin": 21, "end": 24}, "entity_type": "LOC", "entity": "长白山"}, {"entity_index": {"begin": 48, "end": 50}, "entity_type": "LOC", "entity": "日本"}]}
+{"text": "老人从小放过猪、种过地、当过矿工。", "entity_list": []}
+{"text": "老人祖籍胶东，从爷爷那辈起就闯关东，进了长白山。", "entity_list": [{"entity_index": {"begin": 4, "end": 6}, "entity_type": "LOC", "entity": "胶东"}, {"entity_index": {"begin": 15, "end": 17}, "entity_type": "LOC", "entity": "关东"}, {"entity_index": {"begin": 20, "end": 23}, "entity_type": "LOC", "entity": "长白山"}]}
+{"text": "纪念红军长征胜利六十周年那年，我去采访这位老红军。", "entity_list": [{"entity_index": {"begin": 2, "end": 4}, "entity_type": "ORG", "entity": "红军"}]}
+{"text": "正是这张与众不同的脸，更增加了老人的神秘与威严。", "entity_list": []}
+{"text": "那张脸的右边脸颊整个是一个深凹进去的硕大伤疤，受这伤疤的牵连，整个面部的五官有些变形，嘴巴似乎永远不能合拢。", "entity_list": []}
+{"text": "我上班的路上，经常看到一位身材高大、步履蹒跚的老人，人们不知道他姓什么、叫什么，只知道他是一位老红军。", "entity_list": []}
+{"text": "假若人心险恶到如白居易所描绘的程度———“太行之路能摧车，若比人心是坦途；", "entity_list": [{"entity_index": {"begin": 8, "end": 11}, "entity_type": "PER", "entity": "白居易"}, {"entity_index": {"begin": 21, "end": 23}, "entity_type": "LOC", "entity": "太行"}]}
+{"text": "巫峡之水能覆舟，若比人心是安流”，甚至“人中有兽心”的话，那世界就太可怕了！", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "巫峡"}]}
+{"text": "反之，到处埋伏着暗算与欺瞒，生活当然又是一种难堪味道。", "entity_list": []}
+{"text": "人们的交往有一种信任感、稳妥感、安全感，生活中自然是一种温馨体验。", "entity_list": []}
+{"text": "社会既然由人组成，这每日环绕我们的习习之风恐怕便源于人的行为方式与道德水准，而最终源于“人心”（人的意识）。", "entity_list": []}
+{"text": "“人文环境”的核心内容大概便是“社会风气”了。", "entity_list": []}
+{"text": "这就是你生活于其中的“人文环境”。", "entity_list": []}
+{"text": "整天打头碰脸的“周围人”怎样，其实是不可忽视的要素。", "entity_list": []}
+{"text": "所谓好环境并非仅仅如目下购房的地点选择那样，交通购货便利、服务设施齐全就够了。", "entity_list": []}
+{"text": "大多数人是善的，只因恶人与恶行的存在，弄得善良的人也相互生疑。", "entity_list": []}
+{"text": "更有甚者，便是公共场合里有行善动机的人，也常常因怕遭误解而退躲三舍，社会上空的疑云可谓浓矣！", "entity_list": []}
+{"text": "正常人的正常行为都被打上问号。", "entity_list": []}
+{"text": "此中虽无造假钞者与票贩子的参与，但他们的为常人所知的行径搅乱了正常人际关系的逻辑。", "entity_list": []}
+{"text": "售票人则疑惑起那位购票者竟说钱不必找了，莫非钱是假的？", "entity_list": []}
+{"text": "等交易做成，购票者忽然疑惑起那位售票人为何照原价卖，莫非票是假的？", "entity_list": []}
+{"text": "这种叫人不舒服的社会氛围，正如一个电视小品所揭示的：一个因故转让火车票者，一个购票者。", "entity_list": []}
+{"text": "正经的商家也不好过，他得时时准备看顾客的怀疑目光。", "entity_list": []}
+{"text": "仿佛只有家里安全，出了门，入了社会的大环境，就得加倍小心地走路，谨防陷阱或冰窟。", "entity_list": []}
+{"text": "可叹的是，这样活着，太累也太恐惧。", "entity_list": []}
+{"text": "欺诈行为，随处可闻，好人不得不防。", "entity_list": []}
+{"text": "这人际关系的“紧张度”也真够难堪！", "entity_list": []}
+{"text": "如果店家诚信无欺，这让他摔鱼的要求未免苟刻失礼，纵为生意计勉强从之，也算是尊严的被亵渎。", "entity_list": []}
+{"text": "幕前亮相，幕后换装，人，总能辨出面目来，而肢解的鱼鸭之类实在是看不出的。", "entity_list": []}
+{"text": "油然想起多次吃过的店里的烤鸭，戴高帽的厨师总向食客们出示，尔后退到厨房里去切削，复端出来的油光的盘中肉是否仍系“原装”，也未可知。", "entity_list": []}
+{"text": "既然食客有了相当的经验，且发明了“防反术”，活鱼偷换死鱼的事看来是有的。", "entity_list": []}
+{"text": "与此相关，食客们研究出的那套“活鱼眼凸，死鱼眼凹”的盘中鱼观察法我是早已晓得的。", "entity_list": []}
+{"text": "此种做法是否相沿成习，尚不知，但大约绝非这位食客的“即兴之作”。", "entity_list": []}
+{"text": "鱼摔个半死，只得当即入锅，“偷梁换柱”便不成了。", "entity_list": []}
+{"text": "这“摔鱼”，显然是食客的“对策”。", "entity_list": []}
+{"text": "据说，有的餐馆将活鱼给食客看后，到厨房里，又投入水中养了起来，另换一条死鱼入锅。", "entity_list": []}
+{"text": "摔到地上后，重又捡起，拿到厨房里去。", "entity_list": []}
+{"text": "一位食客要了一条明码标价的活鱼，服务员从水槽里捞出，并出示。", "entity_list": []}
+{"text": "某日下“馆子”，碰到一个有趣的情景。", "entity_list": []}
+{"text": "遥想当年，多少商旅显贵出关西行，在这里与相送亲朋故友洒泪而别，唐代王维“劝君更尽一杯酒，西出阳关无故人”的著名诗句，便是道出了当时一唱三叹的惆怅、哀婉之声，也为阳关增添无穷的魅力，从古至今，", "entity_list": [{"entity_index": {"begin": 12, "end": 14}, "entity_type": "LOC", "entity": "关西"}, {"entity_index": {"begin": 33, "end": 35}, "entity_type": "PER", "entity": "王维"}, {"entity_index": {"begin": 46, "end": 48}, "entity_type": "LOC", "entity": "阳关"}, {"entity_index": {"begin": 80, "end": 82}, "entity_type": "LOC", "entity": "阳关"}]}
+{"text": "曾令多少人向往？", "entity_list": []}
+{"text": "登台而眺，不禁令人发怀古之情。", "entity_list": []}
+{"text": "阳关始建于汉，置关于晋，兴盛于唐。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "阳关"}]}
+{"text": "当地人称这里为“古董滩”，相传此处便是阳关遗址。", "entity_list": [{"entity_index": {"begin": 19, "end": 21}, "entity_type": "LOC", "entity": "阳关"}]}
+{"text": "当中有一处，大风过后，常现出兵器、陶器、钱币、生活用具的残破遗物。", "entity_list": []}
+{"text": "如今，古阳关早湮没，遗址也不存在，只是在一座红沙岩的山峰上，矗立一座残破的古代烽燧。", "entity_list": [{"entity_index": {"begin": 3, "end": 6}, "entity_type": "PER", "entity": "古阳关"}]}
+{"text": "在天气晴朗的炎热天，途中还经常可以看到“海市蜃楼”的幻影。", "entity_list": []}
+{"text": "阳关在敦煌西南相距七十公里处，当中的一座沙山，好似巨佛横卧。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "阳关"}, {"entity_index": {"begin": 3, "end": 5}, "entity_type": "LOC", "entity": "敦煌"}]}
+{"text": "玉门关在敦煌的西北，相距九十公里，遗址尚存。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "LOC", "entity": "玉门关"}, {"entity_index": {"begin": 4, "end": 6}, "entity_type": "LOC", "entity": "敦煌"}]}
+{"text": "长城的两端，是丝绸北南古道的两个重要关隘，这便是玉门关和阳关。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "长城"}, {"entity_index": {"begin": 24, "end": 27}, "entity_type": "LOC", "entity": "玉门关"}, {"entity_index": {"begin": 28, "end": 30}, "entity_type": "LOC", "entity": "阳关"}]}
+{"text": "敦煌的西边，至今仍保留一段汉长城。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "敦煌"}, {"entity_index": {"begin": 14, "end": 16}, "entity_type": "LOC", "entity": "长城"}]}
+{"text": "每年的端午节，人们都到此登沙山观月泉，已成一种风俗。", "entity_list": []}
+{"text": "水中长有七星草，生有铁背鱼，当地人都视为神水。", "entity_list": []}
+{"text": "山水相映，沙山好似倒长在水中。", "entity_list": []}
+{"text": "泉内芦草丛生，清澈见底，岸边有几株古柳胡杨。", "entity_list": []}
+{"text": "四面环沙而不被湮埋，历经千载而不干枯。", "entity_list": []}
+{"text": "在鸣沙山的北麓有一泓清泉，沙山环抱，因形似新月而称月牙泉。", "entity_list": [{"entity_index": {"begin": 1, "end": 4}, "entity_type": "LOC", "entity": "鸣沙山"}, {"entity_index": {"begin": 25, "end": 28}, "entity_type": "LOC", "entity": "月牙泉"}]}
+{"text": "一夕，狂风骤起，黄沙蔽天，全军覆没，以后山内时闻鼓角之声，从此便有鸣沙山之称。", "entity_list": [{"entity_index": {"begin": 33, "end": 36}, "entity_type": "LOC", "entity": "鸣沙山"}]}
+{"text": "相传古代有大将率兵出征，兵马在此宿营。", "entity_list": []}
+{"text": "据史书记载，天气晴朗之时，山上有丝竹管弦之音，如奏仙乐，故称“沙岭晴鸣”，为敦煌一景。", "entity_list": [{"entity_index": {"begin": 38, "end": 40}, "entity_type": "LOC", "entity": "敦煌"}]}
+{"text": "滑下的沙，踏乱的峰，一夜之间，凭借风力，又复原如初。", "entity_list": []}
+{"text": "从山顶滑沙而下，鸣声不绝于耳，似有千军万马。", "entity_list": []}
+{"text": "这里的沙分红、黄、黑、橙等色，洁净得一尘不沾，阳光下晶莹闪亮。", "entity_list": []}
+{"text": "鸣沙山由细沙聚集而成，山峰陡峭，势如游刃，纹理细腻，十分美观。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "LOC", "entity": "鸣沙山"}]}
+{"text": "敦煌附近，还有沙漠奇观———这便是鸣沙山与月牙泉。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "敦煌"}, {"entity_index": {"begin": 17, "end": 20}, "entity_type": "LOC", "entity": "鸣沙山"}, {"entity_index": {"begin": 21, "end": 24}, "entity_type": "LOC", "entity": "月牙泉"}]}
+{"text": "这是因为丝路的开拓，随之也带来了艺术的创新与革命。", "entity_list": [{"entity_index": {"begin": 4, "end": 6}, "entity_type": "LOC", "entity": "丝路"}]}
+{"text": "莫高窟的彩塑与壁画，除了具有鲜明的民族风格，还有一个鲜明特点，就是吸取和借鉴了西域各国的表现手法。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "LOC", "entity": "莫高窟"}, {"entity_index": {"begin": 39, "end": 41}, "entity_type": "LOC", "entity": "西域"}]}
+{"text": "我们的祖先却早在一千多年前，仅用一条飘带，一个飞翔动作，就能把凌空飞舞的形象生动地表现出来，真是达到惊人的地步！", "entity_list": []}
+{"text": "一个个身轻如燕，自由自在在蓝天翱翔，有的散花，有的反弹琵琶，引起人多么美好的联想。", "entity_list": []}
+{"text": "莫高窟的壁画，最为精彩的要属那些飞天神女了。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "LOC", "entity": "莫高窟"}]}
+{"text": "这些珍贵的壁画中，保留了大量的历代各族各类人物的衣冠服饰的资料，以及对音乐、舞蹈、杂技等各类古代艺术的生动写照。", "entity_list": []}
+{"text": "主要内容有佛像、佛教史迹、经变、神话、供养人等题材，还有生动真实的劳动场面、社会生活的情景和历史人物的活动描绘。", "entity_list": []}
+{"text": "莫高窟的壁画，十分浩繁丰富，使得窟内金碧辉煌，绚丽夺目。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "LOC", "entity": "莫高窟"}]}
+{"text": "还有释迦牟尼身边的两个弟子，阿难的纯朴天真，迦叶的深沉世故，也都表现得容态可掬，淋漓尽致。", "entity_list": [{"entity_index": {"begin": 2, "end": 6}, "entity_type": "PER", "entity": "释迦牟尼"}, {"entity_index": {"begin": 14, "end": 16}, "entity_type": "PER", "entity": "阿难"}, {"entity_index": {"begin": 22, "end": 24}, "entity_type": "PER", "entity": "迦叶"}]}
+{"text": "其中观音的塑像最多，个个身段秀美，气度娴雅，显得圣洁仁慈。", "entity_list": [{"entity_index": {"begin": 2, "end": 4}, "entity_type": "PER", "entity": "观音"}]}
+{"text": "不同的朝代，也有不同的特点和风格：北魏的秀骨清像，隋代的雍容厚重，而唐代则又丰肌盈体。", "entity_list": []}
+{"text": "这里的彩塑千姿百态，栩栩如生，简直呼之欲出。", "entity_list": []}
+{"text": "这是一处融建筑、彩塑、壁画为一体的综合艺术，是我国，也是世界上现存规模最宏大、保存最完整的艺术宝库。", "entity_list": []}
+{"text": "至今仍有保存较为完整的洞窟四百九十四个，里面珍藏的历代壁画四万五千多平方米，彩塑二千四百多尊，还有唐宋木构建筑五座。", "entity_list": []}
+{"text": "莫高窟创建于前秦二年，经历了十六国、北魏、西魏、北周、隋、唐、五代、宋、西夏，连续营造千余年，形成了宏大的石窟群。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "LOC", "entity": "莫高窟"}]}
+{"text": "洞窟凿于鸣沙山东南麓断崖的红砂岩上，上下五层，高低错落，依岩还建有五层楼阁，气势恢宏，下临银杨绿柳，清溪潺潺，对面是横亘耸峙的三危山，景色十分幽丽。", "entity_list": [{"entity_index": {"begin": 4, "end": 7}, "entity_type": "LOC", "entity": "鸣沙山"}, {"entity_index": {"begin": 63, "end": 66}, "entity_type": "LOC", "entity": "三危山"}]}
+{"text": "莫高窟位于敦煌城南二十五公里处，四周黄沙碧天，这里却是一小块神奇的绿洲。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "LOC", "entity": "莫高窟"}, {"entity_index": {"begin": 5, "end": 8}, "entity_type": "LOC", "entity": "敦煌城"}]}
+{"text": "提起敦煌，人们自然会联想到莫高窟，联想到那里的雕塑与绘画艺术。", "entity_list": [{"entity_index": {"begin": 2, "end": 4}, "entity_type": "LOC", "entity": "敦煌"}, {"entity_index": {"begin": 13, "end": 16}, "entity_type": "LOC", "entity": "莫高窟"}]}
+{"text": "上百家建筑风格各异的大中型宾馆遍布市区，加上市中心的商场、娱乐中心和博物馆等高大古朴的建筑群，把小城点缀得十分典雅美丽。", "entity_list": []}
+{"text": "旅游业促进了城市的发展与繁荣。", "entity_list": []}
+{"text": "独特的自然景观和众多闻名遐迩的名胜古迹，吸引着大批的国内外游客。", "entity_list": []}
+{"text": "经过历代沧桑，丝绸古路虽早已湮没，但如今敦煌这座小城却已成为祁连山下的一颗艺术明珠，被列为我国的历史文化名城。", "entity_list": [{"entity_index": {"begin": 20, "end": 22}, "entity_type": "LOC", "entity": "敦煌"}, {"entity_index": {"begin": 30, "end": 33}, "entity_type": "LOC", "entity": "祁连山"}]}
+{"text": "到了宋代，河西走廊为西夏所有，敦煌废弃，随着海上通商的兴旺，丝绸之路也就日渐衰落。", "entity_list": [{"entity_index": {"begin": 5, "end": 9}, "entity_type": "LOC", "entity": "河西走廊"}, {"entity_index": {"begin": 15, "end": 17}, "entity_type": "LOC", "entity": "敦煌"}, {"entity_index": {"begin": 30, "end": 34}, "entity_type": "LOC", "entity": "丝绸之路"}]}
+{"text": "自此之后，从敦煌至玉门和阳关的大道上，驼马络绎不绝，商旅相望于道，滚滚如流的丝绸，铺成了南北两条通往欧亚之路。", "entity_list": [{"entity_index": {"begin": 6, "end": 8}, "entity_type": "LOC", "entity": "敦煌"}, {"entity_index": {"begin": 9, "end": 11}, "entity_type": "LOC", "entity": "玉门"}, {"entity_index": {"begin": 12, "end": 14}, "entity_type": "LOC", "entity": "阳关"}, {"entity_index": {"begin": 51, "end": 52}, "entity_type": "LOC", "entity": "亚"}]}
+{"text": "敦者，大也；", "entity_list": []}
+{"text": "煌者，盛也———敦煌就是盛大的意思。", "entity_list": [{"entity_index": {"begin": 8, "end": 10}, "entity_type": "LOC", "entity": "敦煌"}]}
+{"text": "敦煌历史悠久，上古为三危之地，春秋时称瓜州，到了汉代始置郡谓敦煌。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "敦煌"}, {"entity_index": {"begin": 19, "end": 21}, "entity_type": "LOC", "entity": "瓜州"}, {"entity_index": {"begin": 30, "end": 32}, "entity_type": "LOC", "entity": "敦煌"}]}
+{"text": "敦煌位于河西走廊的最西端，枕祁连控大漠，古代曾是丝绸之路的咽喉要道。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "敦煌"}, {"entity_index": {"begin": 4, "end": 8}, "entity_type": "LOC", "entity": "河西走廊"}, {"entity_index": {"begin": 14, "end": 16}, "entity_type": "PER", "entity": "祁连"}, {"entity_index": {"begin": 24, "end": 28}, "entity_type": "LOC", "entity": "丝绸之路"}]}
+{"text": "老人临走时，一再向房东表示感谢并激动地说：“西柏坡，和我的故乡一样亲切美好！”", "entity_list": [{"entity_index": {"begin": 22, "end": 25}, "entity_type": "LOC", "entity": "西柏坡"}]}
+{"text": "新疆维吾尔族一老人参观完纪念馆和故居后，因身体不适住进农户，受到亲人般的热情关照。", "entity_list": [{"entity_index": {"begin": 2, "end": 5}, "entity_type": "LOC", "entity": "维吾尔"}, {"entity_index": {"begin": 12, "end": 15}, "entity_type": "LOC", "entity": "纪念馆"}, {"entity_index": {"begin": 16, "end": 18}, "entity_type": "LOC", "entity": "故居"}]}
+{"text": "西柏坡村一年级小学生阎会强、王二刚在水库里溜冰，不慎先后落入冰洞，没等其家长招呼救人，刘力辉、阎东霞、阎明明、阎长明等小伙子就豁命在冰下将阎会强、王二刚救出。", "entity_list": [{"entity_index": {"begin": 0, "end": 4}, "entity_type": "LOC", "entity": "西柏坡村"}, {"entity_index": {"begin": 10, "end": 13}, "entity_type": "PER", "entity": "阎会强"}, {"entity_index": {"begin": 14, "end": 17}, "entity_type": "PER", "entity": "王二刚"}, {"entity_index": {"begin": 43, "end": 46}, "entity_type": "PER", "entity": "刘力辉"}, {"entity_index": {"begin": 47, "end": 50}, "entity_type": "PER", "entity": "阎东霞"}, {"entity_index": {"begin": 51, "end": 54}, "entity_type": "PER", "entity": "阎明明"}, {"entity_index": {"begin": 55, "end": 58}, "entity_type": "PER", "entity": "阎长明"}, {"entity_index": {"begin": 69, "end": 72}, "entity_type": "PER", "entity": "阎会强"}, {"entity_index": {"begin": 73, "end": 76}, "entity_type": "PER", "entity": "王二刚"}]}
+{"text": "于是，邻里们全成了齐秀兰的儿女，使齐秀兰的孙女照常读书，让她老人家宽心地安度晚年。", "entity_list": [{"entity_index": {"begin": 9, "end": 12}, "entity_type": "PER", "entity": "齐秀兰"}, {"entity_index": {"begin": 17, "end": 20}, "entity_type": "PER", "entity": "齐秀兰"}]}
+{"text": "通家口村古稀老人齐秀兰的儿子遇翻船丧命，儿媳改嫁，留下一个年幼的孙女难以度日。", "entity_list": [{"entity_index": {"begin": 0, "end": 4}, "entity_type": "LOC", "entity": "通家口村"}, {"entity_index": {"begin": 8, "end": 11}, "entity_type": "PER", "entity": "齐秀兰"}]}
+{"text": "走遍围绕着西柏坡纪念馆的十六个山村，听不到粗言秽语，听不到丢失东西的唉声叹息，见不到一家人吵架怄气，看到的是邻里之间的和睦相处，感受到的是真诚热情。", "entity_list": [{"entity_index": {"begin": 5, "end": 11}, "entity_type": "LOC", "entity": "西柏坡纪念馆"}]}
+{"text": "山村，也给人们带来无限的愉悦。", "entity_list": []}
+{"text": "不到两年时间，建于荒山秃岭上的三万多亩的森林公园已初具规模：一道道坚实、美观的护墙托起一块块栽满果树的梯田；", "entity_list": []}
+{"text": "一条条玉带般的引水渠披挂于层层叠叠的山间；", "entity_list": []}
+{"text": "望不到边的甜柿、核桃、板栗、李子、杏梅株株嫩绿，棵棵鲜活；", "entity_list": []}
+{"text": "丹凤朝阳、桃花飞雪、青山贯雪、贵妃醉酒、青龙卧墨池等百多种两万余株牡丹，都绽开了春蕾。", "entity_list": []}
+{"text": "仅仅一冬一春，全乡被洪水吞没的土地全部修复。", "entity_list": []}
+{"text": "路面坚实平展，路旁各种树木错落有致，四季见绿，三季开花，令人心旷神怡。", "entity_list": []}
+{"text": "仅仅一百天，三十四公里长的西柏坡公路上的断桥都被修复，塌方都被填好，还建了一面面护坡墙，铺上厚厚一层沥青，补栽了许多树木花草。", "entity_list": [{"entity_index": {"begin": 13, "end": 18}, "entity_type": "LOC", "entity": "西柏坡公路"}]}
+{"text": "不满一个月，纪念馆的修复工程竣工。", "entity_list": []}
+{"text": "干部们劝王保顺老人保重身体，王保顺老人急了，说：“我要不出把力，对得起首都父老和全国兄弟姐妹对平山、对西柏坡的关怀吗！”", "entity_list": [{"entity_index": {"begin": 4, "end": 7}, "entity_type": "PER", "entity": "王保顺"}, {"entity_index": {"begin": 14, "end": 17}, "entity_type": "PER", "entity": "王保顺"}, {"entity_index": {"begin": 47, "end": 49}, "entity_type": "LOC", "entity": "平山"}, {"entity_index": {"begin": 51, "end": 54}, "entity_type": "LOC", "entity": "西柏坡"}]}
+{"text": "南庄村年逾古稀的王保顺、王胜太、王清茂，在革命战争中几乎献出自己的生命，王保顺老人仅有一只胳膊，但他们也要出把力。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "LOC", "entity": "南庄村"}, {"entity_index": {"begin": 8, "end": 11}, "entity_type": "PER", "entity": "王保顺"}, {"entity_index": {"begin": 12, "end": 15}, "entity_type": "PER", "entity": "王胜太"}, {"entity_index": {"begin": 16, "end": 19}, "entity_type": "PER", "entity": "王清茂"}, {"entity_index": {"begin": 36, "end": 39}, "entity_type": "PER", "entity": "王保顺"}]}
+{"text": "纪念馆的干部职工夜以继日地参与修复工程。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "LOC", "entity": "纪念馆"}]}
+{"text": "娃娃不肯少落一滴汗，老人也不肯少出一把力。", "entity_list": []}
+{"text": "暴雨还未停息，山洪还在肆虐，乡党委书记韩二秃、乡长邵华就带领全乡干部，一周三日地登路、爬山了。", "entity_list": [{"entity_index": {"begin": 14, "end": 17}, "entity_type": "ORG", "entity": "乡党委"}, {"entity_index": {"begin": 19, "end": 22}, "entity_type": "PER", "entity": "韩二秃"}, {"entity_index": {"begin": 25, "end": 27}, "entity_type": "PER", "entity": "邵华"}]}
+{"text": "为修建岗南水库做出巨大牺牲的西柏坡及全乡的父老乡亲，再次做出了牺牲。", "entity_list": [{"entity_index": {"begin": 3, "end": 7}, "entity_type": "LOC", "entity": "岗南水库"}, {"entity_index": {"begin": 14, "end": 17}, "entity_type": "LOC", "entity": "西柏坡"}]}
+{"text": "河北省离休老干部阎懋患了癌症，手术后刚刚出院即奔赴西柏坡，将他一生的存款一万五千元全部捐献给西柏坡父老乡亲……", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "LOC", "entity": "河北省"}, {"entity_index": {"begin": 8, "end": 10}, "entity_type": "PER", "entity": "阎懋"}, {"entity_index": {"begin": 25, "end": 28}, "entity_type": "LOC", "entity": "西柏坡"}, {"entity_index": {"begin": 46, "end": 49}, "entity_type": "LOC", "entity": "西柏坡"}]}
+{"text": "首都海淀区的干部、教师、工人、企业家，慷慨地为西柏坡乡受损的职业中学投资三十多万元；", "entity_list": [{"entity_index": {"begin": 2, "end": 5}, "entity_type": "LOC", "entity": "海淀区"}, {"entity_index": {"begin": 23, "end": 27}, "entity_type": "LOC", "entity": "西柏坡乡"}]}
+{"text": "朝阳区区长李凤岭率先表态，包建西柏坡塌落的小学校教室及教师宿舍。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "LOC", "entity": "朝阳区"}, {"entity_index": {"begin": 5, "end": 8}, "entity_type": "PER", "entity": "李凤岭"}, {"entity_index": {"begin": 15, "end": 18}, "entity_type": "LOC", "entity": "西柏坡"}]}
+{"text": "洪灾顿时点燃了全国人民心灵之火，人们飞速向纪念馆，向平山县人民，向西柏坡及全乡的父老乡亲投来满腔真情：一车车米，一车车面，一车车被，一笔笔款……风雨无阻地纷纷运送来了。", "entity_list": [{"entity_index": {"begin": 26, "end": 29}, "entity_type": "LOC", "entity": "平山县"}, {"entity_index": {"begin": 33, "end": 36}, "entity_type": "LOC", "entity": "西柏坡"}]}
+{"text": "为保京津，为保铁路，为保油田，为保省城，乡亲们忍痛让来之不易的房院进了水，让苦苦营造的梯田被淹没。", "entity_list": [{"entity_index": {"begin": 3, "end": 4}, "entity_type": "LOC", "entity": "津"}]}
+{"text": "1996年8月，这里骤降罕见暴雨，山洪肆虐，房倒屋塌，沙土流失，巨石滑坡，树木卷走，公路一处处破裂，桥梁一座座断折，水库储洪很快突破安全线。", "entity_list": []}
+{"text": "乡亲们一张张质朴的笑脸都呈现出从未有过的幸福、自豪和满心的感激。", "entity_list": []}
+{"text": "门前柏油路平平展展，院内果树放绿吐红，鸟音婉转悠扬。", "entity_list": []}
+{"text": "西柏坡村里，无私、勤朴、坚强的父老乡亲们，大多告别了土房老屋，搬进舒心适意的新居。", "entity_list": [{"entity_index": {"begin": 0, "end": 4}, "entity_type": "LOC", "entity": "西柏坡村"}]}
+{"text": "络绎不绝的参观者在老一辈革命家塑像前左左右右地拍照；", "entity_list": []}
+{"text": "年轻的诗人在七届二中全会旧址内尽情地作诗；", "entity_list": []}
+{"text": "白发的画家在毛主席故居中入神地绘画；", "entity_list": [{"entity_index": {"begin": 6, "end": 11}, "entity_type": "LOC", "entity": "毛主席故居"}]}
+{"text": "一个个佩戴着红领巾的男娃、女娃们默默地向诗人、画家们致意。", "entity_list": []}
+{"text": "一对对蓝靛围绿跳跃，一双双红靛绕红歌唱。", "entity_list": []}
+{"text": "毛主席、周总理、朱德、刘少奇、董必武等老一辈无产阶级革命家故居的院内，七届二中全会旧址的门前，杏树、海棠、梨树、国槐、侧柏、椿树……早已放红、透粉、绽白、吐绿了。", "entity_list": [{"entity_index": {"begin": 0, "end": 1}, "entity_type": "PER", "entity": "毛"}, {"entity_index": {"begin": 4, "end": 5}, "entity_type": "PER", "entity": "周"}, {"entity_index": {"begin": 8, "end": 10}, "entity_type": "PER", "entity": "朱德"}, {"entity_index": {"begin": 11, "end": 14}, "entity_type": "PER", "entity": "刘少奇"}, {"entity_index": {"begin": 15, "end": 18}, "entity_type": "PER", "entity": "董必武"}]}
+{"text": "纪念馆洁净如洗，装饰一新，展容做了充实。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "LOC", "entity": "纪念馆"}]}
+{"text": "从乡所在地的程家峪村到西柏坡，从三万多亩大的森林公园到宏伟壮丽的纪念馆，处处春意盎然，生机勃勃，令人心血沸腾。", "entity_list": [{"entity_index": {"begin": 6, "end": 10}, "entity_type": "LOC", "entity": "程家峪村"}, {"entity_index": {"begin": 11, "end": 14}, "entity_type": "LOC", "entity": "西柏坡"}]}
+{"text": "3月中旬，我再次投入可爱的故乡———西柏坡的怀抱。", "entity_list": [{"entity_index": {"begin": 18, "end": 21}, "entity_type": "LOC", "entity": "西柏坡"}]}
+{"text": "5月26日，是党中央移驻西柏坡五十周年。", "entity_list": [{"entity_index": {"begin": 7, "end": 10}, "entity_type": "ORG", "entity": "党中央"}, {"entity_index": {"begin": 12, "end": 15}, "entity_type": "LOC", "entity": "西柏坡"}]}
+{"text": "采访过程中，很多顾客和营业员都提到了前一两年窗口行业“火”了一阵子的“一米线”，大家总的看法是：“一米线”给营业员“挡”出了一个空间，却仍将顾客束缚在长长的队伍中；", "entity_list": []}
+{"text": "“叫号机”则体谅到顾客的辛苦，让顾客拥有了一张舒适的休息椅、一段相对自由的时间和一份美好的心情。", "entity_list": []}
+{"text": "顾客一个一个地到柜台前办理和一大堆人挤在你面前，给人的心理感觉就是不一样。", "entity_list": []}
+{"text": "支行的工作人员不多，比如我，少用些时间站起来维持秩序，就能多用点时间坐下解答问题。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "ORG", "entity": "支行"}]}
+{"text": "在北京分行，一位姓宫的中年男顾客这样说。", "entity_list": [{"entity_index": {"begin": 1, "end": 5}, "entity_type": "ORG", "entity": "北京分行"}, {"entity_index": {"begin": 9, "end": 10}, "entity_type": "PER", "entity": "宫"}]}
+{"text": "这就是招商银行北京分行新近推出，已普及到下属11个支行的“叫号机”。", "entity_list": [{"entity_index": {"begin": 3, "end": 11}, "entity_type": "ORG", "entity": "招商银行北京分行"}]}
+{"text": "抬头看，各站着一位顾客的十几个柜台的窗口上方，小电子屏幕上正显示着红色的阿拉伯数字，随着扩音器里又一声清扬悦耳的呼叫，“16”号将手中的报纸放回报刊架，起身赴台。", "entity_list": []}
+{"text": "记者也抽出一张卡片细看，上写：您的号码为27，请您稍候片刻，您的号码将被呼叫，并在窗口显示，谢谢合作。", "entity_list": []}
+{"text": "顾客进门后到服务台上一台机器“嘴”里抽出一张卡片，然后再去领取单据。", "entity_list": []}
+{"text": "等待办理存储的顾客坐在等候席上悠闲地翻看报纸杂志。", "entity_list": []}
+{"text": "5月17日，与门外行人熙来攘往、车水马龙的西二环路不同，招商银行北京分行的营业大厅里安静而清凉。", "entity_list": [{"entity_index": {"begin": 21, "end": 25}, "entity_type": "LOC", "entity": "西二环路"}, {"entity_index": {"begin": 28, "end": 36}, "entity_type": "ORG", "entity": "招商银行北京分行"}]}
+{"text": "这样既降低了干红葡萄酒的质量又破坏了正常的市场秩序，而且这些干红的口味很差，在当前我国消费者对干红应有的口味还不太了解的情况下，会挫伤消费者饮用干红的积极性。", "entity_list": []}
+{"text": "还有一些企业四处抢购专用葡萄，造成葡萄提前采摘而影响质量。", "entity_list": []}
+{"text": "据调查，现在的葡萄酒加工原料中，只有10％是专用品种，90％都是鲜食品种或兼用品种。", "entity_list": []}
+{"text": "由此可见，专用葡萄的缺口很大。", "entity_list": []}
+{"text": "1997年我国的葡萄酒总产量突破30万吨，而专门用于酿酒的专用葡萄品种生产基地只有1．33万公顷，计划到2000年增加到2万公顷，而葡萄酒的年产量也将达到50万吨。", "entity_list": []}
+{"text": "还应该指出的是，酿制1吨葡萄酒至少需要0．07公顷的葡萄原料基地。", "entity_list": []}
+{"text": "出现假冒伪劣干红，势必会打击消费者的购买欲，阻碍干红市场的进一步发育，正规的干红生产企业也会因此受到拖累，后果不堪设想。", "entity_list": []}
+{"text": "我国的干红市场仍处于发育阶段，很不稳定。", "entity_list": []}
+{"text": "还有一批小企业专门从事制造假冒伪劣葡萄酒。", "entity_list": []}
+{"text": "部分企业生产工艺落后，质量控制不严，造成产品感观不合格，有的铁含量超标，有的酒精度与标注不符。", "entity_list": []}
+{"text": "最近国家技术监督局在对葡萄酒进行的抽查中发现，部分企业偷工减料、粗制滥造，降低葡萄酒原料含量。", "entity_list": [{"entity_index": {"begin": 2, "end": 9}, "entity_type": "ORG", "entity": "国家技术监督局"}]}
+{"text": "现在相当一部分企业的干红有的是从别处购进葡萄汁发酵而成的，有的干脆就进口劣质原酒冒充高档干红，这样的酒怎么保证质量？", "entity_list": []}
+{"text": "建立忠诚度首先要有稳定、过硬的质量以及优良的服务。", "entity_list": []}
+{"text": "酒类产品市场的形成和稳定必须要经过一段时间让消费者认同并建立忠诚度。", "entity_list": []}
+{"text": "一些企业原本不生产干红，所以既无稳定的资源，又无可靠的技术，更无足够的资本。", "entity_list": []}
+{"text": "据了解，我国干红生产目前过于分散，需要适当集中，以形成竞争优势。", "entity_list": []}
+{"text": "干红生产企业大致可以分为三种类型：一类是从原料到技术到生产都自成体系的葡萄酒传统酿酒企业，以张裕公司为代表；", "entity_list": [{"entity_index": {"begin": 46, "end": 50}, "entity_type": "ORG", "entity": "张裕公司"}]}
+{"text": "另一类是利用外国资金和技术建立起来的合资企业，以长城和王朝公司为代表；", "entity_list": [{"entity_index": {"begin": 24, "end": 26}, "entity_type": "ORG", "entity": "长城"}, {"entity_index": {"begin": 27, "end": 31}, "entity_type": "ORG", "entity": "王朝公司"}]}
+{"text": "第三类是作坊式的或由白酒企业转产而来的，其中一些企业靠购买葡萄汁发酵或直接进口散装原酒装瓶出售。", "entity_list": []}
+{"text": "1997年我国进口两升以下的瓶装干红将近1万吨，比前一年增加了303．9％。", "entity_list": []}
+{"text": "目前，已经有10多个国家的100多个干红品牌进入中国。", "entity_list": [{"entity_index": {"begin": 24, "end": 26}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "另外，众多的外国葡萄酒公司也一直看好中国这个市场。", "entity_list": [{"entity_index": {"begin": 18, "end": 20}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "像具有张裕公司这样的生产能力的公司一家就足可以“包圆儿”。", "entity_list": [{"entity_index": {"begin": 3, "end": 7}, "entity_type": "ORG", "entity": "张裕公司"}]}
+{"text": "1997年全国国产干红销量两万多吨，其中，张裕干红4000多吨，长城干红和王朝干红各2000—3000吨，其他的厂家合起来卖了1万吨左右。", "entity_list": [{"entity_index": {"begin": 21, "end": 23}, "entity_type": "ORG", "entity": "张裕"}, {"entity_index": {"begin": 32, "end": 34}, "entity_type": "ORG", "entity": "长城"}, {"entity_index": {"begin": 37, "end": 39}, "entity_type": "ORG", "entity": "王朝"}]}
+{"text": "现在全国的干红生产企业以及干红品牌都超过200个，但目前的市场容纳量相对来说仍是非常有限的。", "entity_list": []}
+{"text": "高利润引发了一场干红市场争夺战。", "entity_list": []}
+{"text": "目前进口散装原葡萄酒的平均价格每0．75升不过4．2元人民币，而分装后在市场上的售价动辄一二百元。", "entity_list": []}
+{"text": "如果用进口葡萄原酒分装其利润更是高得惊人。", "entity_list": []}
+{"text": "资料表明，目前外国原装干红的平均进口价格每0．75升为12．7元人民币，市场零售价平均高达200多元。", "entity_list": []}
+{"text": "从喝干红开始，饮酒就不会轻易变成酗酒，高雅文明的饮酒方式会带动生活品位乃至人的文明素质提高。", "entity_list": []}
+{"text": "干红酒的流行很可能会成为由白酒向果酒转变的开始。", "entity_list": []}
+{"text": "90年代以来，我国饮酒习惯已经由高度酒转变为低度酒，就反映出这种变化。", "entity_list": []}
+{"text": "大碗喝酒大块吃肉的方式已不再畅行，豪饮、海量也已不值得称道。", "entity_list": []}
+{"text": "在解决了温饱以后，人们更注重饮食的养生之道。", "entity_list": []}
+{"text": "干红的流行反映出我国的饮食文化向更加健康的方向发展。", "entity_list": []}
+{"text": "今年春节期间，目前居干红销量首位的张裕干红葡萄酒在北京、福建、山东等地竟然脱销。", "entity_list": [{"entity_index": {"begin": 17, "end": 19}, "entity_type": "ORG", "entity": "张裕"}, {"entity_index": {"begin": 25, "end": 27}, "entity_type": "LOC", "entity": "北京"}, {"entity_index": {"begin": 28, "end": 30}, "entity_type": "LOC", "entity": "福建"}, {"entity_index": {"begin": 31, "end": 33}, "entity_type": "LOC", "entity": "山东"}]}
+{"text": "1997年我国干红销售量升至近4万吨。", "entity_list": []}
+{"text": "当然，这股浪潮不可能不影响到对外开放的中国。", "entity_list": [{"entity_index": {"begin": 19, "end": 21}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "两年前，韩国报纸披露干红葡萄酒有抗癌之功效，立刻在该国掀起了干红消费热潮。", "entity_list": [{"entity_index": {"begin": 4, "end": 6}, "entity_type": "LOC", "entity": "韩国"}]}
+{"text": "法国人每人平均每年饮用几十升干红。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "法国"}]}
+{"text": "干红葡萄酒虽然对很多中国人还比较陌生，但却是西方人餐桌上的必备之物。", "entity_list": [{"entity_index": {"begin": 10, "end": 12}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "———效益高，目前已运营的高速铁路大都盈利。", "entity_list": []}
+{"text": "———安全好，日本东海道新干线已安全运行30多年，至今各国的高速铁路没发生一起旅客死亡事故；", "entity_list": [{"entity_index": {"begin": 9, "end": 15}, "entity_type": "LOC", "entity": "东海道新干线"}]}
+{"text": "———污染小，是唯一不用液体燃料的交通工具，可大大减少有害物质对大气的污染；", "entity_list": []}
+{"text": "———能耗低，只是小轿车或飞机耗能的20％—30％；", "entity_list": []}
+{"text": "———占地少，只相当于双向4车道高速公路占地的40％；", "entity_list": []}
+{"text": "———运量大，日本东海道新干线单方向运输能力每小时可达1．5万人以上，1991年日发送旅客超过37万人次；", "entity_list": [{"entity_index": {"begin": 9, "end": 15}, "entity_type": "LOC", "entity": "东海道新干线"}]}
+{"text": "———速度快，运营时速已达300公里，试验时速已超过500公里；", "entity_list": []}
+{"text": "自从第一条高速铁路———日本东海道新干线在1959年开工兴建以来，全世界已经建成高速铁路的国家有日本、法国、德国、西班牙、意大利、瑞典等，线路总长超过4000公里；", "entity_list": [{"entity_index": {"begin": 14, "end": 20}, "entity_type": "LOC", "entity": "东海道新干线"}, {"entity_index": {"begin": 48, "end": 50}, "entity_type": "LOC", "entity": "日本"}, {"entity_index": {"begin": 51, "end": 53}, "entity_type": "LOC", "entity": "法国"}, {"entity_index": {"begin": 54, "end": 56}, "entity_type": "LOC", "entity": "德国"}, {"entity_index": {"begin": 57, "end": 60}, "entity_type": "LOC", "entity": "西班牙"}, {"entity_index": {"begin": 61, "end": 64}, "entity_type": "LOC", "entity": "意大利"}, {"entity_index": {"begin": 65, "end": 67}, "entity_type": "LOC", "entity": "瑞典"}]}
+{"text": "正在建设或准备建设高速铁路的国家和地区有：韩国、俄罗斯、美国、澳大利亚、加拿大、土耳其、中国及中国台湾省。", "entity_list": [{"entity_index": {"begin": 21, "end": 23}, "entity_type": "LOC", "entity": "韩国"}, {"entity_index": {"begin": 24, "end": 27}, "entity_type": "LOC", "entity": "俄罗斯"}, {"entity_index": {"begin": 28, "end": 30}, "entity_type": "LOC", "entity": "美国"}, {"entity_index": {"begin": 31, "end": 35}, "entity_type": "LOC", "entity": "澳大利亚"}, {"entity_index": {"begin": 36, "end": 39}, "entity_type": "LOC", "entity": "加拿大"}, {"entity_index": {"begin": 40, "end": 43}, "entity_type": "LOC", "entity": "土耳其"}, {"entity_index": {"begin": 44, "end": 46}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 49, "end": 52}, "entity_type": "LOC", "entity": "台湾省"}]}
+{"text": "世界上铁路列车运行速度的划分通常是：每小时200公里以下为普速；", "entity_list": []}
+{"text": "每小时200公里及以上为高速。", "entity_list": []}
+{"text": "何为高速铁路？", "entity_list": []}
+{"text": "高速铁路有哪些优势？", "entity_list": []}
+{"text": "（小资料）", "entity_list": []}
+{"text": "日本前首相竹下登（右二）、全国人大常委会副委员长王光英（左一）、铁道部部长傅志寰（右一）在北京人民大会堂观看日本制造的高速列车模型。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "日本"}, {"entity_index": {"begin": 5, "end": 8}, "entity_type": "PER", "entity": "竹下登"}, {"entity_index": {"begin": 13, "end": 20}, "entity_type": "ORG", "entity": "全国人大常委会"}, {"entity_index": {"begin": 24, "end": 27}, "entity_type": "PER", "entity": "王光英"}, {"entity_index": {"begin": 32, "end": 35}, "entity_type": "ORG", "entity": "铁道部"}, {"entity_index": {"begin": 37, "end": 40}, "entity_type": "PER", "entity": "傅志寰"}, {"entity_index": {"begin": 47, "end": 52}, "entity_type": "LOC", "entity": "人民大会堂"}, {"entity_index": {"begin": 54, "end": 56}, "entity_type": "LOC", "entity": "日本"}]}
+{"text": "因为，邓小平同志早在1978年乘坐日本新干线高速列车时就说过：“新干线推着我们跑，我们现在很需要跑！”", "entity_list": [{"entity_index": {"begin": 3, "end": 6}, "entity_type": "PER", "entity": "邓小平"}, {"entity_index": {"begin": 17, "end": 19}, "entity_type": "LOC", "entity": "日本"}]}
+{"text": "也许，京沪高速铁路在准备开工和开工以后还会碰到这样那样的困难，但是，神州大地将飞驰高速列车则是肯定无疑的。", "entity_list": [{"entity_index": {"begin": 3, "end": 9}, "entity_type": "LOC", "entity": "京沪高速铁路"}, {"entity_index": {"begin": 34, "end": 36}, "entity_type": "LOC", "entity": "神州"}]}
+{"text": "虽然我国也在积极开发研究这些技术，国家科委和国家发展计划委员会已在“九五”科技攻关计划中作了相应的安排，但由于京沪高速铁路工程包括土木建筑、机械制造、信息与自动化、电力电子、材料工艺、空气动力、", "entity_list": [{"entity_index": {"begin": 17, "end": 21}, "entity_type": "ORG", "entity": "国家科委"}, {"entity_index": {"begin": 22, "end": 31}, "entity_type": "ORG", "entity": "国家发展计划委员会"}, {"entity_index": {"begin": 55, "end": 61}, "entity_type": "LOC", "entity": "京沪高速铁路"}]}
+{"text": "环境保护等多个技术领域，也还需要较长时间才能掌握，因而比较合适的途径是：以我为主，引进技术与科研攻关相结合，国内外和路内外技术相结合，博采世界各国技术之所长，使京沪高速铁路既达到国际先进水平，", "entity_list": [{"entity_index": {"begin": 80, "end": 86}, "entity_type": "LOC", "entity": "京沪高速铁路"}]}
+{"text": "又能逐步形成符合我国特点的高速铁路技术体系。", "entity_list": []}
+{"text": "关于京沪高速铁路使用的机车、车辆、通信、信号等技术装备，前一段有的报道说全部由中国制造。", "entity_list": [{"entity_index": {"begin": 2, "end": 8}, "entity_type": "LOC", "entity": "京沪高速铁路"}, {"entity_index": {"begin": 39, "end": 41}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "全线全封闭、全立交，并设自然灾害预报系统；", "entity_list": []}
+{"text": "沿线的环境保护要达到国家规定的标准。", "entity_list": []}
+{"text": "届时，从北京到上海只用5个多小时。", "entity_list": [{"entity_index": {"begin": 4, "end": 6}, "entity_type": "LOC", "entity": "北京"}, {"entity_index": {"begin": 7, "end": 9}, "entity_type": "LOC", "entity": "上海"}]}
+{"text": "高速列车设计运营速度为每小时300公里，中速列车运营速度为每小时160—200公里，桥、隧、路基等基础设施按时速350公里的要求设计。", "entity_list": []}
+{"text": "由于京沪高速铁路位于东部沿海平原区，地质基底普遍松软，部分线路通过软土区和江河水害区，故路基采用高架桥的比重较大，初步估计桥梁总长约占全线33％。", "entity_list": [{"entity_index": {"begin": 2, "end": 8}, "entity_type": "LOC", "entity": "京沪高速铁路"}]}
+{"text": "全长约1300公里，初步考虑设26个车站，平均站间距离约50公里。", "entity_list": []}
+{"text": "京沪高速铁路为双线、电气化牵引的客运专线，线路走向大体上与既有京沪铁路平行。", "entity_list": [{"entity_index": {"begin": 0, "end": 6}, "entity_type": "LOC", "entity": "京沪高速铁路"}, {"entity_index": {"begin": 31, "end": 35}, "entity_type": "LOC", "entity": "京沪铁路"}]}
+{"text": "以下数据为我们勾画出一个大致轮廓：", "entity_list": []}
+{"text": "我国专家们提出的修建京沪高速铁路的方案是轮轨系统：以运行高速客车为主，初期允许跨线中速列车上高速铁路行驶；", "entity_list": [{"entity_index": {"begin": 10, "end": 16}, "entity_type": "LOC", "entity": "京沪高速铁路"}]}
+{"text": "老京沪线以货物运输为主，也开行少量的铁路局管内客车。", "entity_list": [{"entity_index": {"begin": 1, "end": 4}, "entity_type": "LOC", "entity": "京沪线"}]}
+{"text": "后者尽管试验列车的时速超过了500公里，但用于商业运行的线路尚未动工，主要原因是造价太高和技术尚不够成熟。", "entity_list": []}
+{"text": "前者已在日、法、德等国家长期使用，实践证明是一项既先进、可靠，又比较经济、成熟的高新技术。", "entity_list": [{"entity_index": {"begin": 4, "end": 5}, "entity_type": "LOC", "entity": "日"}, {"entity_index": {"begin": 6, "end": 7}, "entity_type": "LOC", "entity": "法"}, {"entity_index": {"begin": 8, "end": 9}, "entity_type": "LOC", "entity": "德"}]}
+{"text": "当前世界高速铁路分为轮轨接触系统和磁悬浮系统两大类。", "entity_list": []}
+{"text": "按目前的技术装备和现代化管理水平所能提供的运输能力，其利用程度几乎已经饱和。", "entity_list": []}
+{"text": "全长1463公里的京沪铁路，是我国客货运输最繁忙的铁路干线，货运和客运密度分别是全国铁路平均水平的5．2倍和3．6倍。", "entity_list": [{"entity_index": {"begin": 9, "end": 13}, "entity_type": "LOC", "entity": "京沪铁路"}]}
+{"text": "京沪沿线虽然是我国交通运输网比较发达的地区之一，但相对于运输需求来说，又是当前我国交通运输能力最为紧张的一个地区。", "entity_list": [{"entity_index": {"begin": 1, "end": 2}, "entity_type": "LOC", "entity": "沪"}]}
+{"text": "京沪沿线地区人口数量约占全国的1／4，国民生产总值和国民收入则占到全国的1／3以上。", "entity_list": [{"entity_index": {"begin": 1, "end": 2}, "entity_type": "LOC", "entity": "沪"}]}
+{"text": "目前，正在进行京沪高速铁路的可行性研究，各项基础技术参数正在按计划进行研究。", "entity_list": [{"entity_index": {"begin": 7, "end": 13}, "entity_type": "LOC", "entity": "京沪高速铁路"}]}
+{"text": "1998年2月，国家高层决策部门提出“力争2000年开工建设京沪高速铁路”。", "entity_list": [{"entity_index": {"begin": 30, "end": 36}, "entity_type": "LOC", "entity": "京沪高速铁路"}]}
+{"text": "1997年，铁道部向国家正式提交《北京至上海新建高速铁路项目建议书》。", "entity_list": [{"entity_index": {"begin": 6, "end": 9}, "entity_type": "ORG", "entity": "铁道部"}, {"entity_index": {"begin": 17, "end": 19}, "entity_type": "LOC", "entity": "北京"}, {"entity_index": {"begin": 20, "end": 22}, "entity_type": "LOC", "entity": "上海"}]}
+{"text": "1994年，国务院批准铁道部开展京沪高速铁路预可行性研究。", "entity_list": [{"entity_index": {"begin": 6, "end": 9}, "entity_type": "ORG", "entity": "国务院"}, {"entity_index": {"begin": 11, "end": 14}, "entity_type": "ORG", "entity": "铁道部"}, {"entity_index": {"begin": 16, "end": 22}, "entity_type": "LOC", "entity": "京沪高速铁路"}]}
+{"text": "1992年，在北京召开的“中国高速铁路研讨会”认为，建设高速铁路条件最成熟的地方是京沪线。", "entity_list": [{"entity_index": {"begin": 7, "end": 9}, "entity_type": "LOC", "entity": "北京"}, {"entity_index": {"begin": 13, "end": 15}, "entity_type": "LOC", "entity": "中国"}, {"entity_index": {"begin": 41, "end": 44}, "entity_type": "LOC", "entity": "京沪线"}]}
+{"text": "1991年底，广深准高速铁路正式开工。", "entity_list": [{"entity_index": {"begin": 8, "end": 9}, "entity_type": "LOC", "entity": "深"}]}
+{"text": "到“七五”末期的1990年，经国务院批准决定将全长147公里的广（州）深（圳）线改造成能开行时速160公里的铁路，并把它定名为准高速铁路，作为我国发展高速铁路的“试验田”。", "entity_list": [{"entity_index": {"begin": 15, "end": 18}, "entity_type": "ORG", "entity": "国务院"}, {"entity_index": {"begin": 35, "end": 39}, "entity_type": "LOC", "entity": "深（圳）"}]}
+{"text": "中国高层部门领导人早就意识到，提高铁路运行速度、建设高速铁路是铁路现代化的重要里程碑，是国家经济实力强大、科技水平提高的具体体现，早在80年代中期就提出了初步构想。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "中国"}]}
+{"text": "为此，记者走访了铁道部有关单位的同志。", "entity_list": [{"entity_index": {"begin": 8, "end": 11}, "entity_type": "ORG", "entity": "铁道部"}]}
+{"text": "3月28日，铁道部在“加快铁路建设动员大会”上作了上述宣布以后，立即吸引了国内外许多人士关注的目光。", "entity_list": [{"entity_index": {"begin": 6, "end": 9}, "entity_type": "ORG", "entity": "铁道部"}]}
+{"text": "“积极做好京沪高速铁路前期工作，力争2000年开工建设。”", "entity_list": [{"entity_index": {"begin": 5, "end": 11}, "entity_type": "LOC", "entity": "京沪高速铁路"}]}
+{"text": "图为行驶在北京东郊列车试验场内的从瑞典引进、时速200公里的摆式高速列车。", "entity_list": [{"entity_index": {"begin": 5, "end": 14}, "entity_type": "LOC", "entity": "北京东郊列车试验场"}, {"entity_index": {"begin": 17, "end": 19}, "entity_type": "LOC", "entity": "瑞典"}]}
+{"text": "远眺京沪高速铁路（附图片2张）", "entity_list": [{"entity_index": {"begin": 2, "end": 8}, "entity_type": "LOC", "entity": "京沪高速铁路"}]}
+{"text": "三是各地似应以中介组织（如旧货市场行业协会）为主加强自律管理，但必要的工商登记、治安管理也是不容忽视的。", "entity_list": []}
+{"text": "建议从旧货业经营的实际出发，制定具体办法，尽早实施。", "entity_list": []}
+{"text": "并主要从各地实际出发，对旧货市场实施必要的管理。", "entity_list": []}
+{"text": "可在认真总结各地开展旧货市场工作的基础上，制定一个规范性的行业管理办法。", "entity_list": []}
+{"text": "要防止把旧货市场作为不法交易和销赃的场所。", "entity_list": []}
+{"text": "由于我国的法律体系不够完善，有必要逐步制定专门的法律法规，规范旧货市场的发展。", "entity_list": []}
+{"text": "5．对旧货市场给予扶持、引导和管理。", "entity_list": []}
+{"text": "可通过有关部门（例如民政部门、红十字会等）举办救济型旧货商店的试点工作，待总结经验后，再逐步推广。", "entity_list": []}
+{"text": "这样做，有助于在全社会形成互助互济的良好风尚，也可以把人们以自愿捐助形式从事的社会救济工作经常化、制度化，使捐助物品更好地调配给贫困地区和灾区。", "entity_list": []}
+{"text": "西欧国家的这种做法，效果较好，可参考借鉴。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "西欧"}]}
+{"text": "4．把发展旧货市场与开展社会救济事业结合起来。", "entity_list": []}
+{"text": "据了解，各地已经有一些好的做法，如西安旧货交易中心响应市政府号召，首批摊位全部出租给本市下岗职工；", "entity_list": [{"entity_index": {"begin": 17, "end": 25}, "entity_type": "LOC", "entity": "西安旧货交易中心"}]}
+{"text": "青岛市举办的旧货市场优先考虑招聘下岗职工，等等。", "entity_list": [{"entity_index": {"begin": 0, "end": 3}, "entity_type": "LOC", "entity": "青岛市"}]}
+{"text": "开办旧货市场，只需短期的培训，投入较少的资金，政府给予必要的政策扶持，制定相关的法规，就能很快开展起来。", "entity_list": []}
+{"text": "应把发展旧货市场与实施下岗职工再就业工程结合起来。", "entity_list": []}
+{"text": "经营旧货属于商品的二次流通，能够增加就业岗位，并且投入少，见效快，对于开辟就业门路，具有积极意义。", "entity_list": []}
+{"text": "3．把发展旧货市场与实施再就业工程结合起来。", "entity_list": []}
+{"text": "因此，要从改善报刊、电视、广播等舆论宣传工作入手，使人们认识和了解发展旧货市场的意义，逐步转变观念。", "entity_list": []}
+{"text": "随着人们生活的改善，消费品更新速度加快，已客观存在着一批供、需者。", "entity_list": []}
+{"text": "我国幅员辽阔，经济发展存在着差异。", "entity_list": []}
+{"text": "人们还没有把“旧货”真正放到市场经济的视角中去看待，这在相当程度上阻碍了旧货市场的发展。", "entity_list": []}
+{"text": "把“旧货”视同旧物，只能自己使用，很难认同把旧货拿到人们之间进行相互转让和再消费。", "entity_list": []}
+{"text": "一方面，家里有了旧货没法处理；", "entity_list": []}
+{"text": "另一方面，一般也认为，购买旧货和逛旧货市场是失身份、丢面子的事。", "entity_list": []}
+{"text": "长期以来，我国对“旧货”的观念过于陈旧。", "entity_list": []}
+{"text": "发展旧货市场，面临着一个转变观念的问题。", "entity_list": []}
+{"text": "旧货市场不仅要在大、中城市办起来，还要办到小城镇、办到农村去，让旧货在不同地区之间、城乡之间进行流通，开辟广阔的内地和农村市场。", "entity_list": []}
+{"text": "因此，开办旧货市场，让旧货在不同收入群体之间进行调剂，有利于满足社会不同群体多层次的消费需求，活跃商品流通。", "entity_list": []}
+{"text": "不少中、高收入家庭打算更新耐用消费品，但苦于没有地方转让旧货；", "entity_list": []}
+{"text": "而低收入者想购置便宜、实惠的旧货消费品，也苦于没有地方买。", "entity_list": []}
+{"text": "如何积极地发展旧货市场，启动消费需求，是一条值得重视的途径。", "entity_list": []}
+{"text": "改革开放20年来，我国经济持续、快速发展，纺织、轻工、家电等许多与人民生活密切相关的行业，已由过去的供给不足转向需求制约。", "entity_list": []}
+{"text": "目前，我国旧货市场数量很少，组织形式单一，管理落后，与经济迅速发展的要求不相适应。", "entity_list": []}
+{"text": "我们要从本国国情出发，借鉴国外的成功经验和做法，把旧货市场这项利国利民的事业进一步办好。", "entity_list": []}
+{"text": "西欧国家的实践表明，发展旧货市场，具有扩大消费、增加就业、缓和社会分配矛盾和培养良好的社会风尚等多方面意义，是值得我们认真兴办的一个行业。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "西欧"}]}
+{"text": "发展旧货市场对我国有现实意义。", "entity_list": []}
+{"text": "三、对我国发展旧货市场的几点启示", "entity_list": []}
+{"text": "二是直接为旧货市场服务的部门，如各类为旧货市场服务的电脑网络、报纸、广告、咨询等信息产业的工作人员，搬运工，市场管理人员，等等。", "entity_list": []}
+{"text": "一是旧货经营人员，如各类旧货商店的员工，个体旧货店的店主，跳蚤市场的职业摊主。", "entity_list": []}
+{"text": "旧货业是对原有商品的再次经营，从全社会来看，是能够增加就业岗位的。", "entity_list": []}
+{"text": "第五，为社会提供了新的就业机会。", "entity_list": []}
+{"text": "因为旧货市场具有当地文化习俗特征，许多游客乐于到此一游，外国游客还可以了解当地的风土人情。", "entity_list": []}
+{"text": "据了解，旧货市场已成马德里的一大景观，每个星期天到旧货市场光顾的除了当地市民外，还有大批游客，人数多达20万。", "entity_list": [{"entity_index": {"begin": 10, "end": 13}, "entity_type": "LOC", "entity": "马德里"}]}
+{"text": "人们在周末假日光顾旧货市场，既能买到经济实惠的东西，又可以观赏。", "entity_list": []}
+{"text": "随着旧货市场的发展，旧货业已成为一种古老的新产业，“旧货”名声不旧了，上层人士不再羞于光顾此类商店了。", "entity_list": []}
+{"text": "第四，旧货消费观念开始发生转变。", "entity_list": []}
+{"text": "顾客可根据“兰报”信息直接上门洽购，这种私人之间的买卖不仅是合法的，而且还免税。", "entity_list": [{"entity_index": {"begin": 6, "end": 8}, "entity_type": "ORG", "entity": "兰报"}]}
+{"text": "最近“兰报”已上电脑网络，顾客购买网络卡后，不出家门即可查询。", "entity_list": [{"entity_index": {"begin": 3, "end": 5}, "entity_type": "ORG", "entity": "兰报"}]}
+{"text": "丹麦有一家专门为旧货市场服务的“兰报”（DETBLAPAKHUS），为买卖双方免费刊登旧货广告，报纸靠出售赚钱，发行量很大。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "丹麦"}, {"entity_index": {"begin": 16, "end": 18}, "entity_type": "ORG", "entity": "兰报"}, {"entity_index": {"begin": 20, "end": 32}, "entity_type": "ORG", "entity": "DETBLAPAKHUS"}]}
+{"text": "旧货市场离不开信息沟通，关于旧货的报纸、广告咨询业比较发达。", "entity_list": []}
+{"text": "其次，信息业已广泛渗透到旧货市场中。", "entity_list": []}
+{"text": "我们参观的几家旧货商店，甚至连社会慈善机构办的旧货商店，都采取连锁经营的方式。", "entity_list": []}
+{"text": "连锁经营的管理方式严谨、规范，实行规模经营后，成本低，信誉高，顾客都愿意到连锁商店买东西。", "entity_list": []}
+{"text": "首先，商业连锁经营在旧货市场发展中得到运用。", "entity_list": []}
+{"text": "第三，现代经营管理形式在旧货市场中发挥了重要作用，大大促进了旧货业的发展。", "entity_list": []}
+{"text": "这后一个1／4价格，实际上是商店的成本耗费加利润，是增加值，在统计上当计入国民生产总值，因而是经济增长的直接表现。", "entity_list": []}
+{"text": "我们在西班牙参观的CASH旧货连锁商店，一般用新货的1／4价格收购旧货，从而使旧货商品的价值得到第二次实现；", "entity_list": [{"entity_index": {"begin": 3, "end": 6}, "entity_type": "LOC", "entity": "西班牙"}, {"entity_index": {"begin": 9, "end": 19}, "entity_type": "LOC", "entity": "CASH旧货连锁商店"}]}
+{"text": "商店再用新货的1／4价格用于旧货的清洗、修整和加工以及商业经营，最终用新货一半的价格卖出，利润很高。", "entity_list": []}
+{"text": "3．旧货市场的开辟，既使原有商品价值得到再次实现，也能创造出新的价值。", "entity_list": []}
+{"text": "实践证明，发展旧货市场可以促进新产品流通，拓宽全社会的消费需求，还在某种程度上参与一定的国际商品流通。", "entity_list": []}
+{"text": "虽然旧货交易是整个社会商品流通的一小部分，但它对于活跃商品流通仍是不可或缺的。", "entity_list": []}
+{"text": "这部分人在社会消费构成中占有较大比重，这部分消费需求对经济增长具有一定的刺激作用。", "entity_list": []}
+{"text": "在发达国家，往往中、高收入阶层购买力较强，他们追求时新，卖掉旧货意味着购进新货。", "entity_list": []}
+{"text": "2．旧货市场也为社会中高收入阶层更新旧货，启动新的消费，发挥了积极作用。", "entity_list": []}
+{"text": "低廉的价格和几乎保持原商品使用价值的效果，可以适应低收入者的消费需求。", "entity_list": []}
+{"text": "旧货市场近年来能够迅速发展，一个重要因素就是价格便宜，旧货价格一般只及新货价格的一半或更低。", "entity_list": []}
+{"text": "1．旧货市场一般主要为社会中、低收入层所接受，同时也可以满足一些人的特殊需要。", "entity_list": []}
+{"text": "第二，旧货市场有助于满足多层次的消费需求，促进经济增长。", "entity_list": []}
+{"text": "“旧货”不仅仅是指新货被使用才成为旧货；", "entity_list": []}
+{"text": "还包括商品的调剂，即卖出旧货的人是为了买入新货，买入旧货的人是因为符合自己的需要，不管新旧；", "entity_list": []}
+{"text": "有的商店还包括一些高档的工艺品、古董、字画、家具等商品；", "entity_list": []}
+{"text": "有的还包括新货卖不出去，企业或店主为了盘活资金，削价销售积压产品。", "entity_list": []}
+{"text": "经营旧货和消费旧货开始在原有的基础上赋予了新的内涵。", "entity_list": []}
+{"text": "过去那种典型意义上的旧货市场概念，即为了糊口去卖旧货，因为缺钱去买旧货，已经不能完全包容。", "entity_list": []}
+{"text": "第一，经营旧货作为一个古老的行业，随着经济的发展不仅没有萎缩，而且得到新的发展。", "entity_list": []}
+{"text": "通过考察和了解，我们对旧货市场的特点和作用有以下一些认识。", "entity_list": []}
+{"text": "这是活跃旧货交流的一条重要渠道，主要集中在大都市的商业区和居民区附近，采取摆地摊的形式。", "entity_list": []}
+{"text": "如在布鲁塞尔，我们看了一家灯具商店，店主是一位残疾人，收购的灯具具有工艺性质，不仅向国内销售，还卖到国外，有一定的知名度，许多买主慕名而来，年营业额10多万美元。", "entity_list": [{"entity_index": {"begin": 2, "end": 6}, "entity_type": "LOC", "entity": "布鲁塞尔"}]}
+{"text": "有经营百货的，也有经营专品的。", "entity_list": []}
+{"text": "另一类是以买断方式收购进来的，这是主要方式。", "entity_list": []}
+{"text": "居民要淘汰旧东西，可打电话通知这些商店上门拉货，虽一般免费收取，但对于一些比较值钱的东西，商店也要酌情付费。", "entity_list": []}
+{"text": "商店物品来源分成两类：一类主要是免费得来的。", "entity_list": []}
+{"text": "政府对这些商店均实行免税政策。", "entity_list": []}
+{"text": "丹麦红十字会年收集旧服装近4000吨，通过两个分拣中心分拣处理，一般将衣物分成三类：一类较好的，拿到其开办的旧服装店销售；", "entity_list": [{"entity_index": {"begin": 0, "end": 6}, "entity_type": "ORG", "entity": "丹麦红十字会"}]}
+{"text": "一类次好的，直接捐助给安哥拉、波黑等一些发生战乱国家的难民；", "entity_list": [{"entity_index": {"begin": 11, "end": 14}, "entity_type": "LOC", "entity": "安哥拉"}, {"entity_index": {"begin": 15, "end": 17}, "entity_type": "LOC", "entity": "波黑"}]}
+{"text": "一类较差的，当作垃圾处理掉。", "entity_list": []}
+{"text": "丹麦红十字会自1991年起在全国公共场所设置了7200个固定的旧服装收集箱，居民可将捐赠衣物清洁后用塑料袋装好，放进箱内。", "entity_list": [{"entity_index": {"begin": 0, "end": 6}, "entity_type": "ORG", "entity": "丹麦红十字会"}]}
+{"text": "这些机构将捐赠物品清洁整理后，拿到所属旧货商店销售，所获利润用于慈善救济事业。", "entity_list": []}
+{"text": "这是由社会慈善机构或服务机构兴办的商店，物品基本来自社会各方的捐赠。", "entity_list": []}
+{"text": "CASH公司1995年在西班牙试办第一家分店，现已发展到30多家，一年后将达60家。", "entity_list": [{"entity_index": {"begin": 0, "end": 6}, "entity_type": "ORG", "entity": "CASH公司"}, {"entity_index": {"begin": 12, "end": 15}, "entity_type": "LOC", "entity": "西班牙"}]}
+{"text": "例如：在西班牙开设的CASH旧货连锁商店，是一家国际连锁店，总部设在澳大利亚，全球有400多家分店，分布30多个国家，年营业额逾3亿美元。", "entity_list": [{"entity_index": {"begin": 4, "end": 7}, "entity_type": "LOC", "entity": "西班牙"}, {"entity_index": {"begin": 10, "end": 20}, "entity_type": "LOC", "entity": "CASH旧货连锁商店"}, {"entity_index": {"begin": 34, "end": 38}, "entity_type": "LOC", "entity": "澳大利亚"}]}
+{"text": "这是一种现代形式的具有规模经济效益的旧货经营方式，近年来发展较快。", "entity_list": []}
+{"text": "因时间紧，仅对部分消费品旧货市场进行了考察，归纳起来，有以下几种主要类型。", "entity_list": []}
+{"text": "西欧四国旧货市场形式多样，内容丰富。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "LOC", "entity": "西欧"}]}
+{"text": "四国的旧货市场给我们留下了深刻印象，也使我们得到不少启示。", "entity_list": []}
+{"text": "最近，我们实地考察了瑞士、西班牙、比利时、丹麦四国的消费品旧货市场，走访了旧货市场的管理者和经营者。", "entity_list": [{"entity_index": {"begin": 10, "end": 12}, "entity_type": "LOC", "entity": "瑞士"}, {"entity_index": {"begin": 13, "end": 16}, "entity_type": "LOC", "entity": "西班牙"}, {"entity_index": {"begin": 17, "end": 20}, "entity_type": "LOC", "entity": "比利时"}, {"entity_index": {"begin": 21, "end": 23}, "entity_type": "LOC", "entity": "丹麦"}]}
+{"text": "这时我想：若果我也是蝴蝶，我真愿隐入边僻的深山，与溪涧峰峦野花芳草为伴，过自己自由的日子。", "entity_list": []}
+{"text": "八只死去的蝴蝶，又恍恍惚惚飞舞在我的面前。", "entity_list": []}
+{"text": "“一个忽飞还”，可我院落中的这八个蝴蝶，已是不会再飞还了。", "entity_list": []}
+{"text": "诗中“个”的量词的运用，我认为是诗人给蝴蝶的一种人格的对待，它，毕竟也是大自然之子啊！", "entity_list": []}
+{"text": "这时，我忽然想起胡适在二十年代写的一首蝴蝶诗的前四句：", "entity_list": [{"entity_index": {"begin": 8, "end": 10}, "entity_type": "PER", "entity": "胡适"}]}
+{"text": "此刻，有一种悲哀从我的内心萌出，这不知是出于对蝴蝶的不幸遭遇引起的忧伤，还是对人的一种冷酷行为的愧疚。", "entity_list": []}
+{"text": "天之造物，何其仁也，天之待人，何其厚也，如此美丽的蝴蝶有心来装点人的生存环境，而人，一一将其掳去并使之僵亡……", "entity_list": []}
+{"text": "宋代这位诗人写的当然是人去蝶犹在，蝶在人已去的一种惆怅心绪，而今日，最苦是，蝶之亡于人也。", "entity_list": []}
+{"text": "又闪过太极图的图像，闪过宋人的一句词：“最苦是，蝴蝶满园飞，无人扑”。", "entity_list": []}
+{"text": "我久久立在蝴蝶的这堆尸体边，梦幻般在脑际闪过“梁祝”的化蝶后的又一次死亡，闪过庄子的“蝴蝶梦”的破碎与“昔者庄周梦为蝴蝶，栩栩然蝴蝶也”。", "entity_list": [{"entity_index": {"begin": 24, "end": 25}, "entity_type": "PER", "entity": "祝"}, {"entity_index": {"begin": 39, "end": 41}, "entity_type": "PER", "entity": "庄子"}, {"entity_index": {"begin": 54, "end": 56}, "entity_type": "PER", "entity": "庄周"}]}
+{"text": "垃圾不是风景，却埋葬着这原已结构起蝴蝶风景的蝴蝶。", "entity_list": []}
+{"text": "我走近垃圾桶一看，这八只美丽的蝴蝶的尸体，堆叠在一起，翅已破碎，沾满了污尘，形似遭遇了一阵无法匹敌又无法回避的雷雨暴风的毙命的袭击。", "entity_list": []}
+{"text": "一机灵男孩，从我的语气中知道我需知的，是蝴蝶的最终下落，于是手指垃圾桶：全死了！", "entity_list": []}
+{"text": "一小女孩回答：给一位爸爸捉去了，八只全捉去了！", "entity_list": []}
+{"text": "我问几个在草坪上观蚁战的孩子：蝴蝶呢？", "entity_list": []}
+{"text": "但我，惆怅地立在草坪边，似乎感到这片小的天地，已由于失去了这四对蝴蝶而失去了一种生机一种活力一种动感一种风韵而增添了某种单调与枯寂。", "entity_list": []}
+{"text": "这于我，失落的似乎不仅仅是美丽，而是一种在我感情中蠢动过或者陶冶过纯化过我感情的精魂。", "entity_list": []}
+{"text": "过了几日，蝴蝶不见了；", "entity_list": []}
+{"text": "又过了数日，依旧不见这八只蝴蝶，所见的，只是一只又一只嗡嗡嘤嘤于花丛之中的蜜蜂。", "entity_list": []}
+{"text": "我制止并向孩子劝说：别去伤害蝴蝶，让它们飞，这蝴蝶属于自然，自然所赋予世界的美，不允许遭到毁坏，知道吗？", "entity_list": []}
+{"text": "一个早晨，我发现院落中的小草坪上，有孩子在捕捉这蝴蝶，若果说这是出于一种美的挑逗或诱惑而导致的一种爱的掠取，在我看来，这无异是一种残忍行为的开端。", "entity_list": []}
+{"text": "这八只蝴蝶，一对一对相伴，沉浮升降须臾不离，又使人想起“化蝶”的一种梦幻境界，让人感到这是蝴蝶向人世间呼唤的一种甜蜜的声音，给院落增添一道恬静的风景。", "entity_list": []}
+{"text": "在风中、或在树的影中，在草叶的露上、或在花的芳香的氤氲里，蝴蝶们轻盈且又自由地飞动，让寂静的空间，因其翅翼的勾勒而出现的一种线条形小弧圈的变异，将瞬间的院落或院落中的瞬间，装潢得美丽而富有光彩，", "entity_list": []}
+{"text": "蝶翅上黑与白的融洽与黑白两种蝴蝶的搭配，让人领悟蝶之处于宇宙一种最朴质的两原色中，已趋一种自然的极致，是一种天造的极完善的胶合的一种表达。", "entity_list": []}
+{"text": "我当时想，这八只黑的白的、在翅上又点缀着白的黑的点点的蝴蝶，若能拼凑相对，黑白组合，就极似有黑有白，白中有黑，黑中有白的阴阳和谐的太极图了。", "entity_list": []}
+{"text": "两对白的蝴蝶，其白的翅翼边缘，见有黑的痣点缀染，似白绸上名笔点染的墨迹；", "entity_list": []}
+{"text": "两对黑的蝴蝶，黑的翅翼上却洒了些白色的小点，似黑玉上萌出的小珍珠。", "entity_list": []}
+{"text": "草叶树叶之间，忽见四对蝴蝶翩翩飞舞，忽浮忽沉，或旋或冲，弧线中似有风追随在它们的翼下，顿时让火焰般燃烧的花朵，也更加熠熠闪亮了起来，让这阳光下院墙内的小天地，陡增无尽春意。", "entity_list": []}
+{"text": "一日，随几缕春雨停歇，青草上的阳光便异常柔软且散发出一种绿的芬芳。", "entity_list": []}
+{"text": "“蝴蝶梦中万里家”，见蝴蝶而让人想到故乡飘飞的云、逍遥的炊烟与梦一样的温馨的篱园。", "entity_list": []}
+{"text": "蝴蝶，是南国早春最精美、也最精粹与精致的标志与象征，它被诗人喻为会飞的花朵或一封折叠着寻找爱的投递处的信笺。", "entity_list": []}
+{"text": "把文化的温馨留住，这是一种兴趣，更是一种境界。", "entity_list": []}
+{"text": "不过，他们也显得十分淡然：“说实话，我们想得不多，正像有人喜欢打牌、钓鱼，我们乐于做这样的事情。”", "entity_list": []}
+{"text": "有了这样一个渐显风采的学术讲座，越秀酒家也因此有了自己的骄傲。", "entity_list": [{"entity_index": {"begin": 16, "end": 20}, "entity_type": "ORG", "entity": "越秀酒家"}]}
+{"text": "在他看来，讲座的实际意义，大概正是在寂静的象牙塔与喧嚣的尘世之间，拓开一片既贴近时代又充满情致的文化天地。", "entity_list": []}
+{"text": "他这样说：不问事功，只谈学问，学友济济，兼得雅室净几，是难得的雅遇。", "entity_list": []}
+{"text": "一位读书人则找到他自己的感觉。", "entity_list": []}
+{"text": "他认为，越秀酒家注重营造一种公共关系的交往空间，努力构筑富有越秀选择个性的环境氛围，实际上最终体现了饮食文化的多重功能和消费审美化的倾向，必然带有潜在的商业效益。", "entity_list": [{"entity_index": {"begin": 4, "end": 8}, "entity_type": "ORG", "entity": "越秀酒家"}, {"entity_index": {"begin": 30, "end": 32}, "entity_type": "ORG", "entity": "越秀"}]}
+{"text": "一位研究经济的学者，从经济与文化相互影响的角度对此发表意见。", "entity_list": []}
+{"text": "河南省省委、省政府的主要领导，对越秀酒家所主办的讲座和其他一系列文化活动十分赞赏，认为“越秀文化现象是河南值得骄傲的景致”。", "entity_list": [{"entity_index": {"begin": 0, "end": 5}, "entity_type": "ORG", "entity": "河南省省委"}, {"entity_index": {"begin": 16, "end": 20}, "entity_type": "ORG", "entity": "越秀酒家"}, {"entity_index": {"begin": 44, "end": 46}, "entity_type": "ORG", "entity": "越秀"}, {"entity_index": {"begin": 51, "end": 53}, "entity_type": "LOC", "entity": "河南"}]}
+{"text": "于是，“越秀学术讲座”不再仅仅是一个酒家的高明之举，而是赫然已成郑州引人注目的文化现象、企业现象。", "entity_list": [{"entity_index": {"begin": 4, "end": 6}, "entity_type": "ORG", "entity": "越秀"}, {"entity_index": {"begin": 32, "end": 34}, "entity_type": "LOC", "entity": "郑州"}]}
+{"text": "几乎每次讲座请来的客人，都成为报纸上报道的新闻人物，一家《东方艺术》杂志，甚至专门开设一个“越秀学术讲座”专栏，将每次演讲整理出来发表。", "entity_list": [{"entity_index": {"begin": 28, "end": 36}, "entity_type": "ORG", "entity": "《东方艺术》杂志"}, {"entity_index": {"begin": 46, "end": 48}, "entity_type": "ORG", "entity": "越秀"}]}
+{"text": "同时，报纸杂志也把目光注视着这里。", "entity_list": []}
+{"text": "就这样，渐渐地，越秀学术讲座在郑州文化人和学生们中间成为了不可缺少的生活内容。", "entity_list": [{"entity_index": {"begin": 8, "end": 10}, "entity_type": "ORG", "entity": "越秀"}, {"entity_index": {"begin": 15, "end": 17}, "entity_type": "LOC", "entity": "郑州"}]}
+{"text": "当他们的学业有所提高时，想必这个讲座在他们的记忆里会占据一席之地。", "entity_list": []}
+{"text": "对于那些风尘仆仆前来听课的大学生来说，越秀称得上他们的知己良朋。", "entity_list": [{"entity_index": {"begin": 19, "end": 21}, "entity_type": "ORG", "entity": "越秀"}]}
+{"text": "胡绳曾有题词：“酒逢知己，书会良朋”。", "entity_list": [{"entity_index": {"begin": 0, "end": 2}, "entity_type": "PER", "entity": "胡绳"}]}
+{"text": "这对于那些喜欢读书却又囊中羞涩的学生来说，实在是一件大好事。", "entity_list": []}
+{"text": "凡是前来听讲的大学生，都可以领取五元钱的交通补贴，另外还可以七五折购买越秀书店的图书。", "entity_list": [{"entity_index": {"begin": 35, "end": 39}, "entity_type": "LOC", "entity": "越秀书店"}]}
+{"text": "考虑到大学一般地处郊外，前来听演讲颇为不便。", "entity_list": []}
+{"text": "大学生们成为了越秀学术讲座的一批特殊客人。", "entity_list": [{"entity_index": {"begin": 7, "end": 9}, "entity_type": "ORG", "entity": "越秀"}]}
+{"text": "在当前文化市场尤其应该加以推崇高尚、高贵、高雅的时候，越秀学术讲座以其不世故、不媚俗、持之以恒地引导人们对高品位文化的理解与认同，无疑走出了一条新路。", "entity_list": [{"entity_index": {"begin": 27, "end": 29}, "entity_type": "ORG", "entity": "越秀"}]}
+{"text": "他颇为感慨地说，在越秀酒家刻意营造的氛围里，演讲者与听众都可以感受到一种知识的、精神的满足。", "entity_list": [{"entity_index": {"begin": 9, "end": 13}, "entity_type": "ORG", "entity": "越秀酒家"}]}
+{"text": "从这个讲座上，人们可以了解各个学科领域的最新研究动态与成果。", "entity_list": []}
+{"text": "到越秀讲学的专家学者，大都是国内该学科领域的“塔尖人物”，对学人与读者很有吸引力。", "entity_list": [{"entity_index": {"begin": 1, "end": 3}, "entity_type": "ORG", "entity": "越秀"}]}
+{"text": "由于地处内地等原因，郑州的中青年学者难得有机会结识其他地区的学术同仁，更少有机会聆听一些高水平的学术报告。", "entity_list": [{"entity_index": {"begin": 10, "end": 12}, "entity_type": "LOC", "entity": "郑州"}]}
+{"text": "一位郑州学人说，越秀学术讲座对郑州学界而言堪称功德之举。", "entity_list": [{"entity_index": {"begin": 2, "end": 4}, "entity_type": "LOC", "entity": "郑州"}, {"entity_index": {"begin": 8, "end": 10}, "entity_type": "ORG", "entity": "越秀"}, {"entity_index": {"begin": 15, "end": 17}, "entity_type": "LOC", "entity": "郑州"}]}

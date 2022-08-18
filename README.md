@@ -18,6 +18,16 @@
 ****
 由于bert的tokenizer会移除掉空格、换行、制表等字符，因此在utils/common_utils.py里面有一个fine_grade_tokenize函数，该函数是将这些字符用[BLANK]标识，不在vocab.txt的用[INV]标识，因此要先将vocab.txt里面的[unused1]替换为[BLANK], [unused2]替换为[INV]。其实，如果不替换程序也是可以跑的。
 ****
+#### 2022-08-18
+
+- 新增weibo和msra数据，具体运行实例这里不补充，可当练手用。
+
+- 将预测代码提取至predict.py里面，使用时需要注意以下几方面：
+	- 修改args_path
+	- 修改model_name
+
+****
+
 # 补充数据增强实例
 
 在data_augment下的aug.py用于对中文命名实体识别进行数据增强，运行指令：以cner数据集为例
