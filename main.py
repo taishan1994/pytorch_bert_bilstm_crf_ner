@@ -174,6 +174,8 @@ if __name__ == '__main__':
     if args.use_lstm == 'False' and args.use_crf == 'False':
         model_name = 'bert'
 
+    args.data_name = data_name
+
     commonUtils.set_logger(os.path.join(args.log_dir, '{}_{}.log'.format(model_name, args.data_name)))
     
     if data_name == "cner":
