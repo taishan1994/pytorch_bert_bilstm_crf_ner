@@ -47,6 +47,30 @@
 	- --model_name="bert"
 	- 使用electra模型设置model_name="electra"，使用albert模型设置model_name="albert"，使用mengzi模型设置model_name="mengzi"，其余的均可设置model_name="bert"（或自己定义）
 
+主要参数：针对于cner数据集
+
+```
+--seed=123 \
+--gpu_ids="0" \
+--max_seq_len=150 \
+--lr=3e-5 \
+--crf_lr=3e-2 \
+--other_lr=3e-4 \
+--train_batch_size=32 \
+--train_epochs=3 \
+--eval_batch_size=32 \
+--max_grad_norm=1 \
+--warmup_proportion=0.1 \
+--adam_epsilon=1e-8 \
+--weight_decay=0.01 \
+--lstm_hidden=128 \
+--num_layers=1 \
+--use_lstm='False' \
+--use_crf='True' \
+--dropout_prob=0.3 \
+--dropout=0.3
+```
+
 | 评价指标：F1                                                 | 模型大小 | PRO  | ORG  | CONT | RACE | NAME | EDU  | LOC  | TITLE | F1     |
 | ------------------------------------------------------------ | -------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----- | ------ |
 | [mengzi-bert-base](https://huggingface.co/Langboat/mengzi-bert-base/tree/main) | 196.28M  | 0.90 | 0.91 | 1.00 | 0.93 | 1.00 | 0.96 | 1.00 | 0.90  | 0.9154 |
