@@ -30,21 +30,16 @@
 
 - 新增其它模型的训练结果，目录结构是：
 
-	——project<br>
-
-	————model_hub<br>
-
-	——————chinese-bert-wwm-ext<br>
-
-	————————vocab.txt<br>
-
-	————————pytorch_model.bin<br>
-
-	————————config.json<br>
-
-	——————其它模型路径<br>
-
+	```
+	——project
+	————model_hub
+	——————chinese-bert-wwm-ext
+	————————vocab.txt
+	————————pytorch_model.bin
+	————————config.json
+	——————其它模型路径
 	————pytorch_bert_bilstm_crf_ner
+	```
 
 - 需要修改的地方是：
 
