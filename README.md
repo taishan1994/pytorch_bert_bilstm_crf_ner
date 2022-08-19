@@ -49,14 +49,14 @@
 
 | 评价指标：F1                                                 | 模型大小 | PRO  | ORG  | CONT | RACE | NAME | EDU  | LOC  | TITLE | F1     |
 | ------------------------------------------------------------ | -------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----- | ------ |
-| [mengzi-bert-base]([Langboat/mengzi-bert-base at main (huggingface.co)](https://huggingface.co/Langboat/mengzi-bert-base/tree/main)) | 196.28M  | 0.90 | 0.91 | 1.00 | 0.93 | 1.00 | 0.96 | 1.00 | 0.90  | 0.9154 |
-| [chinese-bert-wwm-ext]([hfl/chinese-roberta-wwm-ext at main (huggingface.co)](https://huggingface.co/hfl/chinese-roberta-wwm-ext/tree/main)) | 392.51M  | 0.90 | 0.92 | 1.00 | 0.93 | 0.99 | 0.96 | 1.00 | 0.91  | 0.9148 |
-| [bert-base-chinese]([bert-base-chinese at main (huggingface.co)](https://huggingface.co/bert-base-chinese/tree/main)) | 392.51M  | 0.90 | 0.92 | 1.00 | 0.93 | 1.00 | 0.97 | 1.00 | 0.91  | 0.9233 |
-| [chinese-roberta-wwm-ext]([hfl/chinese-roberta-wwm-ext at main (huggingface.co)](https://huggingface.co/hfl/chinese-roberta-wwm-ext/tree/main)) | 392.51M  | 0.90 | 0.92 | 1.00 | 0.93 | 0.99 | 0.97 | 1.00 | 0.90  | 0.9196 |
-| [chinese-macbert-base]([hfl/chinese-macbert-base at main (huggingface.co)](https://huggingface.co/hfl/chinese-macbert-base/tree/main)) | 392.52M  | 0.92 | 0.92 | 1.00 | 0.93 | 1.00 | 0.98 | 1.00 | 0.90  | 0.9203 |
-| [chinese-electra-180g-small-discriminator]([hfl/chinese-electra-180g-small-discriminator at main (huggingface.co)](https://huggingface.co/hfl/chinese-electra-180g-small-discriminator/tree/main)) | 47.15M   | 0.74 | 0.88 | 0.99 | 0.12 | 0.97 | 0.81 | 0.00 | 0.87  | 0.8753 |
-| [chinese-electra-180g-base-discriminator]([hfl/chinese-electra-180g-base-discriminator at main (huggingface.co)](https://huggingface.co/hfl/chinese-electra-180g-small-discriminator/tree/main)) | 390.17M  | 0.88 | 0.91 | 1.00 | 0.97 | 1.00 | 0.94 | 1.00 | 0.87  | 0.9012 |
-| [albert-base-chinese]([ckiplab/albert-base-chinese at main (huggingface.co)](https://huggingface.co/ckiplab/albert-base-chinese/tree/main)) | 38.46M   | 0.00 | 0.68 | 0.95 | 0.00 | 0.62 | 0.53 | 0.00 | 0.71  | 0.6765 |
+| [mengzi-bert-base](https://huggingface.co/Langboat/mengzi-bert-base/tree/main) | 196.28M  | 0.90 | 0.91 | 1.00 | 0.93 | 1.00 | 0.96 | 1.00 | 0.90  | 0.9154 |
+| [chinese-bert-wwm-ext](https://huggingface.co/hfl/chinese-roberta-wwm-ext/tree/main) | 392.51M  | 0.90 | 0.92 | 1.00 | 0.93 | 0.99 | 0.96 | 1.00 | 0.91  | 0.9148 |
+| [bert-base-chinese](https://huggingface.co/bert-base-chinese/tree/main) | 392.51M  | 0.90 | 0.92 | 1.00 | 0.93 | 1.00 | 0.97 | 1.00 | 0.91  | 0.9233 |
+| [chinese-roberta-wwm-ext](https://huggingface.co/hfl/chinese-roberta-wwm-ext/tree/main) | 392.51M  | 0.90 | 0.92 | 1.00 | 0.93 | 0.99 | 0.97 | 1.00 | 0.90  | 0.9196 |
+| [chinese-macbert-base](https://huggingface.co/hfl/chinese-macbert-base/tree/main) | 392.52M  | 0.92 | 0.92 | 1.00 | 0.93 | 1.00 | 0.98 | 1.00 | 0.90  | 0.9203 |
+| [chinese-electra-180g-small-discriminator](https://huggingface.co/hfl/chinese-electra-180g-small-discriminator/tree/main) | 47.15M   | 0.74 | 0.88 | 0.99 | 0.12 | 0.97 | 0.81 | 0.00 | 0.87  | 0.8753 |
+| [chinese-electra-180g-base-discriminator](https://huggingface.co/hfl/chinese-electra-180g-small-discriminator/tree/main) | 390.17M  | 0.88 | 0.91 | 1.00 | 0.97 | 1.00 | 0.94 | 1.00 | 0.87  | 0.9012 |
+| [albert-base-chinese](https://huggingface.co/ckiplab/albert-base-chinese/tree/main) | 38.46M   | 0.00 | 0.68 | 0.95 | 0.00 | 0.62 | 0.53 | 0.00 | 0.71  | 0.6765 |
 
 ****
 
