@@ -26,6 +26,43 @@
 	- 修改args_path
 	- 修改model_name
 
+#### 2022-08-19
+
+- 新增其它模型的训练结果，目录结构是：
+
+	——project<br>
+
+	————model_hub<br>
+
+	——————chinese-bert-wwm-ext<br>
+
+	————————vocab.txt<br>
+
+	————————pytorch_model.bin<br>
+
+	————————config.json<br>
+
+	——————其它模型路径<br>
+
+	————pytorch_bert_bilstm_crf_ner
+
+- 需要修改的地方是：
+
+	- --bert_dir="../model_hub/chinese-bert-wwm-ext/" 
+	- --model_name="bert"
+	- 使用electra模型设置model_name="electra"，使用albert模型设置model_name="albert"，使用mengzi模型设置model_name="mengzi"，其余的均可设置model_name="bert"（或自己定义）
+
+| 评价指标：F1                                                 | 模型大小 | PRO  | ORG  | CONT | RACE | NAME | EDU  | LOC  | TITLE | F1     |
+| ------------------------------------------------------------ | -------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----- | ------ |
+| [mengzi-bert-base]([Langboat/mengzi-bert-base at main (huggingface.co)](https://huggingface.co/Langboat/mengzi-bert-base/tree/main)) | 196.28M  | 0.90 | 0.91 | 1.00 | 0.93 | 1.00 | 0.96 | 1.00 | 0.90  | 0.9154 |
+| [chinese-bert-wwm-ext]([hfl/chinese-roberta-wwm-ext at main (huggingface.co)](https://huggingface.co/hfl/chinese-roberta-wwm-ext/tree/main)) | 392.51M  | 0.90 | 0.92 | 1.00 | 0.93 | 0.99 | 0.96 | 1.00 | 0.91  | 0.9148 |
+| [bert-base-chinese]([bert-base-chinese at main (huggingface.co)](https://huggingface.co/bert-base-chinese/tree/main)) | 392.51M  | 0.90 | 0.92 | 1.00 | 0.93 | 1.00 | 0.97 | 1.00 | 0.91  | 0.9233 |
+| [chinese-roberta-wwm-ext]([hfl/chinese-roberta-wwm-ext at main (huggingface.co)](https://huggingface.co/hfl/chinese-roberta-wwm-ext/tree/main)) | 392.51M  | 0.90 | 0.92 | 1.00 | 0.93 | 0.99 | 0.97 | 1.00 | 0.90  | 0.9196 |
+| [chinese-macbert-base]([hfl/chinese-macbert-base at main (huggingface.co)](https://huggingface.co/hfl/chinese-macbert-base/tree/main)) | 392.52M  | 0.92 | 0.92 | 1.00 | 0.93 | 1.00 | 0.98 | 1.00 | 0.90  | 0.9203 |
+| [chinese-electra-180g-small-discriminator]([hfl/chinese-electra-180g-small-discriminator at main (huggingface.co)](https://huggingface.co/hfl/chinese-electra-180g-small-discriminator/tree/main)) | 47.15M   | 0.74 | 0.88 | 0.99 | 0.12 | 0.97 | 0.81 | 0.00 | 0.87  | 0.8753 |
+| [chinese-electra-180g-base-discriminator]([hfl/chinese-electra-180g-base-discriminator at main (huggingface.co)](https://huggingface.co/hfl/chinese-electra-180g-small-discriminator/tree/main)) | 390.17M  | 0.88 | 0.91 | 1.00 | 0.97 | 1.00 | 0.94 | 1.00 | 0.87  | 0.9012 |
+| [albert-base-chinese]([ckiplab/albert-base-chinese at main (huggingface.co)](https://huggingface.co/ckiplab/albert-base-chinese/tree/main)) | 38.46M   | 0.00 | 0.68 | 0.95 | 0.00 | 0.62 | 0.53 | 0.00 | 0.71  | 0.6765 |
+
 ****
 
 # 补充数据增强实例
@@ -52,6 +89,7 @@ data_name是数据集的名字，text_repeat是每条文本生成文本的数量
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/cner/" \
 --data_name='cner' \
+--model_name='bert' \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=33 \
@@ -92,6 +130,7 @@ python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/sighan2005/" \
 --data_name='sighan2005' \
+--model_name='bert' \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=5 \
@@ -132,6 +171,7 @@ python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/attr/" \
 --data_name='attr' \
+--model_name='bert' \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=209 \
@@ -222,6 +262,7 @@ python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/addr/" \
 --data_name='addr' \
+--model_name='bert' \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=69 \
@@ -278,6 +319,7 @@ python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/CLUE/" \
 --data_name='clue' \
+--model_name='bert' \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=41 \
@@ -336,6 +378,7 @@ python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/CHIP2020/" \
 --data_name='chip' \
+--model_name='bert' \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=37 \
@@ -424,6 +467,7 @@ python main.py \
 --bert_dir="../model_hub/bert-base-chinese/" \
 --data_dir="./data/cner/" \
 --data_name='cner' \
+--model_name='bert' \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=33 \

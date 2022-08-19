@@ -1,17 +1,21 @@
 import os
 import torch.nn as nn
-from transformers import BertModel
+from transformers import BertModel, AutoModel
 
 
 class BaseModel(nn.Module):
-    def __init__(self, bert_dir, dropout_prob):
+    def __init__(self, bert_dir, dropout_prob, model_name=None):
         super(BaseModel, self).__init__()
         config_path = os.path.join(bert_dir, 'config.json')
 
         assert os.path.exists(bert_dir) and os.path.exists(config_path), \
             'pretrained bert file does not exist'
 
-        self.bert_module = BertModel.from_pretrained(bert_dir, output_hidden_states=True,
+        if 'electra' in model_name or 'albert' in model_name:
+            self.bert_module = AutoModel.from_pretrained(bert_dir, output_hidden_states=True,
+                                                         hidden_dropout_prob=dropout_prob)
+        else:
+            self.bert_module = BertModel.from_pretrained(bert_dir, output_hidden_states=True,
                                                      hidden_dropout_prob=dropout_prob)
         self.bert_config = self.bert_module.config
 

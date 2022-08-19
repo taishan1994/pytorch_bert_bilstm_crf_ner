@@ -164,18 +164,18 @@ if __name__ == '__main__':
     #args.train_epochs = 3
     #args.train_batch_size = 32
     #args.max_seq_len = 150
-    model_name = ''
+    model_name = args.model_name
     if args.use_lstm == 'True' and args.use_crf == 'False':
-        model_name = 'bert_bilstm'
+        model_name = '{}_bilstm'.format(model_name)
     if args.use_lstm == 'True' and args.use_crf == 'True':
-        model_name = 'bert_bilstm_crf'
+        model_name = '{}_bilstm_crf'.format(model_name)
     if args.use_lstm == 'False' and args.use_crf == 'True':
-        model_name = 'bert_crf'
+        model_name = '{}_crf'.format(model_name)
     if args.use_lstm == 'False' and args.use_crf == 'False':
-        model_name = 'bert'
+        model_name = '{}'.format(model_name)
 
     args.data_name = data_name
-
+    args.model_name = model_name
     commonUtils.set_logger(os.path.join(args.log_dir, '{}_{}.log'.format(model_name, args.data_name)))
     
     if data_name == "cner":

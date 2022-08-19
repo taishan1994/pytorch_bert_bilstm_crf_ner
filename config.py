@@ -73,6 +73,8 @@ class Args:
                             help='是否使用Crf')
         parser.add_argument('--data_name', type=str, default='c',
                             help='数据集名字')
+        parser.add_argument('--model_name', type=str, default='bert',
+                            help='模型名字')
 
         return parser
 
