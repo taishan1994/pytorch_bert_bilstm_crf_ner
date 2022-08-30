@@ -88,7 +88,8 @@ def convert_bert_example(ex_idx, example: InputExample, tokenizer: BertTokenizer
 
     callback_info += (callback_labels,)
     # 序列标注任务 BERT 分词器可能会导致标注偏
-    tokens = commonUtils.fine_grade_tokenize(raw_text, tokenizer)
+    # tokens = commonUtils.fine_grade_tokenize(raw_text, tokenizer)
+    tokens = [i for i in raw_text]
 
     assert len(tokens) == len(raw_text)
 
