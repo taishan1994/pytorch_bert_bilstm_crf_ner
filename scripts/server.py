@@ -110,6 +110,57 @@ def extract_data():
                            "result": {}
                            }, ensure_ascii=False)
 
+class ReturnResult:
+    def __init__(self, msg=None, result=None, ucode=None):
+        self.msg = msg
+        self.result = result
+        self.ucode = ucode
+
+@app.route("/show/", methods=["POST"])
+def show_html():
+    returnResult = ReturnResult()
+    if request.method == "POST":
+        # 抽取关联信息
+        try:
+            text = request.form.get("text")
+            if not text:
+                returnResult.msg = "输入的文本为空"
+                returnResult.result = {}
+                returnResult.ucode = 404
+                # res = json.dumps({"msg": "输入的文本为空",
+                #                    "ucode": 404,
+                #                    "result": {}
+                #                    }, ensure_ascii=False)
+            else:
+                texts, entities = predictor.do_predict(text)
+                res = predictor.merge(entities)
+                returnResult.ucode = 200
+                returnResult.msg = "请求成功"
+                returnResult.result = res
+        except Exception as e:
+            logger.error(text)
+            logger.error(e)
+            returnResult.msg = "e"
+            returnResult.result = res
+            returnResult.ucode = 500
+            # res = json.dumps({"msg": e,
+            #                "ucode": 500,
+            #                "result": {}
+            #                }, ensure_ascii=False)
+    else:
+        returnResult.msg = "请求方式为post"
+        returnResult.result = {}
+        returnResult.ucode = 500
+        # res = json.dumps({"msg": "请求方式为post",
+        #                   "ucode": 500,
+        #                   "result": {}
+        #                   }, ensure_ascii=False)
+    return render_template("predict.html",
+                           result=returnResult.result,
+                           msg=returnResult.msg,
+                           ucode=returnResult.ucode,
+                           text=text)
+
 
 if __name__ == '__main__':
     predictor = Predictor()
