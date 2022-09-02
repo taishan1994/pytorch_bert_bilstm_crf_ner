@@ -1,0 +1,1 @@
+nohup python -u dq_ner_server_main.py > nohup.log &

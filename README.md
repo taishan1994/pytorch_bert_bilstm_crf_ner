@@ -82,6 +82,20 @@
 | [chinese-electra-180g-base-discriminator](https://huggingface.co/hfl/chinese-electra-180g-small-discriminator/tree/main) | 390.17M  | 0.88 | 0.91 | 1.00 | 0.97 | 1.00 | 0.94 | 1.00 | 0.87  | 0.9012 |
 | [albert-base-chinese](https://huggingface.co/ckiplab/albert-base-chinese/tree/main) | 38.46M   | 0.00 | 0.68 | 0.95 | 0.00 | 0.62 | 0.53 | 0.00 | 0.71  | 0.6765 |
 
+#### 2022-09-02
+
+- 补充将模型启动为服务代码，代码位于scripts目录下，针对于不同的数据集和模型，只需要修改开头的args的路径即可。
+
+	在linux下使用：
+
+	- ./start_server.sh：启动服务
+	- ./stop_server.sh：停止服务
+	- ./restart_server.sh：停止服务并重新启动
+
+	在windows下直接运行```python server.py```即可。
+
+	最终可运行```python test_requests.py```来测试接口。
+
 ****
 
 # 补充数据增强实例
