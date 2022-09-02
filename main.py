@@ -136,7 +136,8 @@ class BertForNer:
         with torch.no_grad():
             tokenizer = BertTokenizer(
                 os.path.join(self.args.bert_dir, 'vocab.txt'))
-            tokens = commonUtils.fine_grade_tokenize(raw_text, tokenizer)
+            # tokens = commonUtils.fine_grade_tokenize(raw_text, tokenizer)
+            tokens = [i for i in raw_text]
             encode_dict = tokenizer.encode_plus(text=tokens,
                                     max_length=self.args.max_seq_len,
                                     padding='max_length',
