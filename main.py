@@ -24,7 +24,10 @@ class BertForNer:
         self.test_loader = test_loader
         self.args = args
         self.idx2tag = idx2tag
-        model = bert_ner_model.BertNerModel(args)
+        if args.model_name.split('_')[0] not in ['bilstm', 'crf']:
+            model = bert_ner_model.BertNerModel(args)
+        else:
+            model = bert_ner_model.BilstmNerModel(args)
         self.model, self.device = trainUtils.load_model_and_parallel(model, args.gpu_ids)
         self.t_total = len(self.train_loader) * args.train_epochs
         self.optimizer, self.scheduler = trainUtils.build_optimizer_and_scheduler(args, model, self.t_total)
@@ -96,7 +99,10 @@ class BertForNer:
             return tot_dev_loss, mirco_metrics[0], mirco_metrics[1], mirco_metrics[2]
 
     def test(self, model_path):
-        model = bert_ner_model.BertNerModel(self.args)
+        if self.args.model_name.split('_')[0] not in ['bilstm', 'crf']:
+            model = bert_ner_model.BertNerModel(self.args)
+        else:
+            model = bert_ner_model.BilstmNerModel(self.args)
         model, device = trainUtils.load_model_and_parallel(model, self.args.gpu_ids, model_path)
         model.eval()
         pred_label = []
@@ -130,7 +136,10 @@ class BertForNer:
             logger.info(metricsUtils.classification_report(role_metric, label_list, id2label, total_count))
 
     def predict(self, raw_text, model_path):
-        model = bert_ner_model.BertNerModel(self.args)
+        if self.args.model_name.split('_')[0] not in ['bilstm', 'crf']:
+            model = bert_ner_model.BertNerModel(self.args)
+        else:
+            model = bert_ner_model.BilstmNerModel(self.args)
         model, device = trainUtils.load_model_and_parallel(model, self.args.gpu_ids, model_path)
         model.eval()
         with torch.no_grad():
@@ -166,14 +175,23 @@ if __name__ == '__main__':
     #args.train_batch_size = 32
     #args.max_seq_len = 150
     model_name = args.model_name
-    if args.use_lstm == 'True' and args.use_crf == 'False':
-        model_name = '{}_bilstm'.format(model_name)
-    if args.use_lstm == 'True' and args.use_crf == 'True':
-        model_name = '{}_bilstm_crf'.format(model_name)
-    if args.use_lstm == 'False' and args.use_crf == 'True':
-        model_name = '{}_crf'.format(model_name)
-    if args.use_lstm == 'False' and args.use_crf == 'False':
-        model_name = '{}'.format(model_name)
+    if args.model_name == 'bilstm':
+        model_name = "bilstm_crf"
+        args.use_lstm = "True"
+        args.use_crf = "True"
+    elif args.model_name == 'crf':
+        model_name = "crf"
+        args.use_lstm = "False"
+        args.use_crf = "True"
+    else:
+        if args.use_lstm == 'True' and args.use_crf == 'False':
+            model_name = '{}_bilstm'.format(model_name)
+        if args.use_lstm == 'True' and args.use_crf == 'True':
+            model_name = '{}_bilstm_crf'.format(model_name)
+        if args.use_lstm == 'False' and args.use_crf == 'True':
+            model_name = '{}_crf'.format(model_name)
+        if args.use_lstm == 'False' and args.use_crf == 'False':
+            model_name = '{}'.format(model_name)
 
     args.data_name = data_name
     args.model_name = model_name

@@ -97,7 +97,43 @@
 	最终可运行```python test_requests.py```来测试接口。
 
 - 新增页面展示，需要在scripts/templates/predict.html里面修改ip地址。启动服务后输入：```http://ip地址:9277/```，可以输入文本然后得到结果。
-	
+
+#### 2022-09-14
+
+新增单独的**bilstm_crf**和**crf**模型，使用的词汇表是根据自己选择的预训练模型的vocab.txt。使用bilstm_crf时需要设置```model_name="bilstm"```，使用crf需要设置```model_name="crf"```。运行：
+
+```python
+python main.py \
+--bert_dir="../model_hub/chinese-bert-wwm-ext/" \
+--data_dir="./data/cner/" \
+--data_name='cner' \
+--model_name="bilstm" \
+--log_dir="./logs/" \
+--output_dir="./checkpoints/" \
+--num_tags=33 \
+--seed=123 \
+--gpu_ids="0" \
+--max_seq_len=150 \
+--lr=3e-5 \
+--crf_lr=3e-2 \
+--other_lr=3e-4 \
+--train_batch_size=32 \
+--train_epochs=20 \
+--eval_batch_size=32 \
+--lstm_hidden=128 \
+--num_layers=1 \
+--use_lstm='True' \
+--use_crf='True' \
+--dropout_prob=0.3 \
+--dropout=0.3
+```
+
+效果：针对于cner数据集
+
+| 评价指标：F1    | 模型大小 | PRO  | ORG  | CONT | RACE | NAME | EDU  | LOC  | TITLE | F1     |
+| --------------- | -------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----- | ------ |
+| bilstm_crf_cner | 65.45M   | 0.90 | 0.86 | 1.00 | 0.97 | 0.98 | 0.97 | 1.00 | 0.87  | 0.8853 |
+| crf_cner        | 62.00M   | 0.77 | 0.81 | 1.00 | 1.00 | 0.90 | 0.94 | 1.00 | 0.84  | 0.8453 |
 
 ****
 

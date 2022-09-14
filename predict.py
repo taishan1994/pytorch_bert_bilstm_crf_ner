@@ -66,6 +66,9 @@ if __name__ == "__main__":
     print(raw_text)
     model_name = args.model_name
     model_path = './checkpoints/{}_{}/model.pt'.format(model_name, args.data_name)
-    model = bert_ner_model.BertNerModel(args)
+    if args.model_name.split('_')[0] not in ['bilstm', 'crf']:
+        model = bert_ner_model.BertNerModel(args)
+    else:
+        model = bert_ner_model.BilstmNerModel(args)
     model, device = trainUtils.load_model_and_parallel(model, args.gpu_ids, model_path)
     print(predict(raw_text, model, device, args, id2query))

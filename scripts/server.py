@@ -41,7 +41,10 @@ class Predictor:
 
         model_path = '../checkpoints/{}_{}/model.pt'.format(args.model_name, args.data_name)
         args.bert_dir = '../../model_hub/chinese-bert-wwm-ext/'
-        model = bert_ner_model.BertNerModel(args)
+        if args.model_name.split('_')[0] not in ['bilstm', 'crf']:
+            model = bert_ner_model.BertNerModel(args)
+        else:
+            model = bert_ner_model.BilstmNerModel(args)
         model, device = trainUtils.load_model_and_parallel(model, args.gpu_ids, model_path)
         self.model = model
         self.device = device
