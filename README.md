@@ -137,7 +137,7 @@ python main.py \
 
 #### 2022-09-15
 
-新增IDCNN模型，使用单独的IDCNN_crf需要设置```model_name="idcnn"```。另外，也可将其和bert相关模型结合使用，根据use_idcnn参数使用，另外bilstm和idcnn是不可同时使用：
+新增IDCNN模型，[IDCNN代码来源](https://github.com/circlePi/IDCNN-CRF-Pytorch/blob/master/IDCNN-CRF/cnn.py)，使用单独的IDCNN_crf需要设置```model_name="idcnn"```。另外，也可将其和bert相关模型结合使用，根据use_idcnn参数使用，另外bilstm和idcnn是不可同时使用：
 
 ```python
 python main.py \
