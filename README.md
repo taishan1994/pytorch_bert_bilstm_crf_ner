@@ -100,7 +100,7 @@
 
 #### 2022-09-14
 
-新增单独的**bilstm_crf**和**crf**模型，使用的词汇表是根据自己选择的预训练模型的vocab.txt。使用bilstm_crf时需要设置```model_name="bilstm"```，使用crf需要设置```model_name="crf"```。运行：
+新增单独的**bilstm_crf**和**crf**模型，使用的词汇表是根据自己选择的预训练模型的vocab.txt。使用bilstm_crf时需要设置```model_name="bilstm"```，使用crf需要设置```model_name="crf"```。需要注意bilstm默认使用crf，crf默认只使用其自己。运行：
 
 ```python
 python main.py \
