@@ -1,12 +1,90 @@
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
+from collections import OrderedDict
+
 from bert_base_model import BaseModel
-from transformers import AutoConfig
+from transformers import AutoConfig, AutoModel, BertModel
 from torchcrf import CRF
 import config
 
 
-class BilstmNerModel(nn.Module):
+
+class LayerNorm(nn.Module):
+    def __init__(self, filters, elementwise_affine=False):
+        super(LayerNorm, self).__init__()
+        self.LN = nn.LayerNorm([filters],elementwise_affine=elementwise_affine)
+
+    def forward(self, x):
+        x = x.permute(0, 2, 1)
+        out = self.LN(x)
+        return out.permute(0, 2, 1)
+
+
+
+class IDCNN(nn.Module):
+    """
+      (idcnns): ModuleList(
+    (0): Sequential(
+      (layer0): Conv1d(10, 1, kernel_size=(3,), stride=(1,), padding=(1,))
+      (layer1): Conv1d(1, 1, kernel_size=(3,), stride=(1,), padding=(1,))
+      (layer2): Conv1d(1, 1, kernel_size=(3,), stride=(1,), padding=(2,), dilation=(2,))
+    )
+    (1): Sequential(
+      (layer0): Conv1d(10, 1, kernel_size=(3,), stride=(1,), padding=(1,))
+      (layer1): Conv1d(1, 1, kernel_size=(3,), stride=(1,), padding=(1,))
+      (layer2): Conv1d(1, 1, kernel_size=(3,), stride=(1,), padding=(2,), dilation=(2,))
+    )
+    (2): Sequential(
+      (layer0): Conv1d(10, 1, kernel_size=(3,), stride=(1,), padding=(1,))
+      (layer1): Conv1d(1, 1, kernel_size=(3,), stride=(1,), padding=(1,))
+      (layer2): Conv1d(1, 1, kernel_size=(3,), stride=(1,), padding=(2,), dilation=(2,))
+    )
+    (3): Sequential(
+      (layer0): Conv1d(10, 1, kernel_size=(3,), stride=(1,), padding=(1,))
+      (layer1): Conv1d(1, 1, kernel_size=(3,), stride=(1,), padding=(1,))
+      (layer2): Conv1d(1, 1, kernel_size=(3,), stride=(1,), padding=(2,), dilation=(2,))
+    )
+  )
+)
+    """
+    def __init__(self, input_size, filters, kernel_size=3, num_block=4):
+        super(IDCNN, self).__init__()
+        self.layers = [
+            {"dilation": 1},
+            {"dilation": 1},
+            {"dilation": 2}
+        ]
+        net = nn.Sequential()
+        norms_1 = nn.ModuleList([LayerNorm(filters) for _ in range(len(self.layers))])
+        norms_2 = nn.ModuleList([LayerNorm(filters) for _ in range(num_block)])
+        for i in range(len(self.layers)):
+            dilation = self.layers[i]["dilation"]
+            single_block = nn.Conv1d(in_channels=filters,
+                                     out_channels=filters,
+                                     kernel_size=kernel_size,
+                                     dilation=dilation,
+                                     padding=kernel_size // 2 + dilation - 1)
+            net.add_module("layer%d"%i, single_block)
+            net.add_module("relu", nn.ReLU())
+            net.add_module("layernorm", norms_1[i])
+
+        self.linear = nn.Linear(input_size, filters)
+        self.idcnn = nn.Sequential()
+
+        for i in range(num_block):
+            self.idcnn.add_module("block%i" % i, net)
+            self.idcnn.add_module("relu", nn.ReLU())
+            self.idcnn.add_module("layernorm", norms_2[i])
+
+    def forward(self, embeddings):
+        embeddings = self.linear(embeddings)
+        embeddings = embeddings.permute(0, 2, 1)
+        output = self.idcnn(embeddings).permute(0, 2, 1)
+        return output
+
+
+class NormalNerModel(nn.Module):
     def __init__(self,
                  args,
                  **kwargs):
@@ -23,15 +101,17 @@ class BilstmNerModel(nn.Module):
         device = torch.device("cpu" if gpu_ids[0] == '-1' else "cuda:" + gpu_ids[0])
         self.device = device
 
+        init_blocks = []
+        self.criterion = nn.CrossEntropyLoss()
+        self.linear = nn.Linear(args.lstm_hidden * 2, args.num_tags)
+        init_blocks.append(self.linear)
+        init_blocks.append(self.criterion)
+
         if args.use_lstm == 'True':
             self.lstm = nn.LSTM(out_dims, args.lstm_hidden, args.num_layers, bidirectional=True, batch_first=True,
                                 dropout=args.dropout)
-            self.linear = nn.Linear(args.lstm_hidden * 2, args.num_tags)
-            print(self.linear)
-            self.criterion = nn.CrossEntropyLoss()
-            init_blocks = [self.linear]
-            # init_blocks = [self.classifier]
-
+        elif args.use_idcnn == "True":
+            self.idcnn = IDCNN(out_dims, args.lstm_hidden * 2
 
         if args.use_crf == 'True':
             if args.model_name.split('_')[0] == "crf":
@@ -72,7 +152,10 @@ class BilstmNerModel(nn.Module):
 
         batch_size = seq_out.size(0)
 
-        if self.args.use_lstm == 'True':
+        if self.args.use_idcnn == "True":
+            seq_out = self.idcnn(seq_out)
+            seq_out = self.linear(seq_out)
+        elif self.args.use_lstm == 'True':
             hidden = self.init_hidden(batch_size)
             seq_out, (hn, _) = self.lstm(seq_out, hidden)
             seq_out = seq_out.contiguous().view(-1, self.lstm_hidden * 2)
@@ -114,13 +197,16 @@ class BertNerModel(BaseModel):
 
         out_dims = self.bert_config.hidden_size
 
+        init_blocks = []
+        self.criterion = nn.CrossEntropyLoss()
+        self.linear = nn.Linear(args.lstm_hidden * 2, args.num_tags)
+        init_blocks.append(self.linear)
+        init_blocks.append(self.criterion)
+
         if args.use_lstm == 'True':
             self.lstm = nn.LSTM(out_dims, args.lstm_hidden, args.num_layers, bidirectional=True,batch_first=True, dropout=args.dropout)
-            self.linear = nn.Linear(args.lstm_hidden * 2, args.num_tags)
-            self.criterion = nn.CrossEntropyLoss()
-            init_blocks = [self.linear]
-            # init_blocks = [self.classifier]
-            self._init_weights(init_blocks, initializer_range=self.bert_config.initializer_range)
+        elif args.use_idcnn == "True":
+            self.idcnn = IDCNN(out_dims, args.lstm_hidden * 2)
         else:
             mid_linear_dims = kwargs.pop('mid_linear_dims', 256)
             self.mid_linear = nn.Sequential(
@@ -142,6 +228,8 @@ class BertNerModel(BaseModel):
 
         if args.use_crf == 'True':
             self.crf = CRF(args.num_tags, batch_first=True)
+
+        self._init_weights(init_blocks, initializer_range=self.bert_config.initializer_range)
 
     def init_hidden(self, batch_size):
         h0 = torch.randn(2 * self.num_layers, batch_size, self.lstm_hidden, requires_grad=True).to(self.device)
@@ -169,6 +257,9 @@ class BertNerModel(BaseModel):
             seq_out = seq_out.contiguous().view(-1, self.lstm_hidden * 2)
             seq_out = self.linear(seq_out)
             seq_out = seq_out.contiguous().view(batch_size, self.args.max_seq_len, -1) #[batchsize, max_len, num_tags]
+        elif self.args.use_idcnn == "True":
+            seq_out = self.idcnn(seq_out)
+            seq_out = self.linear(seq_out)
         else:
             seq_out = self.mid_linear(seq_out)  # [batchsize, max_len, 256]
             # seq_out = self.dropout(seq_out)

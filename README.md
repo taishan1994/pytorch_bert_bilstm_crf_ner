@@ -135,6 +135,42 @@ python main.py \
 | bilstm_crf_cner | 65.45M   | 0.90 | 0.86 | 1.00 | 0.97 | 0.98 | 0.97 | 1.00 | 0.87  | 0.8853 |
 | crf_cner        | 62.00M   | 0.77 | 0.81 | 1.00 | 1.00 | 0.90 | 0.94 | 1.00 | 0.84  | 0.8453 |
 
+#### 2022-09-15
+
+新增IDCNN模型，使用单独的IDCNN_crf需要设置```model_name="idcnn"```。另外，也可将其和bert相关模型结合使用，根据use_idcnn参数使用，另外bilstm和idcnn是不可同时使用：
+
+```python
+python main.py \
+--bert_dir="../model_hub/chinese-bert-wwm-ext/" \
+--data_dir="./data/cner/" \
+--data_name='cner' \
+--model_name="bert" \
+--log_dir="./logs/" \
+--output_dir="./checkpoints/" \
+--num_tags=33 \
+--seed=123 \
+--gpu_ids="0" \
+--max_seq_len=150 \
+--lr=3e-5 \
+--crf_lr=3e-2 \
+--other_lr=3e-4 \
+--train_batch_size=32 \
+--train_epochs=3 \
+--eval_batch_size=32 \
+--lstm_hidden=128 \
+--num_layers=1 \
+--use_lstm='False' \
+--use_idcnn='True' \
+--use_crf='True' \
+--dropout_prob=0.3 \
+--dropout=0.3
+```
+
+| 评价指标：F1        | 模型大小 | PRO  | ORG  | CONT | RACE | NAME | EDU  | LOC  | TITLE | F1     |
+| ------------------- | -------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----- | ------ |
+| idcnn_crf_cner      | 64.95M   | 0.76 | 0.86 | 1.00 | 0.97 | 0.97 | 0.95 | 0.80 | 0.87  | 0.8817 |
+| bert_idcnn_crf_cner | 393.25M  | 0.92 | 0.92 | 1.00 | 0.90 | 0.99 | 0.97 | 1.00 | 0.90  | 0.9232 |
+
 ****
 
 # 补充数据增强实例

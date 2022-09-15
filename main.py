@@ -15,7 +15,7 @@ args = config.Args().get_parser()
 commonUtils.set_seed(args.seed)
 logger = logging.getLogger(__name__)
 
-
+special_model_list = ['bilstm', 'crf', 'idcann']
 
 class BertForNer:
     def __init__(self, args, train_loader, dev_loader, test_loader, idx2tag):
@@ -24,10 +24,10 @@ class BertForNer:
         self.test_loader = test_loader
         self.args = args
         self.idx2tag = idx2tag
-        if args.model_name.split('_')[0] not in ['bilstm', 'crf']:
+        if args.model_name.split('_')[0] not in special_model_list:
             model = bert_ner_model.BertNerModel(args)
         else:
-            model = bert_ner_model.BilstmNerModel(args)
+            model = bert_ner_model.NormalNerModel(args)
         self.model, self.device = trainUtils.load_model_and_parallel(model, args.gpu_ids)
         self.t_total = len(self.train_loader) * args.train_epochs
         self.optimizer, self.scheduler = trainUtils.build_optimizer_and_scheduler(args, model, self.t_total)
@@ -99,10 +99,10 @@ class BertForNer:
             return tot_dev_loss, mirco_metrics[0], mirco_metrics[1], mirco_metrics[2]
 
     def test(self, model_path):
-        if self.args.model_name.split('_')[0] not in ['bilstm', 'crf']:
+        if self.args.model_name.split('_')[0] not in special_model_list:
             model = bert_ner_model.BertNerModel(self.args)
         else:
-            model = bert_ner_model.BilstmNerModel(self.args)
+            model = bert_ner_model.NormalNerModel(self.args)
         model, device = trainUtils.load_model_and_parallel(model, self.args.gpu_ids, model_path)
         model.eval()
         pred_label = []
@@ -136,10 +136,10 @@ class BertForNer:
             logger.info(metricsUtils.classification_report(role_metric, label_list, id2label, total_count))
 
     def predict(self, raw_text, model_path):
-        if self.args.model_name.split('_')[0] not in ['bilstm', 'crf']:
+        if self.args.model_name.split('_')[0] not in special_model_list:
             model = bert_ner_model.BertNerModel(self.args)
         else:
-            model = bert_ner_model.BilstmNerModel(self.args)
+            model = bert_ner_model.NormalNerModel(self.args)
         model, device = trainUtils.load_model_and_parallel(model, self.args.gpu_ids, model_path)
         model.eval()
         with torch.no_grad():
@@ -175,23 +175,34 @@ if __name__ == '__main__':
     #args.train_batch_size = 32
     #args.max_seq_len = 150
     model_name = args.model_name
+    #分别是bilstm、idcnn、crf
+    model_nmae_dict = {
+        ("True", "False", "True"): '{}_bilstm_crf'.format(model_name),
+        ("True", "False", "False"): '{}_bilstm'.format(model_name),
+        ("False", "False", "False"): '{}'.format(model_name),
+        ("False", "False", "True"): '{}_crf'.format(model_name),
+        ("False", "True", "True"): '{}_idcnn_crf'.format(model_name),
+        ("False", "True", "False"): '{}_idcnn'.format(model_name),
+    }
     if args.model_name == 'bilstm':
-        model_name = "bilstm_crf"
         args.use_lstm = "True"
+        args.use_idcnn = "False"
         args.use_crf = "True"
+        model_name = "bilstm_crf"
     elif args.model_name == 'crf':
         model_name = "crf"
         args.use_lstm = "False"
+        args.use_idcnn = "False"
         args.use_crf = "True"
+    elif args.model_name == "idcnn":
+        args.use_idcnn = "True"
+        args.use_lstm = "False"
+        args.use_crf = "True"
+        model_name = "idcnn_crf"
     else:
-        if args.use_lstm == 'True' and args.use_crf == 'False':
-            model_name = '{}_bilstm'.format(model_name)
-        if args.use_lstm == 'True' and args.use_crf == 'True':
-            model_name = '{}_bilstm_crf'.format(model_name)
-        if args.use_lstm == 'False' and args.use_crf == 'True':
-            model_name = '{}_crf'.format(model_name)
-        if args.use_lstm == 'False' and args.use_crf == 'False':
-            model_name = '{}'.format(model_name)
+        if args.use_lstm == "True" and args.use_idcnn == "True":
+            raise Exception("请不要同时使用bilstm和idcnn")
+        model_name = model_nmae_dict[(args.use_lstm, args.use_idcnn, args.use_crf)]
 
     args.data_name = data_name
     args.model_name = model_name
