@@ -72,7 +72,7 @@ class Args:
         parser.add_argument('--use_crf', type=str, default='True',
                             help='是否使用Crf')
         parser.add_argument('--use_idcnn', type=str, default='False',
-                            help='是否使用Idcnn'
+                            help='是否使用Idcnn')
         parser.add_argument('--data_name', type=str, default='c',
                             help='数据集名字')
         parser.add_argument('--model_name', type=str, default='bert',

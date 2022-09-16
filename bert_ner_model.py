@@ -110,7 +110,7 @@ class NormalNerModel(nn.Module):
             self.lstm = nn.LSTM(out_dims, args.lstm_hidden, args.num_layers, bidirectional=True, batch_first=True,
                                 dropout=args.dropout)
         elif args.use_idcnn == "True":
-            self.idcnn = IDCNN(out_dims, args.lstm_hidden * 2
+            self.idcnn = IDCNN(out_dims, args.lstm_hidden * 2)
 
         if args.use_crf == 'True':
             if args.model_name.split('_')[0] == "crf":
@@ -186,7 +186,7 @@ class BertNerModel(BaseModel):
     def __init__(self,
                  args,
                  **kwargs):
-        super(BertNerModel, self).__init__(bert_dir=args.bert_dir, dropout_prob=args.dropout_prob)
+        super(BertNerModel, self).__init__(bert_dir=args.bert_dir, dropout_prob=args.dropout_prob, model_name=args.model_name)
         self.args = args
         self.num_layers = args.num_layers
         self.lstm_hidden = args.lstm_hidden

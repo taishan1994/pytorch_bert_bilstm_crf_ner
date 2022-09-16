@@ -4,7 +4,7 @@ from transformers import BertModel, AutoModel
 
 
 class BaseModel(nn.Module):
-    def __init__(self, bert_dir, dropout_prob, model_name=None):
+    def __init__(self, bert_dir, dropout_prob, model_name=""):
         super(BaseModel, self).__init__()
         config_path = os.path.join(bert_dir, 'config.json')
 
