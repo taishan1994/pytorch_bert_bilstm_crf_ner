@@ -105,7 +105,6 @@ class NormalNerModel(nn.Module):
         self.criterion = nn.CrossEntropyLoss()
         self.linear = nn.Linear(args.lstm_hidden * 2, args.num_tags)
         init_blocks.append(self.linear)
-        init_blocks.append(self.criterion)
 
         if args.use_lstm == 'True':
             self.lstm = nn.LSTM(out_dims, args.lstm_hidden, args.num_layers, bidirectional=True, batch_first=True,
@@ -201,7 +200,6 @@ class BertNerModel(BaseModel):
         self.criterion = nn.CrossEntropyLoss()
         self.linear = nn.Linear(args.lstm_hidden * 2, args.num_tags)
         init_blocks.append(self.linear)
-        init_blocks.append(self.criterion)
 
         if args.use_lstm == 'True':
             self.lstm = nn.LSTM(out_dims, args.lstm_hidden, args.num_layers, bidirectional=True,batch_first=True, dropout=args.dropout)
