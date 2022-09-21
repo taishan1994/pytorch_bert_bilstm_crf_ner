@@ -88,7 +88,7 @@ class NormalNerModel(nn.Module):
     def __init__(self,
                  args,
                  **kwargs):
-        super(BilstmNerModel, self).__init__()
+        super(NormalNerModel, self).__init__()
         config = AutoConfig.from_pretrained(args.bert_dir)
         vocab_size = config.vocab_size
         out_dims = config.hidden_size
