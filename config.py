@@ -77,6 +77,8 @@ class Args:
                             help='数据集名字')
         parser.add_argument('--model_name', type=str, default='bert',
                             help='模型名字')
+        parser.add_argument('--use_tensorboard', type=str, default='True',
+                            help='是否使用tensorboard可视化')
 
         return parser
 

@@ -10,12 +10,16 @@ from preprocess import BertFeature
 import bert_ner_model
 from torch.utils.data import DataLoader, RandomSampler
 from transformers import BertTokenizer
+from tensorboardX import SummaryWriter
 
 args = config.Args().get_parser()
 commonUtils.set_seed(args.seed)
 logger = logging.getLogger(__name__)
 
 special_model_list = ['bilstm', 'crf', 'idcann']
+
+if args.use_tensorboard == "True":
+  writer = SummaryWriter(log_dir='./tensorboard')
 
 class BertForNer:
     def __init__(self, args, train_loader, dev_loader, test_loader, idx2tag):
@@ -53,9 +57,13 @@ class BertForNer:
                 self.scheduler.step()
                 self.model.zero_grad()
                 logger.info('【train】 epoch:{} {}/{} loss:{:.4f}'.format(epoch, global_step, self.t_total, loss.item()))
+                if self.args.use_tensorboard == "True":
+                    writer.add_scalar('train/loss', loss.item(), global_step)
                 global_step += 1
                 if global_step % eval_steps == 0:
                     dev_loss, precision, recall, f1_score = self.dev()
+                    if self.args.use_tensorboard == "True":
+                        writer.add_scalar('dev/loss', dev_loss, global_step)
                     logger.info('[eval] loss:{:.4f} precision={:.4f} recall={:.4f} f1_score={:.4f}'.format(dev_loss, precision, recall, f1_score))
                     if f1_score > best_f1:
                         trainUtils.save_model(self.args, self.model, model_name + '_' + args.data_name, global_step)

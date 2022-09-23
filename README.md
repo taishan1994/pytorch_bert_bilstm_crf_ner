@@ -172,7 +172,9 @@ python main.py \
 | bert_idcnn_crf_cner | 393.25M  | 0.92 | 0.92 | 1.00 | 0.90 | 0.99 | 0.97 | 1.00 | 0.90  | 0.9232 |
 
 #### 2022-09-23
-在predict.py里面新增batch_predict：若一条文本大于当前设置的文本最大长度，则对句子进行切分，切分后进行批量预测，在scripts/server.py可使用merge_with_loc进行结果的合并。
+- 在predict.py里面新增batch_predict：若一条文本大于当前设置的文本最大长度，则对句子进行切分，切分后进行批量预测，在scripts/server.py可使用merge_with_loc进行结果的合并。
+- 增加tensorboardX可视化损失函数变化过程。通过```--use_tensorboard=="True"```指定使用。命令行```tensorboard --logdir=./tensorboard```查看结果。
+- 新增noenotes4.0数据，这里只提供训练数据。
 
 ****
 
