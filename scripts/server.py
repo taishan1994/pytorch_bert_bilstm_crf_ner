@@ -9,7 +9,7 @@ import logging
 
 from utils import commonUtils, metricsUtils, decodeUtils, trainUtils
 import bert_ner_model
-from predict import predict
+from predict import predict, batch_predict
 from cut import cut_sentences_main
 
 logger = logging.getLogger(__name__)
@@ -54,9 +54,7 @@ class Predictor:
     def do_predict(self, raw_text):
         raw_text = cut_sentences_main(raw_text, 510)
         entities = []
-        for text in raw_text:
-            entity = predict(text, self.model, self.device, self.args, self.id2query)
-            entities.append(entity)
+        entities = batch_predict(raw_text, self.model, self.device, self.args, self.id2query)
         return raw_text, entities
 
     def merge(self, entities):
@@ -71,6 +69,19 @@ class Predictor:
                         if e[0] not in res[k]:
                             res[k].append(e[0])
         # print(res)
+        return res
+    
+    def merge_with_loc(self, raw_text, entities):
+        """返回的结果带上位置，并且合并每一条句子的结果"""
+        res = []
+        length = 0
+        for text, tmp in zip(raw_text, entities):
+            for k, entity in tmp.items():
+                for e in entity:
+                    res.append((e[0], k, e[1] + length, e[1] + length + len(e[0]) - 1))
+            length = length + len(text)
+        if res:
+            res = sorted(res, key=lambda x:x[2])
         return res
 
 
