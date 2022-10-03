@@ -517,4 +517,54 @@ if __name__ == '__main__':
         raw_text = "在１９９８年来临之际，我十分高兴地通过中央人民广播电台、中国国际广播电台和中央电视台，向全国各族人民，向香港特别行政区同胞、澳门和台湾同胞、海外侨胞，向世界各国的朋友们，致以诚挚的问候和良好的祝愿！"
         logger.info(raw_text)
         bertForNer.predict(raw_text, model_path)
+
+    if data_name == "gdcq":
+        args.data_dir = './data/gdcq'
+        data_path = os.path.join(args.data_dir, 'final_data')
+        other_path = os.path.join(args.data_dir, 'mid_data')
+        ent2id_dict = commonUtils.read_json(other_path, 'nor_ent2id')
+        label_list = commonUtils.read_json(other_path, 'labels')
+        label2id = {}
+        id2label = {}
+        for k, v in enumerate(label_list):
+            label2id[v] = k
+            id2label[k] = v
+        query2id = {}
+        id2query = {}
+        for k, v in ent2id_dict.items():
+            query2id[k] = v
+            id2query[v] = k
+        logger.info(id2query)
+        args.num_tags = len(ent2id_dict)
+        logger.info(args)
+
+        train_features, train_callback_info = commonUtils.read_pkl(data_path, 'train')
+        train_dataset = dataset.NerDataset(train_features)
+        train_sampler = RandomSampler(train_dataset)
+        train_loader = DataLoader(dataset=train_dataset,
+                                  batch_size=args.train_batch_size,
+                                  sampler=train_sampler,
+                                  num_workers=2)
+        dev_features, dev_callback_info = commonUtils.read_pkl(data_path, 'dev')
+        dev_dataset = dataset.NerDataset(dev_features)
+        dev_loader = DataLoader(dataset=dev_dataset,
+                                batch_size=args.eval_batch_size,
+                                num_workers=2)
+        # test_features, test_callback_info = commonUtils.read_pkl(data_path, 'test')
+        # test_dataset = dataset.NerDataset(test_features)
+        # test_loader = DataLoader(dataset=test_dataset,
+        #                         batch_size=args.eval_batch_size,
+        #                         num_workers=2)
+
+        # 将配置参数都保存下来
+        commonUtils.save_json('./checkpoints/{}_{}/'.format(model_name, args.data_name), vars(args), 'args')
+        bertForNer = BertForNer(args, train_loader, dev_loader, dev_loader, id2query)
+        bertForNer.train()
+
+        model_path = './checkpoints/{}_{}/model.pt'.format(model_name, args.data_name)
+        bertForNer.test(model_path)
+
+        raw_text = "***的化妆品还是不错的，值得购买，性价比很高的活动就参加了！！！"
+        logger.info(raw_text)
+        bertForNer.predict(raw_text, model_path)
     

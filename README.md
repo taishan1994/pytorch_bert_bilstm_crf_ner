@@ -178,6 +178,76 @@ python main.py \
 
 ****
 
+# 补充观点抽取实例
+
+这里有点关系抽取的味道。我们要做的是抽取评论中的主体、评价及其情感。具体做法是转换为序列标注，主体标注为不同类别，评价标注为情感极性，最后识别出实体后再进行合并，具体步骤参考其它数据集。
+
+```python
+python main.py \
+--bert_dir="../model_hub/chinese-bert-wwm-ext/" \
+--data_dir="./data/gdcq/" \
+--data_name='gdcq' \
+--model_name="bert" \
+--log_dir="./logs/" \
+--output_dir="./checkpoints/" \
+--num_tags=65 \
+--seed=123 \
+--gpu_ids="0" \
+--max_seq_len=70 \
+--lr=3e-5 \
+--crf_lr=3e-2 \
+--other_lr=3e-4 \
+--train_batch_size=64 \
+--train_epochs=10 \
+--eval_batch_size=64 \
+--max_grad_norm=1 \
+--warmup_proportion=0.1 \
+--adam_epsilon=1e-8 \
+--weight_decay=0.01 \
+--lstm_hidden=128 \
+--num_layers=1 \
+--use_lstm='False' \
+--use_idcnn='False' \
+--use_crf='True' \
+--dropout_prob=0.3 \
+--dropout=0.3
+
+precision:0.8301 recall:0.8723 micro_f1:0.8507
+            precision    recall  f1-score   support
+
+      功效       0.84      0.84      0.84        45
+      物流       0.88      0.96      0.91        45
+     新鲜度       0.00      0.00      0.00         2
+      包装       0.85      0.88      0.87        26
+      服务       1.00      0.82      0.90        11
+      气味       0.93      1.00      0.96        13
+      尺寸       0.00      0.00      0.00         0
+      整体       0.00      0.00      0.00         2
+      成分       0.50      0.60      0.55         5
+      其他       0.00      0.00      0.00         4
+      真伪       0.00      0.00      0.00         0
+      价格       0.69      0.97      0.81        37
+    使用体验       0.67      0.50      0.57         4
+      中性       0.75      0.30      0.43        10
+      负面       0.55      0.70      0.62        54
+      正面       0.87      0.90      0.88       588
+
+micro-f1       0.83      0.87      0.85       846
+
+INFO:__main__:***的化妆品还是不错的，值得购买，性价比很高的活动就参加了！！！
+INFO:utils.trainUtils:Load ckpt from ./checkpoints/bert_crf_gdcq/model.pt
+INFO:utils.trainUtils:Use single gpu in: ['0']
+INFO:__main__:{'正面': [('还是不错', 7), ('很高', 21)], '价格': [('性价比', 18), ('活动', 24)]}
+
+# 最后在predict_gdcq.py里面可进行后处理预测操作
+python predict_gdcq.py
+
+多次购买了，效果不错哦，价格便宜
+实体识别结果： [('不错', 8, '正面'), ('价格', 12, '价格'), ('便宜', 14, '正面')]
+未进行关联的实体： [('不错', 8, '正面')]
+关系合并： [('价格便宜', '正面')]
+```
+
 # 补充数据增强实例
 
 在data_augment下的aug.py用于对中文命名实体识别进行数据增强，运行指令：以cner数据集为例
