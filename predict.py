@@ -5,6 +5,7 @@ import json
 from utils import commonUtils, metricsUtils, decodeUtils, trainUtils
 import bert_ner_model
 from transformers import BertTokenizer
+from collections import defaultdict
 
 from cut import cut_sentences_main
 
