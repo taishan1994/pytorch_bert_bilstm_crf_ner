@@ -115,5 +115,5 @@ if __name__ == "__main__":
     model, device = trainUtils.load_model_and_parallel(model, args.gpu_ids, model_path)
     
     # print(predict(raw_text, model, device, args, id2query))
-    raw_text = cut_sentences_main(raw_text)
+    raw_text = cut_sentences_main(raw_text, max_seq_len=args.max_seq_len-2)
     print(batch_predict(raw_text, model, device, args, id2query))
