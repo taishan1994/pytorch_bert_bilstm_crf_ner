@@ -79,7 +79,8 @@ class Args:
                             help='模型名字')
         parser.add_argument('--use_tensorboard', type=str, default='True',
                             help='是否使用tensorboard可视化')
-
+        parser.add_argument('--use_kd', type=str, default='False',
+                            help='是否使用知识蒸馏')
         return parser
 
     def get_parser(self):

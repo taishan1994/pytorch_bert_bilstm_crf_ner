@@ -168,6 +168,11 @@ class NormalNerModel(nn.Module):
             if labels is None:
                 return logits
             loss = -self.crf(seq_out, labels, mask=attention_masks, reduction='mean')
+            if self.args.use_kd == "True":
+                active_loss = attention_masks.view(-1) == 1
+                active_logits = seq_out.view(-1, seq_out.size()[2])[active_loss]
+                outputs = (loss,) + (active_logits,)
+                return outputs
             outputs = (loss,) + (logits,)
             return outputs
         else:
@@ -178,6 +183,11 @@ class NormalNerModel(nn.Module):
             active_logits = logits.view(-1, logits.size()[2])[active_loss]
             active_labels = labels.view(-1)[active_loss]
             loss = self.criterion(active_logits, active_labels)
+            if self.args.use_kd == "True":
+                active_loss = attention_masks.view(-1) == 1
+                active_logits = seq_out.view(-1, seq_out.size()[2])[active_loss]
+                outputs = (loss,) + (active_logits,)
+                return outputs
             outputs = (loss,) + (logits,)
             return outputs
 
@@ -268,6 +278,11 @@ class BertNerModel(BaseModel):
             if labels is None:
                 return logits
             loss = -self.crf(seq_out, labels, mask=attention_masks, reduction='mean')
+            if self.args.use_kd == "True":
+                active_loss = attention_masks.view(-1) == 1
+                active_logits = seq_out.view(-1, seq_out.size()[2])[active_loss]
+                outputs = (loss,) + (active_logits,)
+                return outputs
             outputs = (loss, ) + (logits,)
             return outputs
         else:
@@ -278,6 +293,11 @@ class BertNerModel(BaseModel):
             active_logits = logits.view(-1, logits.size()[2])[active_loss]
             active_labels = labels.view(-1)[active_loss]
             loss = self.criterion(active_logits, active_labels)
+            if self.args.use_kd == "True":
+                active_loss = attention_masks.view(-1) == 1
+                active_logits = seq_out.view(-1, seq_out.size()[2])[active_loss]
+                outputs = (loss,) + (active_logits,)
+                return outputs
             outputs = (loss,) + (logits,)
             return outputs
 

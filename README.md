@@ -176,6 +176,16 @@ python main.py \
 - 增加tensorboardX可视化损失函数变化过程。通过```--use_tensorboard=="True"```指定使用。命令行```tensorboard --logdir=./tensorboard```查看结果。
 - 新增onenotes4.0数据，这里只提供训练数据，并提供转换数据process.py。
 
+#### 2022-10-10
+
+补充知识蒸馏实例。在knowledge_distillation/kd.py里面是具体代码，该实例将bert_idcnn_crf_cner蒸馏到idcnn_crf_cner上。具体步骤：
+
+- 先训练一个教师模型：bert_idcnn_crf_cner。
+- 再训练一个学生模型：idcnn_crf_cner。
+- 然后修改kd.py里面参数文件的路径，并修改相关参数运行kd.py即可。
+
+在cner数据集上蒸馏之后的效果没有原来的好，可能是cner的数据量太少了。教师模型和学生模型之间的差异太小。
+
 ****
 
 # 补充观点抽取实例
