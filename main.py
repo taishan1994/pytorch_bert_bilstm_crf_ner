@@ -16,7 +16,7 @@ args = config.Args().get_parser()
 commonUtils.set_seed(args.seed)
 logger = logging.getLogger(__name__)
 
-special_model_list = ['bilstm', 'crf', 'idcann']
+special_model_list = ['bilstm', 'crf', 'idcnn']
 
 if args.use_tensorboard == "True":
   writer = SummaryWriter(log_dir='./tensorboard')
