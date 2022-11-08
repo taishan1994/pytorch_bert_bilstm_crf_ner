@@ -278,7 +278,7 @@ data_name是数据集的名字，text_repeat是每条文本生成文本的数量
 训练、验证、测试和预测运行指令：
 
 ```python
-!python main.py \
+python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/cner/" \
 --data_name='cner' \
