@@ -184,7 +184,7 @@ if __name__ == '__main__':
     #args.max_seq_len = 150
     model_name = args.model_name
     #分别是bilstm、idcnn、crf
-    model_nmae_dict = {
+    model_name_dict = {
         ("True", "False", "True"): '{}_bilstm_crf'.format(model_name),
         ("True", "False", "False"): '{}_bilstm'.format(model_name),
         ("False", "False", "False"): '{}'.format(model_name),
@@ -210,7 +210,7 @@ if __name__ == '__main__':
     else:
         if args.use_lstm == "True" and args.use_idcnn == "True":
             raise Exception("请不要同时使用bilstm和idcnn")
-        model_name = model_nmae_dict[(args.use_lstm, args.use_idcnn, args.use_crf)]
+        model_name = model_name_dict[(args.use_lstm, args.use_idcnn, args.use_crf)]
 
     args.data_name = data_name
     args.model_name = model_name
