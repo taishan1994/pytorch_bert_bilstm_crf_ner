@@ -65,8 +65,8 @@
 --weight_decay=0.01 \
 --lstm_hidden=128 \
 --num_layers=1 \
---use_lstm='False' \
---use_crf='True' \
+--use_lstm=”False“ \
+--use_crf=“True” \
 --dropout_prob=0.3 \
 --dropout=0.3
 ```
@@ -106,7 +106,7 @@
 python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/cner/" \
---data_name='cner' \
+--data_name="cner" \
 --model_name="bilstm" \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
@@ -122,8 +122,8 @@ python main.py \
 --eval_batch_size=32 \
 --lstm_hidden=128 \
 --num_layers=1 \
---use_lstm='True' \
---use_crf='True' \
+--use_lstm="True" \
+--use_crf="True" \
 --dropout_prob=0.3 \
 --dropout=0.3
 ```
@@ -143,7 +143,7 @@ python main.py \
 python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/cner/" \
---data_name='cner' \
+--data_name="cner" \
 --model_name="bert" \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
@@ -159,9 +159,9 @@ python main.py \
 --eval_batch_size=32 \
 --lstm_hidden=128 \
 --num_layers=1 \
---use_lstm='False' \
---use_idcnn='True' \
---use_crf='True' \
+--use_lstm="False" \
+--use_idcnn="True" \
+--use_crf="True" \
 --dropout_prob=0.3 \
 --dropout=0.3
 ```
@@ -196,7 +196,7 @@ python main.py \
 python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/gdcq/" \
---data_name='gdcq' \
+--data_name="gdcq" \
 --model_name="bert" \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
@@ -216,9 +216,9 @@ python main.py \
 --weight_decay=0.01 \
 --lstm_hidden=128 \
 --num_layers=1 \
---use_lstm='False' \
---use_idcnn='False' \
---use_crf='True' \
+--use_lstm="False" \
+--use_idcnn="False" \
+--use_crf="True" \
 --dropout_prob=0.3 \
 --dropout=0.3
 
@@ -281,8 +281,8 @@ data_name是数据集的名字，text_repeat是每条文本生成文本的数量
 python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/cner/" \
---data_name='cner' \
---model_name='bert' \
+--data_name="cner" \
+--model_name="bert" \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=33 \
@@ -301,10 +301,10 @@ python main.py \
 --weight_decay=0.01 \
 --lstm_hidden=128 \
 --num_layers=1 \
---use_lstm='False' \
---use_crf='True' \
+--use_lstm="False" \
+--use_crf="True" \
 --dropout_prob=0.3 \
---dropout=0.3 \
+--dropout=0.3 
 ```
 
 | 评价指标：F1      | PRO  | ORG  | CONT | RACE | NAME | EDU  | LOC  | TITLE | F1     |
@@ -322,8 +322,8 @@ python main.py \
 python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/sighan2005/" \
---data_name='sighan2005' \
---model_name='bert' \
+--data_name="sighan2005" \
+--model_name="bert" \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=5 \
@@ -338,8 +338,8 @@ python main.py \
 --eval_batch_size=16 \
 --lstm_hidden=128 \
 --num_layers=1 \
---use_lstm='False' \
---use_crf='True' \
+--use_lstm="False" \
+--use_crf="True" \
 --dropout_prob=0.3 \
 --dropout=0.3 
 
@@ -363,8 +363,8 @@ Use single gpu in: ['0']
 python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/attr/" \
---data_name='attr' \
---model_name='bert' \
+--data_name="attr" \
+--model_name="bert" \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=209 \
@@ -379,10 +379,10 @@ python main.py \
 --eval_batch_size=64 \
 --lstm_hidden=128 \
 --num_layers=1 \
---use_lstm='False' \
---use_crf='True' \
+--use_lstm="False" \
+--use_crf="True" \
 --dropout_prob=0.1 \
---dropout=0.1 \
+--dropout=0.1 
 
 precision:0.7420 recall:0.7677 micro_f1:0.7546
           precision    recall  f1-score   support
@@ -454,8 +454,8 @@ Use single gpu in: ['0']
 python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/addr/" \
---data_name='addr' \
---model_name='bert' \
+--data_name="addr" \
+--model_name="bert" \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=69 \
@@ -470,10 +470,10 @@ python main.py \
 --eval_batch_size=64 \
 --lstm_hidden=128 \
 --num_layers=1 \
---use_lstm='False' \
---use_crf='True' \
+--use_lstm="False" \
+--use_crf="True" \
 --dropout_prob=0.1 \
---dropout=0.1 \
+--dropout=0.1 
 
 precision:0.9233 recall:0.9021 micro_f1:0.9125
                precision    recall  f1-score   support
@@ -511,8 +511,8 @@ Use single gpu in: ['0']
 python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/CLUE/" \
---data_name='clue' \
---model_name='bert' \
+--data_name="clue" \
+--model_name="bert" \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=41 \
@@ -531,10 +531,10 @@ python main.py \
 --weight_decay=0.01 \
 --lstm_hidden=128 \
 --num_layers=1 \
---use_lstm='False' \
---use_crf='True' \
+--use_lstm="False" \
+--use_crf="True" \
 --dropout_prob=0.3 \
---dropout=0.3 \
+--dropout=0.3 
 
 precision:0.7802 recall:0.8176 micro_f1:0.7984
               precision    recall  f1-score   support
@@ -570,8 +570,8 @@ Use single gpu in: ['0']
 python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/CHIP2020/" \
---data_name='chip' \
---model_name='bert' \
+--data_name="chip" \
+--model_name="bert" \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=37 \
@@ -590,10 +590,10 @@ python main.py \
 --weight_decay=0.01 \
 --lstm_hidden=128 \
 --num_layers=1 \
---use_lstm='False' \
---use_crf='True' \
+--use_lstm="False" \
+--use_crf="True" \
 --dropout_prob=0.3 \
---dropout=0.3 \
+--dropout=0.3 
 
 Load ckpt from ./checkpoints/bert_crf/model.pt
 Use single gpu in: ['0']
@@ -659,8 +659,8 @@ transformers==4.5.0
 python main.py \
 --bert_dir="../model_hub/bert-base-chinese/" \
 --data_dir="./data/cner/" \
---data_name='cner' \
---model_name='bert' \
+--data_name="cner" \
+--model_name="bert" \
 --log_dir="./logs/" \
 --output_dir="./checkpoints/" \
 --num_tags=33 \
@@ -679,10 +679,10 @@ python main.py \
 --weight_decay=0.01 \
 --lstm_hidden=128 \
 --num_layers=1 \
---use_lstm='False' \
---use_crf='True' \
+--use_lstm="False" \
+--use_crf="True" \
 --dropout_prob=0.3 \
---dropout=0.3 \
+--dropout=0.3 
 ```
 我们可以通过控制--use_lstm和--use_crf来切换使用bilstm或crf。
 
