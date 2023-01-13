@@ -155,9 +155,10 @@ class NormalNerModel(nn.Module):
             seq_out = self.idcnn(seq_out)
             seq_out = self.linear(seq_out)
         elif self.args.use_lstm == 'True':
-            hidden = self.init_hidden(batch_size)
-            seq_out, (hn, _) = self.lstm(seq_out, hidden)
-            seq_out = seq_out.contiguous().view(-1, self.lstm_hidden * 2)
+            # hidden = self.init_hidden(batch_size)
+            # seq_out, (hn, _) = self.lstm(seq_out, hidden)
+            # seq_out = seq_out.contiguous().view(-1, self.lstm_hidden * 2)
+            seq_out, _ = self.lstm(seq_out)
             seq_out = self.linear(seq_out)
             seq_out = seq_out.contiguous().view(batch_size, self.args.max_seq_len, -1)  # [batchsize, max_len, num_tags]
 
@@ -260,9 +261,10 @@ class BertNerModel(BaseModel):
         batch_size = seq_out.size(0)
 
         if self.args.use_lstm == 'True':
-            hidden = self.init_hidden(batch_size)
-            seq_out, (hn, _) = self.lstm(seq_out, hidden)
-            seq_out = seq_out.contiguous().view(-1, self.lstm_hidden * 2)
+            # hidden = self.init_hidden(batch_size)
+            # seq_out, (hn, _) = self.lstm(seq_out, hidden)
+            # seq_out = seq_out.contiguous().view(-1, self.lstm_hidden * 2)
+            seq_out, _ = self.lstm(seq_out)
             seq_out = self.linear(seq_out)
             seq_out = seq_out.contiguous().view(batch_size, self.args.max_seq_len, -1) #[batchsize, max_len, num_tags]
         elif self.args.use_idcnn == "True":
