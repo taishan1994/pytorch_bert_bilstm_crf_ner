@@ -130,7 +130,9 @@ class BertForNer:
                     pred_label = np.append(pred_label, batch_output, axis=0)
             total_count = [0 for _ in range(len(id2label))]
             role_metric = np.zeros([len(id2label), 3])
-            for pred, tmp_callback in zip(pred_label, dev_callback_info):
+            if test_callback_info is None:
+                test_callback_info = dev_callback_info
+            for pred, tmp_callback in zip(pred_label, test_callback_info):
                 text, gt_entities = tmp_callback
                 tmp_metric = np.zeros([len(id2label), 3])
                 pred_entities = decodeUtils.bioes_decode(pred[1:1 + len(text)], text, self.idx2tag)
@@ -215,6 +217,8 @@ if __name__ == '__main__':
     args.data_name = data_name
     args.model_name = model_name
     commonUtils.set_logger(os.path.join(args.log_dir, '{}_{}.log'.format(model_name, args.data_name)))
+    
+    test_callback_info = None
     
     if data_name == "cner":
         args.data_dir = './data/cner'
