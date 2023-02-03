@@ -115,7 +115,7 @@ class BertForNer:
         model.eval()
         pred_label = []
         with torch.no_grad():
-            for eval_step, dev_batch_data in enumerate(self.dev_loader):
+            for eval_step, dev_batch_data in enumerate(self.test_loader):
                 for key in dev_batch_data.keys():
                     dev_batch_data[key] = dev_batch_data[key].to(device)
                 _, logits = model(dev_batch_data['token_ids'], dev_batch_data['attention_masks'],dev_batch_data['token_type_ids'],dev_batch_data['labels'])
