@@ -86,6 +86,8 @@ class BertForNer:
                 if len(batch_output_all) == 0:
                     batch_output_all = batch_output
                 else:
+                    if len(batch_output.shape) == 1:
+                        batch_output = batch_output[np.newaxis, :]
                     batch_output_all = np.append(batch_output_all, batch_output, axis=0)
             total_count = [0 for _ in range(len(label2id))]
             role_metric = np.zeros([len(id2label), 3])
@@ -127,6 +129,8 @@ class BertForNer:
                 if len(pred_label) == 0:
                     pred_label = batch_output
                 else:
+                    if len(batch_output.shape) == 1:
+                        batch_output = batch_output[np.newaxis, :]
                     pred_label = np.append(pred_label, batch_output, axis=0)
             total_count = [0 for _ in range(len(id2label))]
             role_metric = np.zeros([len(id2label), 3])
