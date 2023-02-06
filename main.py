@@ -108,7 +108,7 @@ class BertForNer:
             # print('[eval] loss:{:.4f} precision={:.4f} recall={:.4f} f1_score={:.4f}'.format(tot_dev_loss, mirco_metrics[0], mirco_metrics[1], mirco_metrics[2]))
             return tot_dev_loss, mirco_metrics[0], mirco_metrics[1], mirco_metrics[2]
 
-    def test(self, model_path):
+    def test(self, model_path, test_callback_info=None):
         if self.args.model_name.split('_')[0] not in special_model_list:
             model = bert_ner_model.BertNerModel(self.args)
         else:
@@ -222,8 +222,6 @@ if __name__ == '__main__':
     args.model_name = model_name
     commonUtils.set_logger(os.path.join(args.log_dir, '{}_{}.log'.format(model_name, args.data_name)))
     
-    test_callback_info = None
-    
     if data_name == "cner":
         args.data_dir = './data/cner'
         data_path = os.path.join(args.data_dir, 'final_data')
@@ -268,7 +266,7 @@ if __name__ == '__main__':
         bertForNer.train()
 
         model_path = './checkpoints/{}_{}/model.pt'.format(model_name, args.data_name)
-        bertForNer.test(model_path)
+        bertForNer.test(model_path, test_callback_info)
         
         raw_text = "虞兔良先生：1963年12月出生，汉族，中国国籍，无境外永久居留权，浙江绍兴人，中共党员，MBA，经济师。"
         logger.info(raw_text)
