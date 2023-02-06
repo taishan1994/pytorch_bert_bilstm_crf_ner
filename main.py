@@ -84,8 +84,7 @@ class BertForNer:
                 else:
                     batch_output = dev_logits.detach().cpu().numpy()
                     batch_output = np.argmax(batch_output, axis=2)
-                if len(batch_output.shape) == 1:
-                    batch_output = batch_output[np.newaxis, :]
+
                 if len(batch_output_all) == 0:
                     batch_output_all = batch_output
                 else:
@@ -128,8 +127,7 @@ class BertForNer:
                 else:
                     batch_output = logits.detach().cpu().numpy()
                     batch_output = np.argmax(batch_output, axis=2)
-                if len(batch_output.shape) == 1:
-                    batch_output = batch_output[np.newaxis, :]
+
                 if len(pred_label) == 0:
                     pred_label = batch_output
                 else:
