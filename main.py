@@ -80,6 +80,7 @@ class BertForNer:
                 tot_dev_loss += dev_loss.item()
                 if self.args.use_crf == 'True':
                     batch_output = dev_logits
+                    batch_output = np.array(batch_output)
                 else:
                     batch_output = dev_logits.detach().cpu().numpy()
                     batch_output = np.argmax(batch_output, axis=2)
@@ -123,6 +124,7 @@ class BertForNer:
                 _, logits = model(dev_batch_data['token_ids'], dev_batch_data['attention_masks'],dev_batch_data['token_type_ids'],dev_batch_data['labels'])
                 if self.args.use_crf == 'True':
                     batch_output = logits
+                    batch_output = np.array(batch_output)
                 else:
                     batch_output = logits.detach().cpu().numpy()
                     batch_output = np.argmax(batch_output, axis=2)
