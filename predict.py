@@ -33,8 +33,12 @@ def batch_predict(raw_text, model, device, args, id2query):
             encode_dict_all['token_type_ids'].append(encode_dict['token_type_ids'])
 
         # print(encode_dict_all)
-        token_ids = torch.from_numpy(np.array(encode_dict_all['input_ids'])).to(device)
-        attention_masks = torch.from_numpy(np.array(encode_dict_all['attention_mask'], dtype=np.uint8)).to(device)
+        token_ids = torch.from_numpy(np.array(encode_dict_all['input_ids'])).long().to(device)
+        # attention_masks = torch.from_numpy(np.array(encode_dict_all['attention_mask'], dtype=np.uint8)).to(device)
+        try:
+            attention_masks = torch.from_numpy(np.array(encode_dict['attention_mask'], dtype=np.uint8)).unsqueeze(0).to(device)
+        except Exception as e:
+            attention_masks = torch.from_numpy(np.array(encode_dict['attention_mask'])).long().unsqueeze(0).to(device)
         token_type_ids = torch.from_numpy(np.array(encode_dict_all['token_type_ids'])).to(device)
         logits = model(token_ids, attention_masks, token_type_ids, None)
         if args.use_crf == 'True':
