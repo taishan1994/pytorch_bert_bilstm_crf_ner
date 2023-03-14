@@ -10,6 +10,17 @@
 - 信息抽取三剑客：实体抽取、关系抽取、事件抽取：https://github.com/taishan1994/chinese_information_extraction
 - 一种基于机器阅读理解的命名实体识别：https://github.com/taishan1994/BERT_MRC_NER_chinese
 - W2NER：命名实体识别最新sota：https://github.com/taishan1994/W2NER_predict
+
+# 依赖
+```python
+python==3.6 (可选)
+pytorch==1.6.0 (可选)
+pytorch-crf==0.7.2
+transformers==4.5.0
+numpy==1.22.4
+packaging==21.3
+```
+
 ****
 ### 温馨提示
 
@@ -654,13 +665,6 @@ model_hub/bert-base-chinese/<br>
 --bert_ner_modelpy：利用Bert进行Ner的模型<br>
 --preprocess.py：预处理，主要是处理数据然后转换成DataSet<br>
 
-# 依赖
-```python
-python==3.6
-pytorch==1.6.0
-pytorch-crf==0.7.2
-transformers==4.5.0
-```
 
 # 运行命令
 ```python
