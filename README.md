@@ -18,9 +18,9 @@
 
 #### 问题汇总
 - ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. 
-```pip install numpy==1.22.4```
+解决方法：```pip install numpy==1.22.4```
 - packaging.version.InvalidVersion: Invalid version: '0.10.1,<0.11'
-```pip install packaging==21.3```
+解决方法：```pip install packaging==21.3```
 ****
 由于bert的tokenizer会移除掉空格、换行、制表等字符，因此在utils/common_utils.py里面有一个fine_grade_tokenize函数，该函数是将这些字符用[BLANK]标识，不在vocab.txt的用[INV]标识，因此要先将vocab.txt里面的[unused1]替换为[BLANK], [unused2]替换为[INV]。其实，如果不替换程序也是可以跑的。```使用这个会导致解码错误，目前已修改不使用这个了```。
 ****
