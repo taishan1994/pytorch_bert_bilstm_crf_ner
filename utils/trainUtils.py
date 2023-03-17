@@ -94,9 +94,16 @@ def load_model_and_parallel(model, gpu_ids, ckpt_path=None, strict=True):
 
     if ckpt_path is not None:
         logger.info('Load ckpt from {}'.format(ckpt_path))
-        model.load_state_dict(torch.load(ckpt_path, map_location=torch.device('cpu')), strict=strict)
+        # model.load_state_dict(torch.load(ckpt_path, map_location=torch.device('cpu')), strict=strict)
+        state_dict = torch.load(ckpt_path, map_location=torch.device('cpu'))
+        if torch.__version__.startswith("2."):
+          unwanted_prefix = '_orig_mod.'
+          for k,v in list(state_dict.items()):
+              if k.startswith(unwanted_prefix):
+                  state_dict[k[len(unwanted_prefix):]] = state_dict.pop(k)
+        model.load_state_dict(state_dict, strict=strict)
 
-    model.to(device)
+    # model.to(device)
 
     if len(gpu_ids) > 1:
         logger.info('Use multi gpus in: {}'.format(gpu_ids))
