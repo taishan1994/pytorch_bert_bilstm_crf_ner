@@ -37,6 +37,25 @@ packaging==21.3
 ****
 由于bert的tokenizer会移除掉空格、换行、制表等字符，因此在utils/common_utils.py里面有一个fine_grade_tokenize函数，该函数是将这些字符用[BLANK]标识，不在vocab.txt的用[INV]标识，因此要先将vocab.txt里面的[unused1]替换为[BLANK], [unused2]替换为[INV]。其实，如果不替换程序也是可以跑的。```使用这个会导致解码错误，目前已修改不使用这个了```。
 ****
+#### 2023-03-17
+适配pytorch2.0版本，主要是加入torch.compile(model)。虽然程序已跑通，但可能还存在一些问题导致速度并没有提升。
+
+#### 2022-10-10
+
+补充知识蒸馏实例。在knowledge_distillation/kd.py里面是具体代码，该实例将bert_idcnn_crf_cner蒸馏到idcnn_crf_cner上。具体步骤：
+
+- 先训练一个教师模型：bert_idcnn_crf_cner。
+- 再训练一个学生模型：idcnn_crf_cner。
+- 然后修改kd.py里面参数文件的路径，并修改相关参数运行kd.py即可。
+
+在cner数据集上蒸馏之后的效果没有原来的好，可能是cner的数据量太少了。教师模型和学生模型之间的差异太小。
+
+
+#### 2022-09-23
+- 在predict.py里面新增batch_predict：若一条文本大于当前设置的文本最大长度，则对句子进行切分，切分后进行批量预测，在scripts/server.py可使用merge_with_loc进行结果的合并。
+- 增加tensorboardX可视化损失函数变化过程。通过```--use_tensorboard=="True"```指定使用。命令行```tensorboard --logdir=./tensorboard```查看结果。
+- 新增onenotes4.0数据，这里只提供训练数据，并提供转换数据process.py。
+
 #### 2022-08-18
 
 - 新增weibo和msra数据，具体运行实例这里不补充，可当练手用。
@@ -44,6 +63,95 @@ packaging==21.3
 - 将预测代码提取至predict.py里面，使用时需要注意以下几方面：
 	- 修改args_path
 	- 修改model_name
+
+#### 2022-09-15
+
+新增IDCNN模型，[IDCNN代码来源](https://github.com/circlePi/IDCNN-CRF-Pytorch/blob/master/IDCNN-CRF/cnn.py)，使用单独的IDCNN_crf需要设置```model_name="idcnn"```。另外，也可将其和bert相关模型结合使用，根据use_idcnn参数使用，另外bilstm和idcnn是不可同时使用：
+
+```python
+python main.py \
+--bert_dir="../model_hub/chinese-bert-wwm-ext/" \
+--data_dir="./data/cner/" \
+--data_name="cner" \
+--model_name="bert" \
+--log_dir="./logs/" \
+--output_dir="./checkpoints/" \
+--num_tags=33 \
+--seed=123 \
+--gpu_ids="0" \
+--max_seq_len=150 \
+--lr=3e-5 \
+--crf_lr=3e-2 \
+--other_lr=3e-4 \
+--train_batch_size=32 \
+--train_epochs=3 \
+--eval_batch_size=32 \
+--lstm_hidden=128 \
+--num_layers=1 \
+--use_lstm="False" \
+--use_idcnn="True" \
+--use_crf="True" \
+--dropout_prob=0.3 \
+--dropout=0.3
+```
+
+| 评价指标：F1        | 模型大小 | PRO  | ORG  | CONT | RACE | NAME | EDU  | LOC  | TITLE | F1     |
+| ------------------- | -------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----- | ------ |
+| idcnn_crf_cner      | 64.95M   | 0.76 | 0.86 | 1.00 | 0.97 | 0.97 | 0.95 | 0.80 | 0.87  | 0.8817 |
+| bert_idcnn_crf_cner | 393.25M  | 0.92 | 0.92 | 1.00 | 0.90 | 0.99 | 0.97 | 1.00 | 0.90  | 0.9232 |
+
+#### 2022-09-14
+
+新增单独的**bilstm_crf**和**crf**模型，使用的词汇表是根据自己选择的预训练模型的vocab.txt。使用bilstm_crf时需要设置```model_name="bilstm"```，使用crf需要设置```model_name="crf"```。需要注意bilstm默认使用crf，crf默认只使用其自己。运行：
+
+```python
+python main.py \
+--bert_dir="../model_hub/chinese-bert-wwm-ext/" \
+--data_dir="./data/cner/" \
+--data_name="cner" \
+--model_name="bilstm" \
+--log_dir="./logs/" \
+--output_dir="./checkpoints/" \
+--num_tags=33 \
+--seed=123 \
+--gpu_ids="0" \
+--max_seq_len=150 \
+--lr=3e-5 \
+--crf_lr=3e-2 \
+--other_lr=3e-4 \
+--train_batch_size=32 \
+--train_epochs=20 \
+--eval_batch_size=32 \
+--lstm_hidden=128 \
+--num_layers=1 \
+--use_lstm="True" \
+--use_crf="True" \
+--dropout_prob=0.3 \
+--dropout=0.3
+```
+
+效果：针对于cner数据集
+
+| 评价指标：F1    | 模型大小 | PRO  | ORG  | CONT | RACE | NAME | EDU  | LOC  | TITLE | F1     |
+| --------------- | -------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----- | ------ |
+| bilstm_crf_cner | 65.45M   | 0.90 | 0.86 | 1.00 | 0.97 | 0.98 | 0.97 | 1.00 | 0.87  | 0.8853 |
+| crf_cner        | 62.00M   | 0.77 | 0.81 | 1.00 | 1.00 | 0.90 | 0.94 | 1.00 | 0.84  | 0.8453 |
+
+#### 2022-09-02
+
+- 补充将模型启动为服务代码，代码位于scripts目录下，针对于不同的数据集和模型，只需要修改开头的args的路径即可。
+
+	在linux下使用：
+
+	- ./start_server.sh：启动服务
+	- ./stop_server.sh：停止服务
+	- ./restart_server.sh：停止服务并重新启动
+
+	在windows下直接运行```python server.py```即可。
+
+	最终可运行```python test_requests.py```来测试接口。
+
+- 新增页面展示，需要在scripts/templates/predict.html里面修改ip地址。启动服务后输入：```http://ip地址:9277/```，可以输入文本然后得到结果。
 
 #### 2022-08-19
 
@@ -101,111 +209,6 @@ packaging==21.3
 | [chinese-electra-180g-base-discriminator](https://huggingface.co/hfl/chinese-electra-180g-small-discriminator/tree/main) | 390.17M  | 0.88 | 0.91 | 1.00 | 0.97 | 1.00 | 0.94 | 1.00 | 0.87  | 0.9012 |
 | [albert-base-chinese](https://huggingface.co/ckiplab/albert-base-chinese/tree/main) | 38.46M   | 0.00 | 0.68 | 0.95 | 0.00 | 0.62 | 0.53 | 0.00 | 0.71  | 0.6765 |
 
-#### 2022-09-02
-
-- 补充将模型启动为服务代码，代码位于scripts目录下，针对于不同的数据集和模型，只需要修改开头的args的路径即可。
-
-	在linux下使用：
-
-	- ./start_server.sh：启动服务
-	- ./stop_server.sh：停止服务
-	- ./restart_server.sh：停止服务并重新启动
-
-	在windows下直接运行```python server.py```即可。
-
-	最终可运行```python test_requests.py```来测试接口。
-
-- 新增页面展示，需要在scripts/templates/predict.html里面修改ip地址。启动服务后输入：```http://ip地址:9277/```，可以输入文本然后得到结果。
-
-#### 2022-09-14
-
-新增单独的**bilstm_crf**和**crf**模型，使用的词汇表是根据自己选择的预训练模型的vocab.txt。使用bilstm_crf时需要设置```model_name="bilstm"```，使用crf需要设置```model_name="crf"```。需要注意bilstm默认使用crf，crf默认只使用其自己。运行：
-
-```python
-python main.py \
---bert_dir="../model_hub/chinese-bert-wwm-ext/" \
---data_dir="./data/cner/" \
---data_name="cner" \
---model_name="bilstm" \
---log_dir="./logs/" \
---output_dir="./checkpoints/" \
---num_tags=33 \
---seed=123 \
---gpu_ids="0" \
---max_seq_len=150 \
---lr=3e-5 \
---crf_lr=3e-2 \
---other_lr=3e-4 \
---train_batch_size=32 \
---train_epochs=20 \
---eval_batch_size=32 \
---lstm_hidden=128 \
---num_layers=1 \
---use_lstm="True" \
---use_crf="True" \
---dropout_prob=0.3 \
---dropout=0.3
-```
-
-效果：针对于cner数据集
-
-| 评价指标：F1    | 模型大小 | PRO  | ORG  | CONT | RACE | NAME | EDU  | LOC  | TITLE | F1     |
-| --------------- | -------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----- | ------ |
-| bilstm_crf_cner | 65.45M   | 0.90 | 0.86 | 1.00 | 0.97 | 0.98 | 0.97 | 1.00 | 0.87  | 0.8853 |
-| crf_cner        | 62.00M   | 0.77 | 0.81 | 1.00 | 1.00 | 0.90 | 0.94 | 1.00 | 0.84  | 0.8453 |
-
-#### 2022-09-15
-
-新增IDCNN模型，[IDCNN代码来源](https://github.com/circlePi/IDCNN-CRF-Pytorch/blob/master/IDCNN-CRF/cnn.py)，使用单独的IDCNN_crf需要设置```model_name="idcnn"```。另外，也可将其和bert相关模型结合使用，根据use_idcnn参数使用，另外bilstm和idcnn是不可同时使用：
-
-```python
-python main.py \
---bert_dir="../model_hub/chinese-bert-wwm-ext/" \
---data_dir="./data/cner/" \
---data_name="cner" \
---model_name="bert" \
---log_dir="./logs/" \
---output_dir="./checkpoints/" \
---num_tags=33 \
---seed=123 \
---gpu_ids="0" \
---max_seq_len=150 \
---lr=3e-5 \
---crf_lr=3e-2 \
---other_lr=3e-4 \
---train_batch_size=32 \
---train_epochs=3 \
---eval_batch_size=32 \
---lstm_hidden=128 \
---num_layers=1 \
---use_lstm="False" \
---use_idcnn="True" \
---use_crf="True" \
---dropout_prob=0.3 \
---dropout=0.3
-```
-
-| 评价指标：F1        | 模型大小 | PRO  | ORG  | CONT | RACE | NAME | EDU  | LOC  | TITLE | F1     |
-| ------------------- | -------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----- | ------ |
-| idcnn_crf_cner      | 64.95M   | 0.76 | 0.86 | 1.00 | 0.97 | 0.97 | 0.95 | 0.80 | 0.87  | 0.8817 |
-| bert_idcnn_crf_cner | 393.25M  | 0.92 | 0.92 | 1.00 | 0.90 | 0.99 | 0.97 | 1.00 | 0.90  | 0.9232 |
-
-#### 2022-09-23
-- 在predict.py里面新增batch_predict：若一条文本大于当前设置的文本最大长度，则对句子进行切分，切分后进行批量预测，在scripts/server.py可使用merge_with_loc进行结果的合并。
-- 增加tensorboardX可视化损失函数变化过程。通过```--use_tensorboard=="True"```指定使用。命令行```tensorboard --logdir=./tensorboard```查看结果。
-- 新增onenotes4.0数据，这里只提供训练数据，并提供转换数据process.py。
-
-#### 2022-10-10
-
-补充知识蒸馏实例。在knowledge_distillation/kd.py里面是具体代码，该实例将bert_idcnn_crf_cner蒸馏到idcnn_crf_cner上。具体步骤：
-
-- 先训练一个教师模型：bert_idcnn_crf_cner。
-- 再训练一个学生模型：idcnn_crf_cner。
-- 然后修改kd.py里面参数文件的路径，并修改相关参数运行kd.py即可。
-
-在cner数据集上蒸馏之后的效果没有原来的好，可能是cner的数据量太少了。教师模型和学生模型之间的差异太小。
-
-****
 
 # 补充观点抽取实例
 
