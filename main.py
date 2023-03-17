@@ -12,6 +12,10 @@ from torch.utils.data import DataLoader, RandomSampler
 from transformers import BertTokenizer
 from tensorboardX import SummaryWriter
 
+if torch.__version__.startswith("2."):
+    import torch._dynamo
+    torch._dynamo.config.suppress_errors = True
+    
 args = config.Args().get_parser()
 commonUtils.set_seed(args.seed)
 logger = logging.getLogger(__name__)
@@ -33,6 +37,9 @@ class BertForNer:
         else:
             model = bert_ner_model.NormalNerModel(args)
         self.model, self.device = trainUtils.load_model_and_parallel(model, args.gpu_ids)
+        self.model.to(self.device)
+        if torch.__version__.startswith("2."):
+            self.model = torch.compile(self.model)
         self.t_total = len(self.train_loader) * args.train_epochs
         self.optimizer, self.scheduler = trainUtils.build_optimizer_and_scheduler(args, model, self.t_total)
 
@@ -114,6 +121,7 @@ class BertForNer:
         else:
             model = bert_ner_model.NormalNerModel(self.args)
         model, device = trainUtils.load_model_and_parallel(model, self.args.gpu_ids, model_path)
+        model.to(device)
         model.eval()
         pred_label = []
         with torch.no_grad():
@@ -155,6 +163,7 @@ class BertForNer:
         else:
             model = bert_ner_model.NormalNerModel(self.args)
         model, device = trainUtils.load_model_and_parallel(model, self.args.gpu_ids, model_path)
+        model.to(device)
         model.eval()
         with torch.no_grad():
             tokenizer = BertTokenizer(
