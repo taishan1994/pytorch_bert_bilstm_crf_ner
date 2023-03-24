@@ -90,12 +90,12 @@ class BertForNer:
                     batch_output = np.array(batch_output)
                 else:
                     batch_output = dev_logits.detach().cpu().numpy()
-                    batch_output = np.argmax(batch_output, axis=2)
+                    batch_output = np.argmax(batch_output, axis=2).tolist()
 
                 if len(batch_output_all) == 0:
                     batch_output_all = batch_output
                 else:
-                    batch_output_all = np.append(batch_output_all, batch_output, axis=0)
+                    batch_output_all = batch_output_all + batch_output
             total_count = [0 for _ in range(len(label2id))]
             role_metric = np.zeros([len(id2label), 3])
             for pred_label, tmp_callback in zip(batch_output_all, dev_callback_info):
@@ -134,12 +134,12 @@ class BertForNer:
                     batch_output = np.array(batch_output)
                 else:
                     batch_output = logits.detach().cpu().numpy()
-                    batch_output = np.argmax(batch_output, axis=2)
+                    batch_output = np.argmax(batch_output, axis=2).tolist()
 
                 if len(pred_label) == 0:
                     pred_label = batch_output
                 else:
-                    pred_label = np.append(pred_label, batch_output, axis=0)
+                    pred_label = pred_label + batch_output
             total_count = [0 for _ in range(len(id2label))]
             role_metric = np.zeros([len(id2label), 3])
             if test_callback_info is None:
