@@ -22,12 +22,15 @@ class BertNerModel(nn.Module):
 
         self.bert_config = self.bert_module.config
         out_dims = self.bert_config.hidden_size
+        init_blocks = []
+        self.linear = nn.Linear(args.lstm_hidden * 2, args.num_tags)
+        init_blocks.append(self.linear)
 
         if args.use_lstm == 'True':
             self.lstm = nn.LSTM(out_dims, args.lstm_hidden, args.num_layers, bidirectional=True,batch_first=True, dropout=args.dropout)
-            self.linear = nn.Linear(args.lstm_hidden * 2, args.num_tags)
+            
             self.criterion = nn.CrossEntropyLoss()
-            init_blocks = [self.linear]
+            # init_blocks = [self.linear]
             # init_blocks = [self.classifier]
             self._init_weights(init_blocks, initializer_range=self.bert_config.initializer_range)
         else:
