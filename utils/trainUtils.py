@@ -23,7 +23,7 @@ def build_optimizer_and_scheduler(args, model, t_total):
     for name, para in model_param:
         space = name.split('.')
         # print(name)
-        if space[0] == 'bert_module':
+        if space[0] == 'bert_module' or space[0] == "bert":
             bert_param_optimizer.append((name, para))
         elif space[0] == 'crf':
             crf_param_optimizer.append((name, para))
