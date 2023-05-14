@@ -705,6 +705,8 @@ model_hub/bert-base-chinese/<br>
 提取码：4j47<br>
 里面有四种模型对应的model.pt<br>
 
+**后面重构了代码，不要使用上面的保存的模型了，自己训练个。**
+
 # 目录结构
 --checkpoints：模型保存的位置<br>
 --data：数据位置<br>
